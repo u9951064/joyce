@@ -4,6 +4,6 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [],
-    "ignoreWords": ["Nuxt", "tinycloud"],
+    "ignoreWords": ["Nuxt", "tinycloud", "nuxtjs", "vuex"],
     "import": []
 }

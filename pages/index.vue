@@ -1,3 +1,7 @@
-<template>
-  <main>this is content</main>
-</template>
+<script>
+export default {
+  async asyncData({redirect}) {
+    return redirect(301, {name: 'works'});
+  }
+}
+</script>

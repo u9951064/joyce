@@ -9,3 +9,57 @@
 .text-align-left {
   text-align: left;
 }
+
+.fz-40-b {
+  font-size  : 40px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.fz-30-b {
+  font-size  : 30px;
+  line-height: 44px;
+  font-weight: 700;
+}
+
+.fz-22-m {
+  font-size     : 22px;
+  font-weight   : 500;
+  letter-spacing: 0.08em;
+}
+
+.fz-16-l {
+  font-size     : 16px;
+  line-height   : 32px;
+  font-weight   : 300;
+  letter-spacing: 0.05em;
+}
+
+.fz-14-b {
+  font-size     : 14px;
+  line-height   : 32px;
+  font-weight   : 700;
+  letter-spacing: 0.05em;
+}
+
+.fz-14-r-10 {
+  font-size     : 14px;
+  line-height   : 20px;
+  font-weight   : 400;
+  letter-spacing: 0.1em;
+  ;
+}
+
+.fz-14-r-4 {
+  font-size     : 14px;
+  line-height   : 20px;
+  font-weight   : 400;
+  letter-spacing: 0.05em;
+}
+
+.fz-14-l-4 {
+  font-size     : 14px;
+  line-height   : 20px;
+  font-weight   : 300;
+  letter-spacing: 0.05em;
+}

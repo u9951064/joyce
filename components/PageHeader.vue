@@ -3,9 +3,9 @@
     <div class="pt-24 pb-16 fz-14-b bg-white nav-keeper">
       <nav class="p-fixed container-1000 d-flex flex-align-center flex-justify-space-between pt-24 pb-16">
         <div class="col-auto">
-          <a href="">
-            <img class="" src="images/about/logo.svg" alt="logo" />
-          </a>
+          <NuxtLink to="/works" class="gray2" title="回首頁">
+            <img class="" src="@/assets/images/logo.svg" alt="Joyce's Logo" />
+          </NuxtLink>
         </div>
         <ul class="d-flex flex-align-center fz-14-b">
           <li>

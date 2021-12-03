@@ -2,6 +2,12 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/',
+    linkActiveClass: 'active-link',
+    linkExactActiveClass: 'exact-active-link',
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: (titleChunk) => {
@@ -35,6 +41,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/composition-api/module',
     '@nuxtjs/style-resources',
   ],
 
@@ -50,5 +57,9 @@ export default {
     scss: [
       '~/assets/scss/main.scss',
     ]
+  },
+
+  env: {
+    host: process.env.DOMAIN ? `https://${process.env.DOMAIN}` : '',
   }
 }
