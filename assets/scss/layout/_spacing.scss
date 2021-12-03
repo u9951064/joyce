@@ -1,0 +1,37 @@
+.m-auto {
+  margin: auto;
+}
+
+@for $i from 1 through 30 {
+  .pt-#{$i * 4} {
+    padding-top: calc(#{$i} * 4px);
+  }
+
+  .pb-#{$i * 4} {
+    padding-bottom: calc(#{$i} * 4px);
+  }
+
+  .pl-#{$i * 4} {
+    padding-left: calc(#{$i} * 4px);
+  }
+
+  .pr-#{$i * 4} {
+    padding-right: calc(#{$i} * 4px);
+  }
+
+  .mt-#{$i * 4} {
+    margin-top: calc(#{$i} * 4px);
+  }
+
+  .mb-#{$i * 4} {
+    margin-bottom: calc(#{$i} * 4px);
+  }
+
+  .ml-#{$i * 4} {
+    margin-left: calc(#{$i} * 4px);
+  }
+
+  .mr-#{$i * 4} {
+    margin-right: calc(#{$i} * 4px);
+  }
+}

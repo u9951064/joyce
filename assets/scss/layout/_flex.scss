@@ -1,0 +1,93 @@
+.d-flex {
+  display  : flex;
+  flex-wrap: wrap;
+
+  & {
+    flex-direction: row;
+  }
+
+  &-c {
+    flex-direction: column;
+  }
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-align-flex-start {
+  align-items: flex-start;
+}
+
+.flex-align-flex-end {
+  align-items: flex-end;
+}
+
+.flex-justify-center {
+  justify-content: center;
+}
+
+.flex-justify-left {
+  justify-content: left;
+}
+
+.flex-justify-end {
+  justify-content: end;
+}
+
+.flex-justify-space-between {
+  justify-content: space-between;
+}
+
+.d-flex>.col {
+
+  &>.col,
+  &-c>.col {
+    flex-basis       : 0;
+    -webkit-box-flex : 1;
+    -ms-flex-positive: 1;
+    flex-grow        : 1;
+  }
+
+  &>.col {
+    max-width: 100%;
+  }
+
+  &-c>.col {
+    max-height: 100%;
+  }
+}
+
+.col-auto {
+  flex: 0 0 auto;
+}
+
+/**
+* col-1 ~ col-10 整數單位
+* col-15 ~ col-105 0.5 小數單位
+**/
+@for $i from 1 through 10 {
+  .d-flex>.col-#{$i} {
+    flex     : 1 1 calc(100% / 10 * #{$i});
+    width    : calc(100% / 10 * #{$i});
+    max-width: 100%;
+  }
+
+  .d-flex>.col-#{$i}5 {
+    flex     : 1 1 calc(100% / 10 * #{$i}.5);
+    width    : calc(100% / 10 * #{$i}.5);
+    max-width: 100%;
+  }
+
+  .d-flex-c>.col-#{$i} {
+    flex      : 1 1 calc(100% / 10 * #{$i});
+    height    : calc(100% / 10 * #{$i});
+    max-height: 100%;
+  }
+
+  .d-flex-c>.col-#{$i}5 {
+    flex      : 1 1 calc(100% / 10 * #{$i}.5);
+    height    : calc(100% / 10 * #{$i}.5);
+    max-height: 100%;
+  }
+}
