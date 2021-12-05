@@ -1,7 +1,7 @@
 <template>
   <header class="page-header">
     <div class="pt-24 pb-16 fz-14-b bg-white nav-keeper">
-      <nav class="p-fixed container-1000 d-flex flex-align-center flex-justify-space-between pt-24 pb-16">
+      <nav class="p-fixed container-1100 d-flex flex-align-center flex-justify-space-between pt-24 pb-16">
         <div class="col-auto">
           <NuxtLink to="/works" class="gray2" title="回首頁">
             <img class="" src="@/assets/images/logo.svg" alt="Joyce's Logo" />
