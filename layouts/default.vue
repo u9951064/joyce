@@ -15,6 +15,7 @@ export default defineComponent({
     const route = useRoute();
     const { link } = useMeta({link: []});
     link.value.push({
+      hid: 'canonical',
       rel: 'canonical',
       href: process.env.host + route.value.path,
     })

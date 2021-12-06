@@ -54,7 +54,13 @@ export default {
   build: {
   },
 
+  styleResources: {
+    scss: [
+      '~/assets/scss/abstracts/*.scss',
+    ]
+  },
+
   env: {
-    host: process.env.DOMAIN ? `https://${process.env.DOMAIN}` : '',
+    host: process.env.DOMAIN ? `https://${process.env.DOMAIN}` : 'http://localhost:3000',
   }
 }

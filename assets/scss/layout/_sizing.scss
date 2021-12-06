@@ -1,0 +1,17 @@
+.w-auto {
+  width: auto;
+}
+
+.h-auto {
+  height: auto;
+}
+
+@for $i from 1 through 20 {
+  .w-#{$i * 5} {
+    width: calc(#{$i} * 5%);
+  }
+
+  .h-#{$i * 5} {
+    height: calc(#{$i} * 5%);
+  }
+}
