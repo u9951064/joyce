@@ -8,6 +8,7 @@
 import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
-  layout: 'works/category'
+  layout: 'works/category',
+  scrollToTop: false,
 });
 </script>

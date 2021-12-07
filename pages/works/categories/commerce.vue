@@ -1,6 +1,6 @@
 <template>
-  <div class="work-marketing">
-    <WorkItemMarketing1/>
+  <div class="work-commerce">
+    <WorkItemCommerce1/>
   </div>
 </template>
 
@@ -8,6 +8,7 @@
 import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
-  layout: 'works/category'
+  layout: 'works/category',
+  scrollToTop: false,
 });
 </script>

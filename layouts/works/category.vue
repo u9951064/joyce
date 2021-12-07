@@ -44,7 +44,7 @@
         </div>
       </section>
 
-      <div class="work-list pt-60 fz-14-r-10">
+      <div class="d-flex flex-align-center flex-justify-center pt-60 fz-14-r-10">
         <ElementBtn
           tag="NuxtLink"
           :class="'work-btn'"
@@ -54,7 +54,7 @@
         <ElementBtn
           tag="NuxtLink"
           :class="'work-btn'"
-          :to="{ name: 'works-categories-marketing' }"
+          :to="{ name: 'works-categories-commerce' }"
           >廣告設計</ElementBtn
         >
         <ElementBtn
@@ -99,24 +99,25 @@ main.work-index {
     margin-right: 15px;
     border-style: solid;
     border-width: 1px;
-    border-color: #d3d1cb;
+    border-color: $gray3;
     border-radius: 6px;
     background-color: #fff;
     opacity: 1;
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
     font-family: Gilroy, sans-serif;
-    color: #707070;
+    color: $gray2;
     font-size: 15px;
     font-weight: 500;
     padding: 12px 24px;
+    box-shadow: none;
 
     &.active-link {
-      border-color: #37352f;
+      border-color: $gray1;
       background-color: #fff;
-      box-shadow: 2px 2px 0 0 #37352f;
+      box-shadow: 2px 2px 0 0 $gray1;
       transform: translate(-1.5px, -1.5px);
-      color: #37352f;
+      color: $gray1;
       text-align: left;
     }
   }

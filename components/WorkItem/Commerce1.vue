@@ -1,6 +1,6 @@
 <template>
   <NuxtLink
-    to="/works/categories/marketing"
+    to="/works/categories/commerce"
     class="mb-60 d-flex border border-radius-8 overflow-x-hidden"
     title="廣告設計 - 廣告..."
   >

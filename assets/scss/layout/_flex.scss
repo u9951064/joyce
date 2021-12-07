@@ -1,14 +1,7 @@
-.d-flex {
+.d-flex,
+.d-flex-c {
   display  : flex;
   flex-wrap: wrap;
-
-  & {
-    flex-direction: row;
-  }
-
-  &-c {
-    flex-direction: column;
-  }
 }
 
 .flex-align-center {
@@ -40,20 +33,22 @@
 }
 
 .d-flex {
-  & > .col-auto {
+  flex-direction: row;
+
+  &>.col-auto {
     flex: 0 0 auto;
   }
 
-  & > .col {
+  &>.col {
     flex-basis       : 0;
     -webkit-box-flex : 1;
     -ms-flex-positive: 1;
     flex-grow        : 1;
-    max-width: 100%;
+    max-width        : 100%;
   }
 
   @for $i from 1 through 10 {
-    & >.col-#{$i} {
+    &>.col-#{$i} {
       flex     : 1 1 calc(100% / 10 * #{$i});
       width    : calc(100% / 10 * #{$i});
       max-width: calc(100% / 10 * #{$i});
@@ -68,27 +63,29 @@
 }
 
 .d-flex-c {
-  & > .col-auto {
+  flex-direction: column;
+
+  &>.col-auto {
     flex: 0 0 auto;
   }
 
-  & > .col {
+  &>.col {
     flex-basis       : 0;
     -webkit-box-flex : 1;
     -ms-flex-positive: 1;
     flex-grow        : 1;
-    max-height: 100%;
+    max-height       : 100%;
   }
 
   @for $i from 1 through 10 {
-    & >.col-#{$i} {
-      flex     : 1 1 calc(100% / 10 * #{$i});
+    &>.col-#{$i} {
+      flex      : 1 1 calc(100% / 10 * #{$i});
       height    : calc(100% / 10 * #{$i});
       max-height: calc(100% / 10 * #{$i});
     }
 
     &>.col-#{$i}5 {
-      flex     : 1 1 calc(100% / 10 * #{$i}.5);
+      flex      : 1 1 calc(100% / 10 * #{$i}.5);
       height    : calc(100% / 10 * #{$i}.5);
       max-height: calc(100% / 10 * #{$i}.5);
     }

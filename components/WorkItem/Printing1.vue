@@ -2,15 +2,15 @@
   <NuxtLink
     to="/works/categories/printing"
     class="mb-60 d-flex border border-radius-8 overflow-x-hidden"
-    title="廣告設計 - 廣告..."
+    title="印刷設計 - 印刷..."
   >
     <div class="ui_1 col-6 border-right bg-blue2">
       <img class="" src="images/work/ui/a_3-1.png" alt="" />
     </div>
     <div class="d-flex col-4 pt-60 pl-60">
-      <div class="col-10 fz-14-r-10 blue1">廣告設計</div>
+      <div class="col-10 fz-14-r-10 blue1">印刷設計</div>
       <div class="col">
-        <h2 class="fz-30-b gray1 pt-16">廣告...</h2>
+        <h2 class="fz-30-b gray1 pt-16">印刷...</h2>
         <div class="pt-16">
           <ElementTag>Web</ElementTag>
           <ElementTag>RWD</ElementTag>
