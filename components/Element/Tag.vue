@@ -1,49 +1,26 @@
 <template>
-  <div :class="tagClass">
+  <component :is="tag" class="tag">
     <slot></slot>
-  </div>
+  </component>
 </template>
 
 <script>
-import { computed, defineComponent, toRef } from "@nuxtjs/composition-api";
+import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
   props: {
-    class: {
+    tag: {
       type: [String, Object],
       required: false,
-      nullable: true,
-    },
+      default: 'div',
+    }
   },
-  setup(props) {
-    const classList = toRef(props, "class");
-
-    const tagClass = computed(() => {
-      const classes = {
-        tag: true,
-      };
-      if (typeof classList.value === "string") {
-        classList.value.split(" ").forEach((c) => {
-          classes[c] = true;
-        });
-      } else {
-        Object.assign(classes, classList.value);
-      }
-      return classes;
-    });
-
-    return {
-      title,
-      linkHref,
-      linkTarget,
-      tagClass,
-    };
-  },
-});
+})
 </script>
 
 <style lang="scss" scoped>
 .tag {
+  display: inline-block;
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.04em;

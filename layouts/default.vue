@@ -1,7 +1,8 @@
 <template>
   <div class="layout">
     <PageHeader />
-    <Nuxt />
+    <Nuxt v-if="!$slots.default" />
+    <slot />
     <PageFooter />
   </div>
 </template>

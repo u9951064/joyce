@@ -3,11 +3,7 @@
 </template>
 
 <script>
-import {
-  defineComponent,
-  useMeta,
-  useRouter,
-} from "@nuxtjs/composition-api";
+import { defineComponent, useMeta, useRouter } from "@nuxtjs/composition-api";
 
 export default defineComponent({
   head: {},
@@ -20,7 +16,9 @@ export default defineComponent({
     link.value.push({
       hid: "canonical",
       rel: "canonical",
-      href: process.env.host + router.resolve({ path: "/works" }).href,
+      href:
+        process.env.host +
+        router.resolve(process.env.homePage).href,
     });
     meta.value.push({
       hid: "redirect",
@@ -28,7 +26,7 @@ export default defineComponent({
       content:
         "0;url=" +
         process.env.host +
-        router.resolve({ path: "/works" }).href,
+        router.resolve(process.env.homePage).href,
     });
   },
 });

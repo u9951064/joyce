@@ -62,5 +62,6 @@ export default {
 
   env: {
     host: process.env.DOMAIN ? `https://${process.env.DOMAIN}` : 'http://localhost:3000',
+    homePage: {name: 'works-categories-ui'},
   }
 }

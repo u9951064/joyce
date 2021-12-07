@@ -1,81 +1,27 @@
 <template>
-  <a
-    :class="linkClass"
-    :title="title"
-    :href="linkHref"
-    :target="linkTarget"
-  >
+  <component :is="tag" class="btn" v-bind="$attrs">
     <slot></slot>
-  </a>
+  </component>
 </template>
 
 <script>
-import { computed, defineComponent, toRef } from "@nuxtjs/composition-api";
+import { defineComponent } from '@nuxtjs/composition-api'
 
 export default defineComponent({
   props: {
-    title: {
-      type: String,
-      required: false,
-      nullable: true,
-    },
-    href: {
-      type: String,
-      required: false,
-      nullable: true,
-    },
-    target: {
-      type: String,
-      required: false,
-      nullable: true,
-      default: '_self',
-    },
-    class: {
+    tag: {
       type: [String, Object],
       required: false,
-      nullable: true,
+      default: 'a',
     }
   },
-  setup(props) {
-    const title = toRef(props, "title");
-    const href = toRef(props, "href");
-    const target = toRef(props, "target");
-    const classList = toRef(props, "class");
-
-    const linkTarget = computed(() => {
-      return target.value ? target.value : "_self";
-    });
-
-    const linkHref = computed(() => {
-      return href.value ? href.value : "javascript:void;";
-    });
-
-    const linkClass = computed(() => {
-      const classes = {
-        btn: true,
-      };
-      if(typeof classList.value === 'string') {
-        classList.value.split(' ').forEach((c) => {
-          classes[c] = true;
-        });
-      } else {
-        Object.assign(classes, classList.value);
-      }
-      return classes;
-    });
-
-    return {
-      title,
-      linkHref,
-      linkTarget,
-      linkClass,
-    };
-  },
-});
+})
 </script>
+
 
 <style lang="scss" scoped>
 .btn {
+  cursor: pointer;
   border: 1px solid $gray1;
   border-radius: 8px;
   background-color: #fff;
