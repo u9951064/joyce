@@ -2,7 +2,7 @@
   <main class="about-index">
     <!-- top -->
     <section class="container-1100">
-      <div class="d-flex pt-120 pb-80 border-top-gray3">
+      <div class="d-flex pt-120 pb-80">
         <div class="col-3">
           <img class="w-100" src="../../assets/about/photo.png" alt="個人照" />
         </div>

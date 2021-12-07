@@ -5,17 +5,17 @@
 </template>
 
 <script>
-import { defineComponent } from '@nuxtjs/composition-api'
+import { defineComponent } from "@nuxtjs/composition-api";
 
 export default defineComponent({
   props: {
     tag: {
       type: [String, Object],
       required: false,
-      default: 'a',
-    }
+      default: "a",
+    },
   },
-})
+});
 </script>
 
 
@@ -31,16 +31,16 @@ export default defineComponent({
   font-weight: 500;
   display: inline-block;
   padding: 16px 40px;
-}
 
-.btn:hover {
-  box-shadow: 1px 1px 0 0 $gray1;
-  transform: translate(1px, 1px);
-}
-
-.btn > * {
+  & > * {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+  }
+
+  &:hover {
+    box-shadow: 1px 1px 0 0 $gray1;
+    transform: translate(1px, 1px);
+  }
 }
 </style>

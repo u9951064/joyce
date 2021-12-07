@@ -14,7 +14,7 @@
         <div class="col">
           <ElementBtn :href="'http://'" :class="'footer-p'" :title="'send mail'">
             <span class="fz-14-r-10">
-              <img class="d-block" src="../assets/icons/ic-linkin.svg" alt="" />
+              <img class="d-block" src="../assets/icons/ic-mail.svg" alt="" />
             </span>
           </ElementBtn>
           <a href="mailto:"></a>

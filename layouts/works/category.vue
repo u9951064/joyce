@@ -10,24 +10,24 @@
               相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
             </div>
             <div class="pt-40">
-              <ElementBtn :href="'/about'" :title="'關於我'">
+              <ElementBtn href="/about" title="關於我">
                 <span class="fz-14-r-10"
                   >關於我
                   <img
-                    class="d-block ml-2"
+                    class="ml-2"
                     src="../../assets/icons/ic-joyce.svg"
                     alt="關於我"
                 /></span>
               </ElementBtn>
               <ElementBtn
-                :href="'/resume'"
+                href="/resume"
+                title="下載履歷"
                 :class="'ml-24'"
-                :title="'下載履歷'"
               >
                 <span class="fz-14-r-10"
                   >下載履歷
                   <img
-                    class="d-block ml-2"
+                    class="ml-2"
                     src="../../assets/icons/ic-download.svg"
                     alt="關於我"
                 /></span>
@@ -44,7 +44,9 @@
         </div>
       </section>
 
-      <div class="d-flex flex-align-center flex-justify-center pt-60 fz-14-r-10">
+      <div
+        class="d-flex flex-align-center flex-justify-center pt-60 fz-14-r-10"
+      >
         <ElementBtn
           tag="NuxtLink"
           :class="'work-btn'"
