@@ -49,12 +49,12 @@
               <h3 class="fz-22-m gray1 mr-16">UI設計</h3>
               <ElementTag>User Interface</ElementTag>
             </div>
-            <ul class="star-list fz-16-l gray2 pt-24 pb-60">
-              <li class="">具備 UI / UX 設計相關知識</li>
-              <li class="">快速手繪、使用軟體製作 Wireframe</li>
-              <li class="">了解 Design system 的重要性</li>
-              <li class="">製作靜態 Mockup 及可互動的 Prototype</li>
-              <li class="">熟悉 Html、CSS 程式語言，具備 RWD 知識</li>
+            <ul class="fz-16-l gray2 pt-24 pb-60">
+              <ElementStarItem>具備 UI / UX 設計相關知識</ElementStarItem>
+              <ElementStarItem>快速手繪、使用軟體製作 Wireframe</ElementStarItem>
+              <ElementStarItem>了解 Design system 的重要性</ElementStarItem>
+              <ElementStarItem>製作靜態 Mockup 及可互動的 Prototype</ElementStarItem>
+              <ElementStarItem>熟悉 Html、CSS 程式語言，具備 RWD 知識</ElementStarItem>
             </ul>
           </div>
         </div>
@@ -68,10 +68,10 @@
               <h3 class="fz-22-m gray1 mr-16">廣告設計</h3>
               <ElementTag>Advertising Design</ElementTag>
             </div>
-            <ul class="star-list fz-16-l gray2 pt-24 pb-60">
-              <li class="">官網 Banner 設計</li>
-              <li class="">Google、FB、Line 原生廣告設計製作</li>
-              <li class="">依不同事業體、活動，製作相對應風格視覺設計</li>
+            <ul class="fz-16-l gray2 pt-24 pb-60">
+              <ElementStarItem>官網 Banner 設計</ElementStarItem>
+              <ElementStarItem>Google、FB、Line 原生廣告設計製作</ElementStarItem>
+              <ElementStarItem>依不同事業體、活動，製作相對應風格視覺設計</ElementStarItem>
             </ul>
           </div>
         </div>
@@ -85,12 +85,12 @@
               <h3 class="fz-22-m gray1 mr-16">平面設計</h3>
               <ElementTag>Graphic Design</ElementTag>
             </div>
-            <ul class="star-list fz-16-l gray2 pt-24 pb-60">
-              <li class="">企業形象識別設計</li>
-              <li class="">視覺排版設計</li>
-              <li class="">色彩搭配運用</li>
-              <li class="">手繪插畫設計</li>
-              <li class="">去背影像合成</li>
+            <ul class="fz-16-l gray2 pt-24 pb-60">
+              <ElementStarItem>企業形象識別設計</ElementStarItem>
+              <ElementStarItem>視覺排版設計</ElementStarItem>
+              <ElementStarItem>色彩搭配運用</ElementStarItem>
+              <ElementStarItem>手繪插畫設計</ElementStarItem>
+              <ElementStarItem>去背影像合成</ElementStarItem>
             </ul>
           </div>
         </div>
@@ -104,10 +104,10 @@
               <h3 class="fz-22-m gray1 mr-16">印刷設計</h3>
               <ElementTag>Print Design</ElementTag>
             </div>
-            <ul class="star-list fz-16-l gray2 pt-24 pb-60">
-              <li class="">名片設計、海報設計、DM 設計、年鑑設計</li>
-              <li class="">大圖輸出、展覽看板背板、廣告招牌</li>
-              <li class="">獨立作業完成發包</li>
+            <ul class="fz-16-l gray2 pt-24 pb-60">
+              <ElementStarItem>名片設計、海報設計、DM 設計、年鑑設計</ElementStarItem>
+              <ElementStarItem>大圖輸出、展覽看板背板、廣告招牌</ElementStarItem>
+              <ElementStarItem>獨立作業完成發包</ElementStarItem>
             </ul>
           </div>
         </div>
@@ -121,10 +121,10 @@
               <h3 class="fz-22-m gray1 mr-16">網頁設計</h3>
               <ElementTag>Web Design</ElementTag>
             </div>
-            <ul class="star-list fz-16-l gray2 pt-24 pb-60">
-              <li class="">熟悉 Html、CSS 程式語言</li>
-              <li class="">具備 RWD 相關知識</li>
-              <li class="">獨立切版完成 Landing Page</li>
+            <ul class="fz-16-l gray2 pt-24 pb-60">
+              <ElementStarItem>熟悉 HTML、CSS 程式語言</ElementStarItem>
+              <ElementStarItem>具備 RWD 相關知識</ElementStarItem>
+              <ElementStarItem>獨立切版完成 Landing Page</ElementStarItem>
             </ul>
           </div>
         </div>
@@ -210,38 +210,27 @@
             <ElementTag>Ｍar. 2020 - Present</ElementTag>
           </div>
           <div class="fz-16-l gray1 pt-16">網頁視覺設計師 / 儲備主管</div>
-          <ul class="star-list fz-16-l gray2 pt-16 pb-60">
-            <li class="d-flex">
-              <div class="col-auto">廣告設計｜</div>
-              <div class="col">
-                跨部門溝通支援設計需求 e.g.:
-                名片設計、DM設計、年鑑設計、展場大圖設計，並完成發包
-              </div>
-            </li>
-            <li class="d-flex">
-              <div class="col-auto">平面設計｜</div>
-              <div class="col">
-                針對不同事業體、活動，依企劃製作出相對應風格視覺的廣告設計、Banner
-                等素材
-              </div>
-            </li>
-            <li class="d-flex">
-              <div class="col-auto">插畫設計｜</div>
-              <div class="col">能夠快速手繪草稿進行溝通，繪製插圖</div>
-            </li>
-            <li class="d-flex">
-              <div class="col-auto">網頁撰寫｜</div>
-              <div class="col">
-                使用 Html、CSS 撰寫符合 RWD 設計的 Landing Page
-              </div>
-            </li>
-            <li class="d-flex">
-              <div class="col-auto">導入敏捷式開發｜</div>
-              <div class="col">
-                任職期間兼負 PM 角色導入敏捷式開發 Agile，讓原先 3
-                個月製作時程縮短為 1 個月完成
-              </div>
-            </li>
+          <ul class="fz-16-l gray2 pt-16 pb-60">
+            <ElementStarItem>
+              <template #title>廣告設計</template>
+              名片設計、DM設計、年鑑設計、展場大圖設計，並完成發包
+            </ElementStarItem>
+            <ElementStarItem>
+              <template #title>平面設計</template>
+              針對不同事業體、活動，依企劃製作出相對應風格視覺的廣告設計、Banner等素材
+            </ElementStarItem>
+            <ElementStarItem>
+              <template #title>插畫設計</template>
+              能夠快速手繪草稿進行溝通，繪製插圖
+            </ElementStarItem>
+            <ElementStarItem>
+              <template #title>網頁撰寫</template>
+              使用 HTML、CSS 撰寫符合 RWD 設計的 Landing Page
+            </ElementStarItem>
+            <ElementStarItem>
+              <template #title>導入敏捷式開發</template>
+              任職期間兼負 PO 角色導入敏捷式開發 Agile，讓原先 3 個月製作時程縮短為 1 個月完成
+            </ElementStarItem>
           </ul>
         </div>
       </div>
@@ -261,17 +250,15 @@
             <ElementTag>Oct. 2019 - Jan. 2020</ElementTag>
           </div>
           <div class="fz-16-l gray1 pt-16">設計助理</div>
-          <ul class="star-list fz-16-l gray2 pt-16 pb-60">
-            <li class="d-flex">
-              <div class="col-auto">平面設計｜</div>
-              <div class="col">
-                廣告設計、集點卡設計、活動看板設計、手冊設計
-              </div>
-            </li>
-            <li class="d-flex">
-              <div class="col-auto">行政庶務｜</div>
-              <div class="col">電話接聽、櫃檯接待、後台商品建立</div>
-            </li>
+          <ul class="fz-16-l gray2 pt-16 pb-60">
+            <ElementStarItem>
+              <template #title>平面設計</template>
+              廣告設計、集點卡設計、活動看板設計、手冊設計
+            </ElementStarItem>
+            <ElementStarItem>
+              <template #title>行政庶務</template>
+              電話接聽、櫃檯接待、後台商品建立
+            </ElementStarItem>
           </ul>
         </div>
       </div>
@@ -294,21 +281,19 @@
             <ElementTag>2015 - 2019</ElementTag>
           </div>
           <div class="fz-16-l gray1 pt-16">視覺傳達設計系</div>
-          <ul class="star-list fz-16-l gray2 pt-16 pb-60">
-            <li class="d-flex">
-              <div class="col-auto">畢業製作｜</div>
-              <div class="col">
-                擔任負責人，主要負責色彩規劃、插畫設計、時間規劃、展場設計、作品導覽
-              </div>
-            </li>
-            <li class="d-flex">
-              <div class="col-auto">獲得獎項｜</div>
-              <div class="col">
-                2019 德國紅點設計 / 品牌暨傳達設計紅點獎<br />
-                2019 泰達盃青年創意設計大賽 / 入圍<br />
-                2019 放視大賞 - 平面傳達設計組 / 入圍
-              </div>
-            </li>
+          <ul class="fz-16-l gray2 pt-16 pb-60">
+            <ElementStarItem>
+              <template #title>畢業製作</template>
+              擔任負責人，主要負責色彩規劃、插畫設計、時間規劃、展場設計、作品導覽
+            </ElementStarItem>
+            <ElementStarItem>
+              <template #title>獲得獎項</template>
+              <ul>
+                <li>2019 德國紅點設計 / 品牌暨傳達設計紅點獎</li>
+                <li>2019 泰達盃青年創意設計大賽 / 入圍</li>
+                <li>2019 放視大賞 - 平面傳達設計組 / 入圍</li>
+              </ul>
+            </ElementStarItem>
           </ul>
         </div>
       </div>

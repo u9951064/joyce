@@ -104,26 +104,26 @@
             企劃會初步整理主題及文案，與設計一同發想並討論設計進一步延伸，搜集相關素材、並構想主視覺
           </p>
           <ElementTag :class="'mt-30'">企劃提案</ElementTag>
-          <ul class="star-list fz-16-l gray2 pt-16">
-            <li class="d-flex">
-              <div class="col-auto">網頁主標｜</div>
-              <div class="col">英日西韓語，外語振興補助</div>
-            </li>
-            <li class="d-flex">
-              <div class="col-auto">重點文案｜</div>
-              <div class="col">青年補助、振興優惠、學習外語</div>
-            </li>
+          <ul class="fz-16-l gray2 pt-16">
+            <ElementStarItem>
+              <template #title>網頁主標</template>
+              英日西韓語，外語振興補助
+            </ElementStarItem>
+            <ElementStarItem>
+              <template #title>重點文案</template>
+              青年補助、振興優惠、學習外語
+            </ElementStarItem>
           </ul>
           <ElementTag :class="'mt-30'">設計切角</ElementTag>
-          <ul class="star-list fz-16-l gray2 pt-16">
-            <li class="d-flex">
-              <div class="col-auto">青年｜</div>
-              <div class="col">年輕有活力、色彩繽紛</div>
-            </li>
-            <li class="d-flex">
-              <div class="col-auto">振興補助｜</div>
-              <div class="col">閃耀的錢幣、禮物</div>
-            </li>
+          <ul class="fz-16-l gray2 pt-16">
+            <ElementStarItem>
+              <template #title>青年</template>
+              年輕有活力、色彩繽紛
+            </ElementStarItem>
+            <ElementStarItem>
+              <template #title>振興補助</template>
+              閃耀的錢幣、禮物
+            </ElementStarItem>
           </ul>
           <div class="d-flex flex-justify-end pt-40">
             <img class="w-100" src="../../../assets/works/ui1/a_3-3.png" alt="" />
