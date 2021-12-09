@@ -93,13 +93,18 @@ main.work-category {
     padding: 12px 24px;
     box-shadow: none;
 
-    &.active-link {
+    &.active-link, &.active-link:hover {
       border-color: $gray1;
       background-color: #fff;
       box-shadow: 2px 2px 0 0 $gray1;
       transform: translate(-1.5px, -1.5px);
       color: $gray1;
       text-align: left;
+    }
+
+    &:hover {
+      box-shadow: none;
+      transform: none;
     }
   }
 }
