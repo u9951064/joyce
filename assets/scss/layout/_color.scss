@@ -1,21 +1,55 @@
 .gray1 {
-  color: $gray1;
+
+  &,
+  &-hover:hover,
+  &-active:active,
+  &-visited:visited {
+
+    color: $gray1;
+  }
 }
 
 .gray2 {
-  color: $gray2;
+
+  &,
+  &-hover:hover,
+  &-active:active,
+  &-visited:visited {
+    color: $gray2;
+  }
+
 }
 
 .gray3 {
-  color: $gray3;
+
+  &,
+  &-hover:hover,
+  &-active:active,
+  &-visited:visited {
+    color: $gray3;
+  }
+
 }
 
 .gray4 {
-  color: $gray4;
+
+  &,
+  &-hover:hover,
+  &-active:active,
+  &-visited:visited {
+    color: $gray4;
+  }
+
 }
 
 .blue1 {
-  color: $blue1;
+
+  &,
+  &-hover:hover,
+  &-active:active,
+  &-visited:visited {
+    color: $blue1;
+  }
 }
 
 .bg-white {
