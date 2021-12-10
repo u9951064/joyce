@@ -1,3 +1,5 @@
+const hostName = process.env.DOMAIN ? `https://${process.env.DOMAIN}` : 'http://localhost:3000';
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -47,6 +49,8 @@ export default {
     '@nuxtjs/composition-api/module',
     '@nuxtjs/google-fonts',
     '@nuxtjs/style-resources',
+    '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -64,7 +68,7 @@ export default {
   },
 
   env: {
-    host: process.env.DOMAIN ? `https://${process.env.DOMAIN}` : 'http://localhost:3000',
+    host: hostName,
     homePage: { name: 'works-categories-ui' },
   },
 
@@ -82,5 +86,24 @@ export default {
         wght: [300, 400, 500, 700],
       }
     }
+  },
+
+  sitemap: {
+    hostname: hostName,
+    gzip: false,
+    exclude: [
+      '/works',
+      '/works/tags',
+      '/works/tags/**',
+    ],
+    defaults: {
+      lastmod: (new Date()).toISOString(),
+    }
+  },
+
+  robots: {
+    UserAgent: '*',
+    Disallow: '/',
+    Sitemap: `${hostName}/sitemap.xml`,
   }
 }
