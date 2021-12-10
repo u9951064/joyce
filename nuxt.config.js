@@ -18,7 +18,7 @@ export default {
     },
     meta: [
       { charset: 'utf-8' },
-      { 'http-equiv': 'X-UA-Compatible', content:'IE=edge' },
+      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
@@ -43,6 +43,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     '@nuxtjs/composition-api/module',
+    '@nuxtjs/google-fonts',
     '@nuxtjs/style-resources',
   ],
 
@@ -62,10 +63,22 @@ export default {
 
   env: {
     host: process.env.DOMAIN ? `https://${process.env.DOMAIN}` : 'http://localhost:3000',
-    homePage: {name: 'works-categories-ui'},
+    homePage: { name: 'works-categories-ui' },
   },
 
   generate: {
     fallback: '404.html'
+  },
+
+  googleFonts: {
+    display: 'swap',
+    families: {
+      'Montserrat': {
+        wght: [400, 500, 700],
+      },
+      'Noto+Sans+TC': {
+        wght: [300, 400, 500, 700],
+      }
+    }
   }
 }
