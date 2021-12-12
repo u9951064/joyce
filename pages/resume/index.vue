@@ -19,7 +19,8 @@
           </h3>
         </div>
         <div class="d-flex col-3 flex-justify-end">
-          <ElementBtn href="/resume" title="下載履歷" :class="'ml-24'">
+          <div class="col-auto">
+            <ElementBtn href="/resume" title="下載履歷" :class="'ml-24'">
               <span class="fz-14-r-10"
                 >下載履歷
                 <img
@@ -28,17 +29,20 @@
                   alt="關於我"
               /></span>
             </ElementBtn>
+          </div>
           <div class="d-flex flex-align-center">
             <div class="col-auto fz-16-l gray1 mr-20">0958-680-652</div>
-            <img class="icon" src="../../assets/icons/ic-phone.svg" alt="" />            
+            <img class="icon" src="../../assets/icons/ic-phone.svg" alt="" />
           </div>
           <div class="d-flex flex-align-center">
             <div class="col-auto fz-16-l gray1 mr-20">joo20423@gmail.com</div>
-            <img class="icon" src="../../assets/icons/ic-mail.svg" alt="" />            
+            <img class="icon" src="../../assets/icons/ic-mail.svg" alt="" />
           </div>
           <div class="d-flex flex-align-center">
-            <div class="col-auto fz-16-l gray1 mr-20">https://joyce.tinycloud.tw/</div>
-            <img class="icon" src="../../assets/icons/ic-website.svg" alt="" />            
+            <div class="col-auto fz-16-l gray1 mr-20">
+              https://joyce.tinycloud.tw/
+            </div>
+            <img class="icon" src="../../assets/icons/ic-website.svg" alt="" />
           </div>
         </div>
       </div>
