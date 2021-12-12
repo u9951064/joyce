@@ -1,11 +1,11 @@
 <template>
   <NuxtLink
-    to="/works/categories/printing"
+    :to="{name: 'works-contents-ui3'}"
     class="mb-60 d-flex border border-radius-8 overflow-x-hidden"
-    title="印刷設計 - 印刷..."
+    title="UI設計 - 英日西韓語，外語振興補助"
   >
     <div class="ui_1 col-6 border-right bg-blue2">
-      <img class="" src="images/work/ui/a_3-1.png" alt="" />
+      <img class="" src="../../assets/works/commerce1/b_1-1.png" alt="" />
     </div>
     <div class="d-flex col-4 pt-60 pl-60">
       <div class="col-10 fz-14-r-10 blue1">印刷設計</div>
