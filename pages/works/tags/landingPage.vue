@@ -1,6 +1,5 @@
 <template>
   <div class="work-tag-landing-page">
-    <WorkItemUI1/>
-    <WorkItemUI2/>
+    <WorkItemUI3/>
   </div>
 </template>

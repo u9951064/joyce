@@ -1,6 +1,5 @@
 <template>
   <div class="work-tag-web">
-    <WorkItemUI1/>
-    <WorkItemUI2/>
+    <WorkItemUI3/>
   </div>
 </template>

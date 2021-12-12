@@ -1,7 +1,7 @@
 <template>
   <header class="page-header">
     <div class="pt-24 pb-16 fz-14-b nav-keeper">
-      <div class="p-fixed pt-24 pb-16 bg-white">
+      <div class="p-fixed pt-24 pb-16 bg-white fix-bar">
         <nav
           class="
             container-1100
@@ -59,6 +59,9 @@ header.page-header {
   & > .nav-keeper:before {
     content: "\200B";
     display: block;
+  }
+  & .fix-bar {
+    z-index: 10;
   }
 }
 </style>
