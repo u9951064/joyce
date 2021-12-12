@@ -3,6 +3,10 @@
 }
 
 @for $i from 1 through 60 {
+  .p-#{$i * 2} {
+    padding: calc(#{$i} * 2px);
+  }
+
   .pt-#{$i * 2} {
     padding-top: calc(#{$i} * 2px);
   }
@@ -17,6 +21,10 @@
 
   .pr-#{$i * 2} {
     padding-right: calc(#{$i} * 2px);
+  }
+
+  .m-#{$i * 2} {
+    margin: calc(#{$i} * 2px);
   }
 
   .mt-#{$i * 2} {
