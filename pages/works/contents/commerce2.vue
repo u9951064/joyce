@@ -180,7 +180,8 @@
         <ElementStarItem> 點擊以下連結觀看其他站內設計頁面 </ElementStarItem>
       </ul>
       <div class="pt-40 d-flex">
-        <ElementBtn class="m-8"
+        <ElementBtn
+          class="m-8"
           target="_blank"
           href="https://live.rookiesavior.net/course/groupbuy"
         >
@@ -200,7 +201,8 @@
             />
           </span>
         </ElementBtn>
-        <ElementBtn class="m-8"
+        <ElementBtn
+          class="m-8"
           target="_blank"
           href="https://live.rookiesavior.net/course/notion"
         >
@@ -220,7 +222,8 @@
             />
           </span>
         </ElementBtn>
-        <ElementBtn class="m-8"
+        <ElementBtn
+          class="m-8"
           target="_blank"
           href="https://live.rookiesavior.net/course/startup"
         >
@@ -240,7 +243,8 @@
             />
           </span>
         </ElementBtn>
-        <ElementBtn class="m-8"
+        <ElementBtn
+          class="m-8"
           target="_blank"
           href="https://live.rookiesavior.net/course/workout"
         >
@@ -260,7 +264,8 @@
             />
           </span>
         </ElementBtn>
-        <ElementBtn class="m-8"
+        <ElementBtn
+          class="m-8"
           target="_blank"
           href="https://live.rookiesavior.net/course/line-official"
         >
@@ -280,7 +285,8 @@
             />
           </span>
         </ElementBtn>
-        <ElementBtn class="m-8"
+        <ElementBtn
+          class="m-8"
           target="_blank"
           href="https://live.rookiesavior.net/course/google-analytics"
         >
@@ -300,7 +306,8 @@
             />
           </span>
         </ElementBtn>
-        <ElementBtn class="m-8"
+        <ElementBtn
+          class="m-8"
           target="_blank"
           href="https://live.rookiesavior.net/course/sketchUp"
         >
@@ -320,7 +327,8 @@
             />
           </span>
         </ElementBtn>
-        <ElementBtn class="m-8"
+        <ElementBtn
+          class="m-8"
           target="_blank"
           href="https://live.rookiesavior.net/course/startup"
         >
@@ -347,8 +355,15 @@
 
 <script>
 import { defineComponent } from "@nuxtjs/composition-api";
+import { useHeader } from "~/compatible/useHeader";
 
 export default defineComponent({
-  layout: "works/content",
+  head: {},
+  setup() {
+    const meta = useHeader({
+      title: "作品集 - 廣告設計: Figma新手指南UI/UX設計思維",
+      description: "",
+    });
+  },
 });
 </script>

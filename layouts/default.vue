@@ -8,18 +8,13 @@
 </template>
 
 <script>
-import { defineComponent, useMeta, useRoute } from '@nuxtjs/composition-api'
+import { defineComponent } from '@nuxtjs/composition-api'
+import { useHeader } from '@/compatible/useHeader'
 
 export default defineComponent({
-  head:{},
+  head: {},
   setup() {
-    const route = useRoute();
-    const { link } = useMeta({link: []});
-    link.value.push({
-      hid: 'canonical',
-      rel: 'canonical',
-      href: process.env.host + route.value.path,
-    })
+    useHeader();
   },
 })
 </script>

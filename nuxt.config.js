@@ -12,9 +12,6 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: (titleChunk) => {
-      return titleChunk ? `${titleChunk} - Joyce` : 'Joyce';
-    },
     htmlAttrs: {
       lang: 'zh-Hans-TW'
     },
@@ -22,7 +19,6 @@ export default {
       { charset: 'utf-8' },
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

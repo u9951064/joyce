@@ -236,8 +236,15 @@
 
 <script>
 import { defineComponent } from "@nuxtjs/composition-api";
+import { useHeader } from "~/compatible/useHeader";
 
 export default defineComponent({
-  layout: "works/content",
+  head: {},
+  setup() {
+    const meta = useHeader({
+      title: "作品集 - UI設計: 台鐵 e 訂通 App Redesign",
+      description: "",
+    });
+  },
 });
 </script>

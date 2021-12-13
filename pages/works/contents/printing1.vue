@@ -181,8 +181,15 @@
 
 <script>
 import { defineComponent } from "@nuxtjs/composition-api";
+import { useHeader } from "~/compatible/useHeader";
 
 export default defineComponent({
-  layout: "works/content",
+  head: {},
+  setup() {
+    const meta = useHeader({
+      title: "作品集 - 印刷設計: 2021 學員年鑑設計",
+      description: "",
+    });
+  },
 });
 </script>

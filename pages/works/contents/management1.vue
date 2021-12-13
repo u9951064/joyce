@@ -175,7 +175,7 @@
         </div>
       </div>
     </section>
-    
+
     <!-- 專案成果 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
@@ -196,8 +196,15 @@
 
 <script>
 import { defineComponent } from "@nuxtjs/composition-api";
+import { useHeader } from "~/compatible/useHeader";
 
 export default defineComponent({
-  layout: "works/content",
+  head: {},
+  setup() {
+    const meta = useHeader({
+      title: "作品集 - 專案管理: 導入敏捷式開發專案",
+      description: "",
+    });
+  },
 });
 </script>

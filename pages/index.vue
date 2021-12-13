@@ -3,30 +3,15 @@
 </template>
 
 <script>
-import { defineComponent, useMeta, useRouter } from "@nuxtjs/composition-api";
+import { defineComponent } from "@nuxtjs/composition-api";
+import { useHeader } from "@/compatible/useHeader";
 
 export default defineComponent({
   head: {},
   setup() {
-    const router = useRouter();
-    const { link, meta } = useMeta({
-      meta: [],
-      link: [],
-    });
-    link.value.push({
-      hid: "canonical",
-      rel: "canonical",
-      href:
-        process.env.host +
-        router.resolve(process.env.homePage).href,
-    });
-    meta.value.push({
-      hid: "redirect",
-      "http-equiv": "refresh",
-      content:
-        "0;url=" +
-        process.env.host +
-        router.resolve(process.env.homePage).href,
+    useHeader({
+      canonical: process.env.homePage || "",
+      redirect: process.env.homePage || "",
     });
   },
 });

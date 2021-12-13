@@ -51,10 +51,16 @@
             </div>
             <ul class="fz-16-l gray2 pt-24 pb-60">
               <ElementStarItem>具備 UI / UX 設計相關知識</ElementStarItem>
-              <ElementStarItem>快速手繪、使用軟體製作 Wireframe</ElementStarItem>
+              <ElementStarItem
+                >快速手繪、使用軟體製作 Wireframe</ElementStarItem
+              >
               <ElementStarItem>了解 Design system 的重要性</ElementStarItem>
-              <ElementStarItem>製作靜態 Mockup 及可互動的 Prototype</ElementStarItem>
-              <ElementStarItem>熟悉 Html、CSS 程式語言，具備 RWD 知識</ElementStarItem>
+              <ElementStarItem
+                >製作靜態 Mockup 及可互動的 Prototype</ElementStarItem
+              >
+              <ElementStarItem
+                >熟悉 Html、CSS 程式語言，具備 RWD 知識</ElementStarItem
+              >
             </ul>
           </div>
         </div>
@@ -70,8 +76,12 @@
             </div>
             <ul class="fz-16-l gray2 pt-24 pb-60">
               <ElementStarItem>官網 Banner 設計</ElementStarItem>
-              <ElementStarItem>Google、FB、Line 原生廣告設計製作</ElementStarItem>
-              <ElementStarItem>依不同事業體、活動，製作相對應風格視覺設計</ElementStarItem>
+              <ElementStarItem
+                >Google、FB、Line 原生廣告設計製作</ElementStarItem
+              >
+              <ElementStarItem
+                >依不同事業體、活動，製作相對應風格視覺設計</ElementStarItem
+              >
             </ul>
           </div>
         </div>
@@ -105,8 +115,12 @@
               <ElementTag>Print Design</ElementTag>
             </div>
             <ul class="fz-16-l gray2 pt-24 pb-60">
-              <ElementStarItem>名片設計、海報設計、DM 設計、年鑑設計</ElementStarItem>
-              <ElementStarItem>大圖輸出、展覽看板背板、廣告招牌</ElementStarItem>
+              <ElementStarItem
+                >名片設計、海報設計、DM 設計、年鑑設計</ElementStarItem
+              >
+              <ElementStarItem
+                >大圖輸出、展覽看板背板、廣告招牌</ElementStarItem
+              >
               <ElementStarItem>獨立作業完成發包</ElementStarItem>
             </ul>
           </div>
@@ -229,7 +243,8 @@
             </ElementStarItem>
             <ElementStarItem>
               <template #title>導入敏捷式開發</template>
-              任職期間兼負 PO 角色導入敏捷式開發 Agile，讓原先 3 個月製作時程縮短為 1 個月完成
+              任職期間兼負 PO 角色導入敏捷式開發 Agile，讓原先 3
+              個月製作時程縮短為 1 個月完成
             </ElementStarItem>
           </ul>
         </div>
@@ -300,6 +315,22 @@
     </section>
   </main>
 </template>
+
+<script>
+import { defineComponent } from "@nuxtjs/composition-api";
+import { useHeader } from "@/compatible/useHeader";
+
+export default defineComponent({
+  head: {},
+  setup() {
+    useHeader({
+      title: "About me",
+      description:
+        "侯佳君 Joyce - 擁有網頁視覺設計師 2年的經驗。我相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。",
+    });
+  },
+});
+</script>
 
 <style lang="scss" scoped>
 .about-index {

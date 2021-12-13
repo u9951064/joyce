@@ -126,7 +126,11 @@
             </ElementStarItem>
           </ul>
           <div class="d-flex flex-justify-end pt-40">
-            <img class="w-100" src="../../../assets/works/ui3/a_3-3.png" alt="" />
+            <img
+              class="w-100"
+              src="../../../assets/works/ui3/a_3-3.png"
+              alt=""
+            />
             <p class="fz-14-l-4 gray2 pt-16">參考圖</p>
           </div>
         </div>
@@ -146,7 +150,11 @@
           </p>
         </div>
       </div>
-      <img class="pt-60 w-100" src="../../../assets/works/ui3/a_3-4.png" alt="" />
+      <img
+        class="pt-60 w-100"
+        src="../../../assets/works/ui3/a_3-4.png"
+        alt=""
+      />
       <div class="d-flex pt-60 flex-justify-space-between">
         <div class="col-3 pr-20">
           <img class="w-100" src="../../../assets/works/ui3/a_3-5.png" alt="" />
@@ -162,9 +170,16 @@
 </template>
 
 <script>
-import { defineComponent } from '@nuxtjs/composition-api'
+import { defineComponent } from "@nuxtjs/composition-api";
+import { useHeader } from "~/compatible/useHeader";
 
 export default defineComponent({
-  layout: 'works/content'
+  head: {},
+  setup() {
+    const meta = useHeader({
+      title: "作品集 - UI設計: 英日西韓語，外語振興補助",
+      description: "",
+    });
+  },
 });
 </script>

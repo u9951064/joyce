@@ -205,3 +205,19 @@
     </section>
   </main>
 </template>
+
+<script>
+import { defineComponent } from "@nuxtjs/composition-api";
+import { useHeader } from "@/compatible/useHeader";
+
+export default defineComponent({
+  head: {},
+  setup() {
+    useHeader({
+      title: "Resume",
+      description:
+        "侯佳君 Joyce - 擁有網頁視覺設計師 2年的經驗。我相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。",
+    });
+  },
+});
+</script>
