@@ -4,8 +4,8 @@
     class="mb-60 d-flex border border-radius-8 overflow-x-hidden"
     title="UI設計 - 英日西韓語，外語振興補助"
   >
-    <div class="ui_1 col-6 border-right bg-blue2">
-      <img class="d-block ui-img w-100" src="../../assets/works/ui2/a_2-1.png" alt="" />
+    <div class="ui_1 col-6 border-right bg-blue2 p-relative">
+      <img class="p-absolute ui-img" src="../../assets/works/ui2/a_2-1.png" alt="" />
     </div>
     <div class="d-flex col-4 pt-60 pl-60">
       <div class="col-10 fz-14-r-10 blue1">UI設計</div>
@@ -27,6 +27,9 @@
 
 <style lang="scss" scoped>
   .ui-img {
-    margin-left: -20%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
   }
 </style>
