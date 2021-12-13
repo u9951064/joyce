@@ -4,23 +4,21 @@
       <h2 class="fz-14-b gray2 text-align-center">CONTACT ME</h2>
       <div class="d-flex w-40 flex-justify-space-between m-auto pt-24">
         <div class="col-auto">
-          <ElementBtn :href="'tel:+8869'" :class="'footer-p'" :title="'make a phone call'">
+          <ElementBtn class="footer-p" title="make a phone call" @click.native="makeCall">
             <span class="fz-14-r-10">
               <img class="d-block" src="../assets/icons/ic-phone.svg" alt="" />
             </span>
           </ElementBtn>
-          <a href="tel:"></a>
         </div>
         <div class="col-auto">
-          <ElementBtn :href="'http://'" :class="'footer-p'" :title="'send mail'">
+          <ElementBtn class="footer-p" title="send mail" @click.native="sendMail">
             <span class="fz-14-r-10">
               <img class="d-block" src="../assets/icons/ic-mail.svg" alt="" />
             </span>
           </ElementBtn>
-          <a href="mailto:"></a>
         </div>
         <div class="col-auto">
-          <ElementBtn :href="'http://'" :class="'footer-p'" :title="'LinkIn'">
+          <ElementBtn :href="'http://'" class="footer-p" title="LinkIn" target="_blank">
             <span class="fz-14-r-10">
               <img class="d-block" src="../assets/icons/ic-linkin.svg" alt="" />
             </span>
@@ -33,6 +31,19 @@
     </p>
   </footer>
 </template>
+
+<script>
+import { defineComponent } from "@nuxtjs/composition-api";
+import { useProfileInfo } from "@/compatible/useProfileInfo";
+
+export default defineComponent({
+  setup() {
+    return {
+      ...useProfileInfo(),
+    };
+  },
+});
+</script>
 
 <style lang="scss" scoped>
 footer.pageFooter {

@@ -30,14 +30,18 @@
               /></span>
             </ElementBtn>
           </div>
-          <div class="d-flex flex-align-center">
-            <div class="col-auto fz-16-l gray1 mr-20">0958-680-652</div>
-            <img class="icon" src="../../assets/icons/ic-phone.svg" alt="" />
-          </div>
-          <div class="d-flex flex-align-center">
-            <div class="col-auto fz-16-l gray1 mr-20">joo20423@gmail.com</div>
-            <img class="icon" src="../../assets/icons/ic-mail.svg" alt="" />
-          </div>
+          <client-only>
+            <div class="d-flex flex-align-center pointer" @click="makeCall">
+              <div class="col-auto fz-16-l gray1 mr-20">
+                {{ joycePhone }}
+              </div>
+              <img class="icon" src="../../assets/icons/ic-phone.svg" alt="" />
+            </div>
+            <div class="d-flex flex-align-center pointer" @click="sendMail">
+              <div class="col-auto fz-16-l gray1 mr-20">{{ joyceEmail }}</div>
+              <img class="icon" src="../../assets/icons/ic-mail.svg" alt="" />
+            </div>
+          </client-only>
           <div class="d-flex flex-align-center">
             <div class="col-auto fz-16-l gray1 mr-20">
               https://joyce.tinycloud.tw/
@@ -209,6 +213,7 @@
 <script>
 import { defineComponent } from "@nuxtjs/composition-api";
 import { useHeader } from "@/compatible/useHeader";
+import { useProfileInfo } from "@/compatible/useProfileInfo";
 
 export default defineComponent({
   head: {},
@@ -218,6 +223,10 @@ export default defineComponent({
       description:
         "侯佳君 Joyce - 擁有網頁視覺設計師 2年的經驗。我相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。",
     });
+
+    return {
+      ...useProfileInfo(),
+    };
   },
 });
 </script>
