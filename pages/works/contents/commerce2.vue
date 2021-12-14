@@ -111,7 +111,7 @@
           <ul class="fz-16-l gray2 pt-16">
             <ElementStarItem>
               <template #title>課程主標</template>
-              Figma新手指南｜UI/UX設計思維
+              Figma新手指南 UI/UX設計思維
             </ElementStarItem>
             <ElementStarItem>
               <template #title>重點文案</template>
@@ -309,7 +309,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
-          href="https://live.rookiesavior.net/course/sketchUp"
+          href="https://live.rookiesavior.net/course/startup"
         >
           <span
             class="fz-14-r-10"
@@ -330,7 +330,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
-          href="https://live.rookiesavior.net/course/startup"
+          href="https://live.rookiesavior.net/course/sketchUp"
         >
           <span
             class="fz-14-r-10"

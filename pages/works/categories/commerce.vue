@@ -2,6 +2,7 @@
   <div class="work-commerce">
     <WorkItemCommerce1 />
     <WorkItemCommerce2 />
+    <WorkItemCommerce3 />
   </div>
 </template>
 
