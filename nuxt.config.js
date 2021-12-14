@@ -17,7 +17,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'reset-css',
-    '~/assets/scss/main.scss',
+    { src: '~/assets/scss/main.scss', lang: 'scss' },
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -37,6 +37,7 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
+    'nuxt-purgecss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -91,5 +92,23 @@ export default {
     UserAgent: '*',
     Disallow: '/',
     Sitemap: `${hostName}/sitemap.xml`,
+  },
+
+  purgeCSS: {
+    enabled: true,
+    paths: [
+      'components/**/*.vue',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.js'
+    ],
+    styleExtensions: ['.css', '.scss', '.sass'],
+    whitelist: ['body', 'html', 'nuxt-progress'],
+    extractors: [
+      {
+        extractor: content => content.match(/[A-z0-9-:\\/]+/g) || [],
+        extensions: ['html', 'vue', 'js']
+      }
+    ],
   }
 }
