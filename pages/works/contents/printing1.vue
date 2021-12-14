@@ -137,8 +137,8 @@
           src="../../../assets/works/printing1/c_1-5.jpg"
           alt=""
         />
-        <div class="d-flex">
-          <div class="col-5">
+        <div class="d-flex flex-justify-space-between">
+          <div class="col-45">
             <ElementTag :class="'mt-30'">B 款設計</ElementTag>
             <ul class="fz-16-l gray2 pt-16">
               <ElementStarItem>
@@ -146,11 +146,11 @@
               </ElementStarItem>
             </ul>
           </div>
-          <div class="col-5">
+          <div class="col-45">
             <ElementTag :class="'mt-30'">C 款設計</ElementTag>
             <ul class="fz-16-l gray2 pt-16">
               <ElementStarItem>
-                採同心圓放射狀，每一個幾何形狀代表學員在這廣大宇宙中獨特的存在；創作就像這宇宙，需要不停學習與同儕一同成長，期許學員在未來都是最獨特耀眼的那顆星星。
+                採同心圓放射狀，每一個幾何形狀代表學員在廣大宇宙中獨特的存在；創作就像宇宙，需要不停學習與同儕一同成長，期許學員在未來都是最獨特耀眼的那顆星星。
               </ElementStarItem>
             </ul>
           </div>
