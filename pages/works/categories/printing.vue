@@ -1,6 +1,7 @@
 <template>
   <div class="work-printing">
     <WorkItemPrinting1 />
+    <WorkItemPrinting2 />
   </div>
 </template>
 
