@@ -53,6 +53,7 @@
       <div>
         <ElementBtn
           target="_blank"
+          rel="noreferrer noopener"
           href="https://www.abcgo.com.tw/commercial/ad/project/27/brand.asp"
         >
           <span

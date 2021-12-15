@@ -56,6 +56,7 @@
       <div>
         <ElementBtn
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/figma"
         >
           <span
@@ -183,6 +184,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/groupbuy"
         >
           <span
@@ -204,6 +206,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/notion"
         >
           <span
@@ -225,6 +228,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/startup"
         >
           <span
@@ -246,6 +250,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/workout"
         >
           <span
@@ -267,6 +272,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/line-official"
         >
           <span
@@ -288,6 +294,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/google-analytics"
         >
           <span
@@ -309,6 +316,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/startup"
         >
           <span
@@ -330,6 +338,7 @@
         <ElementBtn
           class="m-8"
           target="_blank"
+          rel="noreferrer noopener"
           href="https://live.rookiesavior.net/course/sketchUp"
         >
           <span

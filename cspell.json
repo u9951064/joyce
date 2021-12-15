@@ -8,7 +8,8 @@
         "Nuxt",
         "tinycloud",
         "nuxtjs",
-        "vuex"
+        "vuex",
+        "linkin"
     ],
     "ignoreWords": [
     ],

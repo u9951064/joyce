@@ -126,6 +126,7 @@
               href="https://hi-bus.tinycloud.tw/"
               target="_blank"
               title="Hi BUS!"
+              rel="noopener"
               >https://hi-bus.tinycloud.tw/</a
             >
           </ElementStarItem>
@@ -141,6 +142,7 @@
               href="https://hi-bus.tinycloud.tw/"
               target="_blank"
               title="Hi BUS!"
+              rel="noopener"
               >https://hi-bus.tinycloud.tw/</a
             >
           </ElementStarItem>

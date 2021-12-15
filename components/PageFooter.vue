@@ -4,21 +4,37 @@
       <h2 class="fz-14-b gray2 text-align-center">CONTACT ME</h2>
       <div class="d-flex w-40 flex-justify-space-between m-auto pt-24">
         <div class="col-auto">
-          <ElementBtn class="footer-p" title="make a phone call" @click.native="makeCall">
+          <ElementBtn
+            tag="span"
+            class="footer-p"
+            title="make a phone call"
+            @click.native="makeCall"
+          >
             <span class="fz-14-r-10">
               <img class="d-block" src="../assets/icons/ic-phone.svg" alt="" />
             </span>
           </ElementBtn>
         </div>
         <div class="col-auto">
-          <ElementBtn class="footer-p" title="send mail" @click.native="sendMail">
+          <ElementBtn
+            tag="span"
+            class="footer-p"
+            title="send mail"
+            @click.native="sendMail"
+          >
             <span class="fz-14-r-10">
               <img class="d-block" src="../assets/icons/ic-mail.svg" alt="" />
             </span>
           </ElementBtn>
         </div>
         <div class="col-auto">
-          <ElementBtn :href="'http://'" class="footer-p" title="LinkIn" target="_blank">
+          <ElementBtn
+            :href="joyceLinkIn"
+            class="footer-p"
+            title="LinkIn"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <span class="fz-14-r-10">
               <img class="d-block" src="../assets/icons/ic-linkin.svg" alt="" />
             </span>
