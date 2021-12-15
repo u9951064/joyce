@@ -1,5 +1,6 @@
 <template>
   <div class="work-ui">
+    <WorkItemUI1 />
     <WorkItemUI2 />
     <WorkItemUI3 />
   </div>
