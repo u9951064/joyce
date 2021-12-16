@@ -31,19 +31,21 @@ export function useHeader(options) {
     _options.canonical = _options.redirect ? urlJoin(process.env.host, _options.canonical) : '';
   }
 
+  if (!_options.description) {
+    _options.description = 'Hi i\'m Joyce! 我是名網頁視覺設計師，擅長網頁設計，相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。';
+  }
+
   const { meta, link, title } = metaOject;
 
   // <title>Joyce</title>
   title.value = pageTitle;
 
-  if (_options.description) {
-    // <meta name="description" content="Joyce 的網站" />
-    meta.value.push({
-      hid: 'description',
-      name: 'description',
-      content: _options.description,
-    });
-  }
+  // <meta name="description" content="Joyce 的網站" />
+  meta.value.push({
+    hid: 'description',
+    name: 'description',
+    content: _options.description,
+  });
 
   // <meta property="og:type" content="website" />
   meta.value.push({

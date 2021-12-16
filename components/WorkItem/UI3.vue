@@ -30,7 +30,8 @@
 
 <style lang="scss" scoped>
 .ui-img {
-  height: 90%;
+  max-width: 100%;
+  max-height: 90%;
   bottom: 2%;
   left: 0;
   right: 0;
