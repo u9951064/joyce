@@ -46,6 +46,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extractCSS: true,
+    babel: {
+      presets: ['es2015', 'stage-0']
+    }
   },
 
   styleResources: {
