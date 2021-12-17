@@ -159,7 +159,7 @@
           </p>
         </div>
         <div class="d-flex flex-justify-end pt-40">
-          <img class="w-100" src="../../../assets/works/ui1/a_1-5.jpg" alt="" />
+          <ElementImageViewer class="w-100" :src="require('../../../assets/works/ui1/a_1-5.jpg')" alt="" />
         </div>
       </div>
     </section>
@@ -200,11 +200,9 @@
           一同擬定 Flow，繪製 Wireframe 確認方向及想法。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui1/a_1-7.png"
-        alt=""
-      />
+      <ElementImageViewer
+      class="pt-60 w-100" :src="require('../../../assets/works/ui1/a_1-7.png')"
+      alt="製作 Wireframe" />
     </section>
     <!-- 03 執行階段 3. 制定 Design System-->
     <section class="container-1000 pb-80">
