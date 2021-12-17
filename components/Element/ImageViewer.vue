@@ -9,22 +9,26 @@ export default defineComponent({
   setup(props, { attrs }) {
     const imageSrc = props.src || attrs.src;
     const imageAlt = props.alt || attrs.alt || "";
+    const appendImages = props.others ? props.others : [];
     const viewerApi = getCurrentInstance().proxy.$viewerApi;
     const openViewer = () => {
       viewerApi({
-        images: [{
-          src: imageSrc,
-          alt: imageAlt,
-        }],
+        images: [
+          {
+            src: imageSrc,
+            alt: imageAlt,
+          },
+          ...appendImages,
+        ],
         options: {
           inline: false,
           button: true,
-          navbar: false,
-          title: true,
-          toolbar: true,
+          navbar: true,
+          title: false,
+          toolbar: false,
           tooltip: false,
           movable: false,
-          zoomable: true,
+          zoomable: false,
           rotatable: false,
           scalable: false,
           transition: false,

@@ -1,5 +1,17 @@
 /*! purgecss start ignore */
 /* purgecss start ignore */
 @import 'viewerjs/dist/viewer.css';
+.viewer-backdrop {
+  background-color: rgba(0, 0,0,0.8);
+}
+.viewer-list {
+  height: 100px;
+  & > li {
+    padding-top: 10px;
+    width: 120px;
+    height: 80px;
+    padding-bottom: 10px;
+  }
+}
 /* purgecss end ignore */
 /*! purgecss end ignore */
