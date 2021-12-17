@@ -1,6 +1,6 @@
 <template>
-  <VuePlyr>
-    <div class="plyr__video-embed" id="player">
+  <VuePlyr ref="youtubePlayer">
+    <div class="plyr__video-embed">
       <iframe
         :src="iframeUrl"
         title="YouTube video player"
@@ -14,7 +14,13 @@
 </template>
 
 <script>
-import { computed, defineComponent } from "@nuxtjs/composition-api";
+import {
+  ref,
+  computed,
+  defineComponent,
+  onMounted,
+  onBeforeUnmount,
+} from "@nuxtjs/composition-api";
 
 export default defineComponent({
   props: {
@@ -27,11 +33,16 @@ export default defineComponent({
       required: false,
       default: false,
     },
+    loop: {
+      type: Boolean,
+      required: false,
+      default: false,
+    },
   },
   setup(props) {
     const iframeUrl = computed(() => {
       const result = new URL(
-        `https://www.youtube-nocookie.com/embed/${props.videoId}`
+        `https://www.youtube.com/embed/${props.videoId}`
       );
       result.searchParams.append("autoplay", props.autoplay ? "1" : "0");
       result.searchParams.append("iv_load_policy", 3);
@@ -44,12 +55,21 @@ export default defineComponent({
       return result.toString();
     });
 
+    const youtubePlayer = ref(null);
+    const loopControl = () => {
+      if (props.loop) {
+        youtubePlayer.value.player.play();
+      }
+    };
+    onMounted(() => youtubePlayer.value.player.on("ended", loopControl));
+    onBeforeUnmount(() => youtubePlayer.value.player.off("ended", loopControl));
+
     return {
+      youtubePlayer,
       iframeUrl,
     };
   },
 });
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" src="../../assets/scss/plugins/plyr.scss"></style>

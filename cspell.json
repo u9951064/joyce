@@ -11,7 +11,8 @@
         "tinycloud",
         "nuxtjs",
         "vuex",
-        "linkin"
+        "linkin",
+        "purgecss",
     ],
     "ignoreWords": [
       "modestbranding",
