@@ -226,9 +226,7 @@
         </ElementStarItem>
       </ul>
       <div class="text-align-center">
-        <video width="300" autoplay muted>
-          <source src="../../../assets/works/ui2/app.mp4" type="video/mp4" />
-        </video>
+        <ElementYoutube videoId="zhgtjwShjC4" :autoplay="true" />
       </div>
     </section>
   </main>

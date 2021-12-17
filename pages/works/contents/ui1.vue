@@ -262,9 +262,7 @@
         </ElementStarItem>
       </ul>
       <div class="text-align-center pt-40">
-        <video width="1000" autoplay muted>
-          <source src="../../../assets/works/ui1/a_1-11.mp4" type="video/mp4" />
-        </video>
+        <ElementYoutube videoId="R3aLJO40n4c" :autoplay="true" />
       </div>
       <img
         class="pt-60 w-100"

@@ -132,9 +132,7 @@
         </ElementStarItem>
       </ul>
       <div class="text-align-center pt-60">
-        <video width="800" autoplay muted>
-          <source src="../../../assets/works/printing2/c_2-6.mp4" type="video/mp4" />
-        </video>
+        <ElementYoutube videoId="Vg7lSCEeCqs" :autoplay="true" />
       </div>
       <img
         class="pt-60 w-100"

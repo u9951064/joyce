@@ -4,6 +4,8 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [
+        "gtag",
+        "plyr",
         "Wireframe",
         "Nuxt",
         "tinycloud",
@@ -12,6 +14,9 @@
         "linkin"
     ],
     "ignoreWords": [
+      "modestbranding",
+      "playsinline",
+      "allowtransparency"
     ],
     "import": []
 }
