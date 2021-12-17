@@ -226,7 +226,7 @@
         </ElementStarItem>
       </ul>
       <div class="text-align-center">
-        <ElementYoutube videoId="zhgtjwShjC4" :autoplay="true" />
+        <ElementYoutube videoId="zhgtjwShjC4" :autoplay="true" :loop="true" />
       </div>
     </section>
   </main>

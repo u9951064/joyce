@@ -51,7 +51,8 @@
       <div>
         <ElementBtn
           target="_blank"
-          rel="noreferrer noopener"
+          rel="noopener"
+          title="Hi BUS! 全台公車動態時刻查詢應用服務"
           href="https://hi-bus.tinycloud.tw/"
         >
           <span
@@ -120,7 +121,7 @@
               class="blue1"
               href="https://hi-bus.tinycloud.tw/"
               target="_blank"
-              title="Hi BUS!"
+              title="Hi BUS! 全台公車動態時刻查詢應用服務"
               rel="noopener"
               >https://hi-bus.tinycloud.tw/</a
             >
@@ -262,7 +263,7 @@
         </ElementStarItem>
       </ul>
       <div class="text-align-center pt-40">
-        <ElementYoutube videoId="R3aLJO40n4c" :autoplay="true" />
+        <ElementYoutube videoId="R3aLJO40n4c" :autoplay="true" :loop="true" />
       </div>
       <img
         class="pt-60 w-100"

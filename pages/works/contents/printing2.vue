@@ -126,13 +126,13 @@
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
           藉由人與台中代表性 Icon
-          之間的互動，凸顯出台中新舊融合、獨立創新的魅力。並以細膩的質感及堆疊交錯，構築出溫和舒適且豐富的台中景象。<br/>
+          之間的互動，凸顯出台中新舊融合、獨立創新的魅力。並以細膩的質感及堆疊交錯，構築出溫和舒適且豐富的台中景象。<br />
           影片展現台中各自的美學，畫面由左至右，從早到晚再回到早晨，象徵美好一天結束、新的一天開始。
           希望透過城市宣傳影片達到行銷推廣，吸引更多人來台中體驗生活美學！
         </ElementStarItem>
       </ul>
       <div class="text-align-center pt-60">
-        <ElementYoutube videoId="Vg7lSCEeCqs" :autoplay="true" />
+        <ElementYoutube videoId="Vg7lSCEeCqs" :autoplay="true" :loop="true" />
       </div>
       <img
         class="pt-60 w-100"
@@ -176,9 +176,7 @@
           <div class="col fz-22-m gray1 ml-8">創作感想</div>
         </div>
         <div class="col-6">
-          <p class="fz-16-l gray2">
-            text
-          </p>
+          <p class="fz-16-l gray2">text</p>
         </div>
         <img
           class="pt-60 w-100"
