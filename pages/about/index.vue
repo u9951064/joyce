@@ -277,11 +277,14 @@
           </ul>
         </div>
       </div>
+    </section>
 
+    
+
+    <!-- 亞洲大學 -->
+    <section class="container-1100 pt-80 pb-80 border-top-gray3">
       <div class="w-100 fz-14-r-10 blue1">EDUCATION</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">學歷</h2>
-
-      <!-- 亞洲大學 -->
       <div class="d-flex">
         <div class="col-1">
           <img
@@ -299,16 +302,8 @@
           <ul class="fz-16-l gray2 pt-16 pb-60">
             <ElementStarItem>
               <template #title>畢業製作</template>
-              擔任負責人，主要負責色彩規劃、插畫設計、時間規劃、展場設計、作品導覽
-            </ElementStarItem>
-            <ElementStarItem>
-              <template #title>獲得獎項</template>
-              <ul>
-                <li>2019 德國紅點設計 / 品牌暨傳達設計紅點獎</li>
-                <li>2019 泰達盃青年創意設計大賽 / 入圍</li>
-                <li>2019 放視大賞 - 平面傳達設計組 / 入圍</li>
-              </ul>
-            </ElementStarItem>
+              擔任負責人<br/>負責項目：色彩規劃、 插畫設計、時間規劃、作品導覽
+            </ElementStarItem>            
           </ul>
         </div>
       </div>
