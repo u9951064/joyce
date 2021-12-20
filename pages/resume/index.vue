@@ -60,7 +60,7 @@
         RWD，精進網頁撰寫能力。在這過程當中，對介面設計產生興趣，因此額外自學
         UI/UX ，熟悉 Figma 操作，並透過 Side Project 「台鐵 e 訂通 App
         Redesign」來自我精進，也與工程師一起參與由六角學院舉辦的「第三屆 The F2E
-        前端 &amp; UI 修煉精神時光屋」。
+        前端 &amp; UI 修煉精神時光屋」榮獲團體組第 1 名。
         <br />我相信設計應站在使用者角度並兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
       </p>
     </section>
@@ -120,7 +120,7 @@
         <ul class="fz-16-l gray2 pt-16 pb-60">
           <ElementStarItem>
             <template #title>Hi BUS!</template>
-            2021 第三屆 The F2E 前端 &amp; UI 修煉精神時光屋 /<br />
+            2021 第三屆 The F2E 前端 &amp; UI 修煉精神時光屋 / 團體組第 1 名<br />
             <a
               class="blue1"
               href="https://hi-bus.tinycloud.tw/"
@@ -131,7 +131,7 @@
             >
           </ElementStarItem>
           <ElementStarItem>
-            <template #title>TAICHUNＧ</template>
+            <template #title>TAICHUNG</template>
             <ul>
               <li>2019 德國紅點設計 / 品牌暨傳達設計紅點獎</li>
               <li>2019 泰達盃青年創意設計大賽 / 入圍</li>
