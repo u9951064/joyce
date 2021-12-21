@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="container-800 pt-60">
-      <div class="col-10 fz-14-r-10 blue1">印刷設計</div>
+      <div class="col-10 fz-14-r-10 blue1">平面設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">2021 學員年鑑設計</h2>
         <div class="pt-8">
@@ -70,23 +70,6 @@
       </div>
     </section>
 
-    <!-- 目標 -->
-    <section class="container-1000 pt-80 pb-80 border-top-gray3">
-      <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
-          <div class="col fz-22-m gray1 ml-8">動機</div>
-        </div>
-        <div class="col-6">
-          <p class="fz-16-l gray2">
-            希望透過這次的專案，改善優化 App
-            的介面，打造更貼近手機操作的體驗設計，在提升視覺美感的同時，兼顧呈現清晰的資訊，期望讓使用者在操作
-            App 各項服務時，擁有流暢且一致的良好體驗。
-          </p>
-        </div>
-      </div>
-    </section>
-
     <!-- 設計發想 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
@@ -118,7 +101,7 @@
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
         <div class="col-6">
-          <ElementTag :class="'mt-30'">A 款設計</ElementTag>
+          <ElementTag :class="''">A 款設計</ElementTag>
           <ul class="fz-16-l gray2 pt-16">
             <ElementStarItem>
               為最終定案款，整體以暗色調為基底，代表可能曾經遇到的創作瓶頸、2021
@@ -161,7 +144,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img class="icon" src="../../../assets/icons/ic-layout.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">設計產出</div>
         </div>
         <div class="col-6">

@@ -4,12 +4,12 @@
     <section class="container-1100">
       <div class="d-flex pt-120 pb-80">
         <div class="col">
-          <img class="w-90" src="../../assets/resume/photo.jpg" alt="個人照" />
+          <img class="w-90 border border-radius-50" src="../../assets/resume/photo.jpg" alt="個人照" />
         </div>
         <div class="d-flex-c col-5 pl-20 flex-justify-space-between">
           <div class="">
             <div class="d-flex flex-align-baseline">
-              <h1 class="fz-40-b gray1">侯佳君</h1>
+              <h1 class="fz-40-b gray1 pt-16">侯佳君</h1>
               <h3 class="fz-22-m gray1 pl-20">HOU CHIA CHUN</h3>
             </div>
             <p class="fz-16-l gray2 pt-16">Visual &amp; Web Designer</p>
@@ -127,7 +127,7 @@
               target="_blank"
               title="Hi BUS!"
               rel="noopener"
-              >https://hi-bus.tinycloud.tw/</a
+              >Hi BUS!今天想搭乘哪輛公車呢？</a
             >
           </ElementStarItem>
           <ElementStarItem>
@@ -139,11 +139,11 @@
             </ul>
             <a
               class="blue1"
-              href="https://hi-bus.tinycloud.tw/"
+              href="https://joyce.tinycloud.tw/works/categories/printing/"
               target="_blank"
               title="Hi BUS!"
               rel="noopener"
-              >https://hi-bus.tinycloud.tw/</a
+              >TAICHUNG，美學從中可見</a
             >
           </ElementStarItem>
         </ul>

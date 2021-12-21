@@ -2,7 +2,7 @@
   <NuxtLink
     :to="{ name: 'works-contents-printing2' }"
     class="mb-60 d-flex border border-radius-8 overflow-x-hidden"
-    title="印刷設計 - TAICHUNG 美學，從中可見"
+    title="平面設計 - TAICHUNG 美學，從中可見"
   >
     <div class="ui_1 col-6 border-right bg-blue2 p-relative">
       <img
@@ -13,7 +13,7 @@
     </div>
 
     <div class="col-4 pt-60 pl-60">
-      <div class="fz-14-r-10 blue1">印刷設計</div>
+      <div class="fz-14-r-10 blue1">平面設計</div>
       <h2 class="fz-30-b gray1 pt-16">TAICHUNG<br/>美學，從中可見</h2>
       <div class="pt-16">
         <ElementTag>城市識別</ElementTag>

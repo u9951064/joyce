@@ -176,179 +176,93 @@
     </section>
     <!-- 查看更多頁面 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
-      <ul class="fz-16-l gray2 pt-16">
-        <ElementStarItem> 點擊以下連結觀看其他站內設計頁面 </ElementStarItem>
+      <ul class="fz-16-l gray2 pt-60">
+        <ElementStarItem>
+          點擊以下連結觀看其他站內設計頁面
+          <ul class="dot-list">
+            <li class="fz-16-l gray2 pt-16">
+              菜鳥救星｜<a
+                class="blue1"
+                href="https://live.rookiesavior.net/course/groupbuy"
+                target="_blank"
+                title="秒成團＄團媽團主養成班"
+                rel="noopener"
+                >秒成團＄團媽團主養成班</a
+              >
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              菜鳥救星｜<a
+                class="blue1"
+                href="https://live.rookiesavior.net/course/notion"
+                target="_blank"
+                title="職場專案管理課｜運用 Notion 打造任務管理思維！"
+                rel="noreferrer noopener"
+                >職場專案管理課｜運用 Notion 打造任務管理思維！</a
+              >
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              菜鳥救星｜<a
+                class="blue1"
+                href="https://live.rookiesavior.net/course/linemotion"
+                target="_blank"
+                title="LINE 動態貼圖設計"
+                rel="noreferrer noopener"
+                >LINE 動態貼圖設計</a
+              >
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              菜鳥救星｜<a
+                class="blue1"
+                href="https://live.rookiesavior.net/course/workout"
+                target="_blank"
+                title="居家運動健身計畫♪在家動滋動"
+                rel="noreferrer noopener"
+                >居家運動健身計畫♪在家動滋動</a
+              >
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              菜鳥救星｜<a
+                class="blue1"
+                href="https://live.rookiesavior.net/course/line-official"
+                target="_blank"
+                title="LINE 官方帳號操作經營實戰班"
+                rel="noopener"
+                >LINE 官方帳號操作經營實戰班
+              </a>
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              菜鳥救星｜<a
+                class="blue1"
+                href="https://live.rookiesavior.net/course/google-analytics"
+                target="_blank"
+                title="Google Analytics 網站分析全攻略"
+                rel="noopener"
+                >Google Analytics 網站分析全攻略
+              </a>
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              菜鳥救星｜<a
+                class="blue1"
+                href="https://live.rookiesavior.net/course/startup"
+                target="_blank"
+                title="創業投資的不敗生存法則"
+                rel="noopener"
+                >創業投資的不敗生存法則
+              </a>
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              菜鳥救星｜<a
+                class="blue1"
+                href="https://live.rookiesavior.net/course/sketchUp"
+                target="_blank"
+                title="SketchUP + VRay 室設 3D 出圖"
+                rel="noopener"
+                >SketchUP + VRay 室設 3D 出圖
+              </a>
+            </li>
+          </ul>
+        </ElementStarItem>
       </ul>
-      <div class="pt-40 d-flex">
-        <ElementBtn
-          class="m-8"
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://live.rookiesavior.net/course/groupbuy"
-        >
-          <span
-            class="
-              fz-14-r-10
-              d-inline-flex
-              flex-justify-center flex-align-center
-            "
-          >
-            秒成團＄團媽團主養成班
-            <img
-              class="d-block ml-2"
-              src="../../../assets/icons/ic-search.svg"
-              alt=""
-            />
-          </span>
-        </ElementBtn>
-        <ElementBtn
-          class="m-8"
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://live.rookiesavior.net/course/notion"
-        >
-          <span
-            class="
-              fz-14-r-10
-              d-inline-flex
-              flex-justify-center flex-align-center
-            "
-          >
-            運用 Notion 打造任務管理思維！
-            <img
-              class="d-block ml-2"
-              src="../../../assets/icons/ic-search.svg"
-              alt=""
-            />
-          </span>
-        </ElementBtn>
-        <ElementBtn
-          class="m-8"
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://live.rookiesavior.net/course/startup"
-        >
-          <span
-            class="
-              fz-14-r-10
-              d-inline-flex
-              flex-justify-center flex-align-center
-            "
-          >
-            LINE 動態貼圖設計
-            <img
-              class="d-block ml-2"
-              src="../../../assets/icons/ic-search.svg"
-              alt=""
-            />
-          </span>
-        </ElementBtn>
-        <ElementBtn
-          class="m-8"
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://live.rookiesavior.net/course/workout"
-        >
-          <span
-            class="
-              fz-14-r-10
-              d-inline-flex
-              flex-justify-center flex-align-center
-            "
-          >
-            居家運動健身計畫
-            <img
-              class="d-block ml-2"
-              src="../../../assets/icons/ic-search.svg"
-              alt=""
-            />
-          </span>
-        </ElementBtn>
-        <ElementBtn
-          class="m-8"
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://live.rookiesavior.net/course/line-official"
-        >
-          <span
-            class="
-              fz-14-r-10
-              d-inline-flex
-              flex-justify-center flex-align-center
-            "
-          >
-            LINE 官方帳號操作經營實戰班
-            <img
-              class="d-block ml-2"
-              src="../../../assets/icons/ic-search.svg"
-              alt=""
-            />
-          </span>
-        </ElementBtn>
-        <ElementBtn
-          class="m-8"
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://live.rookiesavior.net/course/google-analytics"
-        >
-          <span
-            class="
-              fz-14-r-10
-              d-inline-flex
-              flex-justify-center flex-align-center
-            "
-          >
-            Google Analytics 網站分析全攻略
-            <img
-              class="d-block ml-2"
-              src="../../../assets/icons/ic-search.svg"
-              alt=""
-            />
-          </span>
-        </ElementBtn>
-        <ElementBtn
-          class="m-8"
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://live.rookiesavior.net/course/startup"
-        >
-          <span
-            class="
-              fz-14-r-10
-              d-inline-flex
-              flex-justify-center flex-align-center
-            "
-          >
-            創業投資的不敗生存法則
-            <img
-              class="d-block ml-2"
-              src="../../../assets/icons/ic-search.svg"
-              alt=""
-            />
-          </span>
-        </ElementBtn>
-        <ElementBtn
-          class="m-8"
-          target="_blank"
-          rel="noreferrer noopener"
-          href="https://live.rookiesavior.net/course/sketchUp"
-        >
-          <span
-            class="
-              fz-14-r-10
-              d-inline-flex
-              flex-justify-center flex-align-center
-            "
-          >
-            SketchUP + VRay 室設 3D 出圖
-            <img
-              class="d-block ml-2"
-              src="../../../assets/icons/ic-search.svg"
-              alt=""
-            />
-          </span>
-        </ElementBtn>
-      </div>
     </section>
   </main>
 </template>

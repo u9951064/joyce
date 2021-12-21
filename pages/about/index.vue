@@ -13,14 +13,18 @@
               <p class="fz-16-l gray2 pt-16">
                 擁有網頁視覺設計師 2
                 年的經驗。職務內容以原生廣告設計(EDM、Banner...)、網頁切版設計及平面視覺設計為主。<br />
+              </p>
+              <p class="fz-16-l gray2 pt-16">
                 除了設計製作，於任職期間將其一事業體導入敏捷式開發。在專案過程中擔任
                 PM 角色，讓原先需要 3 個月的製作時間縮短為 1 個月完成。<br />
-
+              </p>
+              <p class="fz-16-l gray2 pt-16">
                 自學 UI/UX 設計，熟悉 Figma 操作，透過實作 Side project
                 來實踐所學，將台鐵 APP 進行
                 Redesign，研究競品分析、使用者評價；製作 Flow
                 map、Wireframe、Mockup、 制定 Design system、Prototype。<br />
-
+              </p>
+              <p class="fz-16-l gray2 pt-16">
                 我相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
               </p>
             </div>
@@ -187,7 +191,7 @@
         </div>
         <div class="col-2">
           <img
-            class="mb-16 border-radius-8 border"
+            class="mb-16 border-radius-8 border-gray3 "
             src="../../assets/about/vsc.svg"
             alt=""
           /><br />
@@ -213,7 +217,7 @@
       <div class="d-flex">
         <div class="col-1">
           <img
-            class="border border-radius-8 w-100"
+            class="border-gray3 border-radius-8 w-100"
             src="../../assets/about/logo-lcc.svg"
             alt=""
           />
@@ -254,7 +258,7 @@
       <div class="d-flex">
         <div class="col-1">
           <img
-            class="border border-radius-8 w-100"
+            class="border-gray3 border-radius-8 w-100"
             src="../../assets/about/logo-shop123.svg"
             alt=""
           />
@@ -288,7 +292,7 @@
       <div class="d-flex">
         <div class="col-1">
           <img
-            class="border border-radius-8 w-100"
+            class="border-gray3 border-radius-8 w-100"
             src="../../assets/about/logo-aisa.svg"
             alt=""
           />

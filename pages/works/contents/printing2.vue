@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="container-800 pt-60">
-      <div class="col-10 fz-14-r-10 blue1">印刷設計</div>
+      <div class="col-10 fz-14-r-10 blue1">平面設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">TAICHUNG 美學，從中可見</h2>
         <div class="pt-8">
@@ -58,14 +58,20 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" src="../../../assets/icons/ic-idea.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">作品理念</div>
         </div>
         <div class="col-6">
           <p class="fz-16-l gray2">
-            打造台中城市觀光品牌，透過副標「美學，從中可見。」可以找尋台中人與人之間互動與生活的美學。<br />
+            打造台中城市觀光品牌，透過副標「美學，從中可見。」可以找尋台中人與人之間互動與生活的美學。
+          </p>
+          <p />
+          <p class="fz-16-l gray2 pt-16">
             標準字造型單純簡潔，表現台中的大器與現代感。其中 H
             半具象符號中的兩個圓點象徵人與人之間的良性互動。色彩選用和諧的黃色及自在的粉色代表台中舒服的步調，而文字的藍色則傳達台中這座城市的快速發展。
+          </p>
+          <p />
+          <p class="fz-16-l gray2 pt-16">
             走訪調查台中將具有特色的事物設計成一套 Icon
             後構成主視覺，應用於城市市容及廣告文宣上，透過城市宣傳影片吸引觀光、推廣台中。
           </p>
@@ -82,7 +88,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" src="../../../assets/icons/ic-think.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">創作過程</div>
         </div>
         <div class="col-6">
@@ -116,7 +122,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" src="../../../assets/icons/ic-layout.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">作品成果</div>
         </div>
       </div>
@@ -182,7 +188,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" src="../../../assets/icons/ic-thoughts.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">創作感想</div>
         </div>
         <div class="col-6">

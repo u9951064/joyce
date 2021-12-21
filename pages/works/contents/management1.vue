@@ -57,7 +57,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" src="../../../assets/icons/ic-target.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">專案動機</div>
         </div>
         <div class="col-6">
@@ -111,20 +111,20 @@
         </ElementStarItem>
       </ul>
       <img
-          class="pt-60 w-100"
-          src="../../../assets/works/management1/d_1-4.gif"
-          alt=""
-        />
+        class="pt-60 w-100"
+        src="../../../assets/works/management1/d_1-4.gif"
+        alt=""
+      />
     </section>
 
     <!-- 03 規畫會議 -->
     <section class="container-1000 pb-80">
       <div class="fz-22-m gray1 ml-8">03 規畫會議</div>
       <img
-          class="pt-60 w-100"
-          src="../../../assets/works/management1/d_1-5.jpg"
-          alt=""
-        />
+        class="pt-60 w-100"
+        src="../../../assets/works/management1/d_1-5.jpg"
+        alt=""
+      />
     </section>
 
     <!-- 04 進度確認 -->
@@ -144,7 +144,11 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img
+            class="icon"
+            src="../../../assets/icons/ic-cooperation.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">專案協作</div>
         </div>
         <div class="col-6">
@@ -168,10 +172,10 @@
             </ElementStarItem>
           </ul>
           <img
-          class="pt-60 w-100"
-          src="../../../assets/works/management1/d_1-6.jpg"
-          alt=""
-        />
+            class="pt-60 w-100"
+            src="../../../assets/works/management1/d_1-6.jpg"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -180,17 +184,48 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" src="../../../assets/icons/ic-award.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">專案成果</div>
         </div>
       </div>
       <img
-          class="pt-60 w-100"
-          src="../../../assets/works/management1/d_1-7.jpg"
-          alt=""
-        />
+        class="pt-60 w-100"
+        src="../../../assets/works/management1/d_1-7.jpg"
+        alt=""
+      />
     </section>
 
+    <!-- 專案心得 -->
+    <section class="container-1000 pt-80 pb-80 border-top-gray3">
+      <div class="d-flex flex-align-flex-start">
+        <div class="d-flex col-4 flex-align-center">
+          <img
+            class="icon"
+            src="../../../assets/icons/ic-thoughts.svg"
+            alt=""
+          />
+          <div class="col fz-22-m gray1 ml-8">專案心得</div>
+        </div>
+      </div>
+      <ul class="fz-16-l gray2 pt-40 pl-40">
+        <ElementStarItem>
+          建立共同目標，並享受達成的成就，建立團隊向心力。
+        </ElementStarItem>
+        <ElementStarItem>
+          敏捷式開發是高度彈性的流程，彼此有問題可以快速討論、即時調整。
+        </ElementStarItem>
+        <ElementStarItem>
+          敏捷式與瀑布流開發最大的不同點在於，瀑布流各處分工較細並各自進行；但敏捷開發公開透明，團隊的所有人都要能「隨時掌握情況，幫助彼此解決問題」。
+        </ElementStarItem>
+        <ElementStarItem>
+          大家在擁有共識下，同時協作進行，減少資訊不對稱來回修正的問題，提高整體協作效率。
+        </ElementStarItem>
+        <ElementStarItem>
+          「敏捷開發不代表開發流程會變快」<br />
+          敏捷開發方法是一個快速迭代的過程，目前已完成第一次實作，期望透過每次的迭代都能讓團隊針對過去誤區進行更正。
+        </ElementStarItem>
+      </ul>
+    </section>
   </main>
 </template>
 

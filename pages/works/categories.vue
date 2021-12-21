@@ -3,7 +3,7 @@
     <section class="container-800">
       <div class="d-flex pt-120 border-bottom-gray1">
         <div class="col">
-          <h1 class="fz-40-b gray1">Hi Ｉ’m Joyce!</h1>
+          <h1 class="fz-40-b gray1">Hi I’m Joyce!</h1>
           <div class="fz-16-l gray2 pt-16">
             我是名網頁視覺設計師，擅長 網頁設計<br />
             相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
@@ -56,7 +56,7 @@
         tag="NuxtLink"
         class="work-btn"
         :to="{ name: 'works-categories-printing' }"
-        >印刷設計</ElementBtn
+        >平面設計</ElementBtn
       >
       <ElementBtn
         tag="NuxtLink"

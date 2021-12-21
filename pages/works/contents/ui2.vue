@@ -53,7 +53,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" src="../../../assets/icons/ic-target.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">動機</div>
         </div>
         <div class="col-6">
@@ -77,7 +77,7 @@
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
           <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
-          <div class="col fz-22-m gray1 ml-8">動機</div>
+          <div class="col fz-22-m gray1 ml-8">目標</div>
         </div>
         <div class="col-6">
           <p class="fz-16-l gray2">
@@ -115,7 +115,7 @@
       <ElementTag :class="'mt-30'">1. 實際操作競品</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
-          實際體驗操作 高鐵 App 與 台鐵 App 並將頁面截圖下來，放在簡報上進行比較
+          實際體驗操作 高鐵 App 與 台鐵 App 並將頁面截圖下來，放在簡報上進行比較。
         </ElementStarItem>
       </ul>
       <img
@@ -130,8 +130,7 @@
       <ElementTag :class="'mt-30'">2. 搜集相關評價</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
-          進一步調查整理 台鐵 App 於 Google Play 與 App Store
-          使用者的留言，將問題歸納至表格
+          進一步調查整理 台鐵 App 於 Google Play 與 App Store 使用者的留言，將問題歸納分類。
         </ElementStarItem>
       </ul>
       <img
@@ -147,8 +146,7 @@
       <ElementTag :class="'mt-30'">1. 擬定架構與層級</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
-          透過探索階段的資料確認此次專案優化方向與目標，延伸出 UI Flow 擬定 App
-          架構與層級
+          透過探索階段的資料確認此次專案優化方向與目標，延伸出 UI Flow 擬定 App 架構與層級。
         </ElementStarItem>
       </ul>
       <img
@@ -163,7 +161,7 @@
       <div class="fz-22-m gray1 ml-8">03 執行階段</div>
       <ElementTag :class="'mt-30'">1. 製作 Wireframe</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
-        <ElementStarItem> 依照 UI Flow 初步繪製 Wireframe </ElementStarItem>
+        <ElementStarItem> 依照 UI Flow 初步繪製 Wireframe。</ElementStarItem>
       </ul>
       <img
         class="pt-60 w-100"
@@ -225,7 +223,7 @@
           製作可互動的 Prototype，模擬實際操作方式。
         </ElementStarItem>
       </ul>
-      <div class="text-align-center">
+      <div class="text-align-center pt-40">
         <ElementYoutube videoId="zhgtjwShjC4" :autoplay="true" :loop="true" />
       </div>
     </section>
