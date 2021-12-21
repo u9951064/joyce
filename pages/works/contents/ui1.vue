@@ -48,81 +48,77 @@
           <div class="fz-16-l gray2 pt-16">前期調查｜流程規劃｜UI設計</div>
         </div>
       </div>
-      <div class="d-flex-c">
-        <div>
-          <ElementBtn
-            target="_blank"
-            rel="noopener"
-            title="Hi BUS! 全台公車動態時刻查詢應用服務"
-            href="https://hi-bus.tinycloud.tw/"
+      <div class="d-flex-c flex-align-stretch">
+        <ElementBtn
+          class="col-auto"
+          target="_blank"
+          rel="noopener"
+          title="Hi BUS! 全台公車動態時刻查詢應用服務"
+          href="https://hi-bus.tinycloud.tw/"
+        >
+          <span
+            class="fz-14-r-10"
+            style="
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+            "
           >
-            <span
-              class="fz-14-r-10"
-              style="
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
-              "
-            >
-              觀看網頁
-              <img
-                class="d-block ml-2"
-                src="../../../assets/icons/ic-search.svg"
-                alt=""
-              />
-            </span>
-          </ElementBtn>
-        </div>
-        <div class="pt-24">
-          <ElementBtn
-            target="_blank"
-            rel="noopener"
-            title="線上標示文件"
-            href="https://www.figma.com/file/fdsLqHSIReOxQNqepPKoGN/week3_%E5%85%A8%E5%8F%B0%E5%85%AC%E8%BB%8A%E5%8B%95%E6%85%8B%E6%99%82%E5%88%BB%E6%9F%A5%E8%A9%A2%E6%87%89%E7%94%A8%E6%9C%8D%E5%8B%99?node-id=365%3A1258"
+            觀看網頁
+            <img
+              class="d-block ml-2"
+              src="../../../assets/icons/ic-search.svg"
+              alt=""
+            />
+          </span>
+        </ElementBtn>
+        <ElementBtn
+          class="col-auto mt-24"
+          target="_blank"
+          rel="noreferrer noopener"
+          title="線上標示文件"
+          href="https://www.figma.com/file/fdsLqHSIReOxQNqepPKoGN/week3_%E5%85%A8%E5%8F%B0%E5%85%AC%E8%BB%8A%E5%8B%95%E6%85%8B%E6%99%82%E5%88%BB%E6%9F%A5%E8%A9%A2%E6%87%89%E7%94%A8%E6%9C%8D%E5%8B%99?node-id=365%3A1258"
+        >
+          <span
+            class="fz-14-r-10"
+            style="
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+            "
           >
-            <span
-              class="fz-14-r-10"
-              style="
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
-              "
-            >
-              線上標示文件
-              <img
-                class="d-block ml-2"
-                src="../../../assets/icons/ic-figma.svg"
-                alt=""
-              />
-            </span>
-          </ElementBtn>
-        </div>
-        <div class="pt-24">
-          <ElementBtn
-            target="_blank"
-            rel="noopener"
-            title="公開程式碼"
-            href="https://github.com/u9951064/Hi_Bus"
+            線上標示文件
+            <img
+              class="d-block ml-2"
+              src="../../../assets/icons/ic-figma.svg"
+              alt=""
+            />
+          </span>
+        </ElementBtn>
+        <ElementBtn
+          class="col-auto mt-24"
+          target="_blank"
+          rel="noreferrer noopener"
+          title="公開程式碼"
+          href="https://github.com/u9951064/Hi_Bus"
+        >
+          <span
+            class="fz-14-r-10"
+            style="
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+            "
           >
-            <span
-              class="fz-14-r-10"
-              style="
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
-              "
-            >
-              公開程式碼
-              <img
-                class="d-block ml-2"
-                src="../../../assets/icons/ic-code.svg"
-                alt=""
-              />
-            </span>
-          </ElementBtn>
-        </div>
+            公開程式碼
+            <img
+              class="d-block ml-2"
+              src="../../../assets/icons/ic-code.svg"
+              alt=""
+            />
+          </span>
+        </ElementBtn>
       </div>
-      
     </section>
 
     <!-- 參賽動機 -->
@@ -233,7 +229,7 @@
               href="https://2021.thef2e.com/news/week3"
               target="_blank"
               title="User stroy"
-              rel="noopener"
+              rel="noreferrer noopener"
               >User stroy</a
             >
             前我們就先針對題目名稱進行研究調查。
@@ -303,11 +299,11 @@
         </ElementStarItem>
       </ul>
       <div class="pt-60">
-      <img
-        class="w-100 border-gray3 d-block"
-        src="../../../assets/works/ui1/a_1-10.png"
-        alt=""
-      />
+        <img
+          class="w-100 border-gray3 d-block"
+          src="../../../assets/works/ui1/a_1-10.png"
+          alt=""
+        />
       </div>
     </section>
     <!-- 03 執行階段 5. 設計 Mockup-->
@@ -369,7 +365,7 @@
             href="https://2021.thef2e.com/news/week3"
             target="_blank"
             title="User stroy"
-            rel="noopener"
+            rel="noreferrer noopener"
             >User stroy</a
           >。
         </ElementStarItem>
@@ -407,7 +403,9 @@
           </p>
           <p class="fz-16-l gray2 pt-16">
             這次題目「 全台公車動態時刻查詢應用服務
-            」，可以做很多功能，但競賽時間有限，我們參考競品後決議先產出最重要的「 搜尋公車路線及動態 」，接著延伸製作「 我的最愛 」及「 附近站牌 」副功能。<br />
+            」，可以做很多功能，但競賽時間有限，我們參考競品後決議先產出最重要的「
+            搜尋公車路線及動態 」，接著延伸製作「 我的最愛 」及「 附近站牌
+            」副功能。<br />
             很佩服目前市面上關於公車動態資訊的 APP
             及網頁，可以將眾多資訊整合使用順暢，符合民眾許多需求，讓大家可以擁有良好的搭乘公車體驗。<br />
           </p>
@@ -430,64 +428,66 @@
           />
         </div>
         <img
-            class="pt-60 w-100"
-            src="../../../assets/works/ui1/a_1-18.jpg"
-            alt=""
-          />
+          class="pt-60 w-100"
+          src="../../../assets/works/ui1/a_1-18.jpg"
+          alt=""
+        />
       </div>
       <ul class="fz-16-l gray2 pt-60">
         <ElementStarItem>
           點擊以下連結快速瀏覽關於競賽相關資訊
-          <p class="fz-16-l gray2 pt-16">
-            ‧Hi BUS! 完整作品：<a
-              class="blue1"
-              href="https://hi-bus.tinycloud.tw/"
-              target="_blank"
-              title="‧Hi BUS! 完整作品："
-              rel="noopener"
-              >Hi BUS! 今天想搭乘哪輛公車呢？</a
-            >
-          </p>
-          <p class="fz-16-l gray2 pt-16">
-            ‧UI 設計稿：<a
-              class="blue1"
-              href="https://www.figma.com/file/fdsLqHSIReOxQNqepPKoGN/week3_%E5%85%A8%E5%8F%B0%E5%85%AC%E8%BB%8A%E5%8B%95%E6%85%8B%E6%99%82%E5%88%BB%E6%9F%A5%E8%A9%A2%E6%87%89%E7%94%A8%E6%9C%8D%E5%8B%99?node-id=365%3A1258"
-              target="_blank"
-              title="‧UI 設計稿："
-              rel="noopener"
-              >Hi BUS! | Figma</a
-            >
-          </p>
-          <p class="fz-16-l gray2 pt-16">
-            ‧公開程式碼：<a
-              class="blue1"
-              href="https://github.com/u9951064/Hi_Bus"
-              target="_blank"
-              title="‧公開程式碼："
-              rel="noopener"
-              >Hi BUS! | GitHub</a
-            >
-          </p>
-          <p class="fz-16-l gray2 pt-16">
-            ‧競賽網址：<a
-              class="blue1"
-              href="https://2021.thef2e.com/"
-              target="_blank"
-              title="‧競賽網址："
-              rel="noopener"
-              >The F2E 前端 &amp; UI 修煉精神時光屋</a
-            >
-          </p>
-          <p class="fz-16-l gray2 pt-16">
-            ‧User story：<a
-              class="blue1"
-              href="https://2021.thef2e.com/news/week3"
-              target="_blank"
-              title="‧User story："
-              rel="noopener"
-              >全台公車動態時刻查詢應用服務 | User story </a
-            >
-          </p>
+          <ul class="dot-list">
+            <li class="fz-16-l gray2 pt-16">
+              Hi BUS! 完整作品：<a
+                class="blue1"
+                href="https://hi-bus.tinycloud.tw/"
+                target="_blank"
+                title="Hi BUS! 完整作品："
+                rel="noopener"
+                >Hi BUS! 今天想搭乘哪輛公車呢？</a
+              >
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              UI 設計稿：<a
+                class="blue1"
+                href="https://www.figma.com/file/fdsLqHSIReOxQNqepPKoGN/week3_%E5%85%A8%E5%8F%B0%E5%85%AC%E8%BB%8A%E5%8B%95%E6%85%8B%E6%99%82%E5%88%BB%E6%9F%A5%E8%A9%A2%E6%87%89%E7%94%A8%E6%9C%8D%E5%8B%99?node-id=365%3A1258"
+                target="_blank"
+                title="UI 設計稿："
+                rel="noreferrer noopener"
+                >Hi BUS! | Figma</a
+              >
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              公開程式碼：<a
+                class="blue1"
+                href="https://github.com/u9951064/Hi_Bus"
+                target="_blank"
+                title="公開程式碼："
+                rel="noreferrer noopener"
+                >Hi BUS! | GitHub</a
+              >
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              競賽網址：<a
+                class="blue1"
+                href="https://2021.thef2e.com/"
+                target="_blank"
+                title="競賽網址："
+                rel="noreferrer noopener"
+                >The F2E 前端 &amp; UI 修煉精神時光屋</a
+              >
+            </li>
+            <li class="fz-16-l gray2 pt-16">
+              User story：<a
+                class="blue1"
+                href="https://2021.thef2e.com/news/week3"
+                target="_blank"
+                title="User story："
+                rel="noopener"
+                >全台公車動態時刻查詢應用服務 | User story
+              </a>
+            </li>
+          </ul>
         </ElementStarItem>
       </ul>
     </section>
@@ -502,9 +502,15 @@ export default defineComponent({
   head: {},
   setup() {
     const meta = useHeader({
-      title: "作品集 - UI設計: 台鐵 e 訂通 App Redesign",
+      title: "作品集 - UI設計: Hi BUS! 全台公車動態時刻查詢應用服務",
       description: "",
     });
   },
 });
 </script>
+
+<style lang="scss" scoped>
+ul.dot-list {
+  list-style-type: disc;
+}
+</style>
