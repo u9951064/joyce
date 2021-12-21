@@ -60,11 +60,10 @@
           href="https://live.rookiesavior.net/course/figma"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             觀看作品
@@ -188,11 +187,10 @@
           href="https://live.rookiesavior.net/course/groupbuy"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             秒成團＄團媽團主養成班
@@ -210,11 +208,10 @@
           href="https://live.rookiesavior.net/course/notion"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             運用 Notion 打造任務管理思維！
@@ -232,11 +229,10 @@
           href="https://live.rookiesavior.net/course/startup"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             LINE 動態貼圖設計
@@ -254,11 +250,10 @@
           href="https://live.rookiesavior.net/course/workout"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             居家運動健身計畫
@@ -276,11 +271,10 @@
           href="https://live.rookiesavior.net/course/line-official"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             LINE 官方帳號操作經營實戰班
@@ -298,11 +292,10 @@
           href="https://live.rookiesavior.net/course/google-analytics"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             Google Analytics 網站分析全攻略
@@ -320,11 +313,10 @@
           href="https://live.rookiesavior.net/course/startup"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             創業投資的不敗生存法則
@@ -342,11 +334,10 @@
           href="https://live.rookiesavior.net/course/sketchUp"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             SketchUP + VRay 室設 3D 出圖

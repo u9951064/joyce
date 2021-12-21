@@ -57,11 +57,10 @@
           href="https://www.abcgo.com.tw/commercial/ad/project/27/brand.asp"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             觀看網頁
