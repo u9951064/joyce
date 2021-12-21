@@ -191,10 +191,21 @@
             過程中難免會有意見不同之時，我認為意氣用事無法解決問題，應該檢查於時間內我們可以做到哪些事，比較意見之優缺點，決定好後全力衝刺完成目標。<br />
             雖然有許多沒被採用的點子，但這些都是珍貴的創作過程，我們從無到有一起發想分工合作，沒有留下遺憾努力到最後一刻，很高興擁有一個好團隊，更榮幸大家一起努力的成品得到紅點設計獎的肯定。<br />
           </p>
-          <p class="fz-16-l gray2 pt-16">
-            AD | 游明龍 Yu, Ming Lung Designer​​​​​​​| 侯佳君 HOU, CHIA CHUN
-            張文瑄 ZHANG, WEN XUAN 王雅萱 WANG, YIA XUAN 徐立珉 HSU, LI MIN
-          </p>
+          <ul class="fz-16-l gray2 pt-16">
+            <ElementStarItem class="no-star">
+              <template #title>AD</template>
+              游明龍 Yu, Ming Lung
+            </ElementStarItem>
+            <ElementStarItem class="no-star">
+              <template #title>Designer</template>
+              <ul>
+                <li>侯佳君 HOU, CHIA CHUN</li>
+                <li>張文瑄 ZHANG, WEN XUAN</li>
+                <li>王雅萱 WANG, YIA XUAN</li>
+                <li>徐立珉 HSU, LI MIN</li>
+              </ul>
+            </ElementStarItem>
+          </ul>
         </div>
         <img
           class="pt-60 w-100"

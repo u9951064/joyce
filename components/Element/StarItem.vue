@@ -27,7 +27,8 @@ export default defineComponent({
 
 <style lang="scss" scoped>
 .star-item {
-  &, & > .star-block {
+  &,
+  & > .star-block {
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-star;
@@ -35,14 +36,15 @@ export default defineComponent({
   }
 
   & > .star-block {
-
-    &:before, & > .star-block-title {
+    &:before,
+    & > .star-block-title {
       white-space: nowrap;
       flex: 0 0 auto;
       max-width: 100%;
     }
 
-    &, & > .star-block-main {
+    &,
+    & > .star-block-main {
       flex-basis: 0;
       -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -51,8 +53,8 @@ export default defineComponent({
     }
 
     &:before {
-      content      : "✦";
-      color        : #FE8CE8;
+      content: "✦";
+      color: #fe8ce8;
       padding-right: 20px;
     }
 
@@ -60,6 +62,10 @@ export default defineComponent({
       content: "｜";
       display: inline;
     }
+  }
+
+  &.no-star > .star-block:before {
+    display: none;
   }
 }
 </style>
