@@ -6,7 +6,6 @@ export default function (to, from, savedPosition) {
   if(/^works-categories-/.test(to.name) && /^works-categories-/.test(from.name)) {
     position = false;
   }
-  console.error(to, from)
 
   // savedPosition is only available for popstate navigations (back button)
   if (savedPosition) {
