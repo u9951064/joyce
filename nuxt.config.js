@@ -50,7 +50,10 @@ export default {
     extractCSS: true,
     babel: {
       presets: ['es2015', 'stage-0']
-    }
+    },
+    extend(config, { isClient, loaders: { vue } }) {
+      vue.transformAssetUrls.ElementImageViewer = ['src'];
+    },
   },
 
   styleResources: {

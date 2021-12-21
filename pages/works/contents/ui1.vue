@@ -50,18 +50,17 @@
       </div>
       <div class="d-flex-c flex-align-stretch">
         <ElementBtn
-          class="col-auto"
+          class="col-auto text-align-center"
           target="_blank"
           rel="noopener"
           title="Hi BUS! 全台公車動態時刻查詢應用服務"
           href="https://hi-bus.tinycloud.tw/"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             觀看網頁
@@ -73,18 +72,17 @@
           </span>
         </ElementBtn>
         <ElementBtn
-          class="col-auto mt-24"
+          class="col-auto mt-24 text-align-center"
           target="_blank"
           rel="noreferrer noopener"
           title="線上標示文件"
           href="https://www.figma.com/file/fdsLqHSIReOxQNqepPKoGN/week3_%E5%85%A8%E5%8F%B0%E5%85%AC%E8%BB%8A%E5%8B%95%E6%85%8B%E6%99%82%E5%88%BB%E6%9F%A5%E8%A9%A2%E6%87%89%E7%94%A8%E6%9C%8D%E5%8B%99?node-id=365%3A1258"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             線上標示文件
@@ -96,18 +94,17 @@
           </span>
         </ElementBtn>
         <ElementBtn
-          class="col-auto mt-24"
+          class="col-auto mt-24 text-align-center"
           target="_blank"
           rel="noreferrer noopener"
           title="公開程式碼"
           href="https://github.com/u9951064/Hi_Bus"
         >
           <span
-            class="fz-14-r-10"
-            style="
-              display: inline-flex;
-              justify-content: center;
-              align-items: center;
+            class="
+              fz-14-r-10
+              d-inline-flex
+              flex-justify-center flex-align-center
             "
           >
             公開程式碼
@@ -206,7 +203,7 @@
         <div class="d-flex flex-justify-end pt-40">
           <ElementImageViewer
             class="w-100"
-            :src="require('../../../assets/works/ui1/a_1-5.jpg')"
+            src="../../../assets/works/ui1/a_1-5.jpg"
             alt=""
           />
         </div>
@@ -260,7 +257,7 @@
       </ul>
       <ElementImageViewer
         class="pt-60 w-100"
-        :src="require('../../../assets/works/ui1/a_1-7.png')"
+        src="../../../assets/works/ui1/a_1-7.png"
         alt="製作 Wireframe"
       />
     </section>
