@@ -1,7 +1,1 @@
-<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12.875 22.5023C18.3978 22.5023 22.875 18.0252 22.875 12.5023C22.875 6.97947 18.3978 2.50232 12.875 2.50232C7.35215 2.50232 2.875 6.97947 2.875 12.5023C2.875 18.0252 7.35215 22.5023 12.875 22.5023Z" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.875 22.5023V18.5023" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M22.875 12.5023H18.875" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M6.875 12.5023H2.875" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.875 6.50232V2.50232" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" stroke="#37352f" stroke-width="2" stroke-linejoin="round" xmlns:v="https://vecta.io/nano"><path d="M12.875 22.502c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z"/><path d="M12.875 22.502v-4m10-6h-4m-12 0h-4m10-6v-4" stroke-linecap="round"/></svg>

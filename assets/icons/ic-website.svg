@@ -1,5 +1,1 @@
-<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 22.1243C17.5228 22.1243 22 17.6471 22 12.1243C22 6.60142 17.5228 2.12427 12 2.12427C6.47715 2.12427 2 6.60142 2 12.1243C2 17.6471 6.47715 22.1243 12 22.1243Z" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M2 12.1243H22" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12 2.12427C14.5013 4.86262 15.9228 8.4163 16 12.1243C15.9228 15.8322 14.5013 19.3859 12 22.1243C9.49872 19.3859 8.07725 15.8322 8 12.1243C8.07725 8.4163 9.49872 4.86262 12 2.12427V2.12427Z" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="none" stroke="#37352f" stroke-width="2" stroke-linejoin="round" xmlns:v="https://vecta.io/nano"><path d="M12 22.124c5.523 0 10-4.477 10-10s-4.477-10-10-10-10 4.477-10 10 4.477 10 10 10z"/><path d="M2 12.124h20" stroke-linecap="round"/><path d="M12 2.124a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10h0z"/></svg>

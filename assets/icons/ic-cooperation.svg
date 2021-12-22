@@ -1,13 +1,1 @@
-<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_910_2667)">
-<path d="M23.123 21.0012V19.0012C23.1224 18.1149 22.8274 17.2539 22.2844 16.5535C21.7414 15.853 20.9812 15.3527 20.123 15.1312" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M17.123 21.0012V19.0012C17.123 17.9403 16.7016 16.9229 15.9515 16.1727C15.2013 15.4226 14.1839 15.0012 13.123 15.0012H5.12305C4.06218 15.0012 3.04477 15.4226 2.29462 16.1727C1.54447 16.9229 1.12305 17.9403 1.12305 19.0012V21.0012" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M16.123 3.13116C16.9835 3.35146 17.7461 3.85186 18.2907 4.55347C18.8353 5.25508 19.1309 6.11799 19.1309 7.00616C19.1309 7.89433 18.8353 8.75724 18.2907 9.45885C17.7461 10.1605 16.9835 10.6609 16.123 10.8812" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M9.12305 11.0012C11.3322 11.0012 13.123 9.2103 13.123 7.00116C13.123 4.79202 11.3322 3.00116 9.12305 3.00116C6.91391 3.00116 5.12305 4.79202 5.12305 7.00116C5.12305 9.2103 6.91391 11.0012 9.12305 11.0012Z" stroke="#37352F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<clipPath id="clip0_910_2667">
-<rect width="24" height="24" fill="white" transform="translate(0.123047 0.00115967)"/>
-</clipPath>
-</defs>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" xmlns:v="https://vecta.io/nano"><g clip-path="url(#A)" stroke="#37352f" stroke-width="2"><g stroke-linecap="round" stroke-linejoin="round"><path d="M23.123 21.001v-2a4 4 0 0 0-3-3.87m-3 5.87v-2a4 4 0 0 0-4-4h-8a4 4 0 0 0-4 4v2m15-17.87a4 4 0 0 1 0 7.75"/></g><path d="M9.123 11.001a4 4 0 1 0 0-8 4 4 0 1 0 0 8z" stroke-linejoin="round"/></g><defs><clipPath id="A"><path fill="#fff" transform="translate(.123 .001)" d="M0 0h24v24H0z"/></clipPath></defs></svg>
