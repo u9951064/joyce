@@ -160,7 +160,7 @@
         
         <div class="col">
           <img
-            class="border-radius-8"
+            class="w-70 border-radius-8"
             src="../../assets/about/ai.svg"
             alt=""
           /><br />
