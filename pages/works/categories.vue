@@ -5,7 +5,7 @@
         <div class="col">
           <h1 class="fz-40-b gray1">Hi I’m Joyce!</h1>
           <div class="fz-16-l gray2 pt-16">
-            我是名網頁視覺設計師，擅長 網頁設計<br />
+            我是名網頁視覺設計師，擅長 <ElementTypeIn :labels="['UI設計', '網頁設計', '廣告設計', '平面設計']" class="fz-16-b pt-8 pb-8" :speed="350"/><br />
             相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
           </div>
           <div class="pt-40">
