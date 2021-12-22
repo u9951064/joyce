@@ -26,7 +26,7 @@
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
-          <div class="fz-16-l gray2 pt-16">Production owner</div>
+          <div class="fz-16-l gray2 pt-16">Project Manager</div>
         </div>
       </div>
       <div class="d-flex">

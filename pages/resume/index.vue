@@ -59,7 +59,7 @@
         年經驗，針對不同事業體、活動，製作出對應風格的廣告素材，任職期間運用公司資源學
         RWD，精進網頁撰寫能力。在這過程當中，對介面設計產生興趣，因此額外自學
         UI/UX ，熟悉 Figma 操作，並透過 Side Project 「台鐵 e 訂通 App
-        Redesign」來自我精進，也與工程師一起參與由六角學院舉辦的「第三屆 The F2E
+        Redesign」來自我精進，也與工程師一起參與由六角學院舉辦的「THE F2E 3rd
         前端 &amp; UI 修煉精神時光屋」榮獲團體組第 1 名。
         <br />我相信設計應站在使用者角度並兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
       </p>
@@ -112,41 +112,6 @@
           </ElementStarItem>
         </ul>
 
-        <!-- awards -->
-        <div class="d-flex flex-align-center pb-40">
-          <h2 class="col-auto fz-30-b gray1 pr-24">獲獎紀錄</h2>
-          <div class="col line border-top-gray3"></div>
-        </div>
-        <ul class="fz-16-l gray2 pt-16 pb-60">
-          <ElementStarItem>
-            <template #title>Hi BUS!</template>
-            2021 第三屆 The F2E 前端 &amp; UI 修煉精神時光屋 / 團體組第 1 名<br />
-            <a
-              class="blue1"
-              href="https://hi-bus.tinycloud.tw/"
-              target="_blank"
-              title="Hi BUS!"
-              rel="noopener"
-              >Hi BUS!今天想搭乘哪輛公車呢？</a
-            >
-          </ElementStarItem>
-          <ElementStarItem>
-            <template #title>TAICHUNG</template>
-            <ul>
-              <li>2019 德國紅點設計 / 品牌暨傳達設計紅點獎</li>
-              <li>2019 泰達盃青年創意設計大賽 / 入圍</li>
-              <li>2019 放視大賞 - 平面傳達設計組 / 入圍</li>
-            </ul>
-            <a
-              class="blue1"
-              href="https://joyce.tinycloud.tw/works/categories/printing/"
-              target="_blank"
-              title="Hi BUS!"
-              rel="noopener"
-              >TAICHUNG，美學從中可見</a
-            >
-          </ElementStarItem>
-        </ul>
         <!-- 亞洲大學 -->
         <div class="d-flex flex-align-center pb-40">
           <h2 class="col-auto fz-30-b gray1 pr-24">學歷</h2>
@@ -157,18 +122,54 @@
         <ul class="fz-16-l gray2 pt-16 pb-60">
           <ElementStarItem>
             <template #title>畢業製作</template>
-            擔任主要負責人<br />負責項目：色彩規劃、插畫設計、時間規劃、作品導覽
+            擔任主要負責人，TAICHUNG 作品獲德國紅點設計獎<br />負責項目：色彩規劃、插畫設計、時間規劃、作品導覽
           </ElementStarItem>
         </ul>
       </div>
 
       <div class="col-4 pl-40">
+        <!-- award -->
+        <div class="d-flex flex-align-center pb-40">
+          <h2 class="col-auto fz-30-b gray1 pr-24">獲獎紀錄</h2>
+          <div class="col line border-top-gray3"></div>
+        </div>
+          <!-- Hi BUS! -->
+        <h3 class="fz-22-m gray1">
+          <a
+            class="blue1"
+            href="http://localhost:3000/works/contents/ui1"
+            target="_blank"
+            title="Hi BUS!"
+            rel="noopener"
+            >Hi BUS!
+          </a>
+        </h3>
+        <ul class="fz-16-l gray2 pt-16 pb-60">
+          <ElementStarItem> 2021&emsp;THE F2E 3rd 前端 &amp; UI 修煉精神時光屋｜團體組第 1 名  </ElementStarItem>
+        </ul>
+          <!-- TAICHUNG -->
+        <h3 class="fz-22-m gray1">
+          <a
+            class="blue1"
+            href="http://localhost:3000/works/contents/printing2"
+            target="_blank"
+            title="TAICHUNG"
+            rel="noopener"
+            >TAICHUNG
+          </a>
+        </h3>
+        <ul class="fz-16-l gray2 pt-16 pb-60">
+          <ElementStarItem> 2019&emsp;德國紅點設計｜品牌暨傳達設計紅點獎</ElementStarItem>
+          <ElementStarItem> 2019&emsp;泰達盃青年創意設計大賽｜入圍 </ElementStarItem>
+          <ElementStarItem> 2019&emsp;放視大賞 - 平面傳達設計組｜入圍</ElementStarItem>
+        </ul>
+
         <!-- skill -->
         <div class="d-flex flex-align-center pb-40">
           <h2 class="col-auto fz-30-b gray1 pr-24">專長技能</h2>
           <div class="col line border-top-gray3"></div>
         </div>
-        <!-- UI 設計 -->
+          <!-- UI 設計 -->
         <h3 class="fz-22-m gray1">UI 設計</h3>
         <p class="fz-16-l gray2 pt-12">Figma</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">
@@ -178,7 +179,7 @@
             製作靜態 Mockup 及可互動的 Prototype
           </ElementStarItem>
         </ul>
-        <!-- 前端概念 -->
+          <!-- 前端概念 -->
         <h3 class="fz-22-m gray1">前端概念</h3>
         <p class="fz-16-l gray2 pt-12">Visual Studio Code</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">
@@ -186,7 +187,7 @@
             使用 HTML、CSS 切版完成 Landing Page，具備 RWD 知識
           </ElementStarItem>
         </ul>
-        <!-- 平面設計 -->
+          <!-- 平面設計 -->
         <h3 class="fz-22-m gray1">平面設計</h3>
         <p class="fz-16-l gray2 pt-12">Illustrator、Photoshop、InDesign</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">
@@ -196,7 +197,7 @@
             手繪插畫、影像合成、名片、年鑑、DM設計
           </ElementStarItem>
         </ul>
-        <!-- 管理協作 -->
+          <!-- 管理協作 -->
         <h3 class="fz-22-m gray1">管理協作</h3>
         <p class="fz-16-l gray2 pt-12">Notion、 Trello、Google Docs</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">
