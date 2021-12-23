@@ -152,50 +152,51 @@
         </div>
       </div>
       <div class="d-flex">
-          <div class="col-4">
+        <div class="col-4">
           <p class="fz-16-l gray2">
-            主要使用右側軟體完成設計發想與執行，結合 Trello 進行工作上的專案時程管理。平時利用 Notion 記錄生活、制定目標並將資料整理歸納。
+            主要使用右側軟體完成設計發想與執行，結合 Trello
+            進行工作上的專案時程管理。平時利用 Notion
+            記錄生活、制定目標並將資料整理歸納。
           </p>
         </div>
-        
-        <div class="col">
-          <img
-            class="w-70 border-radius-8"
-            src="../../assets/about/ai.svg"
-            alt=""
-          /><br />
-        </div>
-        <div class="col">
-          <img
-            class="border-radius-8"
-            src="../../assets/about/ps.svg"
-            alt=""
-          /><br />
-        </div>
-        <div class="col">
-          <img
-            class="border-radius-8"
-            src="../../assets/about/id.svg"
-            alt=""
-          /><br />
-        </div>
-        <div class="col">
-          <img
-            class="border-radius-8 border-gray3"
-            src="../../assets/about/vsc.svg"
-            alt=""
-          /><br />
-        </div>
-        <div class="col">
-          <img
-            class="border-radius-8"
-            src="../../assets/about/figma.svg"
-            alt=""
-          /><br />
+        <div class="col-6 d-flex text-align-right">
+          <div class="col text-align-right">
+            <img
+              class="w-70 border-radius-8"
+              src="../../assets/about/ai.svg"
+              alt=""
+            /><br />
+          </div>
+          <div class="col text-align-right">
+            <img
+              class="w-70 border-radius-8"
+              src="../../assets/about/ps.svg"
+              alt=""
+            /><br />
+          </div>
+          <div class="col text-align-right">
+            <img
+              class="w-70 border-radius-8"
+              src="../../assets/about/id.svg"
+              alt=""
+            /><br />
+          </div>
+          <div class="col text-align-right">
+            <img
+              class="w-70 border-radius-8 border-gray3"
+              src="../../assets/about/vsc.svg"
+              alt=""
+            /><br />
+          </div>
+          <div class="col text-align-right">
+            <img
+              class="w-70 border-radius-8"
+              src="../../assets/about/figma.svg"
+              alt=""
+            /><br />
+          </div>
         </div>
       </div>
-      
-      
     </section>
 
     <!-- experience -->
@@ -225,7 +226,8 @@
             </ElementStarItem>
             <ElementStarItem>
               <template #title>平面設計</template>
-              跨部門溝通支援平面需求 e.g. 名片設計、DM設計、年鑑設計、展場大圖設計，並完成發包
+              跨部門溝通支援平面需求 e.g.
+              名片設計、DM設計、年鑑設計、展場大圖設計，並完成發包
             </ElementStarItem>
             <ElementStarItem>
               <template #title>插畫設計</template>
@@ -237,7 +239,8 @@
             </ElementStarItem>
             <ElementStarItem>
               <template #title>導入敏捷式開發</template>
-              任職期間兼負 PM 角色導入敏捷式開發，讓原先 3 個月製作時程縮短為 1 個月完成
+              任職期間兼負 PM 角色導入敏捷式開發，讓原先 3 個月製作時程縮短為 1
+              個月完成
             </ElementStarItem>
           </ul>
         </div>
@@ -304,7 +307,6 @@
     <section class="container-1100 pt-80 pb-80 border-top-gray3">
       <div class="w-100 fz-14-r-10 blue1">AWARD</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">獲獎紀錄</h2>
-      
     </section>
   </main>
 </template>

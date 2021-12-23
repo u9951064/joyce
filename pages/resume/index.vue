@@ -135,28 +135,26 @@
         </div>
           <!-- Hi BUS! -->
         <h3 class="fz-22-m gray1">
-          <a
+          <NuxtLink
             class="blue1"
-            href="http://localhost:3000/works/contents/ui1"
+            :to="{name: 'works-contents-ui1'}"
             target="_blank"
             title="Hi BUS!"
-            rel="noopener"
             >Hi BUS!
-          </a>
+          </NuxtLink>
         </h3>
         <ul class="fz-16-l gray2 pt-16 pb-60">
           <ElementStarItem> 2021&emsp;THE F2E 3rd 前端 &amp; UI 修煉精神時光屋｜團體組第 1 名  </ElementStarItem>
         </ul>
           <!-- TAICHUNG -->
         <h3 class="fz-22-m gray1">
-          <a
+          <NuxtLink
             class="blue1"
-            href="http://localhost:3000/works/contents/printing2"
+            :to="{name: 'works-contents-printing2'}"
             target="_blank"
             title="TAICHUNG"
-            rel="noopener"
             >TAICHUNG
-          </a>
+          </NuxtLink>
         </h3>
         <ul class="fz-16-l gray2 pt-16 pb-60">
           <ElementStarItem> 2019&emsp;德國紅點設計｜品牌暨傳達設計紅點獎</ElementStarItem>

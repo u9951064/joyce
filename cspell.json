@@ -1,23 +1,25 @@
 {
-    "version": "0.2",
-    "ignorePaths": [],
-    "dictionaryDefinitions": [],
-    "dictionaries": [],
-    "words": [
-        "gtag",
-        "plyr",
-        "Wireframe",
-        "Nuxt",
-        "tinycloud",
-        "nuxtjs",
-        "vuex",
-        "linkin",
-        "purgecss",
-    ],
-    "ignoreWords": [
-      "modestbranding",
-      "playsinline",
-      "allowtransparency"
-    ],
-    "import": []
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": [
+    "gtag",
+    "plyr",
+    "Wireframe",
+    "Nuxt",
+    "tinycloud",
+    "nuxtjs",
+    "vuex",
+    "linkin",
+    "purgecss",
+    "Trello"
+  ],
+  "ignoreWords": [
+    "emsp",
+    "allowtransparency",
+    "modestbranding",
+    "playsinline"
+  ],
+  "import": []
 }
