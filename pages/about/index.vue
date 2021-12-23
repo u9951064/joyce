@@ -299,6 +299,10 @@
     <section class="container-1100 pt-80 pb-80 border-top-gray3">
       <div class="w-100 fz-14-r-10 blue1">AWARD</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">獲獎紀錄</h2>
+      <ul>
+        <li><AwardItemUI1 /></li>
+        <li><AwardItemPrinting2 /></li>
+      </ul>
     </section>
   </main>
 </template>

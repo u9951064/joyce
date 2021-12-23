@@ -1,8 +1,8 @@
 <template>
-  <div class="work-printing">
-    <WorkItemPrinting1 />
-    <WorkItemPrinting2 />
-  </div>
+  <ul class="work-printing">
+    <li><WorkItemPrinting1 /></li>
+    <li><WorkItemPrinting2 /></li>
+  </ul>
 </template>
 
 <script>

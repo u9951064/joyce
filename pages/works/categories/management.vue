@@ -1,7 +1,7 @@
 <template>
-  <div class="work-management">
-    <WorkItemManagement1/>
-  </div>
+  <ul class="work-management">
+    <li><WorkItemManagement1/></li>
+  </ul>
 </template>
 
 <script>

@@ -1,9 +1,9 @@
 <template>
-  <div class="work-commerce">
-    <WorkItemCommerce1 />
-    <WorkItemCommerce2 />
-    <WorkItemCommerce3 />
-  </div>
+  <ul class="work-commerce">
+    <li><WorkItemCommerce1 /></li>
+    <li><WorkItemCommerce2 /></li>
+    <li><WorkItemCommerce3 /></li>
+  </ul>
 </template>
 
 <script>
