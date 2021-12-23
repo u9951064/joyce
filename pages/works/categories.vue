@@ -23,7 +23,7 @@
                   alt="關於我"
               /></span>
             </ElementBtn>
-            <ElementBtn href="/resume" title="下載履歷" :class="'ml-24'">
+            <ElementBtn href="/files/resume_joyce.pdf" title="下載履歷" class="ml-24" download="侯佳君Joyce履歷.pdf">
               <span class="fz-14-r ls-10"
                 >下載履歷
                 <img
