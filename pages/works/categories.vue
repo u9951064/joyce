@@ -5,12 +5,17 @@
         <div class="col">
           <h1 class="fz-40-b gray1">Hi I’m Joyce!</h1>
           <div class="fz-16-l gray2 pt-16">
-            我是名網頁視覺設計師，擅長 <ElementTypeIn :labels="['UI設計', '網頁設計', '廣告設計', '平面設計']" class="fz-16-b pt-8 pb-8" :speed="350"/><br />
+            我是名網頁視覺設計師，擅長
+            <ElementTypeIn
+              :labels="['UI設計', '網頁設計', '廣告設計', '平面設計']"
+              class="fz-16-b pt-8 pb-8"
+              :speed="350"
+            /><br />
             相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
           </div>
           <div class="pt-40">
             <ElementBtn href="/about" title="關於我">
-              <span class="fz-14-r-10"
+              <span class="fz-14-r ls-10"
                 >關於我
                 <img
                   class="ml-2"
@@ -19,7 +24,7 @@
               /></span>
             </ElementBtn>
             <ElementBtn href="/resume" title="下載履歷" :class="'ml-24'">
-              <span class="fz-14-r-10"
+              <span class="fz-14-r ls-10"
                 >下載履歷
                 <img
                   class="ml-2"
@@ -39,16 +44,16 @@
       </div>
     </section>
 
-    <div class="d-flex flex-align-center flex-justify-center pt-60 fz-14-r-10">
+    <div class="d-flex flex-align-center flex-justify-center pt-60 fz-14-r ls-10">
       <ElementBtn
         tag="NuxtLink"
-        :class="'work-btn'"
+        class="work-btn"
         :to="{ name: 'works-categories-ui' }"
         >UI設計</ElementBtn
       >
       <ElementBtn
         tag="NuxtLink"
-        :class="'work-btn'"
+        class="work-btn"
         :to="{ name: 'works-categories-commerce' }"
         >廣告設計</ElementBtn
       >
@@ -90,10 +95,11 @@ main.work-category {
     color: $gray2;
     font-size: 15px;
     font-weight: 500;
-    padding: 12px 24px;
+    padding: 8px 24px;
     box-shadow: none;
 
-    &.active-link, &.active-link:hover {
+    &.active-link,
+    &.active-link:hover {
       border-color: $gray1;
       background-color: #fff;
       box-shadow: 2px 2px 0 0 $gray1;

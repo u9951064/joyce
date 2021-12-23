@@ -4,7 +4,7 @@
     class="mb-60 d-flex border border-radius-8 overflow-x-hidden"
     title="平面設計 - TAICHUNG 美學，從中可見"
   >
-    <div class="col-4 border-right bg-blue2 p-relative">
+    <div class="col-4 border-right bg-blue2 p-relative h-min300">
       <img
         class="p-absolute printing-img"
         src="../../assets/works/printing2/c_2-1.png"

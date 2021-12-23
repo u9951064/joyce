@@ -18,69 +18,46 @@
   white-space: normal;
 }
 
-.fz-40-b {
-  font-size  : 40px;
-  line-height: 48px;
-  font-weight: bold;
+@for $i from 10 to 50 {
+
+  .fz-#{$i}-b,
+  .fz-#{$i}-l,
+  .fz-#{$i}-r,
+  .fz-#{$i}-m {
+    font-size     : $i * 1px;
+    line-height   : max($i * 1.2px, 32px);
+    letter-spacing: 0.05em;
+  }
+
+  .fz-#{$i}-l {
+    font-weight: 300;
+  }
+
+  .fz-#{$i}-r {
+    font-weight: 400;
+  }
+
+  .fz-#{$i}-m {
+    font-weight: 500;
+  }
+
+  .fz-#{$i}-b {
+    font-weight: 700;
+  }
 }
 
-.fz-30-b {
-  font-size  : 30px;
-  line-height: 36px;
-  font-weight: 700;
+@for $i from 1 to 100 {
+  .lh-#{$i} {
+    line-height: $i * 1px;
+  }
 }
 
-.fz-20-b {
-  font-size  : 20px;
-  line-height: 24px;
-  font-weight: 700;
+.ls-normal {
+  letter-spacing: normal;
 }
 
-.fz-22-m {
-  font-size     : 22px;
-  font-weight   : 500;
-  letter-spacing: 0.05em;
-}
-
-.fz-16-l {
-  font-size     : 16px;
-  line-height   : 32px;
-  font-weight   : 300;
-  letter-spacing: 0.05em;
-}
-
-.fz-16-b {
-  font-size     : 16px;
-  line-height   : 32px;
-  font-weight   : 700;
-  letter-spacing: 0.05em;
-}
-
-.fz-14-b {
-  font-size     : 14px;
-  line-height   : 32px;
-  font-weight   : 700;
-  letter-spacing: 0.05em;
-}
-
-.fz-14-r-10 {
-  font-size     : 14px;
-  line-height   : 20px;
-  font-weight   : 400;
-  letter-spacing: 0.1em;
-  ;
-}
-
-.fz-14-r-4 {
-  font-size     : 14px;
-  line-height   : 20px;
-  font-weight   : 400;
-  letter-spacing: 0.05em;
-}
-
-.fz-14-l-4 {
-  font-size     : 14px;
-  line-height   : 20px;
-  font-weight   : 300;
-  letter-spacing: 0.05em;
+@for $i from 1 to 40 {
+  .ls-#{$i*5} {
+    letter-spacing: $i * 0.05em;
+  }
 }

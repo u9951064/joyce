@@ -10,7 +10,7 @@
             title="make a phone call"
             @click.native="makeCall"
           >
-            <span class="fz-14-r-10">
+            <span class="lh-20 fz-14-r ls-10">
               <img class="d-block" src="../assets/icons/ic-phone.svg" alt="" />
             </span>
           </ElementBtn>
@@ -22,7 +22,7 @@
             title="send mail"
             @click.native="sendMail"
           >
-            <span class="fz-14-r-10">
+            <span class="lh-20 fz-14-r ls-10">
               <img class="d-block" src="../assets/icons/ic-mail.svg" alt="" />
             </span>
           </ElementBtn>
@@ -35,14 +35,14 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <span class="fz-14-r-10">
+            <span class="lh-20 fz-14-r ls-10">
               <img class="d-block" src="../assets/icons/ic-linkin.svg" alt="" />
             </span>
           </ElementBtn>
         </div>
       </div>
     </div>
-    <p class="fz-14-l-4 gray2 pt-40 text-align-center">
+    <p class="lh-20 fz-14-l ls-5 gray2 pt-40 text-align-center">
       Copyright © 2021 Joyce. ALL Rights Reserved.
     </p>
   </footer>

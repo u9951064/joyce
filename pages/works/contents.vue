@@ -5,7 +5,7 @@
       class="container-1000 pt-80 pb-120 border-top-gray3 text-align-center"
     >
       <ElementBtn title="回作品列表" @click.native="goBack">
-        <span class="fz-14-r-10">
+        <span class="lh-20 fz-14-r ls-10">
           <img
             class="d-block mr-8"
             src="../../assets/icons/ic-left.svg"

@@ -21,7 +21,7 @@
         <div class="d-flex col-3 flex-justify-end">
           <div class="col-auto">
             <ElementBtn href="/resume" title="下載履歷" :class="'ml-24'">
-              <span class="fz-14-r-10"
+              <span class="lh-20 fz-14-r ls-10"
                 >下載履歷
                 <img
                   class="ml-2"

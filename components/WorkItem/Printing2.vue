@@ -13,14 +13,14 @@
     </div>
 
     <div class="col-4 pt-60 pl-60">
-      <div class="fz-14-r-10 blue1">平面設計</div>
+      <div class="lh-20 fz-14-r ls-10 blue1">平面設計</div>
       <h2 class="fz-30-b gray1 pt-16">TAICHUNG<br/>美學，從中可見</h2>
       <div class="pt-16">
         <ElementTag>城市識別</ElementTag>
       </div>
       <div class="mt-80 mb-60">
         <ElementBtn :tag="'span'" class="more-btn">
-          <span class="fz-14-r-10"> READ MORE</span>
+          <span class="lh-20 fz-14-r ls-10"> READ MORE</span>
         </ElementBtn>
       </div>
     </div>

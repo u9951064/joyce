@@ -35,7 +35,7 @@
 
     <!-- skill -->
     <section class="container-1100 pt-80 pb-80 border-top-gray3">
-      <div class="col-10 fz-14-r-10 blue1">SKILL</div>
+      <div class="col-10 lh-20 fz-14-r ls-10 blue1">SKILL</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">專長技能</h2>
       <ul class="d-flex flex-align-stretch ml-i10 mr-i10">
         <li class="col-5 p-10">
@@ -50,8 +50,8 @@
               />
             </div>
             <div class="col-7 content pr-8 pb-24 pt-24">
-              <h3 class="fz-22-m gray1 pt-16">UI設計</h3>
-              <ul class="fz-16-l gray2 pt-24">
+              <h3 class="fz-22-m gray1 pt-8">UI設計</h3>
+              <ul class="fz-16-l gray2 pt-16">
                 <ElementStarItem
                   >快速手繪、使用軟體製作 Wireframe</ElementStarItem
                 >
@@ -75,8 +75,8 @@
               />
             </div>
             <div class="col-7 content pr-8 pb-24 pt-24">
-              <h3 class="fz-22-m gray1 pt-16">廣告設計</h3>
-              <ul class="fz-16-l gray2 pt-24">
+              <h3 class="fz-22-m gray1 pt-8">廣告設計</h3>
+              <ul class="fz-16-l gray2 pt-16">
                 <ElementStarItem
                   >依不同活動，製作相對應風格視覺設計</ElementStarItem
                 >
@@ -100,8 +100,8 @@
               />
             </div>
             <div class="col-7 content pr-8 pb-24 pt-24">
-              <h3 class="fz-22-m gray1 pt-16">平面設計</h3>
-              <ul class="fz-16-l gray2 pt-24">
+              <h3 class="fz-22-m gray1 pt-8">平面設計</h3>
+              <ul class="fz-16-l gray2 pt-16">
                 <ElementStarItem>Icon、視覺排版、企業識別設計</ElementStarItem>
                 <ElementStarItem>手繪插畫、影像合成</ElementStarItem>
                 <ElementStarItem
@@ -123,8 +123,8 @@
               />
             </div>
             <div class="col-7 content pr-8 pb-24 pt-24">
-              <h3 class="fz-22-m gray1 pt-16">網頁設計</h3>
-              <ul class="fz-16-l gray2 pt-24">
+              <h3 class="fz-22-m gray1 pt-8">網頁設計</h3>
+              <ul class="fz-16-l gray2 pt-16">
                 <ElementStarItem>熟悉 HTML、CSS 程式語言</ElementStarItem>
                 <ElementStarItem>具備 RWD 相關知識</ElementStarItem>
                 <ElementStarItem>獨立切版完成 Landing Page</ElementStarItem>
@@ -137,7 +137,7 @@
 
     <!-- software -->
     <section id="software" class="container-1100 pt-80 pb-80 border-top-gray3">
-      <div class="col-10 fz-14-r-10 blue1">TOOL</div>
+      <div class="col-10 lh-20 fz-14-r ls-10 blue1">TOOL</div>
       <div class="d-flex pt-16 pb-60">
         <div class="col">
           <h2 class="fz-30-b gray1">擅長軟體</h2>
@@ -193,7 +193,7 @@
 
     <!-- experience -->
     <section class="container-1100 pt-80 pb-80 border-top-gray3">
-      <div class="w-100 fz-14-r-10 blue1">EXPERIENCE</div>
+      <div class="w-100 lh-20 fz-14-r ls-10 blue1">EXPERIENCE</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">工作經驗</h2>
 
       <!-- 聯成電腦 -->
@@ -269,7 +269,7 @@
 
     <!-- 亞洲大學 -->
     <section class="container-1100 pt-80 pb-80 border-top-gray3">
-      <div class="w-100 fz-14-r-10 blue1">EDUCATION</div>
+      <div class="w-100 lh-20 fz-14-r ls-10 blue1">EDUCATION</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">學歷</h2>
       <div class="d-flex">
         <div class="col-1">
@@ -297,7 +297,7 @@
 
     <!-- 獲獎紀錄 -->
     <section class="container-1100 pt-80 pb-80 border-top-gray3">
-      <div class="w-100 fz-14-r-10 blue1">AWARD</div>
+      <div class="w-100 lh-20 fz-14-r ls-10 blue1">AWARD</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">獲獎紀錄</h2>
       <ul>
         <li><AwardItemUI1 /></li>

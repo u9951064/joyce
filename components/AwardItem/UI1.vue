@@ -4,7 +4,7 @@
     class="mb-60 d-flex border border-radius-8 overflow-x-hidden"
     title="UI設計 - Hi BUS!全台公車動態時刻查詢應用服務"
   >
-    <div class="col-4 border-right bg-gray p-relative overflow-hidden">
+    <div class="col-4 border-right bg-gray p-relative overflow-hidden h-min300">
       <img
         class="p-absolute ui-img"
         src="../../assets/works/ui1/a_1-1.png"

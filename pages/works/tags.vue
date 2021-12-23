@@ -10,7 +10,7 @@
           </div>
           <div class="pt-40">
             <ElementBtn href="/about" title="關於我">
-              <span class="fz-14-r-10"
+              <span class="lh-20 fz-14-r ls-10"
                 >關於我
                 <img
                   class="ml-2"
@@ -19,7 +19,7 @@
               /></span>
             </ElementBtn>
             <ElementBtn href="/resume" title="下載履歷" :class="'ml-24'">
-              <span class="fz-14-r-10"
+              <span class="lh-20 fz-14-r ls-10"
                 >下載履歷
                 <img
                   class="ml-2"
@@ -39,7 +39,7 @@
       </div>
     </section>
 
-    <div class="d-flex flex-align-center flex-justify-center pt-60 fz-14-r-10">
+    <div class="d-flex flex-align-center flex-justify-center pt-60 lh-20 fz-14-r ls-10">
       <ElementBtn
         tag="NuxtLink"
         :class="'work-btn'"
@@ -90,7 +90,7 @@ main.work-tag {
     color: $gray2;
     font-size: 15px;
     font-weight: 500;
-    padding: 12px 24px;
+    padding: 4px 24px;
     box-shadow: none;
 
     &.active-link {

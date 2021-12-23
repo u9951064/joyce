@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="container-800 pt-60">
-      <div class="col-10 fz-14-r-10 blue1">專案管理</div>
+      <div class="col-10 lh-20 fz-14-r ls-10 blue1">專案管理</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">導入敏捷式開發專案</h2>
         <div class="pt-8">

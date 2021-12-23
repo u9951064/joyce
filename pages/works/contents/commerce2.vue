@@ -1,7 +1,7 @@
 <template>
   <main>
     <section class="container-800 pt-60">
-      <div class="col-10 fz-14-r-10 blue1">廣告設計</div>
+      <div class="col-10 lh-20 fz-14-r ls-10 blue1">廣告設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">Figma新手指南UI/UX設計思維</h2>
         <div class="pt-8">
@@ -61,7 +61,7 @@
         >
           <span
             class="
-              fz-14-r-10
+              lh-20 fz-14-r ls-10
               d-inline-flex
               flex-justify-center flex-align-center
             "
@@ -135,7 +135,7 @@
               src="../../../assets/works/commerce2/b_2-3.jpg"
               alt=""
             />
-            <p class="fz-14-l-4 gray2 pt-16">參考圖</p>
+            <p class="lh-20 fz-14-l ls-5 gray2 pt-16">參考圖</p>
           </div>
         </div>
       </div>

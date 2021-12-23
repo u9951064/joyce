@@ -12,7 +12,7 @@
       />
     </div>
     <div class="col-4 pt-60 pl-60">
-      <div class="fz-14-r-10 blue1">UI設計</div>
+      <div class="lh-20 fz-14-r ls-10 blue1">UI設計</div>
       <h2 class="fz-30-b gray1 pt-16">英日西韓語<br />外語振興補助</h2>
       <div class="pt-16">
         <ElementTag>Web</ElementTag>
@@ -21,7 +21,7 @@
       </div>
       <div class="mt-80 mb-60">
         <ElementBtn :tag="'span'" class="more-btn">
-          <span class="fz-14-r-10"> READ MORE</span>
+          <span class="lh-20 fz-14-r ls-10"> READ MORE</span>
         </ElementBtn>
       </div>
     </div>

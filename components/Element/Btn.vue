@@ -29,7 +29,7 @@ export default defineComponent({
   color: $gray1;
   font-weight: 500;
   display: inline-block;
-  padding: 16px 40px;
+  padding: 12px 40px;
 
   & > * {
     display: inline-flex;
