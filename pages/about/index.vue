@@ -37,110 +37,102 @@
     <section class="container-1100 pt-80 pb-80 border-top-gray3">
       <div class="col-10 fz-14-r-10 blue1">SKILL</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">專長技能</h2>
-      <div class="gird-block-group">
-        <div class="d-flex">
-          <div class="col-4 d-flex flex-align-center flex-justify-center">
-            <img src="../../assets/about/ui.svg" alt="" />
-          </div>
-          <div class="col-6">
-            <div class="d-flex flex-align-center flex-justify-left pt-60">
-              <h3 class="fz-22-m gray1 mr-16">UI設計</h3>
-              <ElementTag>User Interface</ElementTag>
+      <ul class="d-flex flex-align-stretch ml-i10 mr-i10">
+        <li class="col-5 p-10">
+          <div
+            class="border-radius-8 border-gray1 d-flex flex-align-stretch h-100"
+          >
+            <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
+              <img
+                class="d-block w-80"
+                src="../../assets/about/ui.svg"
+                alt=""
+              />
             </div>
-            <ul class="fz-16-l gray2 pt-24 pb-60">
-              <ElementStarItem>具備 UI / UX 設計相關知識</ElementStarItem>
-              <ElementStarItem
-                >快速手繪、使用軟體製作 Wireframe</ElementStarItem
-              >
-              <ElementStarItem>了解 Design system 的重要性</ElementStarItem>
-              <ElementStarItem
-                >製作靜態 Mockup 及可互動的 Prototype</ElementStarItem
-              >
-              <ElementStarItem
-                >熟悉 Html、CSS 程式語言，具備 RWD 知識</ElementStarItem
-              >
-            </ul>
-          </div>
-        </div>
-
-        <div class="d-flex">
-          <div class="col-4 d-flex flex-align-center flex-justify-center">
-            <img src="../../assets/about/commerce.svg" alt="" />
-          </div>
-          <div class="col-6">
-            <div class="d-flex flex-align-center flex-justify-left pt-60">
-              <h3 class="fz-22-m gray1 mr-16">廣告設計</h3>
-              <ElementTag>Advertising Design</ElementTag>
+            <div class="col-7 content pr-8 pb-24 pt-24">
+              <h3 class="fz-22-m gray1 pt-16">UI設計</h3>
+              <ul class="fz-16-l gray2 pt-24">
+                <ElementStarItem
+                  >快速手繪、使用軟體製作 Wireframe</ElementStarItem
+                >
+                <ElementStarItem>制定可重用 Design System</ElementStarItem>
+                <ElementStarItem
+                  >製作靜態 Mockup 及可互動的 Prototype</ElementStarItem
+                >
+              </ul>
             </div>
-            <ul class="fz-16-l gray2 pt-24 pb-60">
-              <ElementStarItem>官網 Banner 設計</ElementStarItem>
-              <ElementStarItem
-                >Google、FB、Line 原生廣告設計製作</ElementStarItem
-              >
-              <ElementStarItem
-                >依不同事業體、活動，製作相對應風格視覺設計</ElementStarItem
-              >
-            </ul>
           </div>
-        </div>
-
-        <div class="d-flex">
-          <div class="col-4 d-flex flex-align-center flex-justify-center">
-            <img src="../../assets/about/graphic.svg" alt="" />
-          </div>
-          <div class="col-6">
-            <div class="d-flex flex-align-center flex-justify-left pt-60">
-              <h3 class="fz-22-m gray1 mr-16">平面設計</h3>
-              <ElementTag>Graphic Design</ElementTag>
+        </li>
+        <li class="col-5 p-10">
+          <div
+            class="border-radius-8 border-gray1 d-flex flex-align-stretch h-100"
+          >
+            <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
+              <img
+                class="d-block w-80"
+                src="../../assets/about/commerce.svg"
+                alt=""
+              />
             </div>
-            <ul class="fz-16-l gray2 pt-24 pb-60">
-              <ElementStarItem>企業形象識別設計</ElementStarItem>
-              <ElementStarItem>視覺排版設計</ElementStarItem>
-              <ElementStarItem>色彩搭配運用</ElementStarItem>
-              <ElementStarItem>手繪插畫設計</ElementStarItem>
-              <ElementStarItem>去背影像合成</ElementStarItem>
-            </ul>
-          </div>
-        </div>
-
-        <div class="d-flex">
-          <div class="col-4 d-flex flex-align-center flex-justify-center">
-            <img src="../../assets/about/print.svg" alt="" />
-          </div>
-          <div class="col-6">
-            <div class="d-flex flex-align-center flex-justify-left pt-60">
-              <h3 class="fz-22-m gray1 mr-16">印刷設計</h3>
-              <ElementTag>Print Design</ElementTag>
+            <div class="col-7 content pr-8 pb-24 pt-24">
+              <h3 class="fz-22-m gray1 pt-16">廣告設計</h3>
+              <ul class="fz-16-l gray2 pt-24">
+                <ElementStarItem
+                  >依不同活動，製作相對應風格視覺設計</ElementStarItem
+                >
+                <ElementStarItem
+                  >Google、FB、Line 原生廣告設計製作</ElementStarItem
+                >
+                <ElementStarItem>Banner、EDM 設計</ElementStarItem>
+              </ul>
             </div>
-            <ul class="fz-16-l gray2 pt-24 pb-60">
-              <ElementStarItem
-                >名片設計、海報設計、DM 設計、年鑑設計</ElementStarItem
-              >
-              <ElementStarItem
-                >大圖輸出、展覽看板背板、廣告招牌</ElementStarItem
-              >
-              <ElementStarItem>獨立作業完成發包</ElementStarItem>
-            </ul>
           </div>
-        </div>
-
-        <div class="d-flex">
-          <div class="col-4 d-flex flex-align-center flex-justify-center">
-            <img src="../../assets/about/web.svg" alt="" />
-          </div>
-          <div class="col-6">
-            <div class="d-flex flex-align-center flex-justify-left pt-60">
-              <h3 class="fz-22-m gray1 mr-16">網頁設計</h3>
-              <ElementTag>Web Design</ElementTag>
+        </li>
+        <li class="col-5 p-10">
+          <div
+            class="border-radius-8 border-gray1 d-flex flex-align-stretch h-100"
+          >
+            <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
+              <img
+                class="d-block w-80"
+                src="../../assets/about/graphic.svg"
+                alt=""
+              />
             </div>
-            <ul class="fz-16-l gray2 pt-24 pb-60">
-              <ElementStarItem>熟悉 HTML、CSS 程式語言</ElementStarItem>
-              <ElementStarItem>具備 RWD 相關知識</ElementStarItem>
-              <ElementStarItem>獨立切版完成 Landing Page</ElementStarItem>
-            </ul>
+            <div class="col-7 content pr-8 pb-24 pt-24">
+              <h3 class="fz-22-m gray1 pt-16">平面設計</h3>
+              <ul class="fz-16-l gray2 pt-24">
+                <ElementStarItem>Icon、視覺排版、企業識別設計</ElementStarItem>
+                <ElementStarItem>手繪插畫、影像合成</ElementStarItem>
+                <ElementStarItem
+                  >名片、年鑑、大圖輸出、海報、DM 設計</ElementStarItem
+                >
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>
+        </li>
+        <li class="col-5 p-10">
+          <div
+            class="border-radius-8 border-gray1 d-flex flex-align-stretch h-100"
+          >
+            <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
+              <img
+                class="d-block w-80"
+                src="../../assets/about/web.svg"
+                alt=""
+              />
+            </div>
+            <div class="col-7 content pr-8 pb-24 pt-24">
+              <h3 class="fz-22-m gray1 pt-16">網頁設計</h3>
+              <ul class="fz-16-l gray2 pt-24">
+                <ElementStarItem>熟悉 HTML、CSS 程式語言</ElementStarItem>
+                <ElementStarItem>具備 RWD 相關知識</ElementStarItem>
+                <ElementStarItem>獨立切版完成 Landing Page</ElementStarItem>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
     </section>
 
     <!-- software -->
@@ -326,29 +318,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style lang="scss" scoped>
-.about-index {
-  & .gird-block-group {
-    $radiusSize: 8px;
-    $lineStyle: 1px solid #37352f;
-
-    & > * {
-      border-top: $lineStyle;
-      border-left: $lineStyle;
-      border-right: $lineStyle;
-
-      &:first-child {
-        border-top-left-radius: $radiusSize;
-        border-top-right-radius: $radiusSize;
-      }
-
-      &:last-child {
-        border-bottom-left-radius: $radiusSize;
-        border-bottom-right-radius: $radiusSize;
-        border-bottom: $lineStyle;
-      }
-    }
-  }
-}
-</style>
