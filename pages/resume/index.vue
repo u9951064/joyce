@@ -24,7 +24,7 @@
               <span class="lh-20 fz-14-r ls-10"
                 >下載履歷
                 <img
-                  class="ml-2"
+                  class="ml-2 w-min20 h-min20"
                   src="../../assets/icons/ic-download.svg"
                   alt="關於我"
               /></span>
