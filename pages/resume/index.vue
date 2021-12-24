@@ -20,7 +20,7 @@
         </div>
         <div class="d-flex col-3 flex-justify-end">
           <div class="col-auto">
-            <ElementBtn href="/files/resume_joyce.pdf" title="下載履歷" class="ml-24" download="侯佳君Joyce履歷.pdf">
+            <ElementBtn href="/files/resume_joyce.pdf" title="下載履歷" class="ml-24" target="_blank">
               <span class="lh-20 fz-14-r ls-10"
                 >下載履歷
                 <img
