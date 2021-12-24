@@ -12,6 +12,7 @@
 
     <img
       class="pt-60 w-100"
+      loading="lazy"
       src="../../../assets/works/printing1/c_1-2.jpg"
       alt=""
     />
@@ -72,7 +73,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="24" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="24"
+            src="../../../assets/icons/ic-flag.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
         <div class="col-6">
@@ -88,7 +95,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-idea.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
         <div class="d-flex col-6 flex-justify-end">
@@ -99,6 +112,7 @@
           </p>
           <img
             class="pt-60 w-100"
+            loading="lazy"
             src="../../../assets/works/printing1/c_1-3.jpg"
             alt=""
           />
@@ -111,7 +125,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-think.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
         <div class="col-6">
@@ -126,11 +146,13 @@
         </div>
         <img
           class="pt-60 w-100"
+          loading="lazy"
           src="../../../assets/works/printing1/c_1-4.jpg"
           alt=""
         />
         <img
           class="pt-60 w-100"
+          loading="lazy"
           src="../../../assets/works/printing1/c_1-5.jpg"
           alt=""
         />
@@ -158,7 +180,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="24" height="25" src="../../../assets/icons/ic-layout.svg" alt="" />
+          <img
+            class="icon"
+            width="24"
+            height="25"
+            src="../../../assets/icons/ic-layout.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">設計產出</div>
         </div>
         <div class="col-6">
@@ -168,6 +196,7 @@
         </div>
         <img
           class="pt-60 w-100"
+          loading="lazy"
           src="../../../assets/works/printing1/c_1-6.jpg"
           alt=""
         />

@@ -16,6 +16,7 @@
       class="pt-60 w-100 h-auto"
       width="2400"
       height="750"
+      loading="lazy"
       src="../../../assets/works/ui1/a_1-2.jpg"
       alt=""
     />
@@ -177,6 +178,7 @@
             class="w-100 h-auto"
             width="1903"
             height="727"
+            loading="lazy"
             src="../../../assets/works/ui1/a_1-3.jpg"
             alt=""
           />
@@ -223,6 +225,7 @@
               class="w-100 h-auto border-gray3 d-block"
               width="922"
               height="897"
+              loading="lazy"
               src="../../../assets/works/ui1/a_1-4.jpg"
               alt=""
             />
@@ -263,6 +266,7 @@
             class="w-100 h-auto"
             width="2000"
             height="820"
+            loading="lazy"
             src="../../../assets/works/ui1/a_1-5.jpg"
             alt=""
           />
@@ -303,6 +307,7 @@
             class="w-100 h-auto"
             width="2000"
             height="820"
+            loading="lazy"
             src="../../../assets/works/ui1/a_1-6.jpg"
             alt=""
           />
@@ -332,6 +337,7 @@
           class="w-100 h-auto"
           width="7501"
           height="3323"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-7.png"
           alt="製作 Wireframe"
         />
@@ -349,6 +355,7 @@
       <div class="pt-60">
         <img
           class="w-100 h-auto border-gray3 d-block"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-8.png"
           width="1800"
           height="1100"
@@ -360,6 +367,7 @@
           class="w-100 h-auto border-gray3 d-block"
           width="1800"
           height="1100"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-9.png"
           alt=""
         />
@@ -380,6 +388,7 @@
           class="w-100 h-auto border-gray3 d-block"
           width="1800"
           height="1390"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-10.png"
           alt=""
         />
@@ -398,6 +407,7 @@
           class="w-100 h-auto"
           width="5000"
           height="2700"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-11.png"
           alt=""
         />
@@ -417,6 +427,7 @@
           class="w-100 h-auto"
           width="2400"
           height="900"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-12.png"
           alt=""
         />
@@ -426,6 +437,7 @@
           class="w-100 h-auto"
           width="2400"
           height="900"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-13.png"
           alt=""
         />
@@ -444,6 +456,7 @@
           class="w-100 h-auto"
           width="2500"
           height="1000"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-14.png"
           alt=""
         />
@@ -470,6 +483,7 @@
           class="w-100 h-auto"
           width="2400"
           height="900"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-15.png"
           alt=""
         />
@@ -479,6 +493,7 @@
           class="w-100 h-auto"
           width="2400"
           height="900"
+          loading="lazy"
           src="../../../assets/works/ui1/a_1-16.png"
           alt=""
         />
@@ -534,6 +549,7 @@
             class="w-100 h-auto border-gray3 d-block"
             width="1691"
             height="673"
+            loading="lazy"
             src="../../../assets/works/ui1/a_1-17.jpg"
             alt=""
           />
@@ -543,6 +559,7 @@
             class="w-100 h-auto"
             width="2000"
             height="1000"
+            loading="lazy"
             src="../../../assets/works/ui1/a_1-18.jpg"
             alt=""
           />

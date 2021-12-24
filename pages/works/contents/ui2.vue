@@ -11,7 +11,16 @@
       </div>
     </section>
 
-    <img class="pt-60 w-100" src="../../../assets/works/ui2/a_2-2.jpg" alt="" />
+    <div class="pt-60">
+      <img
+        class="w-100 h-auto"
+        width="2400"
+        height="750"
+        loading="lazy"
+        src="../../../assets/works/ui2/a_2-2.jpg"
+        alt=""
+      />
+    </div>
 
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
@@ -67,7 +76,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-target.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-target.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">動機</div>
         </div>
         <div class="col-6">
@@ -77,7 +92,10 @@
           </p>
           <div class="d-flex flex-justify-end pt-40">
             <img
-              class="w-100"
+              class="w-100 h-auto"
+              width="1000"
+              height="500"
+              loading="lazy"
               src="../../../assets/works/ui2/a_2-13.jpg"
               alt=""
             />
@@ -90,7 +108,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="24" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="24"
+            src="../../../assets/icons/ic-flag.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">目標</div>
         </div>
         <div class="col-6">
@@ -107,7 +131,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-idea.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">設計流程</div>
         </div>
         <div class="col-6">
@@ -116,11 +146,16 @@
           </p>
         </div>
       </div>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-3.jpg"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2000"
+          height="820"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-3.jpg"
+          alt=""
+        />
+      </div>
     </section>
 
     <!-- 01 探索階段 1. 實際操作競品 -->
@@ -133,11 +168,16 @@
           並將頁面截圖下來，放在簡報上進行比較。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-4.gif"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2000"
+          height="820"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-4.gif"
+          alt=""
+        />
+      </div>
     </section>
 
     <!-- 01 探索階段 2. 搜集相關評價 -->
@@ -149,11 +189,16 @@
           使用者的留言，將問題歸納分類。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-5.jpg"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2000"
+          height="820"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-5.jpg"
+          alt=""
+        />
+      </div>
     </section>
 
     <!-- 02 定義階段 1. 擬定架構與層級 -->
@@ -166,11 +211,16 @@
           架構與層級。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-6.png"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="3000"
+          height="2040"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-6.png"
+          alt=""
+        />
+      </div>
     </section>
 
     <!-- 03 執行階段 1. 製作 Wireframe -->
@@ -180,11 +230,16 @@
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem> 依照 UI Flow 初步繪製 Wireframe。</ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-7.png"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="4000"
+          height="3272"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-7.png"
+          alt=""
+        />
+      </div>
     </section>
 
     <!-- 03 執行階段 2. 制定 Design System -->
@@ -196,16 +251,26 @@
           將常用元素制定成元件，除了可以加速作業，同時審視是否風格一致，期望使用者於產品中擁有一致且良好的體驗。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-8.png"
-        alt=""
-      />
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-9.png"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="1000"
+          height="410"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-8.png"
+          alt=""
+        />
+      </div>
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="1000"
+          height="1100"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-9.png"
+          alt=""
+        />
+      </div>
     </section>
 
     <!-- 03 執行階段 3. 設計 Mockup -->
@@ -216,21 +281,36 @@
           按照設計系統，將 Wireframe 精稿，審視每一張頁面流程及風格是否一致。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-12.png"
-        alt=""
-      />
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-10.png"
-        alt=""
-      />
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui2/a_2-11.png"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="1000"
+          height="818"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-12.png"
+          alt=""
+        />
+      </div>
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2000"
+          height="880"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-10.png"
+          alt=""
+        />
+      </div>
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2000"
+          height="880"
+          loading="lazy"
+          src="../../../assets/works/ui2/a_2-11.png"
+          alt=""
+        />
+      </div>
     </section>
     <!-- 03 執行階段 4. 製作可互動的 Prototype -->
     <section class="container-1000 pb-80">

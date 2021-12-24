@@ -12,6 +12,7 @@
 
     <img
       class="pt-60 w-100"
+      loading="lazy"
       src="../../../assets/works/printing2/c_2-2.jpg"
       alt=""
     />
@@ -72,7 +73,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-idea.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">作品理念</div>
         </div>
         <div class="col-6">
@@ -92,6 +99,7 @@
         </div>
         <img
           class="pt-60 w-100"
+          loading="lazy"
           src="../../../assets/works/printing2/c_2-3.jpg"
           alt=""
         />
@@ -102,7 +110,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-think.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">創作過程</div>
         </div>
         <div class="col-6">
@@ -126,6 +140,7 @@
         </div>
         <img
           class="pt-60 w-100"
+          loading="lazy"
           src="../../../assets/works/printing2/c_2-4.jpg"
           alt=""
         />
@@ -136,7 +151,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="24" height="25" src="../../../assets/icons/ic-layout.svg" alt="" />
+          <img
+            class="icon"
+            width="24"
+            height="25"
+            src="../../../assets/icons/ic-layout.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">作品成果</div>
         </div>
       </div>
@@ -149,6 +170,7 @@
       </ul>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/printing2/c_2-5.jpg"
         alt=""
       />
@@ -166,6 +188,7 @@
       </div>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/printing2/c_2-7.jpg"
         alt=""
       />
@@ -177,11 +200,13 @@
       </ul>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/printing2/c_2-8.jpg"
         alt=""
       />
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/printing2/c_2-9.jpg"
         alt=""
       />
@@ -193,6 +218,7 @@
       </ul>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/printing2/c_2-11.jpg"
         alt=""
       />
@@ -233,6 +259,7 @@
         </div>
         <img
           class="pt-60 w-100"
+          loading="lazy"
           src="../../../assets/works/printing2/c_2-12.jpg"
           alt=""
         />

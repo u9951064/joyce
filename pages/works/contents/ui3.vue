@@ -16,6 +16,7 @@
       class="pt-60 w-100 h-auto"
       width="2400"
       height="750"
+      loading="lazy"
       src="../../../assets/works/ui3/a_3-2.png"
       alt=""
     />
@@ -102,7 +103,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="24" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="24"
+            src="../../../assets/icons/ic-flag.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
         <div class="col-6">
@@ -120,7 +127,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-think.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
         <div class="col-6">
@@ -154,6 +167,7 @@
               class="w-100 h-auto"
               width="1000"
               height="500"
+              loading="lazy"
               src="../../../assets/works/ui3/a_3-3.png"
               alt=""
             />
@@ -167,7 +181,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-idea.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">設計理念及產出</div>
         </div>
         <div class="col-6">
@@ -178,18 +198,29 @@
       </div>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/ui3/a_3-4.png"
         alt=""
       />
       <div class="d-flex pt-60 flex-justify-space-between">
         <div class="col-3 pr-20">
-          <img class="w-100" src="../../../assets/works/ui3/a_3-5.png" alt="" />
+          <img
+            class="w-100"
+            loading="lazy"
+            src="../../../assets/works/ui3/a_3-5.png"
+            alt=""
+          />
           <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
             手機 Layout
           </p>
         </div>
         <div class="col-7 pl-20">
-          <img class="w-100" src="../../../assets/works/ui3/a_3-6.png" alt="" />
+          <img
+            class="w-100"
+            loading="lazy"
+            src="../../../assets/works/ui3/a_3-6.png"
+            alt=""
+          />
           <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
             網頁 Layout
           </p>

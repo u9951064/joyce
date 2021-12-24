@@ -13,6 +13,7 @@
 
     <img
       class="pt-60 w-100"
+      loading="lazy"
       src="../../../assets/works/management1/d_1-2.jpg"
       alt=""
     />
@@ -71,7 +72,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-target.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-target.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">專案動機</div>
         </div>
         <div class="col-6">
@@ -87,7 +94,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-think.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">專案流程</div>
         </div>
         <div class="col-6">
@@ -98,6 +111,7 @@
         </div>
         <img
           class="pt-60 w-100"
+          loading="lazy"
           src="../../../assets/works/management1/d_1-3.jpg"
           alt=""
         />
@@ -126,6 +140,7 @@
       </ul>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/management1/d_1-4.gif"
         alt=""
       />
@@ -136,6 +151,7 @@
       <div class="fz-22-m gray1 ml-8">03 規畫會議</div>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/management1/d_1-5.jpg"
         alt=""
       />
@@ -187,6 +203,7 @@
           </ul>
           <img
             class="pt-60 w-100"
+            loading="lazy"
             src="../../../assets/works/management1/d_1-6.jpg"
             alt=""
           />
@@ -204,6 +221,7 @@
       </div>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/management1/d_1-7.jpg"
         alt=""
       />

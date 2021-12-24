@@ -12,6 +12,7 @@
 
     <img
       class="pt-60 w-100"
+      loading="lazy"
       src="../../../assets/works/commerce3/b_3-2.jpg"
       alt=""
     />
@@ -133,6 +134,7 @@
           <div class="d-flex flex-justify-end pt-40">
             <img
               class="w-100"
+              loading="lazy"
               src="../../../assets/works/commerce3/b_3-3.jpg"
               alt=""
             />
@@ -162,11 +164,13 @@
       </div>
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/commerce3/b_3-4.jpg"
         alt=""
       />
       <img
         class="pt-60 w-100"
+        loading="lazy"
         src="../../../assets/works/commerce3/b_3-5.jpg"
         alt=""
       />
