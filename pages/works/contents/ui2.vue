@@ -18,7 +18,13 @@
     >
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-role.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-role.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -27,7 +33,13 @@
       </div>
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-time.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-time.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -38,6 +50,8 @@
         <div class="col-auto">
           <img
             class="icon"
+            width="22"
+            height="22"
             src="../../../assets/icons/ic-responsible.svg"
             alt=""
           />
@@ -53,7 +67,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-target.svg" alt="" />
+          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-target.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">動機</div>
         </div>
         <div class="col-6">
@@ -76,7 +90,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" width="25" height="24" src="../../../assets/icons/ic-flag.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">目標</div>
         </div>
         <div class="col-6">
@@ -93,7 +107,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-idea.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">設計流程</div>
         </div>
         <div class="col-6">
@@ -115,7 +129,8 @@
       <ElementTag :class="'mt-30'">1. 實際操作競品</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
-          實際體驗操作 高鐵 App 與 台鐵 App 並將頁面截圖下來，放在簡報上進行比較。
+          實際體驗操作 高鐵 App 與 台鐵 App
+          並將頁面截圖下來，放在簡報上進行比較。
         </ElementStarItem>
       </ul>
       <img
@@ -130,7 +145,8 @@
       <ElementTag :class="'mt-30'">2. 搜集相關評價</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
-          進一步調查整理 台鐵 App 於 Google Play 與 App Store 使用者的留言，將問題歸納分類。
+          進一步調查整理 台鐵 App 於 Google Play 與 App Store
+          使用者的留言，將問題歸納分類。
         </ElementStarItem>
       </ul>
       <img
@@ -146,7 +162,8 @@
       <ElementTag :class="'mt-30'">1. 擬定架構與層級</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
-          透過探索階段的資料確認此次專案優化方向與目標，延伸出 UI Flow 擬定 App 架構與層級。
+          透過探索階段的資料確認此次專案優化方向與目標，延伸出 UI Flow 擬定 App
+          架構與層級。
         </ElementStarItem>
       </ul>
       <img

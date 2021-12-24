@@ -12,14 +12,26 @@
       </div>
     </section>
 
-    <img class="pt-60 w-100" src="../../../assets/works/ui3/a_3-2.png" alt="" />
+    <img
+      class="pt-60 w-100 h-auto"
+      width="2400"
+      height="750"
+      src="../../../assets/works/ui3/a_3-2.png"
+      alt=""
+    />
 
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
     >
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-role.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-role.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -28,7 +40,13 @@
       </div>
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-time.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-time.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -39,6 +57,8 @@
         <div class="col-auto">
           <img
             class="icon"
+            width="22"
+            height="22"
             src="../../../assets/icons/ic-responsible.svg"
             alt=""
           />
@@ -58,7 +78,9 @@
         >
           <span
             class="
-              lh-20 fz-14-r ls-10
+              lh-20
+              fz-14-r
+              ls-10
               d-inline-flex
               flex-justify-center flex-align-center
             "
@@ -66,6 +88,8 @@
             觀看網頁
             <img
               class="d-block ml-2"
+              width="18"
+              height="18"
               src="../../../assets/icons/ic-search.svg"
               alt=""
             />
@@ -78,7 +102,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" width="25" height="24" src="../../../assets/icons/ic-flag.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
         <div class="col-6">
@@ -96,7 +120,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-think.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
         <div class="col-6">
@@ -127,7 +151,9 @@
           </ul>
           <div class="d-flex flex-justify-end pt-40">
             <img
-              class="w-100"
+              class="w-100 h-auto"
+              width="1000"
+              height="500"
               src="../../../assets/works/ui3/a_3-3.png"
               alt=""
             />
@@ -141,7 +167,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-idea.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">設計理念及產出</div>
         </div>
         <div class="col-6">
@@ -158,11 +184,15 @@
       <div class="d-flex pt-60 flex-justify-space-between">
         <div class="col-3 pr-20">
           <img class="w-100" src="../../../assets/works/ui3/a_3-5.png" alt="" />
-          <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">手機 Layout</p>
+          <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
+            手機 Layout
+          </p>
         </div>
         <div class="col-7 pl-20">
           <img class="w-100" src="../../../assets/works/ui3/a_3-6.png" alt="" />
-          <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">網頁 Layout</p>
+          <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
+            網頁 Layout
+          </p>
         </div>
       </div>
     </section>

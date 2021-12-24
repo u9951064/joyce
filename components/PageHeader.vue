@@ -12,7 +12,7 @@
         >
           <div class="col-auto">
             <NuxtLink :to="homePage" class="gray2 d-flex flex-align-center" title="回首頁">
-              <img class="" src="@/assets/images/logo.svg" alt="Joyce's Logo" />
+              <img class="w-auto h-100" src="@/assets/images/logo.svg" alt="Joyce's Logo" width="101" height="19"/>
             </NuxtLink>
           </div>
           <ul class="d-flex flex-align-center fz-14-b">

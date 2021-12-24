@@ -4,7 +4,13 @@
     <section class="container-1100">
       <div class="d-flex pt-120 pb-80">
         <div class="col">
-          <img class="w-90 border border-radius-50" src="../../assets/resume/photo.jpg" alt="個人照" />
+          <img
+            class="w-90 h-auto border border-radius-50"
+            width="490"
+            height="490"
+            src="../../assets/resume/photo.jpg"
+            alt="個人照"
+          />
         </div>
         <div class="d-flex-c col-5 pl-20 flex-justify-space-between">
           <div class="">
@@ -20,13 +26,20 @@
         </div>
         <div class="d-flex col-3 flex-justify-end">
           <div class="col-auto">
-            <ElementBtn href="/files/resume_joyce.pdf" title="下載履歷" class="ml-24" target="_blank">
+            <ElementBtn
+              href="/files/resume_joyce.pdf"
+              title="下載履歷"
+              class="ml-24"
+              target="_blank"
+            >
               <span class="lh-20 fz-14-r ls-10"
                 >下載履歷
                 <img
-                  class="ml-2 w-min20 h-min20"
+                  width="20"
+                  height="20"
+                  class="ml-2"
                   src="../../assets/icons/ic-download.svg"
-                  alt="關於我"
+                  alt="下載履歷"
               /></span>
             </ElementBtn>
           </div>
@@ -35,18 +48,36 @@
               <div class="col-auto fz-16-l gray1 mr-20">
                 {{ joycePhone }}
               </div>
-              <img class="icon" src="../../assets/icons/ic-phone.svg" alt="" />
+              <img
+                class="icon"
+                width="18"
+                height="18"
+                src="../../assets/icons/ic-phone.svg"
+                alt=""
+              />
             </div>
             <div class="d-flex flex-align-center pointer" @click="sendMail">
               <div class="col-auto fz-16-l gray1 mr-20">{{ joyceEmail }}</div>
-              <img class="icon" src="../../assets/icons/ic-mail.svg" alt="" />
+              <img
+                class="icon"
+                width="18"
+                height="18"
+                src="../../assets/icons/ic-mail.svg"
+                alt=""
+              />
             </div>
           </client-only>
           <div class="d-flex flex-align-center">
             <div class="col-auto fz-16-l gray1 mr-20">
               https://joyce.tinycloud.tw/
             </div>
-            <img class="icon" src="../../assets/icons/ic-website.svg" alt="" />
+            <img
+              class="icon"
+              width="18"
+              height="18"
+              src="../../assets/icons/ic-website.svg"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -133,33 +164,41 @@
           <h2 class="col-auto fz-30-b gray1 pr-24">獲獎紀錄</h2>
           <div class="col line border-top-gray3"></div>
         </div>
-          <!-- Hi BUS! -->
+        <!-- Hi BUS! -->
         <h3 class="fz-22-m gray1">
           <NuxtLink
             class="blue1"
-            :to="{name: 'works-contents-ui1'}"
+            :to="{ name: 'works-contents-ui1' }"
             target="_blank"
             title="Hi BUS!"
             >Hi BUS!
           </NuxtLink>
         </h3>
         <ul class="fz-16-l gray2 pt-16 pb-60">
-          <ElementStarItem> 2021&emsp;THE F2E 3rd 前端 &amp; UI 修煉精神時光屋｜團體組第 1 名  </ElementStarItem>
+          <ElementStarItem>
+            2021&emsp;THE F2E 3rd 前端 &amp; UI 修煉精神時光屋｜團體組第 1 名
+          </ElementStarItem>
         </ul>
-          <!-- TAICHUNG -->
+        <!-- TAICHUNG -->
         <h3 class="fz-22-m gray1">
           <NuxtLink
             class="blue1"
-            :to="{name: 'works-contents-printing2'}"
+            :to="{ name: 'works-contents-printing2' }"
             target="_blank"
             title="TAICHUNG"
             >TAICHUNG
           </NuxtLink>
         </h3>
         <ul class="fz-16-l gray2 pt-16 pb-60">
-          <ElementStarItem> 2019&emsp;德國紅點設計｜品牌暨傳達設計紅點獎</ElementStarItem>
-          <ElementStarItem> 2019&emsp;泰達盃青年創意設計大賽｜入圍 </ElementStarItem>
-          <ElementStarItem> 2019&emsp;放視大賞 - 平面傳達設計組｜入圍</ElementStarItem>
+          <ElementStarItem>
+            2019&emsp;德國紅點設計｜品牌暨傳達設計紅點獎</ElementStarItem
+          >
+          <ElementStarItem>
+            2019&emsp;泰達盃青年創意設計大賽｜入圍
+          </ElementStarItem>
+          <ElementStarItem>
+            2019&emsp;放視大賞 - 平面傳達設計組｜入圍</ElementStarItem
+          >
         </ul>
 
         <!-- skill -->
@@ -167,7 +206,7 @@
           <h2 class="col-auto fz-30-b gray1 pr-24">專長技能</h2>
           <div class="col line border-top-gray3"></div>
         </div>
-          <!-- UI 設計 -->
+        <!-- UI 設計 -->
         <h3 class="fz-22-m gray1">UI 設計</h3>
         <p class="fz-16-l gray2 pt-12">Figma</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">
@@ -177,7 +216,7 @@
             製作靜態 Mockup 及可互動的 Prototype
           </ElementStarItem>
         </ul>
-          <!-- 前端概念 -->
+        <!-- 前端概念 -->
         <h3 class="fz-22-m gray1">前端概念</h3>
         <p class="fz-16-l gray2 pt-12">Visual Studio Code</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">
@@ -185,7 +224,7 @@
             使用 HTML、CSS 切版完成 Landing Page，具備 RWD 知識
           </ElementStarItem>
         </ul>
-          <!-- 平面設計 -->
+        <!-- 平面設計 -->
         <h3 class="fz-22-m gray1">平面設計</h3>
         <p class="fz-16-l gray2 pt-12">Illustrator、Photoshop、InDesign</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">
@@ -195,7 +234,7 @@
             手繪插畫、影像合成、名片、年鑑、DM設計
           </ElementStarItem>
         </ul>
-          <!-- 管理協作 -->
+        <!-- 管理協作 -->
         <h3 class="fz-22-m gray1">管理協作</h3>
         <p class="fz-16-l gray2 pt-12">Notion、 Trello、Google Docs</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">

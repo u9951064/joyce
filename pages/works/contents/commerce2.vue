@@ -22,7 +22,13 @@
     >
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-role.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-role.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -31,7 +37,13 @@
       </div>
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-time.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-time.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -42,6 +54,8 @@
         <div class="col-auto">
           <img
             class="icon"
+            width="22"
+            height="22"
             src="../../../assets/icons/ic-responsible.svg"
             alt=""
           />
@@ -61,7 +75,9 @@
         >
           <span
             class="
-              lh-20 fz-14-r ls-10
+              lh-20
+              fz-14-r
+              ls-10
               d-inline-flex
               flex-justify-center flex-align-center
             "
@@ -69,6 +85,8 @@
             觀看作品
             <img
               class="d-block ml-2"
+              width="18"
+              height="18"
               src="../../../assets/icons/ic-search.svg"
               alt=""
             />
@@ -81,7 +99,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" width="25" height="24" src="../../../assets/icons/ic-flag.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">商品介紹</div>
         </div>
         <div class="col-6">
@@ -100,7 +118,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-think.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
         <div class="col-6">
@@ -144,7 +162,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-idea.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
         <div class="col-6">

@@ -12,14 +12,26 @@
       </div>
     </section>
 
-    <img class="pt-60 w-100" src="../../../assets/works/ui1/a_1-2.jpg" alt="" />
+    <img
+      class="pt-60 w-100 h-auto"
+      width="2400"
+      height="750"
+      src="../../../assets/works/ui1/a_1-2.jpg"
+      alt=""
+    />
 
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
     >
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-role.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-role.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -28,7 +40,13 @@
       </div>
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-time.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-time.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -39,6 +57,8 @@
         <div class="col-auto">
           <img
             class="icon"
+            width="22"
+            height="22"
             src="../../../assets/icons/ic-responsible.svg"
             alt=""
           />
@@ -58,7 +78,9 @@
         >
           <span
             class="
-              lh-20 fz-14-r ls-10
+              lh-20
+              fz-14-r
+              ls-10
               d-inline-flex
               flex-justify-center flex-align-center
             "
@@ -66,6 +88,8 @@
             觀看網頁
             <img
               class="d-block ml-2"
+              width="18"
+              height="18"
               src="../../../assets/icons/ic-search.svg"
               alt=""
             />
@@ -80,7 +104,9 @@
         >
           <span
             class="
-              lh-20 fz-14-r ls-10
+              lh-20
+              fz-14-r
+              ls-10
               d-inline-flex
               flex-justify-center flex-align-center
             "
@@ -88,6 +114,8 @@
             線上標示文件
             <img
               class="d-block ml-2"
+              width="18"
+              height="18"
               src="../../../assets/icons/ic-figma.svg"
               alt=""
             />
@@ -102,7 +130,9 @@
         >
           <span
             class="
-              lh-20 fz-14-r ls-10
+              lh-20
+              fz-14-r
+              ls-10
               d-inline-flex
               flex-justify-center flex-align-center
             "
@@ -110,6 +140,8 @@
             公開程式碼
             <img
               class="d-block ml-2"
+              width="18"
+              height="18"
               src="../../../assets/icons/ic-code.svg"
               alt=""
             />
@@ -122,7 +154,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-target.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-target.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">參賽動機</div>
         </div>
         <div class="col-6">
@@ -135,7 +173,13 @@
           </p>
         </div>
         <div class="d-flex flex-justify-end pt-40">
-          <img class="w-100" src="../../../assets/works/ui1/a_1-3.jpg" alt="" />
+          <img
+            class="w-100 h-auto"
+            width="1903"
+            height="727"
+            src="../../../assets/works/ui1/a_1-3.jpg"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -144,7 +188,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="24"
+            src="../../../assets/icons/ic-flag.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">競賽介紹</div>
         </div>
         <div class="col-6">
@@ -170,7 +220,9 @@
           </p>
           <div class="d-flex flex-justify-end pt-40">
             <img
-              class="w-100 border-gray3 d-block"
+              class="w-100 h-auto border-gray3 d-block"
+              width="922"
+              height="897"
               src="../../../assets/works/ui1/a_1-4.jpg"
               alt=""
             />
@@ -183,7 +235,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-idea.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
         <div class="col-6">
@@ -202,7 +260,9 @@
         </div>
         <div class="d-flex flex-justify-end pt-40">
           <ElementImageViewer
-            class="w-100"
+            class="w-100 h-auto"
+            width="2000"
+            height="820"
             src="../../../assets/works/ui1/a_1-5.jpg"
             alt=""
           />
@@ -214,7 +274,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-think.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">設計流程</div>
         </div>
         <div class="col-6">
@@ -233,7 +299,13 @@
           </p>
         </div>
         <div class="d-flex flex-justify-end pt-40">
-          <img class="w-100" src="../../../assets/works/ui1/a_1-6.jpg" alt="" />
+          <img
+            class="w-100 h-auto"
+            width="2000"
+            height="820"
+            src="../../../assets/works/ui1/a_1-6.jpg"
+            alt=""
+          />
         </div>
       </div>
     </section>
@@ -255,11 +327,15 @@
           一同擬定 Flow，繪製 Wireframe 確認方向及想法。
         </ElementStarItem>
       </ul>
-      <ElementImageViewer
-        class="pt-60 w-100"
-        src="../../../assets/works/ui1/a_1-7.png"
-        alt="製作 Wireframe"
-      />
+      <div class="pt-60">
+        <ElementImageViewer
+          class="w-100 h-auto"
+          width="7501"
+          height="3323"
+          src="../../../assets/works/ui1/a_1-7.png"
+          alt="製作 Wireframe"
+        />
+      </div>
     </section>
     <!-- 03 執行階段 3. 制定 Design System-->
     <section class="container-1000 pb-80">
@@ -272,14 +348,18 @@
       </ul>
       <div class="pt-60">
         <img
-          class="w-100 border-gray3 d-block"
+          class="w-100 h-auto border-gray3 d-block"
           src="../../../assets/works/ui1/a_1-8.png"
+          width="1800"
+          height="1100"
           alt=""
         />
       </div>
       <div class="pt-60">
         <img
-          class="w-100 border-gray3 d-block"
+          class="w-100 h-auto border-gray3 d-block"
+          width="1800"
+          height="1100"
           src="../../../assets/works/ui1/a_1-9.png"
           alt=""
         />
@@ -297,7 +377,9 @@
       </ul>
       <div class="pt-60">
         <img
-          class="w-100 border-gray3 d-block"
+          class="w-100 h-auto border-gray3 d-block"
+          width="1800"
+          height="1390"
           src="../../../assets/works/ui1/a_1-10.png"
           alt=""
         />
@@ -311,11 +393,15 @@
           按照設計系統，將 Wireframe 精稿，審視每一張頁面流程及風格是否一致。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui1/a_1-11.png"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="5000"
+          height="2700"
+          src="../../../assets/works/ui1/a_1-11.png"
+          alt=""
+        />
+      </div>
       <ul class="fz-16-l gray2 pt-80">
         <ElementStarItem>
           導覽列下方透過藍綠色流動漸層，呈現公車正在行駛中的意象。<br />
@@ -326,16 +412,24 @@
       <div class="text-align-center pt-40">
         <ElementYoutube videoId="R3aLJO40n4c" :autoplay="true" :loop="true" />
       </div>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui1/a_1-12.png"
-        alt=""
-      />
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui1/a_1-13.png"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2400"
+          height="900"
+          src="../../../assets/works/ui1/a_1-12.png"
+          alt=""
+        />
+      </div>
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2400"
+          height="900"
+          src="../../../assets/works/ui1/a_1-13.png"
+          alt=""
+        />
+      </div>
     </section>
     <!-- 03 執行階段 6. 延伸RWD頁面-->
     <section class="container-1000 pb-80">
@@ -345,11 +439,15 @@
           以 Web 設計為主，製作完所有頁面後，接著繪製其他裝置 UI 視覺。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui1/a_1-14.png"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2500"
+          height="1000"
+          src="../../../assets/works/ui1/a_1-14.png"
+          alt=""
+        />
+      </div>
     </section>
     <!-- 03 執行階段 7. 副功能-->
     <section class="container-1000 pb-80">
@@ -367,23 +465,37 @@
           >。
         </ElementStarItem>
       </ul>
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui1/a_1-15.png"
-        alt=""
-      />
-      <img
-        class="pt-60 w-100"
-        src="../../../assets/works/ui1/a_1-16.png"
-        alt=""
-      />
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2400"
+          height="900"
+          src="../../../assets/works/ui1/a_1-15.png"
+          alt=""
+        />
+      </div>
+      <div class="pt-60">
+        <img
+          class="w-100 h-auto"
+          width="2400"
+          height="900"
+          src="../../../assets/works/ui1/a_1-16.png"
+          alt=""
+        />
+      </div>
     </section>
 
     <!-- 評審點評與競賽心得 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-award.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="../../../assets/icons/ic-award.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">評審點評與競賽心得</div>
         </div>
         <div class="col-6">
@@ -419,16 +531,22 @@
         </div>
         <div class="pt-60">
           <img
-            class="w-100 border-gray3 d-block"
+            class="w-100 h-auto border-gray3 d-block"
+            width="1691"
+            height="673"
             src="../../../assets/works/ui1/a_1-17.jpg"
             alt=""
           />
         </div>
-        <img
-          class="pt-60 w-100"
-          src="../../../assets/works/ui1/a_1-18.jpg"
-          alt=""
-        />
+        <div class="pt-60">
+          <img
+            class="w-100 h-auto"
+            width="2000"
+            height="1000"
+            src="../../../assets/works/ui1/a_1-18.jpg"
+            alt=""
+          />
+        </div>
       </div>
       <ul class="fz-16-l gray2 pt-60">
         <ElementStarItem>

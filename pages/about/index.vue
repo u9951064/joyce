@@ -4,7 +4,13 @@
     <section class="container-1100">
       <div class="d-flex pt-120 pb-80">
         <div class="col-3">
-          <img class="w-100" src="../../assets/about/photo.png" alt="個人照" />
+          <img
+            class="w-100 h-auto"
+            width="1200"
+            height="1380"
+            src="../../assets/about/photo.png"
+            alt="個人照"
+          />
         </div>
         <div class="col-7 pl-40">
           <div class="d-flex-c flex-justify-space-between h-100">
@@ -44,7 +50,9 @@
           >
             <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
               <img
-                class="d-block w-80"
+                class="d-block w-80 h-auto"
+                width="101"
+                height="88"
                 src="../../assets/about/ui.svg"
                 alt=""
               />
@@ -69,7 +77,9 @@
           >
             <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
               <img
-                class="d-block w-80"
+                class="d-block w-80 h-auto"
+                width="111"
+                height="82"
                 src="../../assets/about/commerce.svg"
                 alt=""
               />
@@ -94,9 +104,11 @@
           >
             <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
               <img
-                class="d-block w-80"
+                class="d-block w-80 h-auto"
+                width="121"
+                height="120"
                 src="../../assets/about/graphic.svg"
-                alt=""
+                alt="平面設計"
               />
             </div>
             <div class="col-7 content pr-8 pb-24 pt-24">
@@ -117,7 +129,9 @@
           >
             <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
               <img
-                class="d-block w-80"
+                class="d-block w-80 h-auto"
+                width="111"
+                height="90"
                 src="../../assets/about/web.svg"
                 alt=""
               />
@@ -154,35 +168,45 @@
         <div class="col-6 d-flex text-align-right">
           <div class="col text-align-right">
             <img
-              class="w-70 border-radius-8"
+              class="w-70 h-auto border-radius-8"
+              width="101"
+              height="100"
               src="../../assets/about/ai.svg"
               alt=""
             /><br />
           </div>
           <div class="col text-align-right">
             <img
-              class="w-70 border-radius-8"
+              class="w-70 h-auto border-radius-8"
+              width="101"
+              height="100"
               src="../../assets/about/ps.svg"
               alt=""
             /><br />
           </div>
           <div class="col text-align-right">
             <img
-              class="w-70 border-radius-8"
+              class="w-70 h-auto border-radius-8"
+              width="101"
+              height="100"
               src="../../assets/about/id.svg"
               alt=""
             /><br />
           </div>
           <div class="col text-align-right">
             <img
-              class="w-70 border-radius-8 border-gray3"
+              class="w-70 h-auto border-radius-8 border-gray3"
+              width="101"
+              height="100"
               src="../../assets/about/vsc.svg"
               alt=""
             /><br />
           </div>
           <div class="col text-align-right">
             <img
-              class="w-70 border-radius-8"
+              class="w-70 h-auto border-radius-8"
+              width="101"
+              height="100"
               src="../../assets/about/figma.svg"
               alt=""
             /><br />
@@ -200,9 +224,11 @@
       <div class="d-flex">
         <div class="col-1">
           <img
-            class="border-gray3 border-radius-8 w-100"
+            class="border-gray3 border-radius-8 w-100 h-auto"
+            width="88"
+            height="88"
             src="../../assets/about/logo-lcc.svg"
-            alt=""
+            alt="聯成電腦 Logo"
           />
         </div>
         <div class="col-9 pl-4 pl-60">
@@ -242,9 +268,11 @@
       <div class="d-flex">
         <div class="col-1">
           <img
-            class="border-gray3 border-radius-8 w-100"
+            class="border-gray3 border-radius-8 w-100 h-auto"
+            width="100"
+            height="100"
             src="../../assets/about/logo-shop123.svg"
-            alt=""
+            alt="開店123 Logo"
           />
         </div>
         <div class="col-9 pl-4 pl-60">
@@ -274,7 +302,9 @@
       <div class="d-flex">
         <div class="col-1">
           <img
-            class="border-gray3 border-radius-8 w-100"
+            class="border-gray3 border-radius-8 w-100 h-auto"
+            width="100"
+            height="100"
             src="../../assets/about/logo-aisa.svg"
             alt=""
           />

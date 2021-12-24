@@ -23,7 +23,13 @@
     >
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-role.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-role.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -32,7 +38,13 @@
       </div>
       <div class="d-flex">
         <div class="col-auto">
-          <img class="icon" src="../../../assets/icons/ic-time.svg" alt="" />
+          <img
+            class="icon"
+            width="22"
+            height="22"
+            src="../../../assets/icons/ic-time.svg"
+            alt=""
+          />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -43,6 +55,8 @@
         <div class="col-auto">
           <img
             class="icon"
+            width="22"
+            height="22"
             src="../../../assets/icons/ic-responsible.svg"
             alt=""
           />
@@ -60,7 +74,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-flag.svg" alt="" />
+          <img class="icon" width="25" height="24" src="../../../assets/icons/ic-flag.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
         <div class="col-6">
@@ -78,7 +92,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-think.svg" alt="" />
+          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-think.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
         <div class="col-6">
@@ -119,7 +133,7 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-idea.svg" alt="" />
+          <img class="icon" width="25" height="25" src="../../../assets/icons/ic-idea.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
         <div class="col-6">
@@ -139,12 +153,15 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-layout.svg" alt="" />
+          <img class="icon" width="24" height="25" src="../../../assets/icons/ic-layout.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">廣告行銷</div>
         </div>
         <div class="col-6">
           <p class="fz-16-l gray2">
-            廣告是活動最前線，除附圖的 FB 廣告素材外另有 Google DBM 素材進行廣告投放。製作 FB 促銷模板後將各課程素材套用，於 FB 投放各課程優惠資訊，針對不同 TA 透放相對應課程，並以顯眼的 666 優惠文案吸引消費者點擊進站。
+            廣告是活動最前線，除附圖的 FB 廣告素材外另有 Google DBM
+            素材進行廣告投放。製作 FB 促銷模板後將各課程素材套用，於 FB
+            投放各課程優惠資訊，針對不同 TA 透放相對應課程，並以顯眼的 666
+            優惠文案吸引消費者點擊進站。
           </p>
         </div>
       </div>
