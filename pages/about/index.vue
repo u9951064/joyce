@@ -256,7 +256,7 @@
               使用 HTML、CSS 撰寫符合 RWD 設計的廣告頁，吸引消費者填單
             </ElementStarItem>
             <ElementStarItem>
-              <template #title>導入敏捷式開發</template>
+              <template #title>敏捷開發</template>
               任職期間兼負 PM 角色導入敏捷式開發，讓原先 3 個月製作時程縮短為 1
               個月完成
             </ElementStarItem>

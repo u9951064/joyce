@@ -13,14 +13,14 @@
     </div>
 
     <div class="col p-30">
-      <h2 class="fz-30-b gray1">TAICHUNG</h2>
+      <h2 class="fz-22-m gray1">TAICHUNG</h2>
       <ul class="pt-16 fz-16-l gray2">
         <ElementStarItem>2019 德國紅點設計 | 品牌暨傳達設計紅點獎</ElementStarItem>
         <ElementStarItem>2019 泰達盃青年創意設計大賽 | 入圍</ElementStarItem>
         <ElementStarItem>2019 放視大賞 - 平面傳達設計組  | 入圍</ElementStarItem>
       </ul>
       <p class="pt-16 fz-16-l gray2">
-        打造台中城市觀光品牌，透過副標「美學，從中可見。」可以找尋台中人與人之間互動與生活的美學。
+        打造台中城市觀光品牌，透過副標「美學，從中可見。」找尋台中人與人之間互動與生活美學。
       </p>
     </div>
   </NuxtLink>

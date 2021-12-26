@@ -420,7 +420,7 @@
         </ElementStarItem>
       </ul>
       <div class="text-align-center pt-40">
-        <ElementYoutube videoId="R3aLJO40n4c" :autoplay="true" :loop="true" />
+        <ElementYoutube videoId="6lD2zQ8dcqg" :autoplay="true" :loop="true" />
       </div>
       <div class="pt-60">
         <img

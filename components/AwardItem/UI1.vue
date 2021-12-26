@@ -12,15 +12,15 @@
       />
     </div>
     <div class="col p-30">
-      <h2 class="fz-30-b gray1">Hi BUS!</h2>
+      <h2 class="fz-22-m gray1">Hi BUS!</h2>
       <ul class="pt-16 fz-16-l gray2">
         <ElementStarItem
-          >2021 第三屆 The F2E 前端 &amp; UI 修煉精神時光屋 | 團體組第 1
+          >2021 THE F2E 3rd 前端 &amp; UI 修煉精神時光屋 | 團體組第 1
           名</ElementStarItem
         >
       </ul>
       <p class="pt-16 fz-16-l gray2">
-        與 1 名前端工程師報名參加由六角學院舉辦的「 第三屆 The F2E 前端 &amp; UI
+        與 1 名前端工程師報名參加由六角學院舉辦的「 THE F2E 3rd 前端 &amp; UI
         修煉精神時光屋 」團體組競賽。針對第三道題「 全台公車動態時刻查詢應用服務
         」進行研究、設計與開發。
       </p>
