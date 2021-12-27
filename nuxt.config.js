@@ -38,7 +38,7 @@ export default {
     '@nuxtjs/style-resources',
     '@nuxtjs/robots',
     '@nuxtjs/sitemap',
-    'nuxt-purgecss',
+    //'nuxt-purgecss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

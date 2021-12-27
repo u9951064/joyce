@@ -5,7 +5,7 @@
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">TAICHUNG 美學，從中可見</h2>
         <div class="pt-8">
-          <ElementTag>城市識別</ElementTag>
+          <ElementTag>城市識別設計</ElementTag>
         </div>
       </div>
     </section>

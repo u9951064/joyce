@@ -13,7 +13,7 @@
             m-auto
           "
         >
-          <div class="col-auto pl-10 pr-10">
+          <div class="col-auto pl-20 pr-20">
             <NuxtLink
               :to="homePage"
               class="gray2 d-flex flex-align-center"
@@ -30,7 +30,7 @@
             </NuxtLink>
           </div>
           <div
-            class="d-none d-sm-flex col-sm-col pl-10 pr-10 pointer"
+            class="d-none d-sm-flex col-sm-col pl-20 pr-20 pointer"
             @click="toggleMenu"
           >
             <img v-if="menuStatus" src="@/assets/icons/ic-cross.svg" />
@@ -38,6 +38,7 @@
           </div>
           <ul
             class="
+              pt-60
               col col-sm-10
               d-flex
               flex-justify-end flex-align-center

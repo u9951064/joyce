@@ -16,7 +16,7 @@
         <div class="col-7 col-sm-10 pl-40 pl-sm-0">
           <div class="d-flex-c flex-justify-space-between h-100">
             <div class="col">
-              <h1 class="fz-30-b gray1">Hi I'm Joyce!</h1>
+              <h1 class="fz-30-b gray1 text-align-center-sm">Hi I'm Joyce!</h1>
               <p class="fz-16-l gray2 pt-16">
                 擁有網頁視覺設計師 2
                 年的經驗，針對不同事業體、活動，製作出對應風格的廣告素材、網頁切版、平面設計。
@@ -190,7 +190,7 @@
             記錄生活、制定目標並將資料整理歸納。
           </p>
         </div>
-        <div class="col-6 col-sm-10 d-flex pt-20">
+        <div class="col-6 col-sm-10 d-flex pt-20-sm">
           <div class="col text-align-right text-sm-align-center">
             <img
               class="w-70 w-sm-90 h-auto border-radius-8"
@@ -264,7 +264,7 @@
           <div class="fz-16-l gray1 pt-16">網頁視覺設計師 / 儲備主管</div>
         </div>
         <div class="col-85 col-sm-10">
-          <ul class="fz-16-l gray2 pt-16 pb-60">
+          <ul class="fz-16-l gray2 pb-60">
             <ElementStarItem>
               <template #title>廣告設計</template>
               負責檔期活動視覺及相關廣告素材，提高 5 倍績效
@@ -310,7 +310,7 @@
           <div class="fz-16-l gray1 pt-16">設計助理</div>
         </div>
         <div class="col-85 col-sm-10">
-          <ul class="fz-16-l gray2 pt-16 pb-60">
+          <ul class="fz-16-l gray2 pb-60">
             <ElementStarItem>
               <template #title>平面設計</template>
               廣告設計、集點卡設計、活動看板設計、手冊設計
@@ -346,7 +346,7 @@
           <div class="fz-16-l gray1 pt-16">視覺傳達設計系</div>
         </div>
         <div class="col-85 col-sm-10">
-          <ul class="fz-16-l gray2 pt-16 pb-60">
+          <ul class="fz-16-l gray2 pb-60">
             <ElementStarItem>
               <template #title>畢業製作</template>
               擔任團隊負責人。TAICHUNG 作品獲德國紅點設計獎<br />負責項目：色彩規劃、插畫設計、時間規劃、作品導覽
