@@ -21,7 +21,7 @@
                   width="20"
                   height="20"
                   class="ml-2"
-                  src="../../assets/icons/ic-joyce.svg"
+                  src="@/assets/icons/ic-joyce.svg"
                   alt="關於我"
               /></span>
             </ElementBtn>
@@ -37,7 +37,7 @@
                   width="20"
                   height="20"
                   class="ml-2"
-                  src="../../assets/icons/ic-download.svg"
+                  src="@/assets/icons/ic-download.svg"
                   alt="下載"
               /></span>
             </ElementBtn>
@@ -48,7 +48,7 @@
             width="288"
             height="258"
             class="d-block ml-sm-auto"
-            src="../../assets/images/joyce-illustration.svg"
+            src="@/assets/images/joyce-illustration.svg"
             alt=""
           />
         </div>

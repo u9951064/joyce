@@ -3,7 +3,7 @@
     <section class="container-800">
       <div class="d-flex pt-120 border-bottom-gray1">
         <div class="col">
-          <h1 class="fz-40-b gray1">Hi Ｉ’m Joyce!</h1>
+          <h1 class="fz-40-b gray1">Hi I'm Joyce!</h1>
           <div class="fz-17-l gray2 pt-16">
             我是名網頁視覺設計師，擅長
             <ElementTypeIn
@@ -19,16 +19,21 @@
                 >關於我
                 <img
                   class="ml-2 w-min20 h-min20"
-                  src="../../assets/icons/ic-joyce.svg"
+                  src="@/assets/icons/ic-joyce.svg"
                   alt="關於我"
               /></span>
             </ElementBtn>
-            <ElementBtn href="/files/resume_joyce.pdf" title="下載履歷" class="ml-24" target="_blank">
+            <ElementBtn
+              href="/files/resume_joyce.pdf"
+              title="下載履歷"
+              class="ml-24"
+              target="_blank"
+            >
               <span class="lh-20 fz-14-r ls-10"
                 >下載履歷
                 <img
                   class="ml-2 w-min20 h-min20"
-                  src="../../assets/icons/ic-download.svg"
+                  src="@/assets/icons/ic-download.svg"
                   alt="下載"
               /></span>
             </ElementBtn>
@@ -37,14 +42,23 @@
         <div class="col-auto pt-80">
           <img
             class="d-block h-min250 w-min250"
-            src="../../assets/images/joyce-illustration.svg"
+            src="@/assets/images/joyce-illustration.svg"
             alt=""
           />
         </div>
       </div>
     </section>
 
-    <div class="d-flex flex-align-center flex-justify-center pt-60 lh-20 fz-14-r ls-10">
+    <div
+      class="
+        d-flex
+        flex-align-center flex-justify-center
+        pt-60
+        lh-20
+        fz-14-r
+        ls-10
+      "
+    >
       <ElementBtn
         tag="NuxtLink"
         :class="'work-btn'"

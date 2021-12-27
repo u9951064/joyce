@@ -8,7 +8,7 @@
             class="w-90 w-sm-75 h-auto border-gray1 border-radius-circle"
             width="490"
             height="490"
-            src="../../assets/resume/photo.jpg"
+            src="@/assets/resume/photo.jpg"
             alt="個人照"
           />
         </div>
@@ -67,7 +67,7 @@
                   width="20"
                   height="20"
                   class="ml-2"
-                  src="../../assets/icons/ic-download.svg"
+                  src="@/assets/icons/ic-download.svg"
                   alt="下載履歷"
               /></span>
             </ElementBtn>
@@ -89,7 +89,7 @@
                 class="icon"
                 width="18"
                 height="18"
-                src="../../assets/icons/ic-phone.svg"
+                src="@/assets/icons/ic-phone.svg"
                 alt=""
               />
             </div>
@@ -109,7 +109,7 @@
                 class="icon"
                 width="18"
                 height="18"
-                src="../../assets/icons/ic-mail.svg"
+                src="@/assets/icons/ic-mail.svg"
                 alt=""
               />
             </div>
@@ -129,7 +129,7 @@
               class="icon"
               width="18"
               height="18"
-              src="../../assets/icons/ic-website.svg"
+              src="@/assets/icons/ic-website.svg"
               alt=""
             />
           </div>
