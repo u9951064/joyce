@@ -7,7 +7,7 @@
     <div class="col-4 col-sm-10 border-right-gray1 border-sm-right-none bg-blue2 p-relative h-min220">
       <img
         class="p-absolute printing-img"
-        src="../../assets/works/printing2/c_2-1.png"
+        src="@/assets/works/printing2/c_2-1.png"
         alt=""
       />
     </div>

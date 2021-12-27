@@ -16,7 +16,7 @@
     >
       <img
         class="p-absolute commerce-img"
-        src="../../assets/works/commerce3/b_3-1.png"
+        src="@/assets/works/commerce3/b_3-1.png"
         alt=""
       />
     </div>

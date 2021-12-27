@@ -15,7 +15,7 @@
       ">
       <img
         class="p-absolute ui-img"
-        src="../../assets/works/ui3/a_3-1.png"
+        src="@/assets/works/ui3/a_3-1.png"
         alt=""
       />
     </div>

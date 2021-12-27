@@ -16,7 +16,7 @@
     >
       <img
         class="p-absolute printing-img"
-        src="../../assets/works/printing2/c_2-1.png"
+        src="@/assets/works/printing2/c_2-1.png"
         alt=""
       />
     </div>

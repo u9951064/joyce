@@ -16,7 +16,7 @@
     >
       <img
         class="printing-img"
-        src="../../assets/works/printing1/c_1-1.png"
+        src="@/assets/works/printing1/c_1-1.png"
         alt=""
       />
     </div>

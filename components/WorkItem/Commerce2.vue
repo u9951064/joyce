@@ -16,7 +16,7 @@
     >
       <img
         class="p-absolute commerce-img"
-        src="../../assets/works/commerce2/b_2-1.gif"
+        src="@/assets/works/commerce2/b_2-1.gif"
         alt=""
       />
     </div>

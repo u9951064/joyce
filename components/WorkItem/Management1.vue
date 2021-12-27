@@ -16,7 +16,7 @@
     >
       <img
         class="w-100"
-        src="../../assets/works/management1/d_1-1.png"
+        src="@/assets/works/management1/d_1-1.png"
         alt=""
       />
     </div>

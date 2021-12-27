@@ -7,7 +7,7 @@
     <div class="col-4 col-sm-10 border-right-gray1 border-sm-right-none bg-gray p-relative overflow-hidden h-min220">
       <img
         class="p-absolute ui-img"
-        src="../../assets/works/ui1/a_1-1.png"
+        src="@/assets/works/ui1/a_1-1.png"
         alt=""
       />
     </div>

@@ -8,7 +8,7 @@
             class="w-100 h-auto w-sm-75"
             width="1200"
             height="1380"
-            src="../../assets/about/photo.png"
+            src="@/assets/about/photo.png"
             alt="侯佳君 Joyce 的個人照"
             title="個人照"
           />
@@ -61,7 +61,7 @@
                 class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
                 width="101"
                 height="88"
-                src="../../assets/about/ui.svg"
+                src="@/assets/about/ui.svg"
                 alt=""
               />
             </div>
@@ -95,7 +95,7 @@
                 class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
                 width="111"
                 height="82"
-                src="../../assets/about/commerce.svg"
+                src="@/assets/about/commerce.svg"
                 alt=""
               />
             </div>
@@ -129,7 +129,7 @@
                 class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
                 width="121"
                 height="120"
-                src="../../assets/about/graphic.svg"
+                src="@/assets/about/graphic.svg"
                 alt="平面設計"
               />
             </div>
@@ -161,7 +161,7 @@
                 class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
                 width="111"
                 height="90"
-                src="../../assets/about/web.svg"
+                src="@/assets/about/web.svg"
                 alt=""
               />
             </div>
@@ -196,7 +196,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
-              src="../../assets/about/ai.svg"
+              src="@/assets/about/ai.svg"
               alt=""
             /><br />
           </div>
@@ -205,7 +205,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
-              src="../../assets/about/ps.svg"
+              src="@/assets/about/ps.svg"
               alt=""
             /><br />
           </div>
@@ -214,7 +214,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
-              src="../../assets/about/id.svg"
+              src="@/assets/about/id.svg"
               alt=""
             /><br />
           </div>
@@ -223,7 +223,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8 border-gray3"
               width="101"
               height="100"
-              src="../../assets/about/vsc.svg"
+              src="@/assets/about/vsc.svg"
               alt=""
             /><br />
           </div>
@@ -232,7 +232,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
-              src="../../assets/about/figma.svg"
+              src="@/assets/about/figma.svg"
               alt=""
             /><br />
           </div>
@@ -252,7 +252,7 @@
             class="border-gray3 border-radius-8 w-90 h-auto"
             width="88"
             height="88"
-            src="../../assets/about/logo-lcc.svg"
+            src="@/assets/about/logo-lcc.svg"
             alt="聯成電腦 Logo"
           />
         </div>
@@ -298,7 +298,7 @@
             class="border-gray3 border-radius-8 w-90 h-auto"
             width="100"
             height="100"
-            src="../../assets/about/logo-shop123.svg"
+            src="@/assets/about/logo-shop123.svg"
             alt="開店123 Logo"
           />
         </div>
@@ -334,7 +334,7 @@
             class="border-gray3 border-radius-8 w-90 h-auto"
             width="100"
             height="100"
-            src="../../assets/about/logo-aisa.svg"
+            src="@/assets/about/logo-aisa.svg"
             alt=""
           />
         </div>
