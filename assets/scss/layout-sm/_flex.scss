@@ -52,7 +52,9 @@
   }
 
   &>.col-auto {
-    flex: 0 0 auto;
+    flex     : 0 0 auto;
+    width    : initial;
+    max-width: initial;
   }
 
   &>.col {
@@ -83,7 +85,9 @@
     }
 
     &>.col-md-auto {
-      flex: 0 0 auto;
+      flex     : 0 0 auto;
+      width    : initial;
+      max-width: initial;
     }
 
     &>.col-md {
@@ -115,7 +119,9 @@
     }
 
     &>.col-sm-auto {
-      flex: 0 0 auto;
+      flex     : 0 0 auto;
+      width    : initial;
+      max-width: initial;
     }
 
     &>.col-sm {
@@ -150,7 +156,9 @@
   }
 
   &>.col-auto {
-    flex: 0 0 auto;
+    flex      : 0 0 auto;
+    height    : initial;
+    max-height: initial;
   }
 
   &>.col {
@@ -181,7 +189,9 @@
     }
 
     &>.col-md-auto {
-      flex: 0 0 auto;
+      flex      : 0 0 auto;
+      height    : initial;
+      max-height: initial;
     }
 
     &>.col-md {
@@ -213,7 +223,9 @@
     }
 
     &>.col-sm-auto {
-      flex: 0 0 auto;
+      flex      : 0 0 auto;
+      height    : initial;
+      max-height: initial;
     }
 
     &>.col-sm {
@@ -237,5 +249,15 @@
         max-height: calc(100% / 10 * #{$i}.5);
       }
     }
+  }
+}
+
+@for $i from 1 to 12 {
+  .order-sm-#{$i} {
+    order: #{$i};
+  }
+
+  .order-sm-i#{$i} {
+    order: -#{$i};
   }
 }

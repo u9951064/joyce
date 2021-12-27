@@ -18,7 +18,7 @@
   margin-bottom: auto;
 }
 
-@for $i from 0 through 60 {
+@for $i from 0 through 200 {
   .p-sm-#{$i * 2} {
     padding: calc(#{$i} * 2px);
   }
@@ -28,13 +28,13 @@
   }
 }
 
-@for $i from 0 through 60 {
+@for $i from 0 through 200 {
   .m-sm-i#{$i * 2} {
     margin: calc(#{$i} * -2px);
   }
 }
 
-@for $i from 0 through 60 {
+@for $i from 0 through 200 {
   .pt-sm-#{$i * 2} {
     padding-top: calc(#{$i} * 2px);
   }
@@ -68,7 +68,7 @@
   }
 }
 
-@for $i from 1 through 60 {
+@for $i from 1 through 200 {
   .mr-sm-i#{$i * 2} {
     margin-right: calc(#{$i} * -2px);
   }

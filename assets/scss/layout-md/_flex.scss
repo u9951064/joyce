@@ -52,7 +52,9 @@
   }
 
   &>.col-auto {
-    flex: 0 0 auto;
+    flex     : 0 0 auto;
+    width    : initial;
+    max-width: initial;
   }
 
   &>.col {
@@ -66,13 +68,13 @@
   @for $i from 1 through 10 {
     &>.col-#{$i} {
       flex     : 1 1 calc(100% / 10 * #{$i});
-      width   : calc(100% / 10 * #{$i});
+      width    : calc(100% / 10 * #{$i});
       max-width: calc(100% / 10 * #{$i});
     }
 
     &>.col-#{$i}5 {
       flex     : 1 1 calc(100% / 10 * #{$i}.5);
-      width   : calc(100% / 10 * #{$i}.5);
+      width    : calc(100% / 10 * #{$i}.5);
       max-width: calc(100% / 10 * #{$i}.5);
     }
   }
@@ -83,7 +85,9 @@
     }
 
     &>.col-md-auto {
-      flex: 0 0 auto;
+      flex     : 0 0 auto;
+      width    : initial;
+      max-width: initial;
     }
 
     &>.col-md {
@@ -97,13 +101,13 @@
     @for $i from 1 through 10 {
       &>.col-md-#{$i} {
         flex     : 1 1 calc(100% / 10 * #{$i});
-        width   : calc(100% / 10 * #{$i});
+        width    : calc(100% / 10 * #{$i});
         max-width: calc(100% / 10 * #{$i});
       }
 
       &>.col-md-#{$i}5 {
         flex     : 1 1 calc(100% / 10 * #{$i}.5);
-        width   : calc(100% / 10 * #{$i}.5);
+        width    : calc(100% / 10 * #{$i}.5);
         max-width: calc(100% / 10 * #{$i}.5);
       }
     }
@@ -115,7 +119,9 @@
     }
 
     &>.col-sm-auto {
-      flex: 0 0 auto;
+      flex     : 0 0 auto;
+      width    : initial;
+      max-width: initial;
     }
 
     &>.col-sm {
@@ -129,13 +135,13 @@
     @for $i from 1 through 10 {
       &>.col-sm-#{$i} {
         flex     : 1 1 calc(100% / 10 * #{$i});
-        width   : calc(100% / 10 * #{$i});
+        width    : calc(100% / 10 * #{$i});
         max-width: calc(100% / 10 * #{$i});
       }
 
       &>.col-sm-#{$i}5 {
         flex     : 1 1 calc(100% / 10 * #{$i}.5);
-        width   : calc(100% / 10 * #{$i}.5);
+        width    : calc(100% / 10 * #{$i}.5);
         max-width: calc(100% / 10 * #{$i}.5);
       }
     }
@@ -150,7 +156,9 @@
   }
 
   &>.col-auto {
-    flex: 0 0 auto;
+    flex      : 0 0 auto;
+    height    : initial;
+    max-height: initial;
   }
 
   &>.col {
@@ -181,7 +189,9 @@
     }
 
     &>.col-md-auto {
-      flex: 0 0 auto;
+      flex      : 0 0 auto;
+      height    : initial;
+      max-height: initial;
     }
 
     &>.col-md {
@@ -213,7 +223,9 @@
     }
 
     &>.col-sm-auto {
-      flex: 0 0 auto;
+      flex      : 0 0 auto;
+      height    : initial;
+      max-height: initial;
     }
 
     &>.col-sm {
@@ -237,5 +249,15 @@
         max-height: calc(100% / 10 * #{$i}.5);
       }
     }
+  }
+}
+
+@for $i from 1 to 12 {
+  .order-md-#{$i} {
+    order: #{$i};
+  }
+
+  .order-md-i#{$i} {
+    order: -#{$i};
   }
 }

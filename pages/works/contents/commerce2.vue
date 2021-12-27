@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="container-800 pt-60">
+    <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">廣告設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">Figma新手指南UI/UX設計思維</h2>
@@ -11,64 +11,77 @@
       </div>
     </section>
 
-    <img
-      class="pt-60 w-100"
-      loading="lazy"
-      src="../../../assets/works/commerce2/b_2-2.gif"
-      alt=""
-    />
+    <div
+      class="
+        pt-60 pt-sm-20
+        ml-sm-i20
+        mr-sm-i20
+        overflow-x-hidden
+        text-align-center
+      "
+    >
+      <img
+        class="w-100 w-sm-155 h-auto ml-sm-i200 mr-sm-i200"
+        width="2400"
+        height="750"
+        loading="lazy"
+        src="@/assets/works/commerce2/b_2-2.gif"
+        alt="Figma新手指南UI/UX設計思維的封面圖片"
+        title="Figma新手指南UI/UX設計思維"
+      />
+    </div>
 
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
     >
-      <div class="d-flex">
+      <div class="d-flex col-sm order-sm-1">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-role.svg"
+            src="@/assets/icons/ic-role.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
-          <div class="fz-16-l gray2 pt-16">視覺設計師</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">視覺設計師</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10 order-sm-3">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-time.svg"
+            src="@/assets/icons/ic-time.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
-          <div class="fz-16-l gray2 pt-16">2 週</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">2 週</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10 order-sm-4">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-responsible.svg"
+            src="@/assets/icons/ic-responsible.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
-          <div class="fz-16-l gray2 pt-16">
+          <div class="fz-16-l gray2 pt-16 p-sm-0">
             設計發想｜視覺排版設計｜各通路廣告素材設計
           </div>
         </div>
       </div>
-      <div>
+      <div class="col-sm-auto order-sm-2">
         <ElementBtn
           target="_blank"
           rel="noreferrer noopener"
@@ -88,7 +101,7 @@
               class="d-block ml-2"
               width="18"
               height="18"
-              src="../../../assets/icons/ic-search.svg"
+              src="@/assets/icons/ic-search.svg"
               alt=""
             />
           </span>
@@ -99,17 +112,17 @@
     <!-- 商品介紹 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="24"
-            src="../../../assets/icons/ic-flag.svg"
+            src="@/assets/icons/ic-flag.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">商品介紹</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             菜鳥救星主要銷售各式線上真人直播課程，商品課程視覺相當於該產品的門面，搭配文案以吸睛的視覺做呈現。在進入設計製作之前需要先了解課程大綱，與老師及企劃開會討論，通常是課程的風格或是文案的關鍵字進行設計。
           </p>
@@ -124,17 +137,17 @@
     <!-- 設計發想 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-think.svg"
+            src="@/assets/icons/ic-think.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             企劃會初步整理主題及文案，與設計一同發想並討論設計進一步延伸，搜集相關素材、並構想主視覺
           </p>
@@ -161,13 +174,13 @@
             </ElementStarItem>
           </ul>
           <div class="d-flex flex-justify-end pt-40">
-            <img
+            <ElementImageViewer
               class="w-100"
               loading="lazy"
-              src="../../../assets/works/commerce2/b_2-3.jpg"
+              src="@/assets/works/commerce2/b_2-3.jpg"
               alt=""
             />
-            <p class="lh-20 fz-14-l ls-5 gray2 pt-16">參考圖</p>
+            <p class="lh-20 fz-14-l ls-5 gray2 pt-16 d-sm-none">參考圖</p>
           </div>
         </div>
       </div>
@@ -175,17 +188,17 @@
     <!-- 設計理念 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-idea.svg"
+            src="@/assets/icons/ic-idea.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             該門課程主題為 Figma 教學，有兩張輪播圖搭配影片做介紹，設計一系列
             Figma 課程相關素材同時需檢視頁面風格是否保持一致姓。
@@ -196,22 +209,22 @@
           </p>
         </div>
       </div>
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/commerce2/b_2-4.jpg"
+        src="@/assets/works/commerce2/b_2-4.jpg"
         alt=""
       />
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/commerce2/b_2-5.jpg"
+        src="@/assets/works/commerce2/b_2-5.jpg"
         alt=""
       />
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/commerce2/b_2-6.jpg"
+        src="@/assets/works/commerce2/b_2-6.jpg"
         alt=""
       />
     </section>

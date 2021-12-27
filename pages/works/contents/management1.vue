@@ -1,69 +1,84 @@
 <template>
   <main>
-    <section class="container-800 pt-60">
+    <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">專案管理</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">導入敏捷式開發專案</h2>
         <div class="pt-8">
-          <ElementTag>align</ElementTag>
+          <ElementTag>Agile</ElementTag>
           <ElementTag>scrum</ElementTag>
         </div>
       </div>
     </section>
 
-    <img
-      class="pt-60 w-100"
-      loading="lazy"
-      src="../../../assets/works/management1/d_1-2.jpg"
-      alt=""
-    />
+    <div
+      class="
+        pt-60 pt-sm-20
+        ml-sm-i20
+        mr-sm-i20
+        overflow-x-hidden
+        text-align-center
+      "
+    >
+      <img
+        class="w-100 w-sm-135 h-auto ml-sm-i100 mr-sm-i100"
+        width="2400"
+        height="750"
+        loading="lazy"
+        src="@/assets/works/management1/d_1-2.jpg"
+        alt="導入敏捷式開發專案的封面圖片"
+        title="導入敏捷式開發專案"
+      />
+    </div>
 
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
     >
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-role.svg"
+            src="@/assets/icons/ic-role.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
-          <div class="fz-16-l gray2 pt-16">Project Manager</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">Project Manager</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-time.svg"
+            src="@/assets/icons/ic-time.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
-          <div class="fz-16-l gray2 pt-16">3 個月</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">3 個月</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-responsible.svg"
+            src="@/assets/icons/ic-responsible.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
-          <div class="fz-16-l gray2 pt-16">設定方向｜時程規劃｜開會統籌</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">
+            設定方向｜時程規劃｜開會統籌
+          </div>
         </div>
       </div>
     </section>
@@ -71,17 +86,17 @@
     <!-- 專案動機 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
-          <img
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
+          <ElementImageViewer
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-target.svg"
+            src="@/assets/icons/ic-target.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">專案動機</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             自我學習期間，學習到敏捷式開發，雖然所屬公司不是軟體相關產業，但沿用其精神，檢視過往的瀑布流模式過於冗長。於是開始思考新的事業體，也許可以透過流程改善來提高產出。
             <br />因此，我開始和同事及管理階層分享討論，並召集夥伴一起參與研究如何導入全新的敏捷式流程。
@@ -93,26 +108,26 @@
     <!-- 專案流程 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-think.svg"
+            src="@/assets/icons/ic-think.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">專案流程</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             透過資料蒐集整理，了解敏捷開發如何導入與執行，初步規劃大致流程與同事分享可行性。
             <br />接著制定大目標及細項，分配任務與規劃時程，並適時詢問組員進度，有問題立即可以快速討論解決。
           </p>
         </div>
-        <img
+        <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
-          src="../../../assets/works/management1/d_1-3.jpg"
+          src="@/assets/works/management1/d_1-3.jpg"
           alt=""
         />
       </div>
@@ -138,10 +153,10 @@
           將蒐集到的資料整理統整，規劃初步進行方式，用分享的方式介紹給同事了解新的開發流程。
         </ElementStarItem>
       </ul>
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/management1/d_1-4.gif"
+        src="@/assets/works/management1/d_1-4.gif"
         alt=""
       />
     </section>
@@ -149,10 +164,10 @@
     <!-- 03 規畫會議 -->
     <section class="container-1000 pb-80">
       <div class="fz-22-m gray1 ml-8">03 規畫會議</div>
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/management1/d_1-5.jpg"
+        src="@/assets/works/management1/d_1-5.jpg"
         alt=""
       />
     </section>
@@ -173,15 +188,11 @@
     <!-- 專案協作 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
-          <img
-            class="icon"
-            src="../../../assets/icons/ic-cooperation.svg"
-            alt=""
-          />
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
+          <img class="icon" src="@/assets/icons/ic-cooperation.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">專案協作</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <ElementTag :class="''">1. 建立小群組</ElementTag>
           <ul class="fz-16-l gray2 pt-16">
             <ElementStarItem>
@@ -201,10 +212,10 @@
               羅列重點時程、會議相關等資訊讓組員更方便尋找。
             </ElementStarItem>
           </ul>
-          <img
+          <ElementImageViewer
             class="pt-60 w-100"
             loading="lazy"
-            src="../../../assets/works/management1/d_1-6.jpg"
+            src="@/assets/works/management1/d_1-6.jpg"
             alt=""
           />
         </div>
@@ -214,15 +225,15 @@
     <!-- 專案成果 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
-          <img class="icon" src="../../../assets/icons/ic-award.svg" alt="" />
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
+          <img class="icon" src="@/assets/icons/ic-award.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">專案成果</div>
         </div>
       </div>
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/management1/d_1-7.jpg"
+        src="@/assets/works/management1/d_1-7.jpg"
         alt=""
       />
     </section>
@@ -230,16 +241,12 @@
     <!-- 專案心得 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
-          <img
-            class="icon"
-            src="../../../assets/icons/ic-thoughts.svg"
-            alt=""
-          />
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
+          <img class="icon" src="@/assets/icons/ic-thoughts.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">專案心得</div>
         </div>
       </div>
-      <ul class="fz-16-l gray2 pt-40 pl-40">
+      <ul class="col-10 fz-16-l gray2 pt-40 pl-40 p-sm-0">
         <ElementStarItem>
           建立共同目標，並享受達成的成就，建立團隊向心力。
         </ElementStarItem>
