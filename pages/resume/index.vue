@@ -2,34 +2,63 @@
   <main class="pl-20 pr-20">
     <!-- top -->
     <section class="container-1100">
-      <div class="d-flex pt-120 pb-80">
-        <div class="col">
+      <div class="d-flex pt-120 pt-sm-30 pb-80">
+        <div class="col col-sm-10 text-align-center">
           <img
-            class="w-90 h-auto border-gray1 border-radius-circle"
+            class="w-90 w-sm-75 h-auto border-gray1 border-radius-circle"
             width="490"
             height="490"
             src="../../assets/resume/photo.jpg"
             alt="個人照"
           />
         </div>
-        <div class="d-flex-c col-5 pl-20 flex-justify-space-between">
+        <div
+          class="
+            d-flex-c
+            col-5 col-sm-10
+            pl-20 pl-sm-0
+            flex-justify-space-between
+          "
+        >
           <div class="">
             <div class="d-flex flex-align-baseline">
-              <h1 class="fz-40-b gray1 pt-16">侯佳君</h1>
-              <h3 class="fz-22-m gray1 pl-20">HOU CHIA CHUN</h3>
+              <h1
+                class="
+                  fz-40-b
+                  gray1
+                  pt-16 pt-sm-60
+                  col-auto col-sm-10
+                  text-align-center
+                "
+              >
+                侯佳君
+              </h1>
+              <h2
+                class="
+                  fz-22-m
+                  gray1
+                  pl-20 pl-sm-0
+                  col-auto col-sm-10
+                  text-align-center
+                "
+              >
+                HOU CHIA CHUN
+              </h2>
             </div>
-            <p class="fz-16-l gray2 pt-16">Visual &amp; Web Designer</p>
+            <p class="fz-16-l gray2 pt-16 text-sm-align-center">
+              Visual &amp; Web Designer
+            </p>
           </div>
-          <h3 class="fz-16-l gray2">
+          <h3 class="fz-16-l gray2 d-sm-none">
             網頁 UI 設計｜HTML、CSS 切版｜廣告平面設計｜插畫設計
           </h3>
         </div>
-        <div class="d-flex col-3 flex-justify-end">
-          <div class="col-auto">
+        <div class="d-flex col-3 col-sm-10 flex-justify-end">
+          <div class="col-auto col-sm-10 text-align-center">
             <ElementBtn
               href="/files/resume_joyce.pdf"
               title="下載履歷"
-              class="ml-24"
+              class="ml-24 ml-sm-0 mt-sm-20 mb-sm-20"
               target="_blank"
             >
               <span class="lh-20 fz-14-r ls-10"
@@ -44,8 +73,16 @@
             </ElementBtn>
           </div>
           <client-only>
-            <div class="d-flex flex-align-center pointer" @click="makeCall">
-              <div class="col-auto fz-16-l gray1 mr-20">
+            <div
+              class="
+                col-auto col-sm-10
+                d-flex
+                flex-sm-reverse flex-align-center flex-sm-justify-start
+                pointer
+              "
+              @click="makeCall"
+            >
+              <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20">
                 {{ joycePhone }}
               </div>
               <img
@@ -56,8 +93,18 @@
                 alt=""
               />
             </div>
-            <div class="d-flex flex-align-center pointer" @click="sendMail">
-              <div class="col-auto fz-16-l gray1 mr-20">{{ joyceEmail }}</div>
+            <div
+              class="
+                col-auto col-sm-10
+                d-flex
+                flex-sm-reverse flex-align-center flex-sm-justify-start
+                pointer
+              "
+              @click="sendMail"
+            >
+              <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20">
+                {{ joyceEmail }}
+              </div>
               <img
                 class="icon"
                 width="18"
@@ -67,8 +114,15 @@
               />
             </div>
           </client-only>
-          <div class="d-flex flex-align-center">
-            <div class="col-auto fz-16-l gray1 mr-20">
+          <div
+            class="
+              col-auto col-sm-10
+              d-flex
+              flex-sm-reverse flex-align-center flex-sm-justify-start
+              pointer
+            "
+          >
+            <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20">
               https://joyce.tinycloud.tw/
             </div>
             <img
@@ -98,7 +152,7 @@
 
     <section class="container-1100 d-flex">
       <!-- work -->
-      <div class="col-6">
+      <div class="col-6 col-sm-10">
         <div class="d-flex flex-align-center pb-40">
           <h2 class="col-auto fz-30-b gray1 pr-24">工作經驗</h2>
           <div class="col border-top-gray3"></div>
@@ -158,7 +212,7 @@
         </ul>
       </div>
 
-      <div class="col-4 pl-40">
+      <div class="col-4 col-sm-10 pl-40 pl-sm-0">
         <!-- award -->
         <div class="d-flex flex-align-center pb-40">
           <h2 class="col-auto fz-30-b gray1 pr-24">獲獎紀錄</h2>
@@ -176,7 +230,12 @@
         </h3>
         <ul class="fz-16-l gray2 pt-16 pb-60">
           <ElementStarItem>
-            2021&emsp;THE F2E 3rd 前端 &amp; UI 修煉精神時光屋｜團體組第 1 名
+            <div class="d-inline-flex">
+              <div class="col-auto">2021&emsp;</div>
+              <div class="col">
+                THE F2E 3rd 前端 &amp; UI 修煉精神時光屋｜團體組第 1 名
+              </div>
+            </div>
           </ElementStarItem>
         </ul>
         <!-- TAICHUNG -->
@@ -191,14 +250,23 @@
         </h3>
         <ul class="fz-16-l gray2 pt-16 pb-60">
           <ElementStarItem>
-            2019&emsp;德國紅點設計｜品牌暨傳達設計紅點獎</ElementStarItem
-          >
-          <ElementStarItem>
-            2019&emsp;泰達盃青年創意設計大賽｜入圍
+            <div class="d-inline-flex">
+              <div class="col-auto">2019&emsp;</div>
+              <div class="col">德國紅點設計｜品牌暨傳達設計紅點獎</div>
+            </div>
           </ElementStarItem>
           <ElementStarItem>
-            2019&emsp;放視大賞 - 平面傳達設計組｜入圍</ElementStarItem
-          >
+            <div class="d-inline-flex">
+              <div class="col-auto">2019&emsp;</div>
+              <div class="col">泰達盃青年創意設計大賽｜入圍</div>
+            </div>
+          </ElementStarItem>
+          <ElementStarItem>
+            <div class="d-inline-flex">
+              <div class="col-auto">2019&emsp;</div>
+              <div class="col">放視大賞 - 平面傳達設計組｜入圍</div>
+            </div>
+          </ElementStarItem>
         </ul>
 
         <!-- skill -->

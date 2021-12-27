@@ -36,12 +36,20 @@
   justify-content: end;
 }
 
+.flex-sm-justify-start {
+  justify-content: start;
+}
+
 .flex-sm-justify-space-between {
   justify-content: space-between;
 }
 
 .d-sm-flex {
   flex-direction: row;
+
+  &.flex-reverse {
+    flex-direction: row-reverse;
+  }
 
   &>.col-auto {
     flex: 0 0 auto;
@@ -58,18 +66,22 @@
   @for $i from 1 through 10 {
     &>.col-#{$i} {
       flex     : 1 1 calc(100% / 10 * #{$i});
-      width   : calc(100% / 10 * #{$i});
+      width    : calc(100% / 10 * #{$i});
       max-width: calc(100% / 10 * #{$i});
     }
 
     &>.col-#{$i}5 {
       flex     : 1 1 calc(100% / 10 * #{$i}.5);
-      width   : calc(100% / 10 * #{$i}.5);
+      width    : calc(100% / 10 * #{$i}.5);
       max-width: calc(100% / 10 * #{$i}.5);
     }
   }
 
   @media screen and (max-width: $break-tablet) {
+    &.flex-md-reverse {
+      flex-direction: row-reverse;
+    }
+
     &>.col-md-auto {
       flex: 0 0 auto;
     }
@@ -85,19 +97,23 @@
     @for $i from 1 through 10 {
       &>.col-md-#{$i} {
         flex     : 1 1 calc(100% / 10 * #{$i});
-        width   : calc(100% / 10 * #{$i});
+        width    : calc(100% / 10 * #{$i});
         max-width: calc(100% / 10 * #{$i});
       }
 
       &>.col-md-#{$i}5 {
         flex     : 1 1 calc(100% / 10 * #{$i}.5);
-        width   : calc(100% / 10 * #{$i}.5);
+        width    : calc(100% / 10 * #{$i}.5);
         max-width: calc(100% / 10 * #{$i}.5);
       }
     }
   }
 
   @media screen and (max-width: $break-mobile) {
+    &.flex-sm-reverse {
+      flex-direction: row-reverse;
+    }
+
     &>.col-sm-auto {
       flex: 0 0 auto;
     }
@@ -113,13 +129,13 @@
     @for $i from 1 through 10 {
       &>.col-sm-#{$i} {
         flex     : 1 1 calc(100% / 10 * #{$i});
-        width   : calc(100% / 10 * #{$i});
+        width    : calc(100% / 10 * #{$i});
         max-width: calc(100% / 10 * #{$i});
       }
 
       &>.col-sm-#{$i}5 {
         flex     : 1 1 calc(100% / 10 * #{$i}.5);
-        width   : calc(100% / 10 * #{$i}.5);
+        width    : calc(100% / 10 * #{$i}.5);
         max-width: calc(100% / 10 * #{$i}.5);
       }
     }
@@ -128,6 +144,10 @@
 
 .d-sm-flex-c {
   flex-direction: column;
+
+  &.flex-reverse {
+    flex-direction: column-reverse;
+  }
 
   &>.col-auto {
     flex: 0 0 auto;
@@ -156,6 +176,10 @@
   }
 
   @media screen and (max-width: $break-tablet) {
+    &.flex-md-reverse {
+      flex-direction: column-reverse;
+    }
+
     &>.col-md-auto {
       flex: 0 0 auto;
     }
@@ -184,6 +208,10 @@
   }
 
   @media screen and (max-width: $break-mobile) {
+    &.flex-sm-reverse {
+      flex-direction: column-reverse;
+    }
+
     &>.col-sm-auto {
       flex: 0 0 auto;
     }

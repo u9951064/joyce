@@ -2,7 +2,7 @@
   <main class="about-index pl-20 pr-20">
     <!-- top -->
     <section class="container-1100">
-      <div class="d-flex pt-120 pb-80 pt-sm-40">
+      <div class="d-flex pb-80 pt-120 pt-sm-30">
         <div class="col-3 col-sm-10 mb-30 text-align-center">
           <img
             class="w-100 h-auto w-sm-75"
