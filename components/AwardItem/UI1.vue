@@ -1,17 +1,17 @@
 <template>
   <NuxtLink
     :to="{ name: 'works-contents-ui1' }"
-    class="mb-60 d-flex border border-radius-8 overflow-x-hidden"
+    class="mb-60 d-flex border-gray1 border-radius-8 overflow-x-hidden"
     title="UI設計 - Hi BUS!全台公車動態時刻查詢應用服務"
   >
-    <div class="col-4 border-right bg-gray p-relative overflow-hidden h-min300">
+    <div class="col-4 col-sm-10 border-right-gray1 border-sm-right-none bg-gray p-relative overflow-hidden h-min220">
       <img
         class="p-absolute ui-img"
-        src="../../assets/works/ui1/a_1-1.png"
+        src="@/assets/works/ui1/a_1-1.png"
         alt=""
       />
     </div>
-    <div class="col p-30">
+    <div class="col col-sm-10 p-30">
       <h2 class="fz-22-m gray1">Hi BUS!</h2>
       <ul class="pt-16 fz-16-l gray2">
         <ElementStarItem

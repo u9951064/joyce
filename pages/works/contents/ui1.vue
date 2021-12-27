@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="container-800 pt-60">
+    <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">UI設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">
@@ -8,65 +8,79 @@
         </h2>
         <div class="pt-8">
           <ElementTag>RWD</ElementTag>
+          <ElementTag>The F2E 3rd</ElementTag>
         </div>
       </div>
     </section>
 
-    <img
-      class="pt-60 w-100 h-auto"
-      width="2400"
-      height="750"
-      loading="lazy"
-      src="../../../assets/works/ui1/a_1-2.jpg"
-      alt=""
-    />
+    <div
+      class="
+        pt-60 pt-sm-20
+        ml-sm-i20
+        mr-sm-i20
+        overflow-x-hidden
+        text-align-center
+      "
+    >
+      <img
+        class="w-100 w-sm-185 h-auto ml-sm-i200 mr-sm-i200"
+        width="2400"
+        height="750"
+        loading="lazy"
+        src="@/assets/works/ui1/a_1-2.jpg"
+        alt="Hi BUS! 全台公車動態時刻查詢應用服務的封面圖片"
+        title="Hi BUS! 全台公車動態時刻查詢應用服務"
+      />
+    </div>
 
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
     >
-      <div class="d-flex">
+      <div class="d-flex col-sm">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-role.svg"
+            src="@/assets/icons/ic-role.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
-          <div class="fz-16-l gray2 pt-16">UI 設計師</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">UI 設計師</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-time.svg"
+            src="@/assets/icons/ic-time.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
-          <div class="fz-16-l gray2 pt-16">2021.11 (1個月)</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">2021.11 (1個月)</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-responsible.svg"
+            src="@/assets/icons/ic-responsible.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
-          <div class="fz-16-l gray2 pt-16">前期調查｜流程規劃｜UI設計</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">
+            前期調查｜流程規劃｜UI設計
+          </div>
         </div>
       </div>
       <div class="d-flex-c flex-align-stretch">
@@ -91,7 +105,7 @@
               class="d-block ml-2"
               width="18"
               height="18"
-              src="../../../assets/icons/ic-search.svg"
+              src="@/assets/icons/ic-search.svg"
               alt=""
             />
           </span>
@@ -117,7 +131,7 @@
               class="d-block ml-2"
               width="18"
               height="18"
-              src="../../../assets/icons/ic-figma.svg"
+              src="@/assets/icons/ic-figma.svg"
               alt=""
             />
           </span>
@@ -143,7 +157,7 @@
               class="d-block ml-2"
               width="18"
               height="18"
-              src="../../../assets/icons/ic-code.svg"
+              src="@/assets/icons/ic-code.svg"
               alt=""
             />
           </span>
@@ -154,17 +168,17 @@
     <!-- 參賽動機 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-target.svg"
+            src="@/assets/icons/ic-target.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">參賽動機</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             藉由競賽參與提升 UI/UX 設計經驗並學習協作開發實務，我與 1
             名前端工程師報名參加由六角學院舉辦的「 第三屆 The F2E 前端 &amp; UI
@@ -174,12 +188,12 @@
           </p>
         </div>
         <div class="d-flex flex-justify-end pt-40">
-          <img
+          <ElementImageViewer
             class="w-100 h-auto"
             width="1903"
             height="727"
             loading="lazy"
-            src="../../../assets/works/ui1/a_1-3.jpg"
+            src="@/assets/works/ui1/a_1-3.jpg"
             alt=""
           />
         </div>
@@ -189,17 +203,17 @@
     <!-- 競賽介紹 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="24"
-            src="../../../assets/icons/ic-flag.svg"
+            src="@/assets/icons/ic-flag.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">競賽介紹</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             「 The F2E 前端 &amp; UI 修煉精神時光屋 」是一個提供給 UI
             設計師與前端工程師自我挑戰的平台，今年 2021 年舉辦到第 3 屆，總共有
@@ -221,12 +235,12 @@
             >
           </p>
           <div class="d-flex flex-justify-end pt-40">
-            <img
+            <ElementImageViewer
               class="w-100 h-auto border-gray3 d-block"
               width="922"
               height="897"
               loading="lazy"
-              src="../../../assets/works/ui1/a_1-4.jpg"
+              src="@/assets/works/ui1/a_1-4.jpg"
               alt=""
             />
           </div>
@@ -237,17 +251,17 @@
     <!-- 設計理念 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-idea.svg"
+            src="@/assets/icons/ic-idea.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             關於 Hi BUS!<br />
             Hi BUS! 揮揮手搭乘公車開啟您的旅途！<br />
@@ -267,7 +281,7 @@
             width="2000"
             height="820"
             loading="lazy"
-            src="../../../assets/works/ui1/a_1-5.jpg"
+            src="@/assets/works/ui1/a_1-5.jpg"
             alt=""
           />
         </div>
@@ -277,17 +291,17 @@
     <!-- 設計流程 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-think.svg"
+            src="@/assets/icons/ic-think.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">設計流程</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             我們主要以第三道主題「 全台公車動態時刻查詢應用服務
             」進行設計開發。由於題目龐大賽程緊湊，在主辦方提供
@@ -303,12 +317,12 @@
           </p>
         </div>
         <div class="d-flex flex-justify-end pt-40">
-          <img
+          <ElementImageViewer
             class="w-100 h-auto"
             width="2000"
             height="820"
             loading="lazy"
-            src="../../../assets/works/ui1/a_1-6.jpg"
+            src="@/assets/works/ui1/a_1-6.jpg"
             alt=""
           />
         </div>
@@ -326,7 +340,7 @@
     </section>
     <!-- 03 執行階段 2. 製作 Wireframe-->
     <section class="container-1000 pb-80">
-      <ElementTag :class="''">2. 製作 Wireframe</ElementTag>
+      <ElementTag>2. 製作 Wireframe</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
           一同擬定 Flow，繪製 Wireframe 確認方向及想法。
@@ -338,14 +352,14 @@
           width="7501"
           height="3323"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-7.png"
+          src="@/assets/works/ui1/a_1-7.png"
           alt="製作 Wireframe"
         />
       </div>
     </section>
     <!-- 03 執行階段 3. 制定 Design System-->
     <section class="container-1000 pb-80">
-      <ElementTag :class="''">3. 制定 Design System</ElementTag>
+      <ElementTag>3. 制定 Design System</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
           整體色系以深藍色為主色、並以淺灰色為輔色，傳達沈穩、專業且安全的公車系統形象。導覽列下方透過流動漸層，呈現公車正在行駛中的意象。<br />
@@ -353,29 +367,29 @@
         </ElementStarItem>
       </ul>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto border-gray3 d-block"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-8.png"
+          src="@/assets/works/ui1/a_1-8.png"
           width="1800"
           height="1100"
           alt=""
         />
       </div>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto border-gray3 d-block"
           width="1800"
           height="1100"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-9.png"
+          src="@/assets/works/ui1/a_1-9.png"
           alt=""
         />
       </div>
     </section>
     <!-- 03 執行階段 4. Logo / Illustration-->
     <section class="container-1000 pb-80">
-      <ElementTag :class="''">4. Logo / Illustration</ElementTag>
+      <ElementTag>4. Logo / Illustration</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
           Hi BUS! 揮揮手搭乘公車開啟您的旅途！<br />
@@ -384,31 +398,31 @@
         </ElementStarItem>
       </ul>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto border-gray3 d-block"
           width="1800"
           height="1390"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-10.png"
+          src="@/assets/works/ui1/a_1-10.png"
           alt=""
         />
       </div>
     </section>
     <!-- 03 執行階段 5. 設計 Mockup-->
     <section class="container-1000 pb-80">
-      <ElementTag :class="''">5. 設計 Mockup</ElementTag>
+      <ElementTag>5. 設計 Mockup</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
           按照設計系統，將 Wireframe 精稿，審視每一張頁面流程及風格是否一致。
         </ElementStarItem>
       </ul>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto"
           width="5000"
           height="2700"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-11.png"
+          src="@/assets/works/ui1/a_1-11.png"
           alt=""
         />
       </div>
@@ -423,48 +437,48 @@
         <ElementYoutube videoId="6lD2zQ8dcqg" :autoplay="true" :loop="true" />
       </div>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto"
           width="2400"
           height="900"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-12.png"
+          src="@/assets/works/ui1/a_1-12.png"
           alt=""
         />
       </div>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto"
           width="2400"
           height="900"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-13.png"
+          src="@/assets/works/ui1/a_1-13.png"
           alt=""
         />
       </div>
     </section>
     <!-- 03 執行階段 6. 延伸RWD頁面-->
     <section class="container-1000 pb-80">
-      <ElementTag :class="''">6. 延伸RWD頁面</ElementTag>
+      <ElementTag>6. 延伸RWD頁面</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
           以 Web 設計為主，製作完所有頁面後，接著繪製其他裝置 UI 視覺。
         </ElementStarItem>
       </ul>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto"
           width="2500"
           height="1000"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-14.png"
+          src="@/assets/works/ui1/a_1-14.png"
           alt=""
         />
       </div>
     </section>
     <!-- 03 執行階段 7. 副功能-->
     <section class="container-1000 pb-80">
-      <ElementTag :class="''">7. 副功能</ElementTag>
+      <ElementTag>7. 副功能</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
           主功能設計完成後進行其他功能介面設計，並審視是否符合
@@ -479,22 +493,22 @@
         </ElementStarItem>
       </ul>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto"
           width="2400"
           height="900"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-15.png"
+          src="@/assets/works/ui1/a_1-15.png"
           alt=""
         />
       </div>
       <div class="pt-60">
-        <img
+        <ElementImageViewer
           class="w-100 h-auto"
           width="2400"
           height="900"
           loading="lazy"
-          src="../../../assets/works/ui1/a_1-16.png"
+          src="@/assets/works/ui1/a_1-16.png"
           alt=""
         />
       </div>
@@ -503,17 +517,17 @@
     <!-- 評審點評與競賽心得 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-award.svg"
+            src="@/assets/icons/ic-award.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">評審點評與競賽心得</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             很高興與工程師夥伴榮獲「團體組第 1
             名」，感謝工程師夥伴扛起所有前端任務，將全台公車路線 ( 錯綜複雜的 )
@@ -545,22 +559,22 @@
           </p>
         </div>
         <div class="pt-60">
-          <img
+          <ElementImageViewer
             class="w-100 h-auto border-gray3 d-block"
             width="1691"
             height="673"
             loading="lazy"
-            src="../../../assets/works/ui1/a_1-17.jpg"
+            src="@/assets/works/ui1/a_1-17.jpg"
             alt=""
           />
         </div>
         <div class="pt-60">
-          <img
+          <ElementImageViewer
             class="w-100 h-auto"
             width="2000"
             height="1000"
             loading="lazy"
-            src="../../../assets/works/ui1/a_1-18.jpg"
+            src="@/assets/works/ui1/a_1-18.jpg"
             alt=""
           />
         </div>

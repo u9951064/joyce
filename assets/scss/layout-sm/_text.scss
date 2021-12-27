@@ -1,0 +1,63 @@
+.text-sm-align-center {
+  text-align: center;
+}
+
+.text-sm-align-right {
+  text-align: right;
+}
+
+.text-sm-align-left {
+  text-align: left;
+}
+
+.text-sm-nowrap {
+  white-space: nowrap;
+}
+
+.text-sm-wrap {
+  white-space: normal;
+}
+
+@for $i from 10 to 50 {
+
+  .fz-sm-#{$i}-b,
+  .fz-sm-#{$i}-l,
+  .fz-sm-#{$i}-r,
+  .fz-sm-#{$i}-m {
+    font-size     : $i * 1px;
+    line-height   : max($i * 1.2px, 32px);
+    letter-spacing: 0.05em;
+  }
+
+  .fz-sm-#{$i}-l {
+    font-weight: 300;
+  }
+
+  .fz-sm-#{$i}-r {
+    font-weight: 400;
+  }
+
+  .fz-sm-#{$i}-m {
+    font-weight: 500;
+  }
+
+  .fz-sm-#{$i}-b {
+    font-weight: 700;
+  }
+}
+
+@for $i from 1 to 100 {
+  .lh-sm-#{$i} {
+    line-height: $i * 1px;
+  }
+}
+
+.ls-sm-normal {
+  letter-spacing: normal;
+}
+
+@for $i from 1 to 40 {
+  .ls-sm-#{$i*5} {
+    letter-spacing: $i * 0.05em;
+  }
+}

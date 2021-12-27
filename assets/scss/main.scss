@@ -1,12 +1,34 @@
 @import 'abstracts/_variables';
 
 @import 'layout/_bootstrap';
-@import 'layout/_position';
 @import 'layout/_container';
+@import 'layout/_color';
+
+/** Desktop **/
+@import 'layout/_position';
 @import 'layout/_block';
 @import 'layout/_flex';
-@import 'layout/_border';
 @import 'layout/_sizing';
 @import 'layout/_spacing';
+@import 'layout/_border';
 @import 'layout/_text';
-@import 'layout/_color';
+
+@media screen and (max-width: $break-tablet) {
+  @import 'layout-md/_position';
+  @import 'layout-md/_block';
+  @import 'layout-md/_flex';
+  @import 'layout-md/_sizing';
+  @import 'layout-md/_spacing';
+  @import 'layout-md/_border';
+  @import 'layout-md/_text';
+}
+
+@media screen and (max-width: $break-mobile) {
+  @import 'layout-sm/_position';
+  @import 'layout-sm/_block';
+  @import 'layout-sm/_flex';
+  @import 'layout-sm/_sizing';
+  @import 'layout-sm/_spacing';
+  @import 'layout-sm/_border';
+  @import 'layout-sm/_text';
+}

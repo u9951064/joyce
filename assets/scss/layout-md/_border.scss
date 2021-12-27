@@ -6,28 +6,28 @@ $borders: "",
 $colorMaps: ('gray1': $gray1, 'gray2': $gray2, 'gray3': $gray3);
 
 @each $direct in $borders {
-  .border#{$direct}-none {
+  .border-md#{$direct}-none {
     border#{$direct}: none;
   }
 
   @each $colorName,
   $color in $colorMaps {
-    .border#{$direct}-#{$colorName} {
+    .border-md#{$direct}-#{$colorName} {
       border#{$direct}: 1px solid $color;
     }
   }
 }
 
 @for $i from 1 to 100 {
-  .border-radius-#{$i} {
+  .border-md-radius-#{$i} {
     border-radius: #{$i}px;
   }
 }
 
-.border-radius-circle {
+.border-md-radius-circle {
   border-radius: 99999rem;
 }
 
-.border-radius-none {
+.border-md-radius-none {
   border-radius: 0;
 }

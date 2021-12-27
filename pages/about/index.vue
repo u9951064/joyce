@@ -1,18 +1,19 @@
 <template>
-  <main class="about-index">
+  <main class="about-index pl-20 pr-20">
     <!-- top -->
     <section class="container-1100">
-      <div class="d-flex pt-120 pb-80">
-        <div class="col-3">
+      <div class="d-flex pb-80 pt-120 pt-sm-30">
+        <div class="col-3 col-sm-10 mb-30 text-align-center">
           <img
-            class="w-100 h-auto"
+            class="w-100 h-auto w-sm-75"
             width="1200"
             height="1380"
-            src="../../assets/about/photo.png"
-            alt="個人照"
+            src="@/assets/about/photo.png"
+            alt="侯佳君 Joyce 的個人照"
+            title="個人照"
           />
         </div>
-        <div class="col-7 pl-40">
+        <div class="col-7 col-sm-10 pl-40 pl-sm-0">
           <div class="d-flex-c flex-justify-space-between h-100">
             <div class="col">
               <h1 class="fz-30-b gray1">Hi I'm Joyce!</h1>
@@ -44,22 +45,29 @@
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">SKILL</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">專長技能</h2>
       <ul class="d-flex flex-align-stretch ml-i10 mr-i10">
-        <li class="col-5 p-10">
+        <li class="col-5 col-sm-10 p-10">
           <div
             class="border-radius-8 border-gray1 d-flex flex-align-stretch h-100"
           >
-            <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
+            <div
+              class="
+                col-3 col-sm-10
+                d-flex
+                flex-align-center flex-justify-center flex-sm-justify-end
+                p-8
+              "
+            >
               <img
-                class="d-block w-80 h-auto"
+                class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
                 width="101"
                 height="88"
-                src="../../assets/about/ui.svg"
+                src="@/assets/about/ui.svg"
                 alt=""
               />
             </div>
-            <div class="col-7 content pr-8 pb-24 pt-24">
+            <div class="col-7 col-sm-10 content pr-8 pb-24 pt-24 p-sm-8">
               <h3 class="fz-22-m gray1 pt-8">UI設計</h3>
-              <ul class="fz-16-l gray2 pt-16">
+              <ul class="fz-16-l gray2 pt-16 pt-sm-8">
                 <ElementStarItem
                   >快速手繪、使用軟體製作 Wireframe</ElementStarItem
                 >
@@ -71,22 +79,29 @@
             </div>
           </div>
         </li>
-        <li class="col-5 p-10">
+        <li class="col-5 col-sm-10 p-10">
           <div
             class="border-radius-8 border-gray1 d-flex flex-align-stretch h-100"
           >
-            <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
+            <div
+              class="
+                col-3 col-sm-10
+                d-flex
+                flex-align-center flex-justify-center flex-sm-justify-end
+                p-8
+              "
+            >
               <img
-                class="d-block w-80 h-auto"
+                class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
                 width="111"
                 height="82"
-                src="../../assets/about/commerce.svg"
+                src="@/assets/about/commerce.svg"
                 alt=""
               />
             </div>
-            <div class="col-7 content pr-8 pb-24 pt-24">
+            <div class="col-7 col-sm-10 content pr-8 pb-24 pt-24 p-sm-8">
               <h3 class="fz-22-m gray1 pt-8">廣告設計</h3>
-              <ul class="fz-16-l gray2 pt-16">
+              <ul class="fz-16-l gray2 pt-16 pt-sm-8">
                 <ElementStarItem
                   >依不同活動，製作相對應風格視覺設計</ElementStarItem
                 >
@@ -98,22 +113,29 @@
             </div>
           </div>
         </li>
-        <li class="col-5 p-10">
+        <li class="col-5 col-sm-10 p-10">
           <div
             class="border-radius-8 border-gray1 d-flex flex-align-stretch h-100"
           >
-            <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
+            <div
+              class="
+                col-3 col-sm-10
+                d-flex
+                flex-align-center flex-justify-center flex-sm-justify-end
+                p-8
+              "
+            >
               <img
-                class="d-block w-80 h-auto"
+                class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
                 width="121"
                 height="120"
-                src="../../assets/about/graphic.svg"
+                src="@/assets/about/graphic.svg"
                 alt="平面設計"
               />
             </div>
-            <div class="col-7 content pr-8 pb-24 pt-24">
+            <div class="col-7 col-sm-10 content pr-8 pb-24 pt-24 p-sm-8">
               <h3 class="fz-22-m gray1 pt-8">平面設計</h3>
-              <ul class="fz-16-l gray2 pt-16">
+              <ul class="fz-16-l gray2 pt-16 pt-sm-8">
                 <ElementStarItem>Icon、視覺排版、企業識別設計</ElementStarItem>
                 <ElementStarItem>手繪插畫、影像合成</ElementStarItem>
                 <ElementStarItem
@@ -123,22 +145,29 @@
             </div>
           </div>
         </li>
-        <li class="col-5 p-10">
+        <li class="col-5 col-sm-10 p-10">
           <div
             class="border-radius-8 border-gray1 d-flex flex-align-stretch h-100"
           >
-            <div class="col-3 d-flex flex-align-center flex-justify-center p-8">
+            <div
+              class="
+                col-3 col-sm-10
+                d-flex
+                flex-align-center flex-justify-center flex-sm-justify-end
+                p-8
+              "
+            >
               <img
-                class="d-block w-80 h-auto"
+                class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
                 width="111"
                 height="90"
-                src="../../assets/about/web.svg"
+                src="@/assets/about/web.svg"
                 alt=""
               />
             </div>
-            <div class="col-7 content pr-8 pb-24 pt-24">
+            <div class="col-7 col-sm-10 content pr-8 pb-24 pt-24 p-sm-8">
               <h3 class="fz-22-m gray1 pt-8">網頁設計</h3>
-              <ul class="fz-16-l gray2 pt-16">
+              <ul class="fz-16-l gray2 pt-16 pt-sm-8">
                 <ElementStarItem>熟悉 HTML、CSS 程式語言</ElementStarItem>
                 <ElementStarItem>具備 RWD 相關知識</ElementStarItem>
                 <ElementStarItem>獨立切版完成 Landing Page</ElementStarItem>
@@ -151,63 +180,59 @@
 
     <!-- software -->
     <section id="software" class="container-1100 pt-80 pb-80 border-top-gray3">
-      <div class="col-10 lh-20 fz-14-r ls-10 blue1">TOOL</div>
-      <div class="d-flex pt-16 pb-60">
-        <div class="col">
-          <h2 class="fz-30-b gray1">擅長軟體</h2>
-        </div>
-      </div>
+      <div class="lh-20 fz-14-r ls-10 blue1">TOOL</div>
+      <h2 class="fz-30-b gray1 pt-16 pb-60">擅長軟體</h2>
       <div class="d-flex">
-        <div class="col-4">
+        <div class="col-4 col-sm-10">
           <p class="fz-16-l gray2">
             主要使用右側軟體完成設計發想與執行，結合 Trello
             進行工作上的專案時程管理。平時利用 Notion
             記錄生活、制定目標並將資料整理歸納。
           </p>
         </div>
-        <div class="col-6 d-flex text-align-right">
-          <div class="col text-align-right">
+        <div class="col-6 col-sm-10 d-flex pt-20">
+          <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 h-auto border-radius-8"
+              class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
-              src="../../assets/about/ai.svg"
+              src="@/assets/about/ai.svg"
               alt=""
             /><br />
           </div>
-          <div class="col text-align-right">
+          <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 h-auto border-radius-8"
+              class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
-              src="../../assets/about/ps.svg"
+              src="@/assets/about/ps.svg"
               alt=""
             /><br />
           </div>
-          <div class="col text-align-right">
+          <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 h-auto border-radius-8"
+              class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
-              src="../../assets/about/id.svg"
+              src="@/assets/about/id.svg"
               alt=""
             /><br />
           </div>
-          <div class="col text-align-right">
+          <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 h-auto border-radius-8 border-gray3"
+              class="w-70 w-sm-90 h-auto border-radius-8 border-gray3"
               width="101"
               height="100"
-              src="../../assets/about/vsc.svg"
+              src="@/assets/about/vsc.svg"
               alt=""
             /><br />
           </div>
-          <div class="col text-align-right">
+          <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 h-auto border-radius-8"
+              class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
-              src="../../assets/about/figma.svg"
+              src="@/assets/about/figma.svg"
               alt=""
             /><br />
           </div>
@@ -221,22 +246,24 @@
       <h2 class="fz-30-b gray1 pt-16 pb-60">工作經驗</h2>
 
       <!-- 聯成電腦 -->
-      <div class="d-flex">
-        <div class="col-1">
+      <div class="d-flex flex-justify-end">
+        <div class="col-15 col-sm-3 pr-60 pr-sm-10">
           <img
-            class="border-gray3 border-radius-8 w-100 h-auto"
+            class="border-gray3 border-radius-8 w-90 h-auto"
             width="88"
             height="88"
-            src="../../assets/about/logo-lcc.svg"
+            src="@/assets/about/logo-lcc.svg"
             alt="聯成電腦 Logo"
           />
         </div>
-        <div class="col-9 pl-4 pl-60">
+        <div class="col-85 col-sm-7">
           <div class="d-flex flex-align-center">
             <h3 class="fz-22-m gray1 mr-16">聯成電腦</h3>
             <p class="fz-16-l gray2">Mar. 2020 - Present</p>
           </div>
           <div class="fz-16-l gray1 pt-16">網頁視覺設計師 / 儲備主管</div>
+        </div>
+        <div class="col-85 col-sm-10">
           <ul class="fz-16-l gray2 pt-16 pb-60">
             <ElementStarItem>
               <template #title>廣告設計</template>
@@ -265,22 +292,24 @@
       </div>
 
       <!-- 開店123 -->
-      <div class="d-flex">
-        <div class="col-1">
+      <div class="d-flex flex-justify-end">
+        <div class="col-15 col-sm-3 pr-60 pr-sm-10">
           <img
-            class="border-gray3 border-radius-8 w-100 h-auto"
+            class="border-gray3 border-radius-8 w-90 h-auto"
             width="100"
             height="100"
-            src="../../assets/about/logo-shop123.svg"
+            src="@/assets/about/logo-shop123.svg"
             alt="開店123 Logo"
           />
         </div>
-        <div class="col-9 pl-4 pl-60">
+        <div class="col-85 col-sm-7">
           <div class="d-flex flex-align-center">
             <h3 class="fz-22-m gray1 mr-16">開店123</h3>
             <p class="fz-16-l gray2">Oct. 2019 - Jan. 2020</p>
           </div>
           <div class="fz-16-l gray1 pt-16">設計助理</div>
+        </div>
+        <div class="col-85 col-sm-10">
           <ul class="fz-16-l gray2 pt-16 pb-60">
             <ElementStarItem>
               <template #title>平面設計</template>
@@ -299,22 +328,24 @@
     <section class="container-1100 pt-80 pb-80 border-top-gray3">
       <div class="w-100 lh-20 fz-14-r ls-10 blue1">EDUCATION</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">學歷</h2>
-      <div class="d-flex">
-        <div class="col-1">
+      <div class="d-flex flex-justify-end">
+        <div class="col-15 col-sm-3 pr-60 pr-sm-10">
           <img
-            class="border-gray3 border-radius-8 w-100 h-auto"
+            class="border-gray3 border-radius-8 w-90 h-auto"
             width="100"
             height="100"
-            src="../../assets/about/logo-aisa.svg"
+            src="@/assets/about/logo-aisa.svg"
             alt=""
           />
         </div>
-        <div class="col-9 pl-4 pl-60">
+        <div class="col-85 col-sm-7">
           <div class="d-flex flex-align-center">
             <h3 class="fz-22-m gray1 mr-16">亞洲大學</h3>
             <p class="fz-16-l gray2">2015 - 2019</p>
           </div>
           <div class="fz-16-l gray1 pt-16">視覺傳達設計系</div>
+        </div>
+        <div class="col-85 col-sm-10">
           <ul class="fz-16-l gray2 pt-16 pb-60">
             <ElementStarItem>
               <template #title>畢業製作</template>

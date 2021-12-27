@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="container-800 pt-60">
+    <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">平面設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">TAICHUNG 美學，從中可見</h2>
@@ -10,59 +10,72 @@
       </div>
     </section>
 
-    <img
-      class="pt-60 w-100"
-      loading="lazy"
-      src="../../../assets/works/printing2/c_2-2.jpg"
-      alt=""
-    />
+    <div
+      class="
+        pt-60 pt-sm-20
+        ml-sm-i20
+        mr-sm-i20
+        overflow-x-hidden
+        text-align-center
+      "
+    >
+      <img
+        class="w-100 w-sm-175 h-auto ml-sm-i200 mr-sm-i200"
+        width="2400"
+        height="750"
+        loading="lazy"
+        src="@/assets/works/printing2/c_2-2.jpg"
+        alt="TAICHUNG 美學，從中可見的封面圖片"
+        title="TAICHUNG 美學，從中可見"
+      />
+    </div>
 
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
     >
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-role.svg"
+            src="@/assets/icons/ic-role.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
-          <div class="fz-16-l gray2 pt-16">團體負責人</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">團體負責人</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-time.svg"
+            src="@/assets/icons/ic-time.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
-          <div class="fz-16-l gray2 pt-16">1 年</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">1 年</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-responsible.svg"
+            src="@/assets/icons/ic-responsible.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
-          <div class="fz-16-l gray2 pt-16">
+          <div class="fz-16-l gray2 pt-16 p-sm-0">
             ICON設計｜文案發想｜展場設計｜排版設計
           </div>
         </div>
@@ -72,17 +85,17 @@
     <!-- 作品理念 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-idea.svg"
+            src="@/assets/icons/ic-idea.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">作品理念</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             打造台中城市觀光品牌，透過副標「美學，從中可見。」找尋台中人與人之間互動與生活美學。
           </p>
@@ -100,7 +113,7 @@
         <img
           class="pt-60 w-100"
           loading="lazy"
-          src="../../../assets/works/printing2/c_2-3.jpg"
+          src="@/assets/works/printing2/c_2-3.jpg"
           alt=""
         />
       </div>
@@ -109,17 +122,17 @@
     <!-- 創作過程 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-think.svg"
+            src="@/assets/icons/ic-think.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">創作過程</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             為期 1
             年多的畢業製作過程中，我擔任團隊負責人角色，主要接收畢籌會及老師交付事項，並安排時程進度與分工細項。<br />
@@ -138,10 +151,10 @@
             視覺，另外組員研究影片剪輯。透過一次次的熬夜趕圖與評圖，不斷開會檢討修正方向，一轉眼到了最後參展新一代設計展與放視大賞，時間過得很快卻是最難忘且充實的一段經驗。
           </p>
         </div>
-        <img
+        <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
-          src="../../../assets/works/printing2/c_2-4.jpg"
+          src="@/assets/works/printing2/c_2-4.jpg"
           alt=""
         />
       </div>
@@ -150,12 +163,12 @@
     <!-- 作品成果 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="24"
             height="25"
-            src="../../../assets/icons/ic-layout.svg"
+            src="@/assets/icons/ic-layout.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">作品成果</div>
@@ -168,10 +181,10 @@
           包含特色建築物：台中舊火車站、台中歌劇院；慶典活動：大甲媽祖繞境、爵士音樂節；經典美食：太陽餅、珍珠奶茶還有承載整座城市的交通運輸工具等。
         </ElementStarItem>
       </ul>
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/printing2/c_2-5.jpg"
+        src="@/assets/works/printing2/c_2-5.jpg"
         alt=""
       />
       <ElementTag :class="'mt-30'">城市宣傳影片</ElementTag>
@@ -186,10 +199,10 @@
       <div class="text-align-center pt-60">
         <ElementYoutube videoId="VSwHS5h3Lbw" :autoplay="true" :loop="true" />
       </div>
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/printing2/c_2-7.jpg"
+        src="@/assets/works/printing2/c_2-7.jpg"
         alt=""
       />
       <ElementTag :class="'mt-30'">城市視覺識別</ElementTag>
@@ -198,16 +211,16 @@
           將影片視覺構成主視覺模擬應用於城市市容上，期望旅客透過影片前往台中尋找城市美學，走訪台中時加深對城市印象。
         </ElementStarItem>
       </ul>
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/printing2/c_2-8.jpg"
+        src="@/assets/works/printing2/c_2-8.jpg"
         alt=""
       />
-      <img
+      <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/printing2/c_2-9.jpg"
+        src="@/assets/works/printing2/c_2-9.jpg"
         alt=""
       />
       <ElementTag :class="'mt-30'">延伸應用</ElementTag>
@@ -219,7 +232,7 @@
       <img
         class="pt-60 w-100"
         loading="lazy"
-        src="../../../assets/works/printing2/c_2-11.jpg"
+        src="@/assets/works/printing2/c_2-11.jpg"
         alt=""
       />
     </section>
@@ -227,15 +240,11 @@
     <!-- 創作感想 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
-          <img
-            class="icon"
-            src="../../../assets/icons/ic-thoughts.svg"
-            alt=""
-          />
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
+          <img class="icon" src="@/assets/icons/ic-thoughts.svg" alt="" />
           <div class="col fz-22-m gray1 ml-8">創作感想</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             透過畢業製作學習到時間管理的重要性，先定義出大目標再來細分小目標，在每一次評圖之前設定好完成進度並將工作項目細分、共同協作。<br />
             過程中難免會有意見不同之時，我認為意氣用事無法解決問題，應該檢查於時間內我們可以做到哪些事，比較意見之優缺點，決定好後全力衝刺完成目標。<br />
@@ -257,10 +266,10 @@
             </ElementStarItem>
           </ul>
         </div>
-        <img
+        <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
-          src="../../../assets/works/printing2/c_2-12.jpg"
+          src="@/assets/works/printing2/c_2-12.jpg"
           alt=""
         />
       </div>

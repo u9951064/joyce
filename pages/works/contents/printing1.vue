@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="container-800 pt-60">
+    <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">平面設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
         <h2 class="fz-30-b gray1 pt-16">2021 學員年鑑設計</h2>
@@ -10,59 +10,72 @@
       </div>
     </section>
 
-    <img
-      class="pt-60 w-100"
-      loading="lazy"
-      src="../../../assets/works/printing1/c_1-2.jpg"
-      alt=""
-    />
+    <div
+      class="
+        pt-60 pt-sm-20
+        ml-sm-i20
+        mr-sm-i20
+        overflow-x-hidden
+        text-align-center
+      "
+    >
+      <img
+        class="w-100 w-sm-155 h-auto ml-sm-i200 mr-sm-i200"
+        width="2400"
+        height="750"
+        loading="lazy"
+        src="@/assets/works/printing1/c_1-2.jpg"
+        alt="2021 學員年鑑設計的封面圖片"
+        title="2021 學員年鑑設計"
+      />
+    </div>
 
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
     >
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-role.svg"
+            src="@/assets/icons/ic-role.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
-          <div class="fz-16-l gray2 pt-16">視覺設計師</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">視覺設計師</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-time.svg"
+            src="@/assets/icons/ic-time.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
-          <div class="fz-16-l gray2 pt-16">1 個月</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">1 個月</div>
         </div>
       </div>
-      <div class="d-flex">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
           <img
             class="icon"
             width="22"
             height="22"
-            src="../../../assets/icons/ic-responsible.svg"
+            src="@/assets/icons/ic-responsible.svg"
             alt=""
           />
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
-          <div class="fz-16-l gray2 pt-16">
+          <div class="fz-16-l gray2 pt-16 p-sm-0">
             設計發想｜視覺排版設計｜印刷發包
           </div>
         </div>
@@ -72,17 +85,17 @@
     <!-- 活動目標 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="24"
-            src="../../../assets/icons/ic-flag.svg"
+            src="@/assets/icons/ic-flag.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             每年皆會舉辦學員作品競賽，優秀者可獲得獎金及精裝年鑑。
             精裝及打凹樣式提高整本書籍珍貴感，收錄所有優勝者作品參賽選手可當獎品紀念外，分校同仁於招生介紹時也能達到行銷推廣作用。
@@ -94,29 +107,29 @@
     <!-- 設計發想 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-idea.svg"
+            src="@/assets/icons/ic-idea.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
-        <div class="d-flex col-6 flex-justify-end">
+        <div class="d-flex col-6 col-sm-10 flex-justify-end">
           <p class="fz-16-l gray2">
             於 2021
             年推出的學員作品年鑑，找尋素材參考風格及書籍裝幀設計，由學員、時事等切角角設計發想
             3 個方向製作成不同風格再進行內部票選。
           </p>
-          <img
+          <ElementImageViewer
             class="pt-60 w-100"
             loading="lazy"
-            src="../../../assets/works/printing1/c_1-3.jpg"
+            src="@/assets/works/printing1/c_1-3.jpg"
             alt=""
           />
-          <p class="lh-20 fz-14-l ls-5 gray2 pt-16">參考圖</p>
+          <p class="lh-20 fz-14-l ls-5 gray2 pt-16 d-sm-none">參考圖</p>
         </div>
       </div>
     </section>
@@ -124,17 +137,17 @@
     <!-- 設計理念 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="25"
             height="25"
-            src="../../../assets/icons/ic-think.svg"
+            src="@/assets/icons/ic-think.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <ElementTag :class="''">A 款設計</ElementTag>
           <ul class="fz-16-l gray2 pt-16">
             <ElementStarItem>
@@ -144,20 +157,20 @@
             </ElementStarItem>
           </ul>
         </div>
-        <img
+        <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
-          src="../../../assets/works/printing1/c_1-4.jpg"
+          src="@/assets/works/printing1/c_1-4.jpg"
           alt=""
         />
-        <img
+        <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
-          src="../../../assets/works/printing1/c_1-5.jpg"
+          src="@/assets/works/printing1/c_1-5.jpg"
           alt=""
         />
         <div class="d-flex flex-justify-space-between">
-          <div class="col-45">
+          <div class="col-45 col-sm-10">
             <ElementTag :class="'mt-30'">B 款設計</ElementTag>
             <ul class="fz-16-l gray2 pt-16">
               <ElementStarItem>
@@ -165,7 +178,7 @@
               </ElementStarItem>
             </ul>
           </div>
-          <div class="col-45">
+          <div class="col-45 col-sm-10">
             <ElementTag :class="'mt-30'">C 款設計</ElementTag>
             <ul class="fz-16-l gray2 pt-16">
               <ElementStarItem>
@@ -179,25 +192,25 @@
     <!-- 設計產出 -->
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
-        <div class="d-flex col-4 flex-align-center">
+        <div class="d-flex col-4 col-sm-10 flex-align-center">
           <img
             class="icon"
             width="24"
             height="25"
-            src="../../../assets/icons/ic-layout.svg"
+            src="@/assets/icons/ic-layout.svg"
             alt=""
           />
           <div class="col fz-22-m gray1 ml-8">設計產出</div>
         </div>
-        <div class="col-6">
+        <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
             封面視覺定案後，將學員作品分類微調收錄進內頁，依照作品不同視覺採用不同編排方式，每一位學員都有一整面的版面搭配創作理念。
           </p>
         </div>
-        <img
+        <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
-          src="../../../assets/works/printing1/c_1-6.jpg"
+          src="@/assets/works/printing1/c_1-6.jpg"
           alt=""
         />
       </div>

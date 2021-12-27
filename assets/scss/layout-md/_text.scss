@@ -1,0 +1,63 @@
+.text-md-align-center {
+  text-align: center;
+}
+
+.text-md-align-right {
+  text-align: right;
+}
+
+.text-md-align-left {
+  text-align: left;
+}
+
+.text-md-nowrap {
+  white-space: nowrap;
+}
+
+.text-md-wrap {
+  white-space: normal;
+}
+
+@for $i from 10 to 50 {
+
+  .fz-md-#{$i}-b,
+  .fz-md-#{$i}-l,
+  .fz-md-#{$i}-r,
+  .fz-md-#{$i}-m {
+    font-size     : $i * 1px;
+    line-height   : max($i * 1.2px, 32px);
+    letter-spacing: 0.05em;
+  }
+
+  .fz-md-#{$i}-l {
+    font-weight: 300;
+  }
+
+  .fz-md-#{$i}-r {
+    font-weight: 400;
+  }
+
+  .fz-md-#{$i}-m {
+    font-weight: 500;
+  }
+
+  .fz-md-#{$i}-b {
+    font-weight: 700;
+  }
+}
+
+@for $i from 1 to 100 {
+  .lh-md-#{$i} {
+    line-height: $i * 1px;
+  }
+}
+
+.ls-md-normal {
+  letter-spacing: normal;
+}
+
+@for $i from 1 to 40 {
+  .ls-md-#{$i*5} {
+    letter-spacing: $i * 0.05em;
+  }
+}

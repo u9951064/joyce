@@ -1,8 +1,8 @@
 <template>
-  <main class="work-category">
+  <main class="work-category pl-20 pr-20">
     <section class="container-800">
-      <div class="d-flex pt-120 border-bottom-gray1">
-        <div class="col">
+      <div class="d-flex pt-120 pt-sm-30 border-bottom-gray1">
+        <div class="col col-sm-10">
           <h1 class="fz-40-b gray1">Hi I’m Joyce!</h1>
           <div class="fz-17-l gray2 pt-16">
             我是名網頁視覺設計師，擅長
@@ -13,65 +13,80 @@
             /><br />
             相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
           </div>
-          <div class="pt-40">
-            <ElementBtn href="/about" title="關於我">
+          <div class="pt-40 pt-sm-30 d-sm-flex text-nowrap text-align-center">
+            <ElementBtn href="/about" title="關於我" class="col-sm">
               <span class="fz-14-r ls-10"
                 >關於我
                 <img
                   width="20"
                   height="20"
                   class="ml-2"
-                  src="../../assets/icons/ic-joyce.svg"
+                  src="@/assets/icons/ic-joyce.svg"
                   alt="關於我"
               /></span>
             </ElementBtn>
-            <ElementBtn href="/files/resume_joyce.pdf" title="下載履歷" class="ml-24" target="_blank">
+            <ElementBtn
+              href="/files/resume_joyce.pdf"
+              title="下載履歷"
+              class="col-sm ml-24 ml-sm-10"
+              target="_blank"
+            >
               <span class="fz-14-r ls-10"
                 >下載履歷
                 <img
                   width="20"
                   height="20"
                   class="ml-2"
-                  src="../../assets/icons/ic-download.svg"
+                  src="@/assets/icons/ic-download.svg"
                   alt="下載"
               /></span>
             </ElementBtn>
           </div>
         </div>
-        <div class="col-auto pt-80">
+        <div class="col-auto col-sm-10 pt-80 pt-sm-30">
           <img
             width="288"
             height="258"
-            class="d-block"
-            src="../../assets/images/joyce-illustration.svg"
+            class="d-block ml-sm-auto"
+            src="@/assets/images/joyce-illustration.svg"
             alt=""
           />
         </div>
       </div>
     </section>
 
-    <div class="d-flex flex-align-center flex-justify-center pt-60 fz-14-r ls-10">
+    <div
+      class="
+        d-flex
+        flex-align-center flex-justify-center
+        pt-60
+        pt-sm-40
+        fz-14-r
+        ls-10
+        text-nowrap text-align-center
+      "
+    >
       <ElementBtn
         tag="NuxtLink"
-        class="work-btn"
+        class="work-btn col-auto col-sm-4"
         :to="{ name: 'works-categories-ui' }"
         >UI設計</ElementBtn
       >
       <ElementBtn
         tag="NuxtLink"
-        class="work-btn"
+        class="work-btn col-auto col-sm-4"
         :to="{ name: 'works-categories-commerce' }"
         >廣告設計</ElementBtn
       >
       <ElementBtn
         tag="NuxtLink"
-        class="work-btn"
+        class="work-btn col-auto col-sm-4"
         :to="{ name: 'works-categories-printing' }"
         >平面設計</ElementBtn
       >
       <ElementBtn
         tag="NuxtLink"
-        class="work-btn"
+        class="work-btn col-auto col-sm-4"
         :to="{ name: 'works-categories-management' }"
         >專案管理</ElementBtn
       >
@@ -88,7 +103,7 @@ main.work-category {
   }
 
   & .work-btn {
-    margin-right: 15px;
+    margin: 7.5px;
     border-style: solid;
     border-width: 1px;
     border-color: $gray3;
@@ -111,7 +126,6 @@ main.work-category {
       box-shadow: 2px 2px 0 0 $gray1;
       transform: translate(-1.5px, -1.5px);
       color: $gray1;
-      text-align: left;
     }
 
     &:hover {

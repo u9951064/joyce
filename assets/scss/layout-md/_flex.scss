@@ -1,50 +1,50 @@
-.d-flex,
-.d-flex-c {
+.d-md-flex,
+.d-md-flex-c {
   display  : flex;
   flex-wrap: wrap;
 }
 
-.flex-align-baseline {
+.flex-md-align-baseline {
   align-items: baseline;
 }
 
-.flex-align-center {
+.flex-md-align-center {
   align-items: center;
 }
 
-.flex-align-stretch {
+.flex-md-align-stretch {
   align-items: stretch;
 }
 
-.flex-align-flex-start {
+.flex-md-align-flex-start {
   align-items: flex-start;
 }
 
-.flex-align-flex-end {
+.flex-md-align-flex-end {
   align-items: flex-end;
 }
 
-.flex-justify-center {
+.flex-md-justify-center {
   justify-content: center;
 }
 
-.flex-justify-left {
+.flex-md-justify-left {
   justify-content: left;
 }
 
-.flex-justify-end {
+.flex-md-justify-end {
   justify-content: end;
 }
 
-.flex-justify-start {
+.flex-md-justify-start {
   justify-content: start;
 }
 
-.flex-justify-space-between {
+.flex-md-justify-space-between {
   justify-content: space-between;
 }
 
-.d-flex {
+.d-md-flex {
   flex-direction: row;
 
   &.flex-reverse {
@@ -148,7 +148,9 @@
   }
 }
 
-.d-flex-c {
+.d-md-flex-c {
+  flex-direction: column;
+
   &.flex-reverse {
     flex-direction: column-reverse;
   }
@@ -190,7 +192,6 @@
       flex      : 0 0 auto;
       height    : initial;
       max-height: initial;
-
     }
 
     &>.col-md {
@@ -252,11 +253,11 @@
 }
 
 @for $i from 1 to 12 {
-  .order-#{$i} {
+  .order-md-#{$i} {
     order: #{$i};
   }
 
-  .order-i#{$i} {
+  .order-md-i#{$i} {
     order: -#{$i};
   }
 }
