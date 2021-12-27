@@ -190,7 +190,7 @@
             記錄生活、制定目標並將資料整理歸納。
           </p>
         </div>
-        <div class="col-6 col-sm-10 d-flex pt-20-sm">
+        <div class="col-6 col-sm-10 d-flex pt-sm-20">
           <div class="col text-align-right text-sm-align-center">
             <img
               class="w-70 w-sm-90 h-auto border-radius-8"

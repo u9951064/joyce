@@ -33,8 +33,20 @@
             class="d-none d-sm-flex col-sm-col pl-20 pr-20 pointer"
             @click="toggleMenu"
           >
-            <img v-if="menuStatus" src="@/assets/icons/ic-cross.svg" />
-            <img v-else src="@/assets/icons/ic-more.svg" />
+            <img
+              v-if="menuStatus"
+              src="@/assets/icons/ic-cross.svg"
+              width="25"
+              height="25"
+              alt="關閉"
+            />
+            <img
+              v-else
+              src="@/assets/icons/ic-more.svg"
+              width="25"
+              height="25"
+              alt="menu"
+            />
           </div>
           <ul
             class="

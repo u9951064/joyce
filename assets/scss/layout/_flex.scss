@@ -149,6 +149,8 @@
 }
 
 .d-flex-c {
+  flex-direction: column;
+
   &.flex-reverse {
     flex-direction: column-reverse;
   }
