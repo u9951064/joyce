@@ -3,6 +3,7 @@
     <div class="plyr__video-embed">
       <iframe
         :src="iframeUrl"
+        loading="lazy"
         title="YouTube video player"
         frameborder="0"
         allowfullscreen
@@ -41,9 +42,7 @@ export default defineComponent({
   },
   setup(props) {
     const iframeUrl = computed(() => {
-      const result = new URL(
-        `https://www.youtube.com/embed/${props.videoId}`
-      );
+      const result = new URL(`https://www.youtube.com/embed/${props.videoId}`);
       result.searchParams.append("autoplay", props.autoplay ? "1" : "0");
       result.searchParams.append("iv_load_policy", 3);
       result.searchParams.append("modestbranding", 1);

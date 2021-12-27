@@ -11,23 +11,46 @@
           "
         >
           <div class="col-auto">
-            <NuxtLink :to="homePage" class="gray2 d-flex flex-align-center" title="回首頁">
-              <img class="w-auto h-100" src="@/assets/images/logo.svg" alt="Joyce's Logo" width="101" height="19"/>
+            <NuxtLink
+              :to="homePage"
+              class="gray2 d-flex flex-align-center"
+              title="回首頁"
+            >
+              <img
+                class="w-auto h-100"
+                src="@/assets/images/logo.svg"
+                alt="Joyce's Logo"
+                width="101"
+                height="19"
+              />
             </NuxtLink>
           </div>
-          <ul class="d-flex flex-align-center fz-14-b">
-            <li>
-              <NuxtLink :to="homePage" class="gray2 blue1-hover d-flex flex-align-center" title="作品集"
+          <div class="d-none d-sm-flex col-sm-col" @click="toggleMenu">
+            <img v-if="menuStatus" src="@/assets/icons/ic-cross.svg" />
+            <img v-else src="@/assets/icons/ic-more.svg" />
+          </div>
+          <ul class="col col-sm-10 d-flex flex-justify-end flex-align-center fz-14-b" :class="{'d-sm-none': !menuStatus}">
+            <li class="col-auto col-sm-10">
+              <NuxtLink
+                :to="homePage"
+                class="gray2 blue1-hover d-flex flex-align-center flex-justify-center"
+                title="作品集"
                 >WORKS</NuxtLink
               >
             </li>
-            <li>
-              <NuxtLink to="/about" class="ml-24 gray2 blue1-hover d-flex flex-align-center" title="關於我"
+            <li class="col-auto col-sm-10">
+              <NuxtLink
+                to="/about"
+                class="ml-24 ml-sm-0 gray2 blue1-hover d-flex flex-align-center flex-justify-center"
+                title="關於我"
                 >ABOUT</NuxtLink
               >
             </li>
-            <li>
-              <NuxtLink to="/resume" class="ml-24 gray2 blue1-hover d-flex flex-align-center" title="履歷表"
+            <li class="col-auto col-sm-10">
+              <NuxtLink
+                to="/resume"
+                class="ml-24 ml-sm-0 gray2 blue1-hover d-flex flex-align-center flex-justify-center"
+                title="履歷表"
                 >RESUME</NuxtLink
               >
             </li>
@@ -39,18 +62,27 @@
 </template>
 
 <script>
-import { useRouter, defineComponent } from '@nuxtjs/composition-api'
+import { useRouter, defineComponent, ref } from "@nuxtjs/composition-api";
 
 export default defineComponent({
   setup() {
     const router = useRouter();
     const homePage = router.resolve(process.env.homePage).href;
-
+    const menuStatus = ref(false);
+    const toggleMenu = (status) => {
+      if(typeof status === 'boolean') {
+        menuStatus.value = status;
+      } else {
+        menuStatus.value = !menuStatus.value;
+      }
+    }
     return {
+      toggleMenu,
+      menuStatus,
       homePage,
     };
   },
-})
+});
 </script>
 
 

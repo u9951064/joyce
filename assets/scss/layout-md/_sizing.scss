@@ -1,0 +1,36 @@
+.w-md-auto {
+  width: auto;
+}
+
+.h-md-auto {
+  height: auto;
+}
+
+@for $i from 1 through 20 {
+  .w-md-#{$i * 5} {
+    width: calc(#{$i} * 5%);
+  }
+
+  .h-md-#{$i * 5} {
+    height: calc(#{$i} * 5%);
+  }
+}
+
+
+@for $i from 1 through 500 {
+  .w-md-max#{$i} {
+    max-width: calc(#{$i} * 0.0625rem);
+  }
+
+  .h-md-max#{$i} {
+    max-height: calc(#{$i} * 0.0625rem);
+  }
+
+  .w-md-min#{$i} {
+    min-width: calc(#{$i} * 0.0625rem);
+  }
+
+  .h-md-min#{$i} {
+    min-height: calc(#{$i} * 0.0625rem);
+  }
+}
