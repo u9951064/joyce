@@ -1,5 +1,5 @@
 <template>
-  <main class="work-content">
+  <main class="work-content pl-20 pr-20">
     <NuxtChild />
     <section
       class="container-1000 pt-80 pb-120 border-top-gray3 text-align-center"

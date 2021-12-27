@@ -4,7 +4,7 @@
     class="mb-60 d-flex border-gray1 border-radius-8 overflow-x-hidden"
     title="平面設計 - TAICHUNG 美學，從中可見"
   >
-    <div class="col-4 border-right-gray1 bg-blue2 p-relative h-min300">
+    <div class="col-4 col-sm-10 border-right-gray1 border-sm-right-none bg-blue2 p-relative h-min220">
       <img
         class="p-absolute printing-img"
         src="../../assets/works/printing2/c_2-1.png"
@@ -12,7 +12,7 @@
       />
     </div>
 
-    <div class="col p-30">
+    <div class="col col-sm-10 p-30">
       <h2 class="fz-22-m gray1">TAICHUNG</h2>
       <ul class="pt-16 fz-16-l gray2">
         <ElementStarItem>2019 德國紅點設計 | 品牌暨傳達設計紅點獎</ElementStarItem>

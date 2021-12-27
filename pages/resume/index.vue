@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="pl-20 pr-20">
     <!-- top -->
     <section class="container-1100">
       <div class="d-flex pt-120 pb-80">
