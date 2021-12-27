@@ -5,7 +5,7 @@
       <div class="d-flex pt-120 pb-80">
         <div class="col">
           <img
-            class="w-90 h-auto border border-radius-50"
+            class="w-90 h-auto border-gray1 border-radius-circle"
             width="490"
             height="490"
             src="../../assets/resume/photo.jpg"

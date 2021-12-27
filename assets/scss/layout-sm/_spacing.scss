@@ -2,6 +2,22 @@
   margin: auto;
 }
 
+.ml-sm-auto {
+  margin-left: auto;
+}
+
+.mr-sm-auto {
+  margin-right: auto;
+}
+
+.mt-sm-auto {
+  margin-top: auto;
+}
+
+.mb-sm-auto {
+  margin-bottom: auto;
+}
+
 @for $i from 0 through 60 {
   .p-sm-#{$i * 2} {
     padding: calc(#{$i} * 2px);
