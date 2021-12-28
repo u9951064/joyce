@@ -208,6 +208,8 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="2000"
+        height="820"
         src="@/assets/works/ui3/a_3-4.png"
         alt=""
       />
@@ -216,6 +218,8 @@
           <ElementImageViewer
             class="w-100"
             loading="lazy"
+            width="750"
+            height="9772"
             src="@/assets/works/ui3/a_3-5.png"
             alt=""
           />
@@ -227,6 +231,8 @@
           <ElementImageViewer
             class="w-100"
             loading="lazy"
+            width="2000"
+            height="7600"
             src="@/assets/works/ui3/a_3-6.png"
             alt=""
           />

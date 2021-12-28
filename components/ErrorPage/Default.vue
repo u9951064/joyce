@@ -1,7 +1,8 @@
 <template>
   <div class="text-align-center mt-80 mb-80">
     <img
-        class="h-min250 w-min250"
+        width="288"
+        height="258"
         src="@/assets/images/joyce-illustration.svg"
         alt=""
       />

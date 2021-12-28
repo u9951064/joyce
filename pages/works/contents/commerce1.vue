@@ -144,6 +144,8 @@
           <div class="d-flex flex-justify-end pt-40">
             <ElementImageViewer
               class="w-100"
+              width="600"
+              height="300"
               loading="lazy"
               src="@/assets/works/commerce1/b_1-3.jpg"
               alt=""
@@ -177,6 +179,8 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="1000"
+        height="410"
         src="@/assets/works/commerce1/b_1-4.jpg"
         alt=""
       />
@@ -206,6 +210,8 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="1000"
+        height="410"
         src="@/assets/works/commerce1/b_1-5.jpg"
         alt=""
       />

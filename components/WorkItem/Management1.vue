@@ -16,6 +16,8 @@
     >
       <img
         class="w-100"
+        width="1102"
+        height="715"
         src="@/assets/works/management1/d_1-1.png"
         alt=""
       />

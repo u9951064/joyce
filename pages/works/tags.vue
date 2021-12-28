@@ -18,7 +18,9 @@
               <span class="lh-20 fz-14-r ls-10"
                 >關於我
                 <img
-                  class="ml-2 w-min20 h-min20"
+                  class="ml-2"
+                  width="20"
+                  height="20"
                   src="@/assets/icons/ic-joyce.svg"
                   alt="關於我"
               /></span>
@@ -32,7 +34,9 @@
               <span class="lh-20 fz-14-r ls-10"
                 >下載履歷
                 <img
-                  class="ml-2 w-min20 h-min20"
+                  class="ml-2"
+                  width="20"
+                  height="20"
                   src="@/assets/icons/ic-download.svg"
                   alt="下載"
               /></span>
@@ -41,7 +45,9 @@
         </div>
         <div class="col-auto pt-80">
           <img
-            class="d-block h-min250 w-min250"
+            class="d-block"
+            width="288"
+            height="258"
             src="@/assets/images/joyce-illustration.svg"
             alt=""
           />

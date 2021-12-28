@@ -16,6 +16,8 @@
     >
       <img
         class="p-absolute commerce-img"
+        width="707"
+        height="393"
         src="@/assets/works/commerce1/b_1-1.png"
         alt=""
       />

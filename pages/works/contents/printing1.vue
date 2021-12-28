@@ -126,6 +126,8 @@
           <ElementImageViewer
             class="pt-60 w-100"
             loading="lazy"
+            width="600"
+            height="300"
             src="@/assets/works/printing1/c_1-3.jpg"
             alt=""
           />
@@ -160,12 +162,16 @@
         <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
+          width="1000"
+          height="410"
           src="@/assets/works/printing1/c_1-4.jpg"
           alt=""
         />
         <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
+          width="1000"
+          height="410"
           src="@/assets/works/printing1/c_1-5.jpg"
           alt=""
         />
@@ -210,6 +216,8 @@
         <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
+          width="1000"
+          height="410"
           src="@/assets/works/printing1/c_1-6.jpg"
           alt=""
         />

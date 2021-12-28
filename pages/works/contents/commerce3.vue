@@ -148,6 +148,8 @@
             <ElementImageViewer
               class="w-100"
               loading="lazy"
+              width="1000"
+              height="500"
               src="@/assets/works/commerce3/b_3-3.jpg"
               alt=""
             />
@@ -178,12 +180,16 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="2000"
+        height="820"
         src="@/assets/works/commerce3/b_3-4.jpg"
         alt=""
       />
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="2000"
+        height="820"
         src="@/assets/works/commerce3/b_3-5.jpg"
         alt=""
       />

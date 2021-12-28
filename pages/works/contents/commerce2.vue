@@ -176,6 +176,8 @@
           <div class="d-flex flex-justify-end pt-40">
             <ElementImageViewer
               class="w-100"
+              width="1000"
+              height="500"
               loading="lazy"
               src="@/assets/works/commerce2/b_2-3.jpg"
               alt=""
@@ -212,18 +214,24 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="1000"
+        height="410"
         src="@/assets/works/commerce2/b_2-4.jpg"
         alt=""
       />
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="1000"
+        height="600"
         src="@/assets/works/commerce2/b_2-5.jpg"
         alt=""
       />
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="1000"
+        height="410"
         src="@/assets/works/commerce2/b_2-6.jpg"
         alt=""
       />

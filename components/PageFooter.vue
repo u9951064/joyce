@@ -11,7 +11,13 @@
             @click.native="makeCall"
           >
             <span class="lh-20 fz-14-r ls-10">
-              <img class="d-block" src="@/assets/icons/ic-phone.svg" alt="" width="18" height="18"/>
+              <img
+                class="d-block"
+                src="@/assets/icons/ic-phone.svg"
+                alt=""
+                width="18"
+                height="18"
+              />
             </span>
           </ElementBtn>
         </div>
@@ -23,7 +29,13 @@
             @click.native="sendMail"
           >
             <span class="lh-20 fz-14-r ls-10">
-              <img class="d-block" src="@/assets/icons/ic-mail.svg" alt="" width="18" height="18"/>
+              <img
+                class="d-block"
+                src="@/assets/icons/ic-mail.svg"
+                alt=""
+                width="18"
+                height="18"
+              />
             </span>
           </ElementBtn>
         </div>
@@ -36,7 +48,13 @@
             rel="noreferrer noopener"
           >
             <span class="lh-20 fz-14-r ls-10">
-              <img class="d-block" src="@/assets/icons/ic-linkin.svg" alt="" width="18" height="18"/>
+              <img
+                class="d-block"
+                src="@/assets/icons/ic-linkin.svg"
+                alt=""
+                width="18"
+                height="18"
+              />
             </span>
           </ElementBtn>
         </div>

@@ -113,6 +113,8 @@
         <img
           class="pt-60 w-100"
           loading="lazy"
+          width="2000"
+          height="820"
           src="@/assets/works/printing2/c_2-3.jpg"
           alt=""
         />
@@ -154,6 +156,8 @@
         <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
+          width="2000"
+          height="820"
           src="@/assets/works/printing2/c_2-4.jpg"
           alt=""
         />
@@ -184,6 +188,8 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="2000"
+        height="1414"
         src="@/assets/works/printing2/c_2-5.jpg"
         alt=""
       />
@@ -202,6 +208,8 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="2481"
+        height="1754"
         src="@/assets/works/printing2/c_2-7.jpg"
         alt=""
       />
@@ -214,12 +222,16 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="1920"
+        height="1099"
         src="@/assets/works/printing2/c_2-8.jpg"
         alt=""
       />
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="4962"
+        height="3509"
         src="@/assets/works/printing2/c_2-9.jpg"
         alt=""
       />
@@ -232,6 +244,8 @@
       <img
         class="pt-60 w-100"
         loading="lazy"
+        width="4496"
+        height="2794"
         src="@/assets/works/printing2/c_2-11.jpg"
         alt=""
       />
@@ -241,7 +255,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 col-sm-10 flex-align-center">
-          <img class="icon" src="@/assets/icons/ic-thoughts.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="@/assets/icons/ic-thoughts.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">創作感想</div>
         </div>
         <div class="col-6 col-sm-10">
@@ -269,6 +289,8 @@
         <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
+          width="1572"
+          height="1042"
           src="@/assets/works/printing2/c_2-12.jpg"
           alt=""
         />

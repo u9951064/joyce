@@ -15,7 +15,9 @@
       "
     >
       <img
-        class="printing-img"
+        class="printing-img w-80"
+        width="557"
+        height="437"
         src="@/assets/works/printing1/c_1-1.png"
         alt=""
       />
@@ -35,9 +37,3 @@
     </div>
   </NuxtLink>
 </template>
-
-<style lang="scss" scoped>
-.printing-img {
-  width: 80%;
-}
-</style>

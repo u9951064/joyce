@@ -50,13 +50,13 @@
           </div>
           <ul
             class="
-              pt-60
               col col-sm-10
               d-flex
               flex-justify-end flex-align-center
               fz-14-b
               pl-10
               pr-10
+              pt-sm-60
             "
             :class="{ 'd-sm-none': !menuStatus }"
           >

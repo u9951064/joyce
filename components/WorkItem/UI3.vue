@@ -4,17 +4,20 @@
     class="mb-60 d-flex border-gray1 border-radius-8 overflow-x-hidden"
     title="UI設計 - 英日西韓語，外語振興補助"
   >
-    <div class="
+    <div
+      class="
         col-6 col-sm-10
         h-min220
-        border-right-gray1
-        border-sm-right-none
+        border-right-gray1 border-sm-right-none
         bg-blue2
         p-relative
         overflow-hidden
-      ">
+      "
+    >
       <img
         class="p-absolute ui-img"
+        width="752"
+        height="614"
         src="@/assets/works/ui3/a_3-1.png"
         alt=""
       />

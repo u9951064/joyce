@@ -127,6 +127,8 @@
         <ElementImageViewer
           class="pt-60 w-100"
           loading="lazy"
+          width="2000"
+          height="820"
           src="@/assets/works/management1/d_1-3.jpg"
           alt=""
         />
@@ -156,6 +158,8 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="2000"
+        height="820"
         src="@/assets/works/management1/d_1-4.gif"
         alt=""
       />
@@ -167,6 +171,8 @@
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="2000"
+        height="1000"
         src="@/assets/works/management1/d_1-5.jpg"
         alt=""
       />
@@ -189,7 +195,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 col-sm-10 flex-align-center">
-          <img class="icon" src="@/assets/icons/ic-cooperation.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="@/assets/icons/ic-cooperation.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">專案協作</div>
         </div>
         <div class="col-6 col-sm-10">
@@ -215,6 +227,8 @@
           <ElementImageViewer
             class="pt-60 w-100"
             loading="lazy"
+            width="1000"
+            height="500"
             src="@/assets/works/management1/d_1-6.jpg"
             alt=""
           />
@@ -226,13 +240,21 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 col-sm-10 flex-align-center">
-          <img class="icon" src="@/assets/icons/ic-award.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="@/assets/icons/ic-award.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">專案成果</div>
         </div>
       </div>
       <ElementImageViewer
         class="pt-60 w-100"
         loading="lazy"
+        width="2000"
+        height="820"
         src="@/assets/works/management1/d_1-7.jpg"
         alt=""
       />
@@ -242,7 +264,13 @@
     <section class="container-1000 pt-80 pb-80 border-top-gray3">
       <div class="d-flex flex-align-flex-start">
         <div class="d-flex col-4 col-sm-10 flex-align-center">
-          <img class="icon" src="@/assets/icons/ic-thoughts.svg" alt="" />
+          <img
+            class="icon"
+            width="25"
+            height="25"
+            src="@/assets/icons/ic-thoughts.svg"
+            alt=""
+          />
           <div class="col fz-22-m gray1 ml-8">專案心得</div>
         </div>
       </div>

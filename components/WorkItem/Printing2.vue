@@ -15,7 +15,9 @@
       "
     >
       <img
-        class="p-absolute printing-img"
+        class="p-absolute printing-img w-90"
+        width="1172"
+        height="750"
         src="@/assets/works/printing2/c_2-1.png"
         alt=""
       />
@@ -38,7 +40,6 @@
 
 <style lang="scss" scoped>
 .printing-img {
-  width: 90%;
   right: 0;
   left: 5%;
   bottom: 0;

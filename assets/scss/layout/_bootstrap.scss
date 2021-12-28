@@ -5,15 +5,20 @@
 }
 
 body {
-  font-family: Montserrat, 'Noto Sans TC';
-  font-size  : 14px;
-  line-height: 1;
-  color      : #37352F;
+  font-family   : Montserrat, 'Noto Sans TC';
+  font-size     : 14px;
+  line-height   : 1;
+  color         : #37352F;
   letter-spacing: 0.05em;
 }
 
 a {
   text-decoration: none;
+}
+
+img {
+  width : auto;
+  height: auto;
 }
 
 .pointer {
