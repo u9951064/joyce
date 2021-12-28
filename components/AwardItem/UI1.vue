@@ -18,7 +18,7 @@
         class="p-absolute ui-img"
         width="1472"
         height="750"
-        src="@/assets/works/ui1/a_1-1.png"
+        src="@/assets/works/ui1/a_1-1.webp"
         alt=""
       />
     </div>

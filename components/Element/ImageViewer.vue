@@ -45,3 +45,9 @@ export default defineComponent({
 </script>
 
 <style lang="scss" src="../../assets/scss/plugins/viewer.scss"></style>
+
+<style lang="scss" scoped>
+img {
+  cursor: pointer;
+}
+</style>

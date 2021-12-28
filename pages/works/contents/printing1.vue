@@ -12,9 +12,9 @@
 
     <div
       class="
-        pt-60 pt-sm-20
-        ml-sm-i20
-        mr-sm-i20
+        pt-60 pt-md-20
+        ml-md-i20
+        mr-md-i20
         overflow-x-hidden
         text-align-center
       "

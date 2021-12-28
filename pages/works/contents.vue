@@ -1,5 +1,5 @@
 <template>
-  <main class="work-content pl-20 pr-20">
+  <main class="work-content pl-md-20 pr-md-20">
     <NuxtChild />
     <section
       class="
@@ -11,17 +11,22 @@
         d-sm-none
       "
     >
-      <ElementBtn title="回作品列表" @click.native="goBack">
-        <span class="lh-20 fz-14-r ls-10">
-          <img
-            class="d-block mr-8"
-            width="7"
-            height="11"
-            src="@/assets/icons/ic-left.svg"
-            alt="<"
-          />
-          回作品列表
-        </span>
+      <ElementBtn
+        tag="span"
+        class="lh-20 fz-14-r ls-10"
+        role="button"
+        aria-label="回作品列表"
+        title="回作品列表"
+        @click.native="goBack"
+      >
+        <img
+          class="d-block mr-8"
+          width="7"
+          height="11"
+          src="@/assets/icons/ic-left.svg"
+          alt="<"
+        />
+        回作品列表
       </ElementBtn>
     </section>
   </main>

@@ -49,12 +49,18 @@ export default {
   build: {
     extractCSS: true,
     babel: {
-      presets: ['es2015', 'stage-0']
+      presets: [
+        ['@nuxt/babel-preset-app', {
+          targets: { ie: 11 },
+        }],
+      ],
     },
     extend(config, { isClient, loaders: { vue } }) {
       vue.transformAssetUrls.ElementImageViewer = ['src'];
     },
   },
+
+
 
   styleResources: {
     scss: [

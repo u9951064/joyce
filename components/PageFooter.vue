@@ -2,7 +2,7 @@
   <footer class="pageFooter pt-60 pb-60">
     <div class="container-800">
       <h2 class="fz-14-b gray2 text-align-center">CONTACT ME</h2>
-      <div class="d-flex w-60 flex-justify-space-between m-auto pt-24">
+      <div class="d-flex w-40 w-sm-60 flex-justify-space-between m-auto pt-24">
         <div class="col-auto">
           <ElementBtn
             tag="span"

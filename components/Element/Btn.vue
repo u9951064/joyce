@@ -31,6 +31,11 @@ export default defineComponent({
   display: inline-block;
   padding: 12px 40px;
 
+  @media screen and (max-width: $break-tiny) {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
   & > * {
     display: inline-flex;
     justify-content: center;
