@@ -53,17 +53,19 @@
               class="
                 col-3 col-sm-10
                 d-flex
-                flex-align-center flex-justify-center flex-sm-justify-end
+                flex-align-center flex-justify-center
                 p-8
               "
             >
-              <img
-                class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
-                width="101"
-                height="88"
-                src="@/assets/about/ui.svg"
-                alt=""
-              />
+              <div class="col-10">
+                <img
+                  class="d-block w-80 w-sm-35 m-auto mb-sm-i50 mr-sm-0"
+                  width="101"
+                  height="88"
+                  src="@/assets/about/ui.svg"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="col-7 col-sm-10 content pr-8 pb-24 pt-24 p-sm-8">
               <h3 class="fz-22-m gray1 pt-8">UI設計</h3>
@@ -87,17 +89,19 @@
               class="
                 col-3 col-sm-10
                 d-flex
-                flex-align-center flex-justify-center flex-sm-justify-end
+                flex-align-center flex-justify-center
                 p-8
               "
             >
-              <img
-                class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
-                width="111"
-                height="82"
-                src="@/assets/about/commerce.svg"
-                alt=""
-              />
+              <div class="col-10">
+                <img
+                  class="d-block w-80 w-sm-35 m-auto mb-sm-i50 mr-sm-0"
+                  width="101"
+                  height="88"
+                  src="@/assets/about/commerce.svg"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="col-7 col-sm-10 content pr-8 pb-24 pt-24 p-sm-8">
               <h3 class="fz-22-m gray1 pt-8">廣告設計</h3>
@@ -121,17 +125,19 @@
               class="
                 col-3 col-sm-10
                 d-flex
-                flex-align-center flex-justify-center flex-sm-justify-end
+                flex-align-center flex-justify-center
                 p-8
               "
             >
-              <img
-                class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
-                width="121"
-                height="120"
-                src="@/assets/about/graphic.svg"
-                alt="平面設計"
-              />
+              <div class="col-10">
+                <img
+                  class="d-block w-80 w-sm-35 m-auto mb-sm-i50 mr-sm-0"
+                  width="101"
+                  height="88"
+                  src="@/assets/about/graphic.svg"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="col-7 col-sm-10 content pr-8 pb-24 pt-24 p-sm-8">
               <h3 class="fz-22-m gray1 pt-8">平面設計</h3>
@@ -153,17 +159,19 @@
               class="
                 col-3 col-sm-10
                 d-flex
-                flex-align-center flex-justify-center flex-sm-justify-end
+                flex-align-center flex-justify-center
                 p-8
               "
             >
-              <img
-                class="d-block w-80 w-sm-35 h-auto mb-sm-i50"
-                width="111"
-                height="90"
-                src="@/assets/about/web.svg"
-                alt=""
-              />
+              <div class="col-10">
+                <img
+                  class="d-block w-80 w-sm-35 m-auto mb-sm-i50 mr-sm-0"
+                  width="101"
+                  height="88"
+                  src="@/assets/about/web.svg"
+                  alt=""
+                />
+              </div>
             </div>
             <div class="col-7 col-sm-10 content pr-8 pb-24 pt-24 p-sm-8">
               <h3 class="fz-22-m gray1 pt-8">網頁設計</h3>

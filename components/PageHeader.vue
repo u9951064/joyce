@@ -50,7 +50,7 @@
           </div>
           <ul
             class="
-              col col-sm-10
+              col-auto col-sm-10
               d-flex
               flex-justify-end flex-align-center
               fz-14-b
