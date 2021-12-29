@@ -14,13 +14,16 @@
         h-min220
       "
     >
-      <img
-        class="p-absolute ui-img"
-        width="1472"
-        height="750"
-        src="@/assets/works/ui1/a_1-1.webp"
-        alt=""
-      />
+      <picture>
+        <source srcset="@/assets/works/ui1/a_1-1.webp" type="image/webp" />
+        <img
+          class="p-absolute ui-img"
+          width="1472"
+          height="750"
+          src="@/assets/works/ui1/a_1-1.png"
+          alt=""
+        />
+      </picture>
     </div>
     <div class="col col-sm-10 p-30">
       <h2 class="fz-22-m gray1">Hi BUS!</h2>

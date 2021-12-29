@@ -16,12 +16,11 @@
     >
       <picture>
         <source srcset="@/assets/works/ui2/a_2-1.webp" type="image/webp" />
-        <source srcset="@/assets/works/ui2/a_2-1.png" type="image/png" />
         <img
           class="p-absolute ui-img"
           width="1468"
           height="750"
-          src="@/assets/works/ui2/a_2-1.webp"
+          src="@/assets/works/ui2/a_2-1.png"
           alt=""
         />
       </picture>
