@@ -16,7 +16,7 @@
         pt-60 pt-md-20
         ml-md-i20
         mr-md-i20
-        overflow-x-hidden
+        overflow-hidden
         text-align-center
       "
     >
@@ -102,7 +102,8 @@
             使用 台鐵 e 訂通 App 訂購火車票時，發現 App
             在同一頁面同時提供過多的資訊，容易造成使用者難以操作，且選單並非以行動裝置的操作體驗來進行設計，使用體驗上有改善的空間。
           </p>
-          <div class="d-flex flex-justify-end pt-40">
+
+          <figure class="pt-40">
             <ElementImageViewer
               class="w-100 h-auto"
               width="1000"
@@ -111,7 +112,7 @@
               src="@/assets/works/ui2/a_2-13.jpg"
               alt=""
             />
-          </div>
+          </figure>
         </div>
       </div>
     </section>

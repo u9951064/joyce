@@ -15,7 +15,7 @@
         pt-60 pt-md-20
         ml-md-i20
         mr-md-i20
-        overflow-x-hidden
+        overflow-hidden
         text-align-center
       "
     >

@@ -18,7 +18,7 @@
         pt-60 pt-md-20
         ml-md-i20
         mr-md-i20
-        overflow-x-hidden
+        overflow-hidden
         text-align-center
       "
     >
@@ -187,16 +187,16 @@
             」進行研究、設計與開發，透過競賽可以看見別人的長處並學習，是一個很好的機會將所學知識應用到真實產品上。
           </p>
         </div>
-        <div class="d-flex flex-justify-end pt-40">
+        <figure class="pt-40">
           <ElementImageViewer
-            class="w-100 h-auto"
+            class="w-100"
             width="1903"
             height="727"
             loading="lazy"
             src="@/assets/works/ui1/a_1-3.jpg"
             alt=""
           />
-        </div>
+        </figure>
       </div>
     </section>
 
@@ -234,16 +234,16 @@
               >https://hi-bus.tinycloud.tw/</a
             >
           </p>
-          <div class="d-flex flex-justify-end pt-40">
+          <figure class="pt-40">
             <ElementImageViewer
-              class="w-100 h-auto border-gray3 d-block"
+              class="w-100 border-gray3 d-block"
               width="922"
               height="897"
               loading="lazy"
               src="@/assets/works/ui1/a_1-4.jpg"
               alt=""
             />
-          </div>
+          </figure>
         </div>
       </div>
     </section>
@@ -275,16 +275,16 @@
             整體色系以深藍色為主色、並以淺灰色為輔色，傳達沈穩、專業且安全的公車系統形象。導覽列下方透過流動漸層，呈現公車正在行駛中的意象。
           </p>
         </div>
-        <div class="d-flex flex-justify-end pt-40">
+        <figure class="pt-40">
           <ElementImageViewer
-            class="w-100 h-auto"
+            class="w-100"
             width="2000"
             height="820"
             loading="lazy"
             src="@/assets/works/ui1/a_1-5.jpg"
             alt=""
           />
-        </div>
+        </figure>
       </div>
     </section>
 
@@ -316,16 +316,16 @@
             前我們就先針對題目名稱進行研究調查。
           </p>
         </div>
-        <div class="d-flex flex-justify-end pt-40">
+        <figure class="pt-40">
           <ElementImageViewer
-            class="w-100 h-auto"
+            class="w-100"
             width="2000"
             height="820"
             loading="lazy"
             src="@/assets/works/ui1/a_1-6.jpg"
             alt=""
           />
-        </div>
+        </figure>
       </div>
     </section>
     <!-- 03 執行階段 1. 資料蒐集 -->
@@ -348,7 +348,7 @@
       </ul>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="7501"
           height="3323"
           loading="lazy"
@@ -366,26 +366,26 @@
           制定規範好色彩計畫級字型字級，並將常用元素制定成元件，除了可以加速作業，同時審視是否風格一致，期望使用者於產品中擁有一致且良好的體驗。
         </ElementStarItem>
       </ul>
-      <div class="pt-60">
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto border-gray3 d-block"
+          class="w-100 border-gray3 d-block"
           loading="lazy"
           src="@/assets/works/ui1/a_1-8.png"
           width="1800"
           height="1100"
           alt=""
         />
-      </div>
-      <div class="pt-60">
+      </figure>
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto border-gray3 d-block"
+          class="w-100 border-gray3 d-block"
           width="1800"
           height="1100"
           loading="lazy"
           src="@/assets/works/ui1/a_1-9.png"
           alt=""
         />
-      </div>
+      </figure>
     </section>
     <!-- 03 執行階段 4. Logo / Illustration-->
     <section class="container-1000 pb-80">
@@ -397,16 +397,16 @@
           Hi BUS! 的 Logo，希望為我們的用戶帶來美好的體驗。
         </ElementStarItem>
       </ul>
-      <div class="pt-60">
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto border-gray3 d-block"
+          class="w-100 border-gray3 d-block"
           width="1800"
           height="1390"
           loading="lazy"
           src="@/assets/works/ui1/a_1-10.png"
           alt=""
         />
-      </div>
+      </figure>
     </section>
     <!-- 03 執行階段 5. 設計 Mockup-->
     <section class="container-1000 pb-80">
@@ -416,16 +416,16 @@
           按照設計系統，將 Wireframe 精稿，審視每一張頁面流程及風格是否一致。
         </ElementStarItem>
       </ul>
-      <div class="pt-60">
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="5000"
           height="2700"
           loading="lazy"
           src="@/assets/works/ui1/a_1-11.png"
           alt=""
         />
-      </div>
+      </figure>
       <ul class="fz-16-l gray2 pt-80">
         <ElementStarItem>
           導覽列下方透過藍綠色流動漸層，呈現公車正在行駛中的意象。<br />
@@ -436,26 +436,26 @@
       <div class="text-align-center pt-40">
         <ElementYoutube videoId="6lD2zQ8dcqg" :autoplay="true" :loop="true" />
       </div>
-      <div class="pt-60">
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2400"
           height="900"
           loading="lazy"
           src="@/assets/works/ui1/a_1-12.png"
           alt=""
         />
-      </div>
-      <div class="pt-60">
+      </figure>
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2400"
           height="900"
           loading="lazy"
           src="@/assets/works/ui1/a_1-13.png"
           alt=""
         />
-      </div>
+      </figure>
     </section>
     <!-- 03 執行階段 6. 延伸RWD頁面-->
     <section class="container-1000 pb-80">
@@ -465,16 +465,16 @@
           以 Web 設計為主，製作完所有頁面後，接著繪製其他裝置 UI 視覺。
         </ElementStarItem>
       </ul>
-      <div class="pt-60">
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2500"
           height="1000"
           loading="lazy"
           src="@/assets/works/ui1/a_1-14.png"
           alt=""
         />
-      </div>
+      </figure>
     </section>
     <!-- 03 執行階段 7. 副功能-->
     <section class="container-1000 pb-80">
@@ -492,26 +492,26 @@
           >。
         </ElementStarItem>
       </ul>
-      <div class="pt-60">
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2400"
           height="900"
           loading="lazy"
           src="@/assets/works/ui1/a_1-15.png"
           alt=""
         />
-      </div>
-      <div class="pt-60">
+      </figure>
+      <figure class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2400"
           height="900"
           loading="lazy"
           src="@/assets/works/ui1/a_1-16.png"
           alt=""
         />
-      </div>
+      </figure>
     </section>
 
     <!-- 評審點評與競賽心得 -->
@@ -558,26 +558,26 @@
             Developed by Josh
           </p>
         </div>
-        <div class="pt-60">
+        <figure class="pt-60">
           <ElementImageViewer
-            class="w-100 h-auto border-gray3 d-block"
+            class="w-100 border-gray3 d-block"
             width="1691"
             height="673"
             loading="lazy"
             src="@/assets/works/ui1/a_1-17.jpg"
             alt=""
           />
-        </div>
-        <div class="pt-60">
+        </figure>
+        <figure class="pt-60">
           <ElementImageViewer
-            class="w-100 h-auto"
+            class="w-100"
             width="2000"
             height="1000"
             loading="lazy"
             src="@/assets/works/ui1/a_1-18.jpg"
             alt=""
           />
-        </div>
+        </figure>
       </div>
       <ul class="fz-16-l gray2 pt-60">
         <ElementStarItem>

@@ -16,7 +16,7 @@
         pt-60 pt-md-20
         ml-md-i20
         mr-md-i20
-        overflow-x-hidden
+        overflow-hidden
         text-align-center
       "
     >
@@ -173,7 +173,7 @@
               UI介面元件做搭配
             </ElementStarItem>
           </ul>
-          <div class="d-flex flex-justify-end pt-40">
+          <figure class="pt-40">
             <ElementImageViewer
               class="w-100"
               width="1000"
@@ -182,8 +182,8 @@
               src="@/assets/works/commerce2/b_2-3.jpg"
               alt=""
             />
-            <p class="lh-20 fz-14-l ls-5 gray2 pt-16 d-sm-none">參考圖</p>
-          </div>
+            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">參考圖</figcaption>
+          </figure>
         </div>
       </div>
     </section>

@@ -14,13 +14,17 @@
         overflow-hidden
       "
     >
-      <img
-        class="p-absolute ui-img"
-        width="752"
-        height="614"
-        src="@/assets/works/ui3/a_3-1.webp"
-        alt=""
-      />
+      <picture>
+        <source srcset="@/assets/works/ui3/a_3-1.webp" type="image/webp" />
+        <source srcset="@/assets/works/ui3/a_3-1.png" type="image/png" />
+        <img
+          class="p-absolute ui-img"
+          width="752"
+          height="614"
+          src="@/assets/works/ui3/a_3-1.webp"
+          alt=""
+        />
+      </picture>
     </div>
     <div class="col-4 col-sm-10 pt-60 pl-60 p-sm-24">
       <div class="lh-20 fz-14-r ls-10 blue1">UI設計</div>

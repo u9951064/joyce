@@ -16,7 +16,7 @@
         pt-60 pt-md-20
         ml-md-i20
         mr-md-i20
-        overflow-x-hidden
+        overflow-hidden
         text-align-center
       "
     >
@@ -171,17 +171,19 @@
               閃耀的錢幣、禮物
             </ElementStarItem>
           </ul>
-          <div class="d-flex flex-justify-end pt-40">
+          <figure class="pt-40">
             <ElementImageViewer
-              class="w-100 h-auto"
+              class="w-100"
               width="1000"
               height="500"
               loading="lazy"
               src="@/assets/works/ui3/a_3-3.png"
               alt=""
             />
-            <p class="lh-20 fz-14-l ls-5 gray2 pt-16">參考圖</p>
-          </div>
+            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
+              參考圖
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>

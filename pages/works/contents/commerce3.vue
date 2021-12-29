@@ -15,7 +15,7 @@
         pt-60 pt-md-20
         ml-md-i20
         mr-md-i20
-        overflow-x-hidden
+        overflow-hidden
         text-align-center
       "
     >
@@ -144,7 +144,7 @@
               講座為漫畫主題，以漫畫分鏡風格製作
             </ElementStarItem>
           </ul>
-          <div class="d-flex flex-justify-end pt-40">
+          <figure class="pt-40">
             <ElementImageViewer
               class="w-100"
               loading="lazy"
@@ -153,8 +153,8 @@
               src="@/assets/works/commerce3/b_3-3.jpg"
               alt=""
             />
-            <p class="lh-20 fz-14-l ls-5 gray2 pt-16 d-sm-none">參考圖</p>
-          </div>
+            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">參考圖</figcaption>
+          </figure>
         </div>
       </div>
     </section>
