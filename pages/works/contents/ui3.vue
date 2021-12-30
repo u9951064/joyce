@@ -21,7 +21,7 @@
       "
     >
       <img
-        class="w-100 w-sm-145 h-auto ml-sm-i100 mr-sm-i100"
+        class="w-100 w-sm-145 ml-sm-i100 mr-sm-i100"
         width="2400"
         height="750"
         loading="lazy"

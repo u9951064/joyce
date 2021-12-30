@@ -7,7 +7,7 @@
           <picture>
             <source srcset="@/assets/resume/photo.webp" type="image/webp" />
             <img
-              class="w-90 w-sm-75 h-auto border-gray1 border-radius-circle"
+              class="w-90 w-sm-75 border-gray1 border-radius-circle"
               width="490"
               height="490"
               src="@/assets/resume/photo.jpg"

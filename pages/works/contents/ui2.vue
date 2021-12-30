@@ -21,7 +21,7 @@
       "
     >
       <img
-        class="w-100 w-sm-145 h-auto ml-sm-i200 mr-sm-i200"
+        class="w-100 w-sm-145 ml-sm-i200 mr-sm-i200"
         width="2400"
         height="750"
         loading="lazy"
@@ -105,7 +105,7 @@
 
           <figure class="pt-40">
             <ElementImageViewer
-              class="w-100 h-auto"
+              class="w-100"
               width="1000"
               height="500"
               loading="lazy"
@@ -157,7 +157,7 @@
       </div>
       <div class="pt-60">
         <img
-          class="w-100 h-auto"
+          class="w-100"
           width="2000"
           height="820"
           loading="lazy"
@@ -179,7 +179,7 @@
       </ul>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2000"
           height="820"
           loading="lazy"
@@ -200,7 +200,7 @@
       </ul>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2000"
           height="820"
           loading="lazy"
@@ -222,7 +222,7 @@
       </ul>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="3000"
           height="2040"
           loading="lazy"
@@ -241,7 +241,7 @@
       </ul>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="4000"
           height="3272"
           loading="lazy"
@@ -262,7 +262,7 @@
       </ul>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="1000"
           height="410"
           loading="lazy"
@@ -272,7 +272,7 @@
       </div>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="1000"
           height="1100"
           loading="lazy"
@@ -292,7 +292,7 @@
       </ul>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="1000"
           height="818"
           loading="lazy"
@@ -302,7 +302,7 @@
       </div>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2000"
           height="880"
           loading="lazy"
@@ -312,7 +312,7 @@
       </div>
       <div class="pt-60">
         <ElementImageViewer
-          class="w-100 h-auto"
+          class="w-100"
           width="2000"
           height="880"
           loading="lazy"

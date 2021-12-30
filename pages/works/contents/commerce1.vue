@@ -22,7 +22,7 @@
       "
     >
       <img
-        class="w-100 w-sm-155 h-auto ml-sm-i200 mr-sm-i200"
+        class="w-100 w-sm-155 ml-sm-i200 mr-sm-i200"
         width="2400"
         height="750"
         loading="lazy"

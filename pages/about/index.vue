@@ -7,7 +7,7 @@
           <picture>
             <source srcset="@/assets/about/photo.webp" type="image/webp" />
             <img
-              class="w-100 h-auto w-sm-75"
+              class="w-100 w-sm-75"
               width="1200"
               height="1380"
               src="@/assets/about/photo.png"
@@ -205,7 +205,7 @@
         <div class="col-6 col-sm-10 d-flex pt-sm-20">
           <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 w-sm-90 h-auto border-radius-8"
+              class="w-70 w-sm-90 border-radius-8"
               width="101"
               height="100"
               loading="lazy"
@@ -215,7 +215,7 @@
           </div>
           <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 w-sm-90 h-auto border-radius-8"
+              class="w-70 w-sm-90 border-radius-8"
               width="101"
               height="100"
               loading="lazy"
@@ -225,7 +225,7 @@
           </div>
           <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 w-sm-90 h-auto border-radius-8"
+              class="w-70 w-sm-90 border-radius-8"
               width="101"
               height="100"
               loading="lazy"
@@ -235,7 +235,7 @@
           </div>
           <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 w-sm-90 h-auto border-radius-8 border-gray3"
+              class="w-70 w-sm-90 border-radius-8 border-gray3"
               width="101"
               height="100"
               loading="lazy"
@@ -245,7 +245,7 @@
           </div>
           <div class="col text-align-right text-sm-align-center">
             <img
-              class="w-70 w-sm-90 h-auto border-radius-8"
+              class="w-70 w-sm-90 border-radius-8"
               width="101"
               height="100"
               loading="lazy"
@@ -264,9 +264,9 @@
 
       <!-- 聯成電腦 -->
       <div class="d-flex flex-justify-end">
-        <div class="col-15 col-sm-3 pr-60 pr-sm-10">
+        <div class="col-15 col-sm-25 pr-60 pr-sm-10">
           <img
-            class="border-gray3 border-radius-8 w-90 h-auto"
+            class="border-gray3 border-radius-8 w-90"
             width="88"
             height="88"
             loading="lazy"
@@ -274,7 +274,7 @@
             alt="聯成電腦 Logo"
           />
         </div>
-        <div class="col-85 col-sm-7">
+        <div class="col-85 col-sm-75">
           <div class="d-flex flex-align-center">
             <h3 class="fz-22-m gray1 mr-16">聯成電腦</h3>
             <p class="fz-16-l gray2">Mar. 2020 - Present</p>
@@ -311,9 +311,9 @@
 
       <!-- 開店123 -->
       <div class="d-flex flex-justify-end">
-        <div class="col-15 col-sm-3 pr-60 pr-sm-10">
+        <div class="col-15 col-sm-25 pr-60 pr-sm-10">
           <img
-            class="border-gray3 border-radius-8 w-90 h-auto"
+            class="border-gray3 border-radius-8 w-90"
             width="100"
             height="100"
             loading="lazy"
@@ -321,7 +321,7 @@
             alt="開店123 Logo"
           />
         </div>
-        <div class="col-85 col-sm-7">
+        <div class="col-85 col-sm-75">
           <div class="d-flex flex-align-center">
             <h3 class="fz-22-m gray1 mr-16">開店123</h3>
             <p class="fz-16-l gray2">Oct. 2019 - Jan. 2020</p>
@@ -348,9 +348,9 @@
       <div class="w-100 lh-20 fz-14-r ls-10 blue1">EDUCATION</div>
       <h2 class="fz-30-b gray1 pt-16 pb-60">學歷</h2>
       <div class="d-flex flex-justify-end">
-        <div class="col-15 col-sm-3 pr-60 pr-sm-10">
+        <div class="col-15 col-sm-25 pr-60 pr-sm-10">
           <img
-            class="border-gray3 border-radius-8 w-90 h-auto"
+            class="border-gray3 border-radius-8 w-90"
             width="100"
             height="100"
             loading="lazy"
@@ -358,7 +358,7 @@
             alt=""
           />
         </div>
-        <div class="col-85 col-sm-7">
+        <div class="col-85 col-sm-75">
           <div class="d-flex flex-align-center">
             <h3 class="fz-22-m gray1 mr-16">亞洲大學</h3>
             <p class="fz-16-l gray2">2015 - 2019</p>
