@@ -74,6 +74,12 @@ export function useHeader(options) {
     content: pageTitle,
   });
 
+  meta.value.push({
+    hid: 'og:description',
+    name: 'og:description',
+    content: _options.description,
+  });
+
   // <meta property="og:url" content="https://joyce.tinycloud.tw/path" />
   meta.value.push({
     hid: 'og:url',
