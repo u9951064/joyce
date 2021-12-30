@@ -3,7 +3,7 @@
     <div class="pt-24 pb-16 fz-14-b nav-keeper">
       <div
         class="p-fixed pt-24 pb-16 bg-white fix-bar"
-        :class="{ open: menuStatus }"
+        :class="{ open: menuStatus, shadow: !isBeginOfPage }"
       >
         <nav
           class="
@@ -133,7 +133,13 @@
 </template>
 
 <script>
-import { useRouter, defineComponent, ref } from "@nuxtjs/composition-api";
+import {
+  useRouter,
+  defineComponent,
+  ref,
+  onMounted,
+  onBeforeMount,
+} from "@nuxtjs/composition-api";
 
 export default defineComponent({
   setup() {
@@ -148,10 +154,25 @@ export default defineComponent({
         menuStatus.value = !menuStatus.value;
       }
     };
+
+    const isBeginOfPage = ref(0);
+    const setupScrollStatus = () => {
+      isBeginOfPage.value = window.scrollY < 10;
+    };
+    onMounted(() => {
+      setupScrollStatus();
+      window.addEventListener("scroll", setupScrollStatus);
+    });
+
+    onBeforeMount(() => {
+      window.removeEventListener("scroll", setupScrollStatus);
+    });
+
     return {
       toggleMenu,
       menuStatus,
       homePage,
+      isBeginOfPage,
     };
   },
 });
@@ -166,13 +187,18 @@ header.page-header {
   }
   & .fix-bar {
     z-index: 10;
+    box-shadow: 0 0px 0px rgba(241, 241, 239, 0.7);
+    transition: box-shadow 0.2s linear;
+
+    &.shadow {
+      box-shadow: 0 1px 10px rgba(241, 241, 239, 0.7);
+    }
 
     @media screen and (max-width: $break-mobile) {
       overflow-y: hidden;
       min-height: 10px;
       max-height: 64px;
-      -webkit-transition: all 0.3s linear;
-      transition: all 0.3s linear;
+      transition: min-height 0.3s linear, max-height 0.3s linear;
 
       &.open {
         overflow-y: auto;
