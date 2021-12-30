@@ -4,14 +4,17 @@
     <section class="container-1100">
       <div class="d-flex pb-80 pt-120 pt-sm-30">
         <div class="col-3 col-sm-10 mb-30 text-align-center">
-          <img
-            class="w-100 h-auto w-sm-75"
-            width="1200"
-            height="1380"
-            src="@/assets/about/photo.png"
-            alt="侯佳君 Joyce 的個人照"
-            title="個人照"
-          />
+          <picture>
+            <source srcset="@/assets/about/photo.webp" type="image/webp" />
+            <img
+              class="w-100 h-auto w-sm-75"
+              width="1200"
+              height="1380"
+              src="@/assets/about/photo.png"
+              alt="侯佳君 Joyce 的個人照"
+              title="個人照"
+            />
+          </picture>
         </div>
         <div class="col-7 col-sm-10 pl-40 pl-sm-0">
           <div class="d-flex-c flex-justify-space-between h-100">
@@ -168,6 +171,7 @@
                   class="d-block w-80 w-sm-35 m-auto mb-sm-i50 mr-sm-0"
                   width="101"
                   height="88"
+                  loading="lazy"
                   src="@/assets/about/web.svg"
                   alt=""
                 />
@@ -204,6 +208,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
+              loading="lazy"
               src="@/assets/about/ai.svg"
               alt=""
             /><br />
@@ -213,6 +218,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
+              loading="lazy"
               src="@/assets/about/ps.svg"
               alt=""
             /><br />
@@ -222,6 +228,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
+              loading="lazy"
               src="@/assets/about/id.svg"
               alt=""
             /><br />
@@ -231,6 +238,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8 border-gray3"
               width="101"
               height="100"
+              loading="lazy"
               src="@/assets/about/vsc.svg"
               alt=""
             /><br />
@@ -240,6 +248,7 @@
               class="w-70 w-sm-90 h-auto border-radius-8"
               width="101"
               height="100"
+              loading="lazy"
               src="@/assets/about/figma.svg"
               alt=""
             /><br />
@@ -260,6 +269,7 @@
             class="border-gray3 border-radius-8 w-90 h-auto"
             width="88"
             height="88"
+            loading="lazy"
             src="@/assets/about/logo-lcc.svg"
             alt="聯成電腦 Logo"
           />
@@ -306,6 +316,7 @@
             class="border-gray3 border-radius-8 w-90 h-auto"
             width="100"
             height="100"
+            loading="lazy"
             src="@/assets/about/logo-shop123.svg"
             alt="開店123 Logo"
           />
@@ -342,6 +353,7 @@
             class="border-gray3 border-radius-8 w-90 h-auto"
             width="100"
             height="100"
+            loading="lazy"
             src="@/assets/about/logo-aisa.svg"
             alt=""
           />

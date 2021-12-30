@@ -14,13 +14,20 @@
         overflow-hidden
       "
     >
-      <img
-        class="p-absolute printing-img w-90"
-        width="1172"
-        height="750"
-        src="@/assets/works/printing2/c_2-1.png"
-        alt=""
-      />
+      <picture>
+        <source
+          srcset="@/assets/works/printing2/c_2-1.webp"
+          type="image/webp"
+        />
+        <img
+          class="p-absolute printing-img w-90"
+          width="1172"
+          height="750"
+          loading="lazy"
+          src="@/assets/works/printing2/c_2-1.png"
+          alt=""
+        />
+      </picture>
     </div>
 
     <div class="col-4 col-sm-10 pt-60 pl-60 p-sm-24">

@@ -4,13 +4,17 @@
     <section class="container-1100">
       <div class="d-flex pt-120 pt-sm-30 pb-80">
         <div class="col col-sm-10 text-align-center">
-          <img
-            class="w-90 w-sm-75 h-auto border-gray1 border-radius-circle"
-            width="490"
-            height="490"
-            src="@/assets/resume/photo.jpg"
-            alt="個人照"
-          />
+          <picture>
+            <source srcset="@/assets/resume/photo.webp" type="image/webp" />
+            <img
+              class="w-90 w-sm-75 h-auto border-gray1 border-radius-circle"
+              width="490"
+              height="490"
+              src="@/assets/resume/photo.jpg"
+              alt="侯佳君 Joyce 的個人照"
+              title="個人照"
+            />
+          </picture>
         </div>
         <div
           class="

@@ -4,22 +4,39 @@
     class="mb-60 d-flex border-gray1 border-radius-8 overflow-x-hidden"
     title="平面設計 - TAICHUNG 美學，從中可見"
   >
-    <div class="col-4 col-sm-10 border-right-gray1 border-sm-right-none bg-blue2 p-relative h-min220">
-      <img
-        class="p-absolute printing-img w-90"
-        width="1172"
-        height="750"
-        src="@/assets/works/printing2/c_2-1.png"
-        alt=""
-      />
+    <div
+      class="
+        col-4 col-sm-10
+        border-right-gray1 border-sm-right-none
+        bg-blue2
+        p-relative
+        h-min220
+      "
+    >
+      <picture>
+        <source
+          srcset="@/assets/works/printing2/c_2-1.webp"
+          type="image/webp"
+        />
+        <img
+          class="p-absolute printing-img w-90"
+          width="1172"
+          height="750"
+          loading="lazy"
+          src="@/assets/works/printing2/c_2-1.png"
+          alt=""
+        />
+      </picture>
     </div>
 
     <div class="col col-sm-10 p-30">
       <h2 class="fz-22-m gray1">TAICHUNG</h2>
       <ul class="pt-16 fz-16-l gray2">
-        <ElementStarItem>2019 德國紅點設計 | 品牌暨傳達設計紅點獎</ElementStarItem>
+        <ElementStarItem
+          >2019 德國紅點設計 | 品牌暨傳達設計紅點獎</ElementStarItem
+        >
         <ElementStarItem>2019 泰達盃青年創意設計大賽 | 入圍</ElementStarItem>
-        <ElementStarItem>2019 放視大賞 - 平面傳達設計組  | 入圍</ElementStarItem>
+        <ElementStarItem>2019 放視大賞 - 平面傳達設計組 | 入圍</ElementStarItem>
       </ul>
       <p class="pt-16 fz-16-l gray2">
         打造台中城市觀光品牌，透過副標「美學，從中可見。」找尋台中人與人之間互動與生活美學。
