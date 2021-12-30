@@ -35,6 +35,12 @@ export function useHeader(options) {
     _options.description = 'Hi i\'m Joyce! 我是名網頁視覺設計師，擅長網頁設計，相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。';
   }
 
+  if (!_options.ogImage) {
+    _options.ogImage = require("~/assets/images/og-image.png");
+    _options.ogWidth = 2000;
+    _options.ogHeight = 630;
+  }
+
   const { meta, link, title } = metaOject;
 
   // <title>Joyce</title>
@@ -75,28 +81,26 @@ export function useHeader(options) {
     content: currentPath,
   });
 
-  if (_options.ogImage) {
-    // <meta property="og:image" content="https://joyce.tinycloud.tw/path" />
-    meta.value.push({
-      hid: 'og:image',
-      property: 'og:image',
-      content: urlJoin(process.env.host, _options.ogImage),
-    });
+  // <meta property="og:image" content="https://joyce.tinycloud.tw/path" />
+  meta.value.push({
+    hid: 'og:image',
+    property: 'og:image',
+    content: urlJoin(process.env.host, _options.ogImage),
+  });
 
-    if (_options.ogWidth && _options.ogHeight) {
-      // <meta property="og:image:width" content="2000" />
-      meta.value.push({
-        hid: 'og:image:width',
-        property: 'og:image:width',
-        content: _options.ogWidth,
-      });
-      // <meta property="og:image:height" content="https://joyce.tinycloud.tw/path" />
-      meta.value.push({
-        hid: 'og:image:height',
-        property: 'og:image:height',
-        content: _options.ogHeight,
-      });
-    }
+  if (_options.ogWidth && _options.ogHeight) {
+    // <meta property="og:image:width" content="2000" />
+    meta.value.push({
+      hid: 'og:image:width',
+      property: 'og:image:width',
+      content: _options.ogWidth,
+    });
+    // <meta property="og:image:height" content="https://joyce.tinycloud.tw/path" />
+    meta.value.push({
+      hid: 'og:image:height',
+      property: 'og:image:height',
+      content: _options.ogHeight,
+    });
   }
 
   if (_options.canonical && _options.canonical !== currentPath) {

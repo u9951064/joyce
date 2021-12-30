@@ -229,7 +229,6 @@ export default defineComponent({
     const meta = useHeader({
       title: "作品集 - 廣告設計: 學習給你 COW",
       description: "",
-      ogImage: require("~/assets/works/commerce1/og-image.png"),
     });
   },
 });
