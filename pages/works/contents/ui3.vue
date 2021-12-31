@@ -244,7 +244,7 @@
             loading="lazy"
             width="2000"
             height="7600"
-            src="@/assets/works/ui3/a_3-6.png"
+            src="@/assets/works/ui3/a_3-6.jpg"
             alt=""
           />
           <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right d-sm-none">
