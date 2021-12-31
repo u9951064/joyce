@@ -57,8 +57,8 @@
             網頁 UI 設計｜HTML、CSS 切版｜廣告平面設計｜插畫設計
           </h3>
         </div>
-        <div class="d-flex col-3 col-sm-10 flex-justify-end">
-          <div class="col-auto col-sm-10 text-align-center">
+        <div class="col-3 col-sm-10">
+          <div class="text-align-right text-sm-align-center pb-10">
             <ElementBtn
               href="/files/resume_joyce.pdf"
               title="下載履歷"
@@ -78,15 +78,10 @@
           </div>
           <client-only>
             <div
-              class="
-                col-auto col-sm-10
-                d-flex
-                flex-sm-reverse flex-align-center flex-sm-justify-start
-                pointer
-              "
+              class="d-flex pointer flex-justify-flex-end flex-sm-justify-flex-start pt-8 pb-8"
               @click="makeCall"
             >
-              <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20">
+              <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20 order-sm-2">
                 {{ joycePhone }}
               </div>
               <img
@@ -98,15 +93,10 @@
               />
             </div>
             <div
-              class="
-                col-auto col-sm-10
-                d-flex
-                flex-sm-reverse flex-align-center flex-sm-justify-start
-                pointer
-              "
+              class="d-flex pointer flex-justify-flex-end flex-sm-justify-flex-start pt-8 pb-8"
               @click="sendMail"
             >
-              <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20">
+              <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20 order-sm-2">
                 {{ joyceEmail }}
               </div>
               <img
@@ -118,21 +108,14 @@
               />
             </div>
           </client-only>
-          <div
-            class="
-              col-auto col-sm-10
-              d-flex
-              flex-sm-reverse flex-align-center flex-sm-justify-start
-              pointer
-            "
-          >
-            <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20">
+          <div class="d-flex pointer flex-justify-flex-end flex-sm-justify-flex-start pt-8 pb-8">
+            <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20 order-sm-2">
               https://joyce.tinycloud.tw/
             </div>
             <img
               class="icon"
-              width="18"
-              height="18"
+              width="24"
+              height="25"
               src="@/assets/icons/ic-website.svg"
               alt=""
             />

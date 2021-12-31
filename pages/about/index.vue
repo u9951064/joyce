@@ -19,7 +19,7 @@
         <div class="col-7 col-sm-10 pl-40 pl-sm-0">
           <div class="d-flex-c flex-justify-space-between h-100">
             <div class="col">
-              <h1 class="fz-30-b gray1 text-align-center-sm">Hi I'm Joyce!</h1>
+              <h1 class="fz-30-b gray1 text-sm-align-center">Hi I'm Joyce!</h1>
               <p class="fz-16-l gray2 pt-16">
                 擁有網頁視覺設計師 2
                 年的經驗，針對不同事業體、活動，製作出對應風格的廣告素材、網頁切版、平面設計。
