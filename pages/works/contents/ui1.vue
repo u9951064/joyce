@@ -36,15 +36,18 @@
     <section
       class="container-1000 pt-80 pb-80 d-flex flex-justify-space-between"
     >
-      <div class="d-flex col-sm">
+      <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-role.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-role.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -53,13 +56,16 @@
       </div>
       <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-time.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-time.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -68,13 +74,16 @@
       </div>
       <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-responsible.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-responsible.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>

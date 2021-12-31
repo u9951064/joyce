@@ -37,13 +37,16 @@
     >
       <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-role.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-role.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -52,13 +55,16 @@
       </div>
       <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-time.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-time.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -67,13 +73,16 @@
       </div>
       <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-responsible.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-responsible.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
@@ -98,7 +107,9 @@
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
         <div class="col-6 col-sm-10 fz-16-l gray2">
-          因應過年推出的促銷活動，透過 FB 與 Google DBM 素材促使消費者點擊進站，官網 Banner 與課程頁面皆有活動促銷圖，右側有浮動按鈕，讓消費者了解目前的活動促銷內容。透過廣告素材限時促銷字眼吸引消費者進站，達到促銷目的。
+          因應過年推出的促銷活動，透過 FB 與 Google DBM
+          素材促使消費者點擊進站，官網 Banner
+          與課程頁面皆有活動促銷圖，右側有浮動按鈕，讓消費者了解目前的活動促銷內容。透過廣告素材限時促銷字眼吸引消費者進站，達到促銷目的。
         </div>
       </div>
     </section>
@@ -147,7 +158,9 @@
               src="@/assets/works/commerce1/b_1-3.jpg"
               alt=""
             />
-            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">參考圖</figcaption>
+            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
+              參考圖
+            </figcaption>
           </figure>
         </div>
       </div>
@@ -197,7 +210,10 @@
         </div>
         <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
-            廣告是活動最前線，除了附圖的 FB 廣告素材外，另有 Google DBM 素材進行廣告投放。製作 FB 促銷模板後，將此素材套用各課程商品，於 FB 投放各課程優惠資訊，針對不同 TA 投放符合用戶興趣的課程，並以顯眼的 666 優惠文案吸引消費者點擊進站購買。
+            廣告是活動最前線，除了附圖的 FB 廣告素材外，另有 Google DBM
+            素材進行廣告投放。製作 FB 促銷模板後，將此素材套用各課程商品，於 FB
+            投放各課程優惠資訊，針對不同 TA 投放符合用戶興趣的課程，並以顯眼的
+            666 優惠文案吸引消費者點擊進站購買。
           </p>
         </div>
       </div>

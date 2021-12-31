@@ -36,13 +36,16 @@
     >
       <div class="d-flex col-sm order-sm-1">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-role.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-role.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -51,13 +54,16 @@
       </div>
       <div class="d-flex col-sm-10 order-sm-3">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-time.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-time.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -66,13 +72,16 @@
       </div>
       <div class="d-flex col-sm-10 order-sm-4">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-responsible.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-responsible.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
@@ -127,7 +136,8 @@
             菜鳥救星主要銷售各式線上真人直播課程，商品課程視覺相當於該產品的門面，搭配文案以吸睛的視覺做呈現。在進入設計製作之前需要先了解課程大綱，與老師及企劃開會討論課程風格、並針對文案關鍵字進行設計討論。
           </p>
           <p class="fz-16-l gray2 mt-16">
-            廣告素材以主視覺風格延伸進行廣告投放，吸引相關 TA 點擊進站瀏覽更多詳細內容並進行購買。
+            廣告素材以主視覺風格延伸進行廣告投放，吸引相關 TA
+            點擊進站瀏覽更多詳細內容並進行購買。
           </p>
         </div>
       </div>
@@ -181,7 +191,9 @@
               src="@/assets/works/commerce2/b_2-3.jpg"
               alt=""
             />
-            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">參考圖</figcaption>
+            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
+              參考圖
+            </figcaption>
           </figure>
         </div>
       </div>

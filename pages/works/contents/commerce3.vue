@@ -35,13 +35,16 @@
     >
       <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-role.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-role.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
@@ -50,13 +53,16 @@
       </div>
       <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-time.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-time.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">執行時間</div>
@@ -65,13 +71,16 @@
       </div>
       <div class="d-flex col-sm-10">
         <div class="col-auto">
-          <img
-            class="icon"
-            width="22"
-            height="22"
-            src="@/assets/icons/ic-responsible.svg"
-            alt=""
-          />
+          <span class="fz-22-m d-inline-flex flex-align-center">
+            <img
+              class="icon"
+              width="22"
+              height="22"
+              src="@/assets/icons/ic-responsible.svg"
+              alt=""
+            />
+            &#8203;
+          </span>
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
@@ -153,7 +162,9 @@
               src="@/assets/works/commerce3/b_3-3.jpg"
               alt=""
             />
-            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">參考圖</figcaption>
+            <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
+              參考圖
+            </figcaption>
           </figure>
         </div>
       </div>
