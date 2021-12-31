@@ -6,7 +6,7 @@
         <h2 class="fz-30-b gray1 pt-16">導入敏捷式開發專案</h2>
         <div class="pt-8">
           <ElementTag>Agile</ElementTag>
-          <ElementTag>scrum</ElementTag>
+          <ElementTag>Scrum</ElementTag>
         </div>
       </div>
     </section>
@@ -45,7 +45,7 @@
         </div>
         <div class="col ml-8">
           <div class="fz-22-m gray1">擔任角色</div>
-          <div class="fz-16-l gray2 pt-16 p-sm-0">Project Manager</div>
+          <div class="fz-16-l gray2 pt-16 p-sm-0">Project Owner</div>
         </div>
       </div>
       <div class="d-flex col-sm-10">
@@ -76,7 +76,7 @@
         <div class="col ml-8">
           <div class="fz-22-m gray1">負責項目</div>
           <div class="fz-16-l gray2 pt-16 p-sm-0">
-            設定方向｜時程規劃｜開會統籌
+            制定方向｜時程規劃｜開會統籌
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@
         </div>
         <div class="col-6 col-sm-10">
           <p class="fz-16-l gray2">
-            自我學習期間，學習到敏捷式開發，雖然所屬公司不是軟體相關產業，但沿用其精神，檢視過往的瀑布流模式過於冗長。於是開始思考新的事業體，也許可以透過流程改善來提高產出。
+            自我精進過程，我學習到敏捷式開發的模式。雖然所屬公司不是軟體相關產業，但沿用其精神，檢視過往的瀑布流模式過於冗長。於是開始思考新的事業體，也許可以透過流程改善來提高產出。
             <br />因此，我開始和同事及管理階層分享討論，並召集夥伴一起參與研究如何導入全新的敏捷式流程。
           </p>
         </div>
@@ -141,7 +141,7 @@
         <ElementStarItem>
           研究不同開發的差異 <br />
           瀑布流開發：各部門執行手中任務，照著規則一步一步執行。<br />
-          敏捷式開發：講求快速迭代從經驗中學習並及時改變策略，需提高團隊的自我管理。
+          敏捷式開發：講求快速迭代，從經驗中學習並即時改變策略，須提高團隊的自我管理。
         </ElementStarItem>
       </ul>
     </section>
@@ -151,7 +151,7 @@
       <div class="fz-22-m gray1 ml-8">02 整理分享</div>
       <ul class="fz-16-l gray2 pt-16">
         <ElementStarItem>
-          將蒐集到的資料整理統整，規劃初步進行方式，用分享的方式介紹給同事了解新的開發流程。
+          將蒐集到的資料整理統整，規劃初步進行方式，並和同事分享新的開發流程。
         </ElementStarItem>
       </ul>
       <ElementImageViewer
@@ -220,7 +220,7 @@
               設立任務卡、代辦清單，讓組員清楚了解彼此各項進度。
             </ElementStarItem>
             <ElementStarItem>
-              羅列重點時程、會議相關等資訊讓組員更方便尋找。
+              羅列重點時程、會議相關等資訊，讓組員更方便尋找。
             </ElementStarItem>
           </ul>
           <ElementImageViewer
@@ -287,8 +287,7 @@
           大家在擁有共識下，同時協作進行，減少資訊不對稱來回修正的問題，提高整體協作效率。
         </ElementStarItem>
         <ElementStarItem>
-          「敏捷開發不代表開發流程會變快」<br />
-          敏捷開發方法是一個快速迭代的過程，目前已完成第一次實作，期望透過每次的迭代都能讓團隊針對過去誤區進行更正。
+          「敏捷開發不代表開發流程會變快」敏捷開發方法是一個快速迭代的過程，目前已完成第一次實作，期望透過每次的迭代都能讓團隊針對過去誤區進行更正。
         </ElementStarItem>
       </ul>
     </section>

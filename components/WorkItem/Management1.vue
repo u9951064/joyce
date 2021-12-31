@@ -27,7 +27,7 @@
       <h2 class="fz-30-b gray1 pt-16">導入敏捷式開發專案</h2>
       <div class="pt-16">
         <ElementTag>Agile</ElementTag>
-        <ElementTag>scrum</ElementTag>
+        <ElementTag>Scrum</ElementTag>
       </div>
       <div class="mt-80 mb-60 mt-sm-40 mb-sm-10">
         <ElementBtn :tag="'span'" class="more-btn">
