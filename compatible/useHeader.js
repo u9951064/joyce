@@ -32,7 +32,7 @@ export function useHeader(options) {
   }
 
   if (!_options.description) {
-    _options.description = 'Hi i\'m Joyce! 我是名網頁視覺設計師，擅長網頁設計，相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。';
+    _options.description = 'Hi i\'m Joyce! 我是名網頁視覺設計師，擅長UI設計、網頁設計、廣告設計、平面設計，相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。';
   }
 
   if (!_options.ogImage) {
