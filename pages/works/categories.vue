@@ -55,42 +55,49 @@
       </div>
     </section>
 
-    <div
+    <ul
       class="
         d-flex
-        flex-align-center flex-justify-center
-        pt-60
-        pt-sm-40
+        flex-align-center flex-justify-center flex-sm-justify-space-evenly
+        pt-60 pt-sm-40
         fz-14-r
         ls-10
         text-nowrap text-align-center
       "
     >
-      <ElementBtn
-        tag="NuxtLink"
-        class="work-btn col-auto col-sm-4"
-        :to="{ name: 'works-categories-ui' }"
-        >UI設計</ElementBtn
-      >
-      <ElementBtn
-        tag="NuxtLink"
-        class="work-btn col-auto col-sm-4"
-        :to="{ name: 'works-categories-commerce' }"
-        >廣告設計</ElementBtn
-      >
-      <ElementBtn
-        tag="NuxtLink"
-        class="work-btn col-auto col-sm-4"
-        :to="{ name: 'works-categories-printing' }"
-        >平面設計</ElementBtn
-      >
-      <ElementBtn
-        tag="NuxtLink"
-        class="work-btn col-auto col-sm-4"
-        :to="{ name: 'works-categories-management' }"
-        >專案管理</ElementBtn
-      >
-    </div>
+      <li class="col-auto col-sm-4">
+        <ElementBtn
+          tag="NuxtLink"
+          class="work-btn"
+          :to="{ name: 'works-categories-ui' }"
+          >UI設計</ElementBtn
+        >
+      </li>
+      <li class="col-auto col-sm-4">
+        <ElementBtn
+          tag="NuxtLink"
+          class="work-btn"
+          :to="{ name: 'works-categories-commerce' }"
+          >廣告設計</ElementBtn
+        >
+      </li>
+      <li class="col-auto col-sm-4">
+        <ElementBtn
+          tag="NuxtLink"
+          class="work-btn"
+          :to="{ name: 'works-categories-printing' }"
+          >平面設計</ElementBtn
+        >
+      </li>
+      <li class="col-auto col-sm-4">
+        <ElementBtn
+          tag="NuxtLink"
+          class="work-btn"
+          :to="{ name: 'works-categories-management' }"
+          >專案管理</ElementBtn
+        >
+      </li>
+    </ul>
 
     <NuxtChild :class="'container-1100 pt-60'" />
   </main>
@@ -104,6 +111,10 @@ main.work-category {
 
   & .work-btn {
     margin: 7.5px;
+    @media screen and (max-width: $break-mobile) {
+      margin: 7.5px auto;
+      width: 100%;
+    }
     border-style: solid;
     border-width: 1px;
     border-color: $gray3;

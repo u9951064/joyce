@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <article>
     <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">平面設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
@@ -304,7 +304,7 @@
         />
       </div>
     </section>
-  </main>
+  </article>
 </template>
 
 <script>
