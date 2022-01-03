@@ -242,8 +242,9 @@ export default defineComponent({
   head: {},
   setup() {
     const meta = useHeader({
-      title: "作品集 - 印刷設計: 2021 學員年鑑設計",
-      description: "",
+      title: "作品集 - 2021 學員年鑑設計",
+      description:
+        "每年皆會舉辦學員作品競賽，優秀者可獲得獎金及精裝年鑑。透過精裝及打凹樣式提高整本書籍珍貴感，收錄所有優勝者作品參賽選手可當獎品紀念外，分校同仁於招生介紹時也能達到行銷推廣作用。",
     });
   },
 });

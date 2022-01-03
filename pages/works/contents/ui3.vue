@@ -264,8 +264,9 @@ export default defineComponent({
   head: {},
   setup() {
     const meta = useHeader({
-      title: "作品集 - UI設計: 英日西韓語，外語振興補助",
-      description: "",
+      title: "作品集 - 英日西韓語，外語振興補助",
+      description:
+        "透過廣告鎖定 TA 點擊導入廣告頁面，此張網頁是於疫情趨緩時上線，文案搭配振興補助字眼吸引 TA 瀏覽頁面，搭配相關文案與內容設計促使瀏覽者前往表單登記領取相關優惠內容。",
     });
   },
 });

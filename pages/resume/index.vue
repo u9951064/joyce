@@ -78,7 +78,13 @@
           </div>
           <client-only>
             <div
-              class="d-flex pointer flex-justify-flex-end flex-sm-justify-flex-start pt-8 pb-8"
+              class="
+                d-flex
+                pointer
+                flex-justify-flex-end flex-sm-justify-flex-start
+                pt-8
+                pb-8
+              "
               @click="makeCall"
             >
               <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20 order-sm-2">
@@ -93,7 +99,13 @@
               />
             </div>
             <div
-              class="d-flex pointer flex-justify-flex-end flex-sm-justify-flex-start pt-8 pb-8"
+              class="
+                d-flex
+                pointer
+                flex-justify-flex-end flex-sm-justify-flex-start
+                pt-8
+                pb-8
+              "
               @click="sendMail"
             >
               <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20 order-sm-2">
@@ -108,7 +120,15 @@
               />
             </div>
           </client-only>
-          <div class="d-flex pointer flex-justify-flex-end flex-sm-justify-flex-start pt-8 pb-8">
+          <div
+            class="
+              d-flex
+              pointer
+              flex-justify-flex-end flex-sm-justify-flex-start
+              pt-8
+              pb-8
+            "
+          >
             <div class="col-auto fz-16-l gray1 mr-20 ml-sm-20 order-sm-2">
               https://joyce.tinycloud.tw/
             </div>
@@ -146,7 +166,7 @@
         </div>
         <!-- 聯成電腦 -->
         <h3 class="fz-22-m gray1">聯成電腦 Web Visual Designer</h3>
-        <p class="fz-16-l gray2 pt-12">Ｍar. 2020 - Present</p>
+        <p class="fz-16-l gray2 pt-12">Mar. 2020 - Present</p>
         <ul class="fz-16-l gray2 pt-16 pb-60">
           <ElementStarItem>
             <template #title>廣告設計</template>
@@ -316,7 +336,7 @@ export default defineComponent({
     useHeader({
       title: "Resume",
       description:
-        "侯佳君 Joyce - 擁有網頁視覺設計師 2年的經驗。我相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。",
+        "侯佳君 Joyce - 擁有網頁視覺設計師 2 年經驗，針對不同事業體、活動，製作出對應風格的廣告素材，任職期間運用公司資源學 RWD，精進網頁撰寫能力。在這過程當中，對介面設計產生興趣，因此額外自學 UI/UX ，熟悉 Figma 操作，並透過 Side Project 「台鐵 e 訂通 App Redesign」來自我精進，也與工程師一起參與由六角學院舉辦的「THE F2E 3rd 前端 & UI 修煉精神時光屋」榮獲團體組第 1 名。",
     });
 
     return {

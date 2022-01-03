@@ -15,7 +15,7 @@ export function useHeader(options) {
   const router = useRouter();
   const metaOject = useMeta();
   const currentPath = urlJoin(process.env.host, router.currentRoute.path);
-  const pageTitle = _options.title ? `${_options.title} - Joyce` : 'Joyce';
+  const pageTitle = _options.title ? `${_options.title} | Portfolio | Joyce` : 'Portfolio | Joyce';
 
   if (_options.redirect) {
     if (typeof _options.redirect !== 'string') {

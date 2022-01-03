@@ -348,8 +348,8 @@ export default defineComponent({
   head: {},
   setup() {
     const meta = useHeader({
-      title: "作品集 - 廣告設計: Figma新手指南UI/UX設計思維",
-      description: "",
+      title: "作品集 - Figma新手指南UI/UX設計思維",
+      description: "菜鳥救星主要銷售各式線上真人直播課程，商品課程視覺相當於該產品的門面，搭配文案以吸睛的視覺做呈現。在進入設計製作之前需要先了解課程大綱，與老師及企劃開會討論課程風格、並針對文案關鍵字進行設計討論",
     });
   },
 });

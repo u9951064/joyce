@@ -352,8 +352,9 @@ export default defineComponent({
   head: {},
   setup() {
     const meta = useHeader({
-      title: "作品集 - UI設計: 台鐵 e 訂通 App Redesign",
-      description: "",
+      title: "作品集 - 台鐵 e 訂通 App Redesign",
+      description:
+        " 使用 台鐵 e 訂通 App 訂購火車票時，發現 App 在同一頁面同時提供過多的資訊，容易造成使用者難以操作，且選單並非以行動裝置的操作體驗來進行設計，使用體驗上有改善的空間。希望透過這次的專案，改善優化 App 的介面，打造更貼近手機操作的體驗設計，在提升視覺美感的同時，兼顧呈現清晰的資訊，期望讓使用者在操作 App 各項服務時，擁有流暢且一致的良好體驗。",
     });
   },
 });

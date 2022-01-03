@@ -237,8 +237,9 @@ export default defineComponent({
   head: {},
   setup() {
     const meta = useHeader({
-      title: "作品集 - 廣告設計: 學習給你 COW",
-      description: "",
+      title: "作品集 - 學習給你 COW",
+      description:
+        "過年推出促銷活動，透過 FB 與 Google DBM 素材促使消費者點擊進站，官網 Banner 與課程頁面皆有活動促銷圖，右側有浮動按鈕，讓消費者了解目前的活動促銷內容。透過廣告素材限時促銷字眼吸引消費者進站，達到促銷目的。",
     });
   },
 });

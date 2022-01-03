@@ -216,8 +216,9 @@ export default defineComponent({
   head: {},
   setup() {
     const meta = useHeader({
-      title: "作品集 - 廣告設計: Figma新手指南UI/UX設計思維",
-      description: "",
+      title: "作品集 - Figma新手指南UI/UX設計思維",
+      description:
+        "擴大客群透過定期的免費講座吸引消費者登記報名講座，除了可以更加清楚消費者輪廓，也可以透過表單回饋了解消費者的喜好。將主視覺設計完成後上架到官網並同步於 ACCUPASS 大型活動網站曝光，以及投遞 FB、Google 廣告。",
     });
   },
 });
