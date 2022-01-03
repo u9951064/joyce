@@ -14,7 +14,11 @@
             相信設計應兼顧產品一致性與易用性，為用戶帶來更棒的體驗。
           </div>
           <div class="pt-40 pt-sm-30 d-sm-flex text-nowrap text-align-center">
-            <ElementBtn href="/about" title="關於我" class="col-sm">
+            <ElementBtn
+              href="/about"
+              title="關於我"
+              class="col-sm mr-sm-24 about-btn"
+            >
               <span class="fz-14-r ls-10"
                 >關於我
                 <img
@@ -28,7 +32,7 @@
             <ElementBtn
               href="/files/resume_joyce.pdf"
               title="下載履歷"
-              class="col-sm ml-24 ml-sm-10"
+              class="col-sm ml-24 about-btn"
               target="_blank"
             >
               <span class="fz-14-r ls-10"
@@ -58,14 +62,14 @@
     <ul
       class="
         d-flex
-        flex-align-center flex-justify-center flex-sm-justify-space-evenly
+        flex-align-center flex-justify-center flex-sm-justify-space-around
         pt-60 pt-sm-40
         fz-14-r
         ls-10
         text-nowrap text-align-center
       "
     >
-      <li class="col-auto col-sm-4">
+      <li class="col-auto col-sm-35">
         <ElementBtn
           tag="NuxtLink"
           class="work-btn"
@@ -73,7 +77,7 @@
           >UI設計</ElementBtn
         >
       </li>
-      <li class="col-auto col-sm-4">
+      <li class="col-auto col-sm-35">
         <ElementBtn
           tag="NuxtLink"
           class="work-btn"
@@ -81,7 +85,7 @@
           >廣告設計</ElementBtn
         >
       </li>
-      <li class="col-auto col-sm-4">
+      <li class="col-auto col-sm-35">
         <ElementBtn
           tag="NuxtLink"
           class="work-btn"
@@ -89,7 +93,7 @@
           >平面設計</ElementBtn
         >
       </li>
-      <li class="col-auto col-sm-4">
+      <li class="col-auto col-sm-35">
         <ElementBtn
           tag="NuxtLink"
           class="work-btn"
@@ -105,8 +109,9 @@
 
 <style lang="scss">
 main.work-category {
-  & .more-btn {
-    padding: 12px 24px;
+  & .more-btn,
+  & .about-btn {
+    padding: 12px 20px;
   }
 
   & .work-btn {
