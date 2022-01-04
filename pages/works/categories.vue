@@ -109,15 +109,20 @@
 
 <style lang="scss">
 main.work-category {
-  & .more-btn,
-  & .about-btn {
+  & .more-btn {
     padding: 12px 20px;
+  }
+
+  & .about-btn {
+    @media screen and (max-width: $break-mobile) {
+      padding: 12px 20px;
+    }
   }
 
   & .work-btn {
     margin: 7.5px;
     @media screen and (max-width: $break-mobile) {
-      margin: 7.5px auto;
+      margin: 10px auto;
       width: 100%;
     }
     border-style: solid;

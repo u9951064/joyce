@@ -62,7 +62,7 @@
           >
             <li class="col-auto col-sm-10">
               <NuxtLink
-                :to="{ name: 'works-categories' }"
+                :to="{ name: 'works-categories-ui' }"
                 class="
                   m-sm-24
                   gray2

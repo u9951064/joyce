@@ -8,6 +8,16 @@ export default {
     base: '/',
     linkActiveClass: 'active-link',
     linkExactActiveClass: 'exact-active-link',
+    extendRoutes(routes, resolve) {
+      routes.push(
+        {
+          name: 'index',
+          path: '/',
+          alias: ['/works', '/works/categories', '/works/contents'],
+          redirect: '/works/categories/ui/',
+        },
+      )
+    }
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -74,6 +84,7 @@ export default {
   },
 
   generate: {
+    routes: ['/works'],
     fallback: '404.html'
   },
 
@@ -94,8 +105,6 @@ export default {
     gzip: false,
     exclude: [
       '/works',
-      '/works/tags',
-      '/works/tags/**',
     ],
     defaults: {
       lastmod: (new Date()).toISOString(),
