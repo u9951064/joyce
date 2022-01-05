@@ -24,7 +24,7 @@
           height="750"
           loading="lazy"
           src="@/assets/works/printing2/c_2-1.png"
-          alt=""
+          alt="TAICHUNG 作品封面"
         />
       </picture>
     </div>

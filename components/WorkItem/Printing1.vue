@@ -19,7 +19,7 @@
         width="557"
         height="437"
         src="@/assets/works/printing1/c_1-1.png"
-        alt=""
+        alt="2021 學員年鑑設計 作品封面"
       />
     </div>
 

@@ -19,12 +19,12 @@
         width="700"
         height="400"
         src="@/assets/works/commerce2/b_2-1.gif"
-        alt=""
+        alt="Figma新手指南 UI/UX 設計思維 作品封面"
       />
     </div>
     <div class="col-4 col-sm-10 pt-60 pl-60 p-sm-24">
       <div class="lh-20 fz-14-r ls-10 blue1">廣告設計</div>
-      <h2 class="fz-30-b gray1 pt-16">Figma新手指南<br />UI/UX設計思維</h2>
+      <h2 class="fz-30-b gray1 pt-16">Figma新手指南<br />UI/UX 設計思維</h2>
       <div class="pt-16">
         <ElementTag>官網商品</ElementTag>
         <ElementTag>Figma課程</ElementTag>

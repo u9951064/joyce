@@ -19,7 +19,7 @@
         width="707"
         height="393"
         src="@/assets/works/commerce1/b_1-1.png"
-        alt=""
+        alt="學習給你 COW 作品封面"
       />
     </div>
     <div class="col-4 col-sm-10 pt-60 pl-60 p-sm-24">

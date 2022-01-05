@@ -21,7 +21,7 @@
           width="1472"
           height="750"
           src="@/assets/works/ui1/a_1-1.png"
-          alt=""
+          alt="Hi BUS!全台公車動態時刻查詢應用服務 作品封面"
         />
       </picture>
     </div>

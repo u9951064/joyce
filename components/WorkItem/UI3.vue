@@ -21,7 +21,7 @@
           width="752"
           height="614"
           src="@/assets/works/ui3/a_3-1.png"
-          alt=""
+          alt="英日西韓語 外語振興補助 作品封面"
         />
       </picture>
     </div>

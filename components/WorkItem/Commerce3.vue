@@ -19,7 +19,7 @@
         width="1314"
         height="659"
         src="@/assets/works/commerce3/b_3-1.png"
-        alt=""
+        alt="進擊の繪師 作品封面"
       />
     </div>
     <div class="col-4 col-sm-10 pt-60 pl-60 p-sm-24">

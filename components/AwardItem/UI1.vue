@@ -22,7 +22,7 @@
           height="750"
           loading="lazy"
           src="@/assets/works/ui1/a_1-1.png"
-          alt=""
+          alt="Hi BUS! 作品封面"
         />
       </picture>
     </div>

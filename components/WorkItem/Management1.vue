@@ -19,7 +19,7 @@
         width="1102"
         height="715"
         src="@/assets/works/management1/d_1-1.png"
-        alt=""
+        alt="導入敏捷式開發專案封面"
       />
     </div>
     <div class="col-4 col-sm-10 pt-60 pl-60 p-sm-24">

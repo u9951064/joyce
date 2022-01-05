@@ -21,7 +21,7 @@
           width="1468"
           height="750"
           src="@/assets/works/ui2/a_2-1.png"
-          alt=""
+          alt="台鐵 e 訂通 App Redesign 作品封面"
         />
       </picture>
     </div>
