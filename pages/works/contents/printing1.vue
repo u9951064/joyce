@@ -3,7 +3,7 @@
     <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">平面設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
-        <h2 class="fz-30-b gray1 pt-16">2021 學員年鑑設計</h2>
+        <h1 class="fz-30-b gray1 pt-16">2021 學員年鑑設計</h1>
         <div class="pt-8">
           <ElementTag>年鑑設計</ElementTag>
         </div>

@@ -61,7 +61,7 @@
       </div>
     </div>
     <p class="lh-20 fz-14-l ls-5 gray2 pt-40 text-align-center">
-      Copyright © 2021 Joyce. ALL Rights Reserved.
+      Copyright © 2022 Joyce. ALL Rights Reserved.
     </p>
   </footer>
 </template>

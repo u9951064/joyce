@@ -1,3 +1,4 @@
+import { sortRoutes } from '@nuxt/utils'
 const hostName = process.env.DOMAIN ? `https://${process.env.DOMAIN}` : 'http://localhost:3000';
 
 export default {
@@ -6,6 +7,7 @@ export default {
 
   router: {
     base: '/',
+    trailingSlash: true,
     linkActiveClass: 'active-link',
     linkExactActiveClass: 'exact-active-link',
     extendRoutes(routes, resolve) {
@@ -13,10 +15,17 @@ export default {
         {
           name: 'index',
           path: '/',
-          alias: ['/works', '/works/categories', '/works/contents'],
-          redirect: '/works/categories/ui/',
+          pathToRegexpOptions: { "strict": true },
+          redirect: { name: 'works-categories-ui' },
+        },
+        {
+          name: 'link-works',
+          path: '/works/',
+          pathToRegexpOptions: { "strict": true },
+          redirect: { name: 'works-categories-ui' },
         },
       )
+      sortRoutes(routes);
     }
   },
 
@@ -70,8 +79,6 @@ export default {
     },
   },
 
-
-
   styleResources: {
     scss: [
       '~/assets/scss/abstracts/*.scss',
@@ -102,12 +109,18 @@ export default {
 
   sitemap: {
     hostname: hostName,
+    trailingSlash: true,
     gzip: false,
-    exclude: [
-      '/works',
-    ],
     defaults: {
       lastmod: (new Date()).toISOString(),
+    },
+    filter({ routes }) {
+      const excludePath = [
+        '/works/',
+        '/works/categories/',
+        '/works/contents/',
+      ];
+      return routes.filter((route) => excludePath.indexOf(`${route.url}`) === -1);
     }
   },
 

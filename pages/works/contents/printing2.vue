@@ -3,7 +3,7 @@
     <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">平面設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
-        <h2 class="fz-30-b gray1 pt-16">TAICHUNG 美學，從中可見</h2>
+        <h1 class="fz-30-b gray1 pt-16">TAICHUNG 美學，從中可見</h1>
         <div class="pt-8">
           <ElementTag>城市識別設計</ElementTag>
         </div>
@@ -322,7 +322,7 @@ export default defineComponent({
     const meta = useHeader({
       title: "作品集 - TAICHUNG 美學，從中可見",
       description:
-        "打造台中城市觀光品牌，透過副標「美學，從中可見。」找尋台中人與人之間互動與生活美學。標準字造型單純簡潔，表現台中的大器與現代感。其中 H 半具象符號中的兩個圓點象徵人與人之間的良性互動。色彩選用和諧的黃色及自在的粉色代表台中舒服的步調，而文字的藍色則傳達台中這座城市的快速發展。走訪調查台中將具有特色的事物設計成一套 Icon 後構成主視覺，應用於城市市容及廣告文宣上，透過城市宣傳影片吸引觀光、推廣台中。",
+        "打造台中城市觀光品牌，透過副標「美學，從中可見。」找尋台中人與人之間互動與生活美學。表現台中的大器與現代感。H半具象符號中的兩個圓點象徵人與人之間的良性互動。色彩選用和諧的黃色及自在的粉色代表台中舒服的步調，文字的藍色則傳達台中這座城市的快速發展。將台中具有特色的事物設計成Icon，透過城市宣傳影片吸引觀光、推廣台中。",
     });
   },
 });

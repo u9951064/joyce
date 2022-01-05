@@ -3,7 +3,7 @@
     <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">廣告設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
-        <h2 class="fz-30-b gray1 pt-16">Figma新手指南UI/UX設計思維</h2>
+        <h1 class="fz-30-b gray1 pt-16">Figma新手指南UI/UX設計思維</h1>
         <div class="pt-8">
           <ElementTag>官網商品</ElementTag>
           <ElementTag>Figma課程</ElementTag>

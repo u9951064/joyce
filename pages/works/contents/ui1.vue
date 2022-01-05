@@ -3,9 +3,9 @@
     <section class="container-800 pt-60 pt-sm-30">
       <div class="col-10 lh-20 fz-14-r ls-10 blue1">UI設計</div>
       <div class="d-flex flex-align-center flex-justify-space-between">
-        <h2 class="fz-30-b gray1 pt-16">
+        <h1 class="fz-30-b gray1 pt-16">
           Hi BUS! 全台公車動態時刻查詢應用服務
-        </h2>
+        </h1>
         <div class="pt-8">
           <ElementTag>RWD</ElementTag>
           <ElementTag>The F2E 3rd</ElementTag>
@@ -649,7 +649,7 @@ export default defineComponent({
     const meta = useHeader({
       title: "作品集 - Hi BUS! 全台公車動態時刻查詢應用服務",
       description:
-        "Hi BUS! 揮揮手搭乘公車開啟您的旅途！「揮手搭乘公車」是在台灣的生活中經常看見的景象，我們透過這樣的情境延伸設計出 Hi BUS! 的 Logo，希望為我們的用戶帶來美好的體驗。主頁以明顯的搜尋框協助用戶方便進行搜尋，也能透過導覽列「我的最愛」及「附近站牌」的功能快速查找公車動態資訊。整體色系以深藍色為主色、並以淺灰色為輔色，傳達沈穩、專業且安全的公車系統形象。導覽列下方透過流動漸層，呈現公車正在行駛中的意象。",
+        "Hi BUS!揮揮手搭乘公車開啟您的旅途！「揮手搭乘公車」在台灣的生活中經常看見的景象，透過這樣的情境延伸設計出Hi BUS!的Logo，為用戶帶來美好體驗。明顯的搜尋框方便進行搜尋，透過「我的最愛」及「附近站牌」功能快速查找公車動態資訊。以深藍色主、淺灰色為輔，傳達沈穩專業且安全的公車系統形象。",
     });
   },
 });

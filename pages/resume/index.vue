@@ -336,7 +336,7 @@ export default defineComponent({
     useHeader({
       title: "Resume",
       description:
-        "侯佳君 Joyce - 擁有網頁視覺設計師 2 年經驗，針對不同事業體、活動，製作出對應風格的廣告素材，任職期間運用公司資源學 RWD，精進網頁撰寫能力。在這過程當中，對介面設計產生興趣，因此額外自學 UI/UX ，熟悉 Figma 操作，並透過 Side Project 「台鐵 e 訂通 App Redesign」來自我精進，也與工程師一起參與由六角學院舉辦的「THE F2E 3rd 前端 & UI 修煉精神時光屋」榮獲團體組第 1 名。",
+        "侯佳君Joyce-網頁視覺設計師２年的經驗，擅長廣告素材、網頁切版、平面設計。 導入敏捷式開發擔任產品PM。學習RWD，精進網頁撰寫能力。自學 UI/UX ，透過 Side Project 「台鐵 e 訂通」精進，於「 THE F2E 3rd 前端 &amp; UI 修煉精神時光屋」榮獲團體組第一名。",
     });
 
     return {

@@ -24,7 +24,7 @@
           width="7"
           height="11"
           src="@/assets/icons/ic-left.svg"
-          alt="<"
+          alt="&lt;"
         />
         回作品列表
       </ElementBtn>
