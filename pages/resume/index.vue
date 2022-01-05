@@ -95,7 +95,7 @@
                 width="18"
                 height="18"
                 src="@/assets/icons/ic-phone.svg"
-                alt=""
+                alt="電話"
               />
             </div>
             <div
@@ -116,7 +116,7 @@
                 width="18"
                 height="18"
                 src="@/assets/icons/ic-mail.svg"
-                alt=""
+                alt="Mail"
               />
             </div>
           </client-only>
@@ -137,7 +137,7 @@
               width="24"
               height="25"
               src="@/assets/icons/ic-website.svg"
-              alt=""
+              alt="Website"
             />
           </div>
         </div>

@@ -42,7 +42,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-role.svg"
-              alt=""
+              alt="擔任角色"
             />
             &#8203;
           </span>
@@ -60,7 +60,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-time.svg"
-              alt=""
+              alt="執行時間"
             />
             &#8203;
           </span>
@@ -78,7 +78,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-responsible.svg"
-              alt=""
+              alt="負責項目"
             />
             &#8203;
           </span>
@@ -111,7 +111,7 @@
               width="18"
               height="18"
               src="@/assets/icons/ic-search.svg"
-              alt=""
+              alt="觀看作品"
             />
           </span>
         </ElementBtn>
@@ -127,7 +127,7 @@
             width="25"
             height="24"
             src="@/assets/icons/ic-flag.svg"
-            alt=""
+            alt="商品介紹"
           />
           <div class="col fz-22-m gray1 ml-8">商品介紹</div>
         </div>
@@ -152,7 +152,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-think.svg"
-            alt=""
+            alt="設計發想"
           />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
@@ -189,7 +189,7 @@
               height="500"
               loading="lazy"
               src="@/assets/works/commerce2/b_2-3.jpg"
-              alt=""
+              alt="以 Figma 主色調為基底，UI介面元件做搭配"
             />
             <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
               參考圖
@@ -207,7 +207,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-idea.svg"
-            alt=""
+            alt="設計理念"
           />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
@@ -228,7 +228,7 @@
         width="1000"
         height="410"
         src="@/assets/works/commerce2/b_2-4.jpg"
-        alt=""
+        alt="商品主視覺輪播素材"
       />
       <ElementImageViewer
         class="pt-60 w-100"
@@ -236,7 +236,7 @@
         width="1000"
         height="600"
         src="@/assets/works/commerce2/b_2-5.jpg"
-        alt=""
+        alt="商品介紹素材"
       />
       <ElementImageViewer
         class="pt-60 w-100"
@@ -244,7 +244,7 @@
         width="1000"
         height="410"
         src="@/assets/works/commerce2/b_2-6.jpg"
-        alt=""
+        alt="色彩計畫與商品廣告素材"
       />
     </section>
     <!-- 查看更多頁面 -->

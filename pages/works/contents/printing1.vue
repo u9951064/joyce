@@ -41,7 +41,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-role.svg"
-              alt=""
+              alt="擔任角色"
             />
             &#8203;
           </span>
@@ -59,7 +59,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-time.svg"
-              alt=""
+              alt="執行時間"
             />
             &#8203;
           </span>
@@ -77,7 +77,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-responsible.svg"
-              alt=""
+              alt="負責項目"
             />
             &#8203;
           </span>
@@ -100,7 +100,7 @@
             width="25"
             height="24"
             src="@/assets/icons/ic-flag.svg"
-            alt=""
+            alt="活動目標"
           />
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
@@ -121,7 +121,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-idea.svg"
-            alt=""
+            alt="設計發想"
           />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
@@ -153,7 +153,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-think.svg"
-            alt=""
+            alt="設計理念"
           />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
@@ -212,7 +212,7 @@
             width="24"
             height="25"
             src="@/assets/icons/ic-layout.svg"
-            alt=""
+            alt="設計產出"
           />
           <div class="col fz-22-m gray1 ml-8">設計產出</div>
         </div>

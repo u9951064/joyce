@@ -66,7 +66,7 @@
                   width="101"
                   height="88"
                   src="@/assets/about/ui.svg"
-                  alt=""
+                  alt="UI設計的圖示"
                 />
               </div>
             </div>
@@ -102,7 +102,7 @@
                   width="101"
                   height="88"
                   src="@/assets/about/commerce.svg"
-                  alt=""
+                  alt="廣告設計的圖示"
                 />
               </div>
             </div>
@@ -138,7 +138,7 @@
                   width="101"
                   height="88"
                   src="@/assets/about/graphic.svg"
-                  alt=""
+                  alt="平面設計的圖示"
                 />
               </div>
             </div>
@@ -173,7 +173,7 @@
                   height="88"
                   loading="lazy"
                   src="@/assets/about/web.svg"
-                  alt=""
+                  alt="網頁設計的圖示"
                 />
               </div>
             </div>
@@ -210,7 +210,7 @@
               height="100"
               loading="lazy"
               src="@/assets/about/ai.svg"
-              alt=""
+              alt="Adobe Illustrator Logo"
             /><br />
           </div>
           <div class="col text-align-right text-sm-align-center">
@@ -220,7 +220,7 @@
               height="100"
               loading="lazy"
               src="@/assets/about/ps.svg"
-              alt=""
+              alt="Adobe PhotoShop Logo"
             /><br />
           </div>
           <div class="col text-align-right text-sm-align-center">
@@ -230,7 +230,7 @@
               height="100"
               loading="lazy"
               src="@/assets/about/id.svg"
-              alt=""
+              alt="Adobe InDesign Logo"
             /><br />
           </div>
           <div class="col text-align-right text-sm-align-center">
@@ -240,7 +240,7 @@
               height="100"
               loading="lazy"
               src="@/assets/about/vsc.svg"
-              alt=""
+              alt="Visual Studio Code Logo"
             /><br />
           </div>
           <div class="col text-align-right text-sm-align-center">
@@ -250,7 +250,7 @@
               height="100"
               loading="lazy"
               src="@/assets/about/figma.svg"
-              alt=""
+              alt="Figma Logo"
             /><br />
           </div>
         </div>
@@ -355,7 +355,7 @@
             height="100"
             loading="lazy"
             src="@/assets/about/logo-aisa.svg"
-            alt=""
+            alt="亞洲大學 Logo"
           />
         </div>
         <div class="col-85 col-sm-75">

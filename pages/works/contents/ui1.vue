@@ -44,7 +44,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-role.svg"
-              alt=""
+              alt="擔任角色"
             />
             &#8203;
           </span>
@@ -62,7 +62,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-time.svg"
-              alt=""
+              alt="執行時間"
             />
             &#8203;
           </span>
@@ -80,7 +80,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-responsible.svg"
-              alt=""
+              alt="負責項目"
             />
             &#8203;
           </span>
@@ -115,7 +115,7 @@
               width="18"
               height="18"
               src="@/assets/icons/ic-search.svg"
-              alt=""
+              alt="觀看網頁"
             />
           </span>
         </ElementBtn>
@@ -141,7 +141,7 @@
               width="18"
               height="18"
               src="@/assets/icons/ic-figma.svg"
-              alt=""
+              alt="Figma Icon"
             />
           </span>
         </ElementBtn>
@@ -167,7 +167,7 @@
               width="18"
               height="18"
               src="@/assets/icons/ic-code.svg"
-              alt=""
+              alt="程式碼"
             />
           </span>
         </ElementBtn>
@@ -183,7 +183,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-target.svg"
-            alt=""
+            alt="參賽動機"
           />
           <div class="col fz-22-m gray1 ml-8">參賽動機</div>
         </div>
@@ -216,7 +216,7 @@
             width="25"
             height="24"
             src="@/assets/icons/ic-flag.svg"
-            alt=""
+            alt="競賽介紹"
           />
           <div class="col fz-22-m gray1 ml-8">競賽介紹</div>
         </div>
@@ -264,7 +264,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-idea.svg"
-            alt=""
+            alt="設計理念"
           />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
@@ -303,7 +303,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-think.svg"
-            alt=""
+            alt="設計流程"
           />
           <div class="col fz-22-m gray1 ml-8">設計流程</div>
         </div>
@@ -528,7 +528,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-award.svg"
-            alt=""
+            alt="評審點評與競賽心得ㄋ"
           />
           <div class="col fz-22-m gray1 ml-8">評審點評與競賽心得</div>
         </div>

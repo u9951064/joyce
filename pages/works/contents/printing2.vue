@@ -41,7 +41,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-role.svg"
-              alt=""
+              alt="擔任角色"
             />
             &#8203;
           </span>
@@ -59,7 +59,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-time.svg"
-              alt=""
+              alt="執行時間"
             />
             &#8203;
           </span>
@@ -77,7 +77,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-responsible.svg"
-              alt=""
+              alt="負責項目"
             />
             &#8203;
           </span>
@@ -100,7 +100,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-idea.svg"
-            alt=""
+            alt="作品理念"
           />
           <div class="col fz-22-m gray1 ml-8">作品理念</div>
         </div>
@@ -139,7 +139,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-think.svg"
-            alt=""
+            alt="創作過程"
           />
           <div class="col fz-22-m gray1 ml-8">創作過程</div>
         </div>
@@ -182,7 +182,7 @@
             width="24"
             height="25"
             src="@/assets/icons/ic-layout.svg"
-            alt=""
+            alt="作品成果"
           />
           <div class="col fz-22-m gray1 ml-8">作品成果</div>
         </div>
@@ -269,7 +269,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-thoughts.svg"
-            alt=""
+            alt="創作感想"
           />
           <div class="col fz-22-m gray1 ml-8">創作感想</div>
         </div>

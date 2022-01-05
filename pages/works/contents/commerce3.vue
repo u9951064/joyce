@@ -41,7 +41,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-role.svg"
-              alt=""
+              alt="擔任角色"
             />
             &#8203;
           </span>
@@ -59,7 +59,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-time.svg"
-              alt=""
+              alt="執行時間"
             />
             &#8203;
           </span>
@@ -77,7 +77,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-responsible.svg"
-              alt=""
+              alt="負責項目"
             />
             &#8203;
           </span>
@@ -100,7 +100,7 @@
             width="25"
             height="24"
             src="@/assets/icons/ic-flag.svg"
-            alt=""
+            alt="活動目標"
           />
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
@@ -123,7 +123,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-think.svg"
-            alt=""
+            alt="設計發想"
           />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
@@ -160,7 +160,7 @@
               width="1000"
               height="500"
               src="@/assets/works/commerce3/b_3-3.jpg"
-              alt=""
+              alt="以老師的作品為主圖，講座為漫畫主題，以漫畫分鏡風格製作"
             />
             <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
               參考圖
@@ -178,7 +178,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-idea.svg"
-            alt=""
+            alt="設計理念"
           />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
@@ -194,7 +194,7 @@
         width="2000"
         height="820"
         src="@/assets/works/commerce3/b_3-4.jpg"
-        alt=""
+        alt="色彩計畫與主視覺"
       />
       <ElementImageViewer
         class="pt-60 w-100"
@@ -202,7 +202,7 @@
         width="2000"
         height="820"
         src="@/assets/works/commerce3/b_3-5.jpg"
-        alt=""
+        alt="廣告素材 (FB, YT, DBM)"
       />
     </section>
   </article>

@@ -43,7 +43,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-role.svg"
-              alt=""
+              alt="擔任角色"
             />
             &#8203;
           </span>
@@ -61,7 +61,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-time.svg"
-              alt=""
+              alt="執行時間"
             />
             &#8203;
           </span>
@@ -79,7 +79,7 @@
               width="22"
               height="22"
               src="@/assets/icons/ic-responsible.svg"
-              alt=""
+              alt="負責項目"
             />
             &#8203;
           </span>
@@ -102,7 +102,7 @@
             width="25"
             height="24"
             src="@/assets/icons/ic-flag.svg"
-            alt=""
+            alt="活動目標"
           />
           <div class="col fz-22-m gray1 ml-8">活動目標</div>
         </div>
@@ -123,7 +123,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-think.svg"
-            alt=""
+            alt="設計發想"
           />
           <div class="col fz-22-m gray1 ml-8">設計發想</div>
         </div>
@@ -156,7 +156,7 @@
               height="300"
               loading="lazy"
               src="@/assets/works/commerce1/b_1-3.jpg"
-              alt=""
+              alt="2020牛年、過年元素(紅包、元寶、燈籠)參考圖"
             />
             <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
               參考圖
@@ -175,7 +175,7 @@
             width="25"
             height="25"
             src="@/assets/icons/ic-idea.svg"
-            alt=""
+            alt="設計理念"
           />
           <div class="col fz-22-m gray1 ml-8">設計理念</div>
         </div>
@@ -192,7 +192,7 @@
         width="1000"
         height="410"
         src="@/assets/works/commerce1/b_1-4.jpg"
-        alt=""
+        alt="色彩計畫與主視覺"
       />
     </section>
     <!-- 廣告行銷 -->
@@ -204,7 +204,7 @@
             width="24"
             height="25"
             src="@/assets/icons/ic-layout.svg"
-            alt=""
+            alt="廣告行銷"
           />
           <div class="col fz-22-m gray1 ml-8">廣告行銷</div>
         </div>
@@ -223,7 +223,7 @@
         width="1000"
         height="410"
         src="@/assets/works/commerce1/b_1-5.jpg"
-        alt=""
+        alt="Facebook 活動商品促銷模板設計"
       />
     </section>
   </article>

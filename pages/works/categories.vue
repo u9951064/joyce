@@ -53,7 +53,7 @@
             height="258"
             class="d-block ml-sm-auto"
             src="@/assets/images/joyce-illustration.svg"
-            alt=""
+            alt="Joyce 的圖片"
           />
         </div>
       </div>
