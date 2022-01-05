@@ -125,7 +125,7 @@
           width="2000"
           height="820"
           src="@/assets/works/printing2/c_2-3.jpg"
-          alt=""
+          alt="TAICHUNG 設計 LOGO 與 色彩計畫"
         />
       </div>
     </section>
@@ -168,7 +168,7 @@
           width="2000"
           height="820"
           src="@/assets/works/printing2/c_2-4.jpg"
-          alt=""
+          alt="創作過程圖片"
         />
       </div>
     </section>
@@ -200,7 +200,7 @@
         width="2000"
         height="1414"
         src="@/assets/works/printing2/c_2-5.jpg"
-        alt=""
+        alt="TAICHUNG 設計 LOGO 成果"
       />
       <ElementTag :class="'mt-30'">城市宣傳影片</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
@@ -220,7 +220,7 @@
         width="2481"
         height="1754"
         src="@/assets/works/printing2/c_2-7.jpg"
-        alt=""
+        alt="城市宣傳影片畫面截圖"
       />
       <ElementTag :class="'mt-30'">城市視覺識別</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
@@ -234,7 +234,7 @@
         width="1920"
         height="1099"
         src="@/assets/works/printing2/c_2-8.jpg"
-        alt=""
+        alt="城市視覺識別海報"
       />
       <ElementImageViewer
         class="pt-60 w-100"
@@ -242,7 +242,7 @@
         width="4962"
         height="3509"
         src="@/assets/works/printing2/c_2-9.jpg"
-        alt=""
+        alt="城市視覺識別場景示意圖"
       />
       <ElementTag :class="'mt-30'">延伸應用</ElementTag>
       <ul class="fz-16-l gray2 pt-16">
@@ -256,7 +256,7 @@
         width="4496"
         height="2794"
         src="@/assets/works/printing2/c_2-11.jpg"
-        alt=""
+        alt="延伸應用產品示意圖"
       />
     </section>
 
@@ -305,7 +305,7 @@
           width="1572"
           height="1042"
           src="@/assets/works/printing2/c_2-12.jpg"
-          alt=""
+          alt="亞洲大學視覺傳達設計系畢業展合照"
         />
       </div>
     </section>

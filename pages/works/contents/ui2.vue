@@ -26,7 +26,7 @@
         height="750"
         loading="lazy"
         src="@/assets/works/ui2/a_2-2.jpg"
-        alt=""
+        alt="台鐵 e 訂通 App Redesign 的封面圖片"
       />
     </div>
 

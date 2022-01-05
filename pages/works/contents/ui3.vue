@@ -26,7 +26,7 @@
         height="750"
         loading="lazy"
         src="@/assets/works/ui3/a_3-2.png"
-        alt=""
+        alt="英日西韓語，外語振興補助封片圖片"
       />
     </div>
 
@@ -187,7 +187,7 @@
               height="500"
               loading="lazy"
               src="@/assets/works/ui3/a_3-3.png"
-              alt=""
+              alt="年輕有活力、色彩繽紛，閃耀的錢幣、禮物"
             />
             <figcaption class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right">
               參考圖
@@ -222,7 +222,7 @@
         width="2000"
         height="820"
         src="@/assets/works/ui3/a_3-4.png"
-        alt=""
+        alt="英日西韓語，外語振興補助的色彩計畫與設計系統"
       />
       <div class="d-flex pt-60 flex-justify-space-between">
         <div class="col-3 pr-20">
@@ -232,7 +232,7 @@
             width="750"
             height="9772"
             src="@/assets/works/ui3/a_3-5.png"
-            alt=""
+            alt="英日西韓語，外語振興補助的手機 Layout 截圖"
           />
           <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right d-sm-none">
             手機 Layout
@@ -245,7 +245,7 @@
             width="2000"
             height="7600"
             src="@/assets/works/ui3/a_3-6.jpg"
-            alt=""
+            alt="英日西韓語，外語振興補助的網頁 Layout 截圖"
           />
           <p class="lh-20 fz-14-l ls-5 gray2 pt-16 text-align-right d-sm-none">
             網頁 Layout

@@ -138,7 +138,7 @@
           width="2000"
           height="820"
           src="@/assets/works/management1/d_1-3.jpg"
-          alt=""
+          alt="專案流程步驟圖"
         />
       </div>
     </section>
@@ -169,7 +169,7 @@
         width="2000"
         height="820"
         src="@/assets/works/management1/d_1-4.gif"
-        alt=""
+        alt="Scrum 是什麼？"
       />
     </section>
 
@@ -182,7 +182,7 @@
         width="2000"
         height="1000"
         src="@/assets/works/management1/d_1-5.jpg"
-        alt=""
+        alt="1.制定大目標 2.尋找問題點 3. 切分小方向"
       />
     </section>
 
@@ -238,7 +238,7 @@
             width="1000"
             height="500"
             src="@/assets/works/management1/d_1-6.jpg"
-            alt=""
+            alt="專案協作圖片"
           />
         </div>
       </div>
@@ -264,7 +264,7 @@
         width="2000"
         height="820"
         src="@/assets/works/management1/d_1-7.jpg"
-        alt=""
+        alt="1.縮短開發時間 2.減少會議 3.共同參與"
       />
     </section>
 

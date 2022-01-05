@@ -137,7 +137,7 @@
             width="600"
             height="300"
             src="@/assets/works/printing1/c_1-3.jpg"
-            alt=""
+            alt="2021 年推出的學員作品年鑑參考圖"
           />
           <p class="lh-20 fz-14-l ls-5 gray2 pt-16 d-sm-none">參考圖</p>
         </div>
@@ -173,7 +173,7 @@
           width="1000"
           height="410"
           src="@/assets/works/printing1/c_1-4.jpg"
-          alt=""
+          alt="色彩計畫與設計提案Ａ"
         />
         <ElementImageViewer
           class="pt-60 w-100"
@@ -181,7 +181,7 @@
           width="1000"
           height="410"
           src="@/assets/works/printing1/c_1-5.jpg"
-          alt=""
+          alt="設計提案Ｂ與Ｃ"
         />
         <div class="d-flex flex-justify-space-between">
           <div class="col-45 col-sm-10">
@@ -227,7 +227,7 @@
           width="1000"
           height="410"
           src="@/assets/works/printing1/c_1-6.jpg"
-          alt=""
+          alt="年鑑內頁圖片"
         />
       </div>
     </section>
