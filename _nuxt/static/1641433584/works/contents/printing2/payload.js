@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/works/contents/printing2", {data:[{},{}],fetch:{},mutations:void 0});

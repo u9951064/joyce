@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/works/contents/commerce2", {data:[{},{}],fetch:{},mutations:void 0});
