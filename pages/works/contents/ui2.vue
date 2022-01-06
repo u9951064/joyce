@@ -119,7 +119,7 @@
               height="500"
               loading="lazy"
               src="@/assets/works/ui2/a_2-13.jpg"
-              alt=""
+              alt="動機示意圖片"
             />
           </figure>
         </div>
@@ -171,7 +171,7 @@
           height="820"
           loading="lazy"
           src="@/assets/works/ui2/a_2-3.jpg"
-          alt=""
+          alt="設計流程：1.探索階段 2.定義階段 3.執行階段"
         />
       </div>
     </section>
@@ -193,7 +193,7 @@
           height="820"
           loading="lazy"
           src="@/assets/works/ui2/a_2-4.gif"
-          alt=""
+          alt="實際體驗操作 高鐵 App 與 台鐵 App 進行比較"
         />
       </div>
     </section>
@@ -214,7 +214,7 @@
           height="820"
           loading="lazy"
           src="@/assets/works/ui2/a_2-5.jpg"
-          alt=""
+          alt="App 相關評價整理歸納"
         />
       </div>
     </section>
@@ -236,7 +236,7 @@
           height="2040"
           loading="lazy"
           src="@/assets/works/ui2/a_2-6.png"
-          alt=""
+          alt="擬定架構與層級"
         />
       </div>
     </section>
@@ -255,7 +255,7 @@
           height="3272"
           loading="lazy"
           src="@/assets/works/ui2/a_2-7.png"
-          alt=""
+          alt="依照 UI Flow 初步繪製 Wireframe"
         />
       </div>
     </section>
@@ -275,7 +275,7 @@
           height="410"
           loading="lazy"
           src="@/assets/works/ui2/a_2-8.png"
-          alt=""
+          alt="制定 Design System：色彩計畫與文字字型"
         />
       </div>
       <div class="pt-60">
@@ -285,7 +285,7 @@
           height="1100"
           loading="lazy"
           src="@/assets/works/ui2/a_2-9.png"
-          alt=""
+          alt="制定 Design System：Icon, Button, Logo 等"
         />
       </div>
     </section>
@@ -305,7 +305,7 @@
           height="818"
           loading="lazy"
           src="@/assets/works/ui2/a_2-12.png"
-          alt=""
+          alt="按照設計系統，將 Wireframe 精稿，審視每一張頁面流程及風格是否一致"
         />
       </div>
       <div class="pt-60">
@@ -315,7 +315,7 @@
           height="880"
           loading="lazy"
           src="@/assets/works/ui2/a_2-10.png"
-          alt=""
+          alt="比較設計前後是否有所改善：功能不易尋找, 難以回到主頁"
         />
       </div>
       <div class="pt-60">
@@ -325,7 +325,7 @@
           height="880"
           loading="lazy"
           src="@/assets/works/ui2/a_2-11.png"
-          alt=""
+          alt="比較設計前後是否有所改善：資訊不易閱讀"
         />
       </div>
     </section>

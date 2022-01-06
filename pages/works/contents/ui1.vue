@@ -201,7 +201,7 @@
             height="727"
             loading="lazy"
             src="@/assets/works/ui1/a_1-3.jpg"
-            alt=""
+            alt="第三屆 The F2E 前端 &amp; UI 修煉精神時光屋 活動 Banner"
           />
         </figure>
       </div>
@@ -248,7 +248,7 @@
               height="897"
               loading="lazy"
               src="@/assets/works/ui1/a_1-4.jpg"
-              alt=""
+              alt="第三屆 The F2E 前端 &amp; UI 修煉精神時光屋 活動說明"
             />
           </figure>
         </div>
@@ -288,7 +288,7 @@
             height="820"
             loading="lazy"
             src="@/assets/works/ui1/a_1-5.jpg"
-            alt=""
+            alt="Hi BUS! 全台公車動態時刻查詢應用服務 設計理念：各裝置瀏覽，快速查詢，附近站牌，收藏最愛"
           />
         </figure>
       </div>
@@ -328,7 +328,7 @@
             height="820"
             loading="lazy"
             src="@/assets/works/ui1/a_1-6.jpg"
-            alt=""
+            alt="Hi BUS! 全台公車動態時刻查詢應用服務 設計流程：1.探索 2.定義 3.執行"
           />
         </figure>
       </div>
@@ -358,7 +358,7 @@
           height="3323"
           loading="lazy"
           src="@/assets/works/ui1/a_1-7.png"
-          alt="製作 Wireframe"
+          alt="Hi BUS! 全台公車動態時刻查詢應用服務 Wireframe"
         />
       </div>
     </section>
@@ -378,7 +378,7 @@
           src="@/assets/works/ui1/a_1-8.png"
           width="1800"
           height="1100"
-          alt=""
+          alt="Hi BUS! 全台公車動態時刻查詢應用服務 Design System: 顏色, 字型"
         />
       </figure>
       <figure class="pt-60">
@@ -388,7 +388,7 @@
           height="1100"
           loading="lazy"
           src="@/assets/works/ui1/a_1-9.png"
-          alt=""
+          alt="Hi BUS! 全台公車動態時刻查詢應用服務 Design System: Icon, button, status"
         />
       </figure>
     </section>
@@ -409,7 +409,7 @@
           height="1390"
           loading="lazy"
           src="@/assets/works/ui1/a_1-10.png"
-          alt=""
+          alt="Hi BUS! 全台公車動態時刻查詢應用服務 Logo 繪製"
         />
       </figure>
     </section>
@@ -428,7 +428,7 @@
           height="2700"
           loading="lazy"
           src="@/assets/works/ui1/a_1-11.png"
-          alt=""
+          alt="Hi BUS! 全台公車動態時刻查詢應用服務 設計Mockup"
         />
       </figure>
       <ul class="fz-16-l gray2 pt-80">
@@ -448,7 +448,7 @@
           height="900"
           loading="lazy"
           src="@/assets/works/ui1/a_1-12.png"
-          alt=""
+          alt="Hi BUS! 全台公車動態時刻查詢應用服務 Layout 說明：主畫面設計"
         />
       </figure>
       <figure class="pt-60">
@@ -458,7 +458,7 @@
           height="900"
           loading="lazy"
           src="@/assets/works/ui1/a_1-13.png"
-          alt=""
+          alt="Hi BUS! 全台公車動態時刻查詢應用服務 Layout 說明：公車動態更新"
         />
       </figure>
     </section>
@@ -477,7 +477,7 @@
           height="1000"
           loading="lazy"
           src="@/assets/works/ui1/a_1-14.png"
-          alt=""
+          alt="Hi BUS! 全台公車動態時刻查詢應用服務 Layout 說明: RWD 設計"
         />
       </figure>
     </section>
@@ -492,7 +492,7 @@
             href="https://2021.thef2e.com/news/week3"
             target="_blank"
             title="User stroy"
-            rel="noreferrer noopener"
+            rel="noreferrer noopener nofollow"
             >User stroy</a
           >。
         </ElementStarItem>
@@ -504,7 +504,7 @@
           height="900"
           loading="lazy"
           src="@/assets/works/ui1/a_1-15.png"
-          alt=""
+          alt="副功能介面設計-常用站牌收藏至我的最愛"
         />
       </figure>
       <figure class="pt-60">
@@ -514,7 +514,7 @@
           height="900"
           loading="lazy"
           src="@/assets/works/ui1/a_1-16.png"
-          alt=""
+          alt="副功能介面設計-附近站牌查詢與站點位置標記"
         />
       </figure>
     </section>
@@ -564,7 +564,7 @@
             height="673"
             loading="lazy"
             src="@/assets/works/ui1/a_1-17.jpg"
-            alt=""
+            alt="The F2E 前端 &amp; UI 修煉精神時光屋 評審評比投票結果"
           />
         </figure>
         <figure class="pt-60">
@@ -574,7 +574,7 @@
             height="1000"
             loading="lazy"
             src="@/assets/works/ui1/a_1-18.jpg"
-            alt=""
+            alt="評審小水（互動設計師）與 Leo （Angular Taiwan 傳教士）對作品的評語"
           />
         </figure>
       </div>
